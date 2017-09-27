@@ -37,7 +37,7 @@
                 .style("width", function (d) {
                     if(x==3)
                         return((d.Worldwide_Gross_M-d.Budget_M)*0.5)+"px";
-                    return ((d[comp]*x)*0.8) + "px";
+                    return ((d[comp]*x)*0.55) + "px";
                 }).style("background-color", function(d){
                   return colorScale(x*x);
                })
@@ -57,17 +57,18 @@
                 .data(data)
                 .enter().append("div")
                 .attr("class", "h-bar")
+                .attr("style", "background-color: #f76c6c")
                 .append("span");
         
             d3.select("#chart4").selectAll("div.h-bar")
                 .data(data)
                 .attr("class", "h-bar")
                 .style("width", function (d) {
-                    return (d.Worldwide_Gross_M) + "px";
+                    return (d.Worldwide_Gross_M*0.1) + "px";
                 })
                 .select("span")
                 .text(function (d) {
-                    return d.Genre;
+                    return d.nome;
                 });
 
             if(comparator)
@@ -107,8 +108,27 @@
             render(json, comparePorLucro,3,"Budget_M");
         });
 
-         d3.json("movies.json", function(error, json){ 
-            render2(json, comparePorWWG);
+
+
+         d3.json("movies.json", function(error, json){
+            var data = {}
+            var genres = []
+            for (var i = 0; i < json.length; i++) {
+              var obj = json[i]
+              data[obj["Genre"]] = 0;
+            }
+            for (var i = 0; i < json.length; i++) {
+              var obj = json[i]
+              data[obj["Genre"]] += obj["Worldwide_Gross_M"];
+            }
+            for (var i in data) {
+              var obj = {
+                "nome" : i,
+                "Worldwide_Gross_M" : data[i]
+              };
+              genres.push(obj);
+            } 
+            render2(genres, comparePorWWG);
         });
        
     </script>
