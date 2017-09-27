@@ -19,23 +19,32 @@
     <div id="chart4"></div>
     
     <script type="text/javascript">
-        function render(data, comparator,x,comp) {
+        let colorScale = d3.scaleLinear()
+              .domain([1, 8])
+              .range(["#939df2", "#ff68f2"]);
+
+        function render(data, comparator,x,comp,color) {
+            
             d3.select("#chart"+x).selectAll("div.h-bar")
                 .data(data)
                 .enter().append("div")
                 .attr("class", "h-bar")
                 .append("span");
         
-            d3.select("#chart"+x).selectAll("div.h-bar")
-                .data(data)
+             d3.select("#chart"+x).selectAll("div.h-bar")
+                    .data(data)
                 .attr("class", "h-bar")
                 .style("width", function (d) {
-                    return (d.comp) + "px";
-                })
+                    if(x==3)
+                        return((d.Worldwide_Gross_M-d.Budget_M)*0.5)+"px";
+                    return ((d[comp]*x)*0.8) + "px";
+                }).style("background-color", function(d){
+                  return colorScale(x*x);
+               })
                 .select("span")
-                .text(function (d) {
-                    return d.Film;
-                });
+                    .text(function (d) {
+                        return d.Film;
+                    });
 
             if(comparator)
                 d3.select("#chart"+x)
