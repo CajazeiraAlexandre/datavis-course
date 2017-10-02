@@ -24,8 +24,8 @@
                 d.date = dtgFormat.parse(d.date);
                 d.apple = +d.apple;
                 d.facebook = +d.facebook;
-                d.varApple = (data[0].apple-d.apple)/100;
-                d.varFacebook = (data[0].facebook-d.facebook)/100;
+                d.varApple = ((d.apple*100)/data[0].apple)-100 ;
+                d.varFacebook = ((d.facebook*100)/data[0].facebook)-100;
             });
 
             //criando um crossfilter
