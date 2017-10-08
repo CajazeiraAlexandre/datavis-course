@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Carregando dados de filmes do arquivos movies.json</title>
+    <link rel="stylesheet" href="css/dc.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/crossfilter.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/dc.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+    <hr/>
+    <h1> Visualizações para os dados de filmes do arquivo disponibilizado em sala "movies.json" </h1>
+
+    <div id="M_Year">
+        <h1> Bilheterias agrupadas por ano </h1>
+    </div>
+   
+    <div id="M_Genre">
+        <h1> Bilheterias agrupadas por Gênero </h1>
+    </div>
+
+    <script type="text/javascript">
+      var M_Year = dc.barChart("#M_Year");
+      var M_Genre = dc.barChart("#M_Genre");
+    
+      d3.json("movies.json", function(error, data) {
+      data.forEach(function(d) {
+        d.WGross = +d.Worldwide_Gross_M;
+      });
+
+
+      var facts               = crossfilter(data),
+          yearDim = facts.dimension(function(d) {
+                        return d.Year;
+                    }),
+          genreDim = facts.dimension(function(d) {
+                        return d.Genre;
+                    }),
+          yearGroupByGross= yearDim.group().reduceSum(function(d) {
+                                return d.WGross;
+                            }),
+          genreGroupByGross = genreDim.group().reduceSum(function(d) {
+                                return d.WGross;
+                            });
+          
+
+      
+      M_Year
+        .width(800)
+        .height(400)
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .yAxisLabel("", 25)
+        .barPadding(0.4)
+        .brushOn(true)
+        .dimension(yearDim)
+        .group(yearGroupByGross)
+        .controlsUseVisibility(false)
+        .on('pretransition', function(Year) {
+            Year.selectAll("rect.bar").on("click", function (d) {
+                Year.filter(null)
+                .filter(d.data.key)
+                .redrawGroup();
+            });
+        });
+
+
+      M_Genre
+        .width(800)
+        .height(400)
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .yAxisLabel("", 15)
+        .barPadding(0.3)
+        .brushOn(true)
+        .dimension(genreDim)
+        .group(genreGroupByGross)
+        .controlsUseVisibility(false)
+        .on('pretransition', function(Genre) {
+            Genre.selectAll("rect.bar").on("click", function (d) {
+                 Genre.filter(null)
+                .filter(d.data.key)
+                .redrawGroup();
+            });
+        });
+
+
+        dc.renderAll();
+    });
+
+
+    </script>
+
+
+</body>
+</html>
