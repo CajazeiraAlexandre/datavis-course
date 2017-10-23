@@ -34,7 +34,7 @@ crossorigin=""/>
         </head>
         <body>
 
-          <div id="mapid"></div>
+          
 
             <div class='container-fluid'>
                 <h1> Earthquakes in New Zealand </h1>
@@ -50,6 +50,7 @@ crossorigin=""/>
                     </div>
                 </div>
 
+                <div id="mapid"></div>
                 <table class="table table-hover" id="dc-table-graph">
                     <thead>
                         <tr class="header">
@@ -120,15 +121,20 @@ crossorigin=""/>
              L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors', maxZoom: 17})
             .addTo(map);
 
-           /*
-             var circle = L.circle([facts.lat,facts.long], 10000, {
-              color: '#fd8d3c',
-              weight :2,
-              fillColor: '#fecc5c',
-              fillOpacity: 0.5
-            })
-            .addTo(map)
-           */
+             data.forEach(function(d) {
+                var circle = L.circle([d.lat,d.long], 10000, {
+                color: '#fd8d3c',
+                weight :2,
+                fillColor: '#fecc5c',
+                fillOpacity: 0.5
+              })
+              .addTo(map)
+
+              circle.bindPopup("Magnitude: "+d.magnitude + ",\n Tempo : "+d.dtg);
+
+            });
+            
+
 
 
 
