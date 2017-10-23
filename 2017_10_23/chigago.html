@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Crimes Data</title>
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+            integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+            crossorigin=""/>
+            <!-- Make sure you put this AFTER Leaflet's CSS -->
+           <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+           integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+          crossorigin=""></script>
+
+            <!-- Custom styles for this template -->
+            <link  rel="stylesheet" href="css/starter-template.css">
+            <link rel="stylesheet" href="css/dc.css">
+            <link rel="stylesheet" href="css/styles.css">
+            <script src="js/crossfilter.js" charset="utf-8"></script>
+            <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script src="js/dc.js" charset="utf-8"></script>
+
+            
+            <style type="text/css">
+              
+            </style>
+   
+        </head>
+        <body>
+
+          
+
+            <div class='container-fluid'>
+                <h1> Visualizando Crimes de Chicago </h1>
+                
+                <div id="mapid"></div>
+              
+            </div>
+
+            <script type="text/javascript">
+            
+            let colorScale = d3.scale.ordinal()
+              .domain(["HOMICIDE","BURGLARY","ROBBERY"])
+              .range(["#f70919", "#3ae837","#5f62fc" ])
+
+            d3.csv("crimes.csv", function (data) {
+              
+              data.forEach(function(d) { 
+                 d.lat = +d.Latitude;
+                 d.long = +d.Longitude;
+                 d.type = d["Primary Type"]
+
+
+
+            });
+
+          var map = L.map('mapid').setView([41.83,-87.87], 10);
+          
+          L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors', maxZoom: 17})
+            .addTo(map);
+
+/*
+    Vermelho #f70919
+    Verde #3ae837
+    Azul #5f62fc  
+    
+*/    
+
+           data.forEach(function(d) {
+
+                var circle = L.circle([d.lat,d.long], 10, {
+                color: colorScale(d.type),
+                weight :2,
+                fillColor: 'colorScale(d.type)',
+                fillOpacity: 0.5
+              })
+              .addTo(map)
+
+              circle.bindPopup(""+d.type);
+
+            }); 
+
+              dc.renderAll();
+  
+            });
+            </script>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                
+        </body>
+</html>

@@ -122,7 +122,7 @@ crossorigin=""/>
             .addTo(map);
 
              data.forEach(function(d) {
-                var circle = L.circle([d.lat,d.long], 10000, {
+                var circle = L.circle([d.lat,d.long], d.magnitude*1000, {
                 color: '#fd8d3c',
                 weight :2,
                 fillColor: '#fecc5c',
