@@ -7,6 +7,14 @@
             <!-- Optional theme -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+crossorigin=""/>
+            <!-- Make sure you put this AFTER Leaflet's CSS -->
+           <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+           integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+          crossorigin=""></script>
+
             <!-- Custom styles for this template -->
             <link  rel="stylesheet" href="css/starter-template.css">
             <link rel="stylesheet" href="css/dc.css">
@@ -20,8 +28,14 @@
   
               
             </style>
+   
+
+
         </head>
         <body>
+
+          <div id="mapid"></div>
+
             <div class='container-fluid'>
                 <h1> Earthquakes in New Zealand </h1>
                 <div id='magnitude-chart'>
@@ -48,12 +62,17 @@
                     </thead>
                 </table>
             </div>
+
+            
+
+
+
             <script type="text/javascript">
 
             var bar1 = dc.barChart("#magnitude-chart");
             var bar2 = dc.barChart("#depth-chart");
             var dataTable = dc.dataTable("#dc-table-graph");
-            var L = dc.lineChart("#time-chart");
+            var Lin = dc.lineChart("#time-chart");
           
 
             d3.csv("earthquakes.csv", function (data) {
@@ -95,6 +114,24 @@
 
               var hourDimentionCount = hourDimention.group();
 
+     
+            var map = L.map('mapid').setView([-41.05,172.93], 5);
+            
+             L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors', maxZoom: 17})
+            .addTo(map);
+
+           /*
+             var circle = L.circle([facts.lat,facts.long], 10000, {
+              color: '#fd8d3c',
+              weight :2,
+              fillColor: '#fecc5c',
+              fillOpacity: 0.5
+            })
+            .addTo(map)
+           */
+
+
+
               bar1.width(480)
               .height(150)
               .margins({top:10, right: 10, bottom:20, left:40})
@@ -118,7 +155,7 @@
               .x(d3.scale.linear().domain([0,100]))
               .elasticY(true);
 
-              L.width(960)
+              Lin.width(960)
               .height(150)
               .transitionDuration(500)
               .margins({top:10, right: 10, bottom:20, left:40})
