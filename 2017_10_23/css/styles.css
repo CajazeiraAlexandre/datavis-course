@@ -17,6 +17,14 @@ h2 span {
 }
 
 #mapid {
-    width: 650px;
-    height: 450px;
+    width: 1200px;
+    height: 600px;
+    margin-top: 500px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#title{
+	float: left;
+	width:1100px;
+	height: 10px;
 }
