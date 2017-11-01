@@ -15,8 +15,8 @@
   <body>
     <div id="container" class="container">
       <header>
-      <h1>Similar Song Network</h1>
-      <p>Songs similar to one another according to <a href="http://www.last.fm/api">last.fm</a> are linked together. Song nodes are sized based on playcounts, and colored by artist. Through this algorithm, the music selected for the root node was "Poker Face", by Lady Gaga. </p>
+      <h1>"Les Misérables"</h1>
+      <p>Gráfico de rede gerado a partir da obra "Les Misérables", de Vitor Hugo. Mais informações sobre a obra em <a href="https://pt.wikipedia.org/wiki/Os_Miser%C3%A1veis">Wikipedia.</a> </p>
       </header>
       <div id="main" role="main">
         <div id="vis"></div>
@@ -39,7 +39,7 @@
       // Create network;
       var network = Network();
       //Read json data and send data to network
-      d3.json("data/songs.json", function(error, graph) {
+      d3.json("data/lesmiserables.json", function(error, graph) {
       if (error) throw error;
       return network("#vis", graph);
       });
