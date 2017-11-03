@@ -21,10 +21,6 @@
       <div id="main" role="main">
         <div id="vis"></div>
       </div>
-      <footer>
-      <p>Data from <a href="http://www.last.fm/api/show/track.getSimilar">last.fm</a>. Some songs include additional links for effect.<br/>Popular songs are defined as those with playcounts above the median for all songs in network. This example is a simpler version of the <a href="http://flowingdata.com/2012/08/02/how-to-make-an-interactive-network-visualization/">tutorial</a> by <a href="http://vallandingham.me/">Jim Vallandingham</a>.  </p>
-    
-      </footer>
     </div> <!--! end of #container -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -33,15 +29,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="js/Tooltip.js"></script>
-    <script src="js/songnetworkvis.js"></script>
+    <script src="js/miserables.js"></script>
     <script>
 
-      // Create network;
-      var network = Network();
+        var network = Network();
+      
       //Read json data and send data to network
       d3.json("data/lesmiserables.json", function(error, graph) {
-      if (error) throw error;
-      return network("#vis", graph);
+        if (error) throw error;
+        return network("#vis", graph);
       });
       
     </script>

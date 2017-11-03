@@ -15,9 +15,6 @@ function Network() {
       // tooltip used to display details
       tooltip = Tooltip("vis-tooltip", 230),
       network; //function
-
-  // Helper function to map node id's to node objects.
-  // Returns d3.map of ids -> nodes
   function mapNodes(nodes) {
     var nodesMap;
     nodesMap = d3.map();
@@ -28,26 +25,39 @@ function Network() {
   }
 
   function setupData(data) {
-    var circleRadius = d3.scale.linear().domain([0,15]);;
-    // initialize circle radius scale
+    var circleRadius, nLinks;
+    nLinks = d3.extent(data.nodes, function(d) {
+      sum = 0;
 
-    //First let's randomly dispose data.nodes (x/y) within the the width/height
-    // of the visualization and set a fixed radius for now
-    data.nodes.forEach(function(n) {
-    var randomnumber;
-    // set initial x/y to values within the width/height
-    // of the visualization
-      n.x = randomnumber = Math.floor(Math.random() * width);
-      n.y = randomnumber = Math.floor(Math.random() * height);
-    // add radius to the node so we can use it later
-      //n.radius = 3;
-      n.radius = 3;//circleRadius(n.group);
+      data.links.forEach(function(l) 
+      {
+        if (l.source == d.id || l.target == d.id)
+          sum++;  
+      });
+      return sum;
     });
-    // Then we will create a map with
-    // id's -> node objects
-    // using the mapNodes function above and store it in the nodesMap variable.
+    circleRadius = d3.scale.sqrt().range([3, 15]).domain(nLinks);
+    count = 0;
+    data.nodes.forEach(function(n) {
+      
+      count++; 
+      n.label = count; 
+
+      n.num = 0;
+      data.links.forEach(function(l){
+        if (l.source == n.id || l.target == n.id)
+          n.num = n.num + 1;  
+      });
+
+      n.x = Math.floor(Math.random() * width);
+      n.y = Math.floor(Math.random() * height);
+      
+      n.radius = circleRadius(n.num);
+    });
+
+
     var nodesMap = mapNodes(data.nodes);
-    // Then we will switch links to point to node objects instead of id's
+
     data.links.forEach(function(l) {
       l.source = nodesMap.get(l.source);
       l.target = nodesMap.get(l.target);
@@ -56,22 +66,17 @@ function Network() {
     return data;
   }
 
-  // Mouseover tooltip function
   function showDetails(d, i) {
     var content;
     content = '<p class="main">' + d.id + '</span></p>';
     content += '<hr class="tooltip-hr">';
-    content += '<p class="main">' + d.artist + '</span></p>';
+    content += '<p class="main">' + d.num + '</span></p>';
     tooltip.showTooltip(content, d3.event);
-
-    // highlight the node being moused over
     return d3.select(this).style("stroke", "black").style("stroke-width", 2.0);  
   }
 
-  // Mouseout function
   function hideDetails(d, i) {
     tooltip.hideTooltip();
-    // watch out - don't mess with node if search is currently matching
     node.style("stroke", function(n) {
     return "#555";
     }).style("stroke-width", function(n) {
@@ -79,14 +84,12 @@ function Network() {
     });
   }
 
-  // enter/exit display for nodes
   function updateNodes() {
-    //select all node elements in svg group of nodes
+
     node = nodesG.selectAll("circle.node")
     .data(allData.nodes, function(d) {
       return d.id;
     });
-    // set cx, cy, r attributes and stroke-width style
     node.enter()
     .append("circle").attr("class", "node").attr("cx", function(d) {
       return d.x;})
@@ -98,9 +101,7 @@ function Network() {
     node.on("mouseover", showDetails).on("mouseout", hideDetails);
   }
 
-  // enter/exit display for links
   function updateLinks() {
-    //select all link elements in svg group of nodes
     link = linksG.selectAll("line.link")
     .data(allData.links, function(d) {
     return `${d.source.id}_${d.target.id}`; });
@@ -120,7 +121,6 @@ function Network() {
     
   }
 
-  // tick function for force directed layout
   var forceTick = function(e) {
     node.attr("cx", function(d) {
     return d.x; })
@@ -135,36 +135,22 @@ function Network() {
     .attr("y2", function(d) {
     return d.target.y;});
   };
-
-  // Starting point for network visualization
-  // Initializes visualization and starts force layout
+  
   network = function(selection, data) {
 
     var vis;
-    // format our data
     allData = setupData(data);
-    // create our svg and groups
     vis = d3.select(selection).append("svg").attr("width", width).attr("height", height);
     linksG = vis.append("g").attr("id", "links");
     nodesG = vis.append("g").attr("id", "nodes");
-
-    // setup the size of the force environment
     force.size([width, height]);
-    // setup nodes and links
     force.nodes(allData.nodes);
     force.links(allData.links);
-
-
-    // enter / exit for nodes
     updateNodes();
-    // enter / exit for links
     updateLinks();
-    // set the tick callback, charge and linkDistance
     force.on("tick", forceTick).charge(-100).linkDistance(100);
-    // perform rendering and start force layout
     return force.start();
 
   };
-  // Final act of Network() function is to return the inner 'network()' function.
   return network;
 }
