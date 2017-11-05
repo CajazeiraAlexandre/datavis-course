@@ -97,7 +97,9 @@ function Network() {
       return d.y;})
     .attr("r", function(d) {
       return d.radius;})
-    .style("stroke-width", 1.0);
+    .style("stroke-width", 1.0)
+    .style("stroke", "black")
+    .style("fill", "#ff9eff");
     node.on("mouseover", showDetails).on("mouseout", hideDetails);
   }
 
