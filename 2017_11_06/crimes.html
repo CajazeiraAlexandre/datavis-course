@@ -65,7 +65,7 @@
 </div>
 <script type="text/javascript" src="data/bairros.js"></script>
 <script type="text/javascript">
-    let brewerColors = colorbrewer.Blues[5];
+    let brewerColors = colorbrewer.Blues[8];
 	
 	let map = L.map('map').setView([-3.792614,-38.515877], 12);
 	L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
@@ -91,9 +91,10 @@
 	info.addTo(map);
 	
 	// get color depending on number of cases
-	let quantize = d3.scale.quantize()
-    .domain([0, 15, 30, 45, 60, 75, 90, 105])
+	let quantize = d3.scale.linear()
+    .domain([0,5,10,15,70,80,100,250])
     .range(brewerColors);
+
 
 	function style(feature) {
 		 return {
@@ -169,10 +170,10 @@
 
 		for (let i = 0; i < n; i++) {
 			let c = brewerColors[i];
-            let fromto = quantize.invertExtent(c);
+            let fromto = quantize.domain();//.invertExtent(c);
 			labels.push(
 				'<i style="background:' + brewerColors[i] + '"></i> ' +
-				d3.round(fromto[0]) + (d3.round(fromto[1]) ? '&ndash;' + d3.round(fromto[1]) : '+'));
+				d3.round(fromto[i]) + (d3.round(fromto[i+1]) ? '&ndash;' + d3.round(fromto[i+1]) : '+'));
 		}
 
 		div.innerHTML = labels.join('<br>');
