@@ -83,8 +83,8 @@
 
 	info.update = function (feat) {
             //console.log(feat);
-			this._div.innerHTML = '<h5>Número de homicídios</h5>' +  (feat ?
-				'<b>' + feat.properties.NOME + '</b><br />' + taxaByName.get(feat.properties.NOME) + ' taxa de homicídios'
+			this._div.innerHTML = '<h5>Taxa de homicídios por 100mil habitantes</h5>' +  (feat ?
+				'<b>' + feat.properties.NOME + '</b><br />' + taxaByName.get(feat.properties.NOME) + ' taxa por 100mil/h'
 				: 'Passe o mouse sobre um bairro');
 	};
 
