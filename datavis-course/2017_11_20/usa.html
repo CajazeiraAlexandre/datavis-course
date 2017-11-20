@@ -55,7 +55,7 @@
 </head>
 <body>
   <div id="tooltip" class="hidden">
-    <p>Taxa de desemprego: <span id="taxa"></span></p>
+    <p> <span id="name"></span>  <br  > <span id="taxa"></span></p>
     </div>
     <div id="container" class="container">
     <header>
@@ -69,6 +69,8 @@ var width = 960,
     height = 600;
 
 var rateById = d3.map();
+
+var NamebyId = d3.map();
 
 var quantize = d3.scale.quantize()
     .domain([0, .15])
@@ -88,11 +90,13 @@ var svg = d3.select("#map").append("svg")
 queue()
     .defer(d3.json, "data/us.json")
     .defer(d3.tsv, "data/unemployment.tsv", function(d) { rateById.set(d.id, +d.rate); })
+    .defer(d3.csv, "data/county_names.csv", function(d) { NamebyId.set(d.id, d.name); })
+
     .await(ready);
 
 function ready(error, us) {
   if (error) throw error;
-
+    console.log(NamebyId);
    svg.append("g")
   .attr("class", "counties")
   .selectAll("path")
@@ -101,7 +105,7 @@ function ready(error, us) {
   .attr("fill", function(d) { return quantize(rateById.get(d.id)); })
   .attr("d", path)
   .on("click", function(d){
-      return d.id;
+      console.log(""+d.id);
   })
   .on("mouseover", function(d){
     d3.select(this)
@@ -110,9 +114,9 @@ function ready(error, us) {
     .attr("stroke","#ffff00");
 
     var coordinates = [0, 0];
-    coordinates = d3.mouse(this); // obtém a posição do mouse relativa a this
+    coordinates = d3.mouse(this); 
     var x = coordinates[0] + 10;
-    var y = coordinates[1] + 20; // descontando a posição do svg
+    var y = coordinates[1] + 20; 
 
     showTooltip(d.id, x, y);
     })
@@ -124,19 +128,27 @@ function ready(error, us) {
     hideTooltip();
     });
 
-
   svg.append("path")
       .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
       .attr("class", "states")
       .attr("d", path);
 }
   
+
   function showTooltip(county_id, x, y){
+     d3.select("#tooltip")
+    .select("#name")
+    .text(NamebyId.get(county_id));
+
+
     d3.select("#tooltip")
     .style("left", x + "px")
     .style("top", y + "px")
     .select("#taxa")
-    .text(rateById.get(county_id));
+    .text("Taxa: " + (rateById.get(county_id)*100).toFixed(2)+"%");
+    
+
+
     d3.select("#tooltip")
     .classed("hidden", false);
   }
