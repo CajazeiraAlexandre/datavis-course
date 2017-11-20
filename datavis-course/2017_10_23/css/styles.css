@@ -1,0 +1,30 @@
+body {
+    font-family: "helvetica"
+}
+
+h4 span {
+    font-size:14px;
+    font-weight:normal;
+}
+  
+h2 {
+    float: right;
+  }
+  
+h2 span {
+    font-size:14px;
+    font-weight:normal;
+}
+
+#mapid {
+    width: 1200px;
+    height: 600px;
+    margin-top: 500px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#title{
+	float: left;
+	width:1100px;
+	height: 10px;
+}
