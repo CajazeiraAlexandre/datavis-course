@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Earthquake Data</title>
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+            <!-- Custom styles for this template -->
+            <link  rel="stylesheet" href="css/starter-template.css">
+            <link rel="stylesheet" href="css/dc.css">
+            <link rel="stylesheet" href="css/styles.css">
+            <script src="js/crossfilter.js" charset="utf-8"></script>
+            <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script src="js/dc.js" charset="utf-8"></script>
+
+            
+            <style type="text/css">
+  
+              
+            </style>
+        </head>
+        <body>
+            <div class='container-fluid'>
+                <h1> Earthquakes in New Zealand </h1>
+                <div id='dc-magnitude-chart'>
+                  <h4> Number of Events by Magnitude </h4>
+                </div>
+                <div id='dc-depth-chart'>
+                  <h4> Events by Depth (km) </h4>
+                </div>   
+                <div>
+                    <div id='time-chart'>
+                      <h4> Events per hour </h4>
+                    </div>
+                </div>
+
+                <table class="table table-hover" id="dc-table-graph">
+                    <thead>
+                        <tr class="header">
+                            <th>DTG</th>
+                            <th>Magnitude</th>
+                            <th>Depth</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <script type="text/javascript">
+            // Create the dc.js chart objects & link to divs
+            // 
+            var dataTable = dc.dataTable("#dc-table-graph");
+            var magnitudeChart = dc.barChart("#dc-magnitude-chart");
+            var depthChart = dc.barChart("#dc-depth-chart");
+            var timeChart = dc.barChart("#time-chart")
+ 
+            
+            // load data from a csv file
+            d3.csv("earthquakes.csv", function (data) {
+              // format our data
+                var dtgFormat = d3.time.format.utc("%Y-%m-%dT%H:%M:%S");
+                //var dtgFormat2 = d3.time.format("%a %e %b %H:%M");
+
+                data.forEach(function(d){
+
+                d.dtg   = dtgFormat.parse(d.origintime.substr(0,19)); 
+                d.lat   = +d.latitude;
+                d.long  = +d.longitude;
+                d.mag   = d3.round(+d.magnitude,1);
+                d.depth = d3.round(+d.depth,0);
+
+                });
+
+
+              // Run the data through crossfilter and load our 'facts'
+              var facts = crossfilter(data);
+
+              //Create dataTable dimension using the date (dtg)
+             var timeDimension = facts.dimension(function (d) {
+               return d.dtg;
+            });
+
+              //Create a dimension for Magnitude
+               var magValue = facts.dimension(function (d) {
+                 return d.mag;       // add the magnitude dimension
+              });
+              //Create a group for Magnitude that just counts the number of elements in the group
+              var magValueGroupSum = magValue.group()
+                .reduceSum(function(d) { return d.mag; });  // sums 
+              var magValueGroupCount = magValue.group()
+                .reduceCount(function(d) { return d.mag; }) // counts 
+
+              // for Depth
+              var depthValue = facts.dimension(function (d) {
+                return d.depth;
+              });
+              var depthValueGroup = depthValue.group();
+               // Create a dimension for Depth
+             
+
+               //Create a group for Depth that just counts the number of elements in the group
+              
+
+
+               // Create a dimension just for the hour from the datetime  in the dataset
+               //hint: use d3.time.hour() function
+               // time chart
+               // define a daily volume Dimension
+              var volumeByDay = facts.dimension(function(d) {
+                  return d3.time.hour(d.dtg);
+                });
+                // map/reduce to group sum
+              var volumeByDayGroup = volumeByDay.group()
+                  .reduceCount(function(d) { return d.dtg; });
+                            
+              //var dayOfWeekGroup = dayOfWeek.group();
+
+
+              //Create a group for the hour dimension that just counts the number of elements per hour
+
+              // Setup the charts
+    
+              // Configure Magnitude Bar Graph
+              // 480 x 150
+              // x dimension domain: [0, 8]
+              //use a gap of 56, this number is very obscure. It seems to depend on the width of the chart and on the number of dimensions. It was found using trial and error.
+              //set elasticY to true
+              
+              //VISUALIZATIONS
+
+              magnitudeChart.width(480)
+                .height(150)
+                .margins({top: 10, right: 10, bottom: 20, left: 40})
+                .dimension(magValue)
+                .group(magValueGroupCount)
+                .transitionDuration(500)
+                  .centerBar(true)  
+                .gap(65)  // 65 = norm
+                      //           .filter([3, 5])
+                .x(d3.scale.linear().domain([0.5, 7.5]))
+                .elasticY(true)
+                .xAxis().tickFormat(function(v){return v;});  
+
+
+              // Configure Depth bar graph
+              // 480 x 150
+              // x dimension domain: [0, 100]
+             
+              // Configure Time line graph
+              // height: 150
+              //x dimension: build the time scale from the data: d3.time.scale().domain(d3.extent(data, function(d) { return d.dtime; }))
+                // Depth bar graph
+              depthChart.width(480)
+                .height(150)
+                .margins({top: 10, right: 10, bottom: 20, left: 40})
+                .dimension(depthValue)
+                .group(depthValueGroup)
+              .transitionDuration(500)
+                .centerBar(true)  
+              .gap(1)  
+                .x(d3.scale.linear().domain([0, 100]))
+              .elasticY(true)
+              .xAxis().tickFormat(function(v) {return v;});
+
+               // time graph
+               // time graph
+              timeChart.width(960)
+                .height(100)
+                .margins({top: 10, right: 10, bottom: 20, left: 40})
+                .dimension(volumeByDay)
+                .group(volumeByDayGroup)
+                .transitionDuration(500)
+              .elasticY(true)
+                .x(d3.time.scale().domain([new Date(2013, 6, 18), new Date(2013, 6, 24)])) // scale and domain of the graph
+                .xAxis();
+
+         
+               // Table of earthquake data
+              dataTable.width(960)
+                .height(800)
+                .dimension(timeDimension)
+              .group(function(d) { return "Earthquake Table"
+               })
+                .size(10)
+                .columns([
+                  function(d) { return d.dtg; },
+                  function(d) { return d.lat; },
+                  function(d) { return d.long; },
+                  function(d) { return d.depth; },
+                  function(d) { return d.mag; },
+                      ])
+                .sortBy(function(d){ return d.dtg; })
+                .order(d3.ascending);
+
+
+              // Render the Charts
+          dc.renderAll();
+  
+            });
+            </script>
+
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+             <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                
+        </body>
+</html>
