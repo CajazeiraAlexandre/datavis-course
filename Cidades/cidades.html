@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Perfil Prefeitos</title>
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+crossorigin=""/>
+            <!-- Make sure you put this AFTER Leaflet's CSS -->
+           <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+           integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+          crossorigin=""></script>
+
+            <!-- Custom styles for this template -->
+            <link  rel="stylesheet" href="css/starter-template.css">
+            <link rel="stylesheet" href="css/dc.css">
+            <link rel="stylesheet" href="css/styles.css">
+            <script src="js/crossfilter.js" charset="utf-8"></script>
+            <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script src="js/dc.js" charset="utf-8"></script>
+
+            
+            <style type="text/css">
+  
+              
+            </style>
+   
+
+
+        </head>
+        <body>
+
+          
+
+            <div class='container-fluid'>
+                
+              <h1> Analise dos dados de prefeitos brasileiros, segundo o IBGE - 2013 </h1>
+                <div id='partidos-chart'>
+                  <h4> Rank dos Partidos </h4>
+                </div>
+
+               <div id='sexo-chart'>
+                  <h4> Genero </h4>
+                </div>
+
+               <div id='idade-chart'>
+                  <h4> Distribuicao das Idades </h4>
+                </div>
+
+               <div id='esc-chart'>
+                  <h4> Escolaridade </h4>
+                </div>
+
+                 <div id='regiao-chart'>
+                  <h4> Distribuicao das regioes </h4>
+                </div>
+               
+                <div id="mapid"></div>
+                <table class="table table-hover" id="dc-table-graph">
+                    <thead>
+                        <tr class="header">
+                            <th>Cidade</th>
+                            <th>Região</th>
+                            <th>Partido</th>
+                            <th>Adm_sexo</th>
+                            <th>Adm_idade</th>
+                            <th>Adm_Escolaridade</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+            
+
+
+
+            <script type="text/javascript">
+
+            var bar1 = dc.barChart("#partidos-chart");
+            var bar2 = dc.barChart("#idade-chart");
+            var bar3 = dc.barChart("#sexo-chart");
+            var bar4 = dc.barChart("#esc-chart");
+            var bar5 = dc.barChart("#regiao-chart");
+            var dataTable = dc.dataTable("#dc-table-graph");
+
+
+            d3.csv("cidades.csv", function (data) {
+              
+              data.forEach(function(d) {
+
+                d.sexo = d.sexo;
+                d.idade = d.idade;
+                d.esc = d.escolaridade;
+                d.partido = d.partido;
+                d.regiao = d.regiao;
+                d.nome_cidade = d.cidade;
+                d.cod = d.cod;
+
+            });
+          
+
+              var facts = crossfilter(data);
+              var CodDimention = facts.dimension(function(d){
+                  return d.cod;
+              });
+              var PartDimention = facts.dimension(function(d){
+                return d.partido;
+              });
+              var countPartidos = PartDimention.group();
+
+              var IdadeDimention = facts.dimension(function(d){
+                  return d.idade;
+              });
+              var IdadeGroup = IdadeDimention.group();
+
+              
+              var SexDimention = facts.dimension(function(d){
+                return d.sexo;
+              });
+              var SexCout = SexDimention.group();
+
+              var EscDimention = facts.dimension(function(d){
+                return d.esc;
+              });
+              var EscCout = EscDimention.group();
+              var RegDimention = facts.dimension(function(d){
+                  return d.regiao;
+              });
+              var RegCount = RegDimention.group();
+
+
+              bar1
+              .width(1300)
+              .height(450)
+              .x(d3.scale.ordinal())
+              .xUnits(dc.units.ordinal)
+              .yAxisLabel("", 25)
+              .barPadding(0.4)
+              .brushOn(true)
+              .dimension(PartDimention)
+              .group(countPartidos)
+              .controlsUseVisibility(false)
+              .on('pretransition', function(partido) {
+                  partido.selectAll("rect.bar").on("click", function (d) {
+                      partido.filter(null)
+                      .filter(d.data.key)
+                      .redrawGroup();
+                  });
+              });
+
+              bar2
+              .width(650)
+              .height(150)
+              .margins({top: 10, right: 10, bottom: 20, left:40})
+              .dimension(IdadeDimention)
+              .group(IdadeGroup)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([20, 90]))
+              .elasticY(true)
+              
+              bar3
+              .width(300)
+              .height(450)
+              .x(d3.scale.ordinal())
+              .xUnits(dc.units.ordinal)
+              .yAxisLabel("", 25)
+              .barPadding(0.4)
+              .brushOn(true)
+              .dimension(SexDimention)
+              .group(SexCout)
+              .controlsUseVisibility(false)
+              .on('pretransition', function(bar) {
+                  bar.selectAll("rect.bar").on("click", function (d) {
+                      bar.filter(null)
+                      .filter(d.data.key)
+                      .redrawGroup();
+                  });
+              });
+
+              bar4
+              .width(1500)
+              .height(250)
+              .x(d3.scale.ordinal())
+              .xUnits(dc.units.ordinal)
+              .yAxisLabel("", 25)
+              .barPadding(0.4)
+              .brushOn(true)
+              .dimension(EscDimention)
+              .group(EscCout)
+              .controlsUseVisibility(false)
+              .on('pretransition', function(bar) {
+                  bar.selectAll("rect.bar").on("click", function (d) {
+                      bar.filter(null)
+                      .filter(d.data.key)
+                      .redrawGroup();
+                  });
+              });
+
+              bar5
+              .width(600)
+              .height(450)
+              .x(d3.scale.ordinal())
+              .xUnits(dc.units.ordinal)
+              .yAxisLabel("", 25)
+              .barPadding(0.4)
+              .brushOn(true)
+              .dimension(RegDimention)
+              .group(RegCount)
+              .controlsUseVisibility(false)
+              .on('pretransition', function(bar) {
+                  bar.selectAll("rect.bar").on("click", function (d) {
+                      bar.filter(null)
+                      .filter(d.data.key)
+                      .redrawGroup();
+                  });
+              });
+
+
+              dataTable.width(960)
+                .height(800)
+                .dimension(CodDimention)
+                .group(function(d){
+                  return "Dados completos";
+                })
+                .size(20)
+                .columns([
+                  function(d){return d.nome_cidade;},
+                  function(d){return d.regiao;},
+                  function(d){return d.partido},
+                  function(d){return d.sexo;},
+                  function(d){return d.idade;},
+                  function(d){return d.esc;}
+                  ])
+
+                .sortBy(function (d) {return d.dtg; })
+                .order(d3.ascending);
+                
+              dc.renderAll();
+  
+            });
+            </script>
+
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+             <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                
+        </body>
+</html>
