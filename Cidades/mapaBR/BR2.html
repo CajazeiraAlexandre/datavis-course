@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <title>IDH 2010</title>
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  <!-- Bootstrap includes -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
+
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="https://d3js.org/queue.v1.min.js"></script>
+	<script src="https://d3js.org/topojson.v1.min.js"></script>
+	<script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+	<style>
+
+		.counties {
+      fill: none;
+    }
+
+    .states {
+      fill: none;
+      stroke: #fff;
+      stroke-linejoin: round;
+    }
+
+    #tooltip {
+      position: absolute;
+      width: 240px;
+      height: auto;
+      padding: 10px;
+      background-color: white;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+      border-radius: 10px;
+            -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      pointer-events: none;
+    }
+
+    #tooltip.hidden {
+        display: none;
+    }
+
+    #tooltip p {
+      margin: 0;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+
+	</style>
+</head>
+<body>
+  
+  <input id="slider" type="range" min="1991" max="2009" value="1991" step="9" />
+  <span id="range">1991</span>
+  <div id="container-fluid" class="container">
+    <header>
+	   <h1>Evolução IDH</h1>
+   </header>
+   <div id="map1991">
+     <h4> Brasil </h4>
+   </div>
+  </div>
+  
+  <script src="vis1991.js"></script>
+  <script src="vis2000.js"></script>
+  <script src="vis2010.js"></script>
+
+<script type="text/javascript">
+  
+  onload = function() {
+    var $ = function(id) { return document.getElementById(id); };
+    $('slider').oninput = function() { $('range').innerHTML = this.value; };
+    $('slider').oninput();
+  };
+
+</script>
+
+<script>
+
+var width = 960,
+    height = 600;
+
+var rateByName1991 = d3.map();
+var rateByName2000 = d3.map();
+var rateByName2010 = d3.map();
+
+var quantize = d3.scale.linear().domain([0,0.5,0.7,1]).range(["red","yellow","green","blue"]);
+
+var projection = d3.geo.mercator()
+    .center([-55,-10])
+    .scale(750);
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var svg = d3.select("#map1991").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+queue()
+    .defer(d3.json, "mnmbr.json")
+    .defer(d3.csv, "AtlasIDHM1991.csv", function(d) { rateByName1991.set(d.name, +d.IDHM1991); })
+    .defer(d3.csv, "AtlasIDHM2000.csv", function(d) { rateByName2000.set(d.name, +d.IDHM2000); })
+    .defer(d3.csv, "AtlasIDHM2010.csv", function(d) { rateByName2010.set(d.name, +d.IDHM2010); })
+    .await(ready);
+
+function ready(error, br) {
+  if (error) throw error;
+
+  svg.append("g")
+      .attr("class", "properties")
+    .selectAll("path")
+      .data(topojson.feature(br,br.objects.geojs100mun).features)
+    .enter().append("path")
+      .attr("fill", function(d) {
+        return quantize(rateByName1991.get(d.properties.name));
+      })
+      .attr("d", path)
+      .on("click", function(d){
+          alert(d.properties.name+": "+rateByName1991.get(d.properties.name));
+      })
+      .on("mouseover", function(d){
+        d3.select(this) // seleciona o elemento atual
+        .style("cursor", "pointer") //muda o mouse para mãozinha
+        .attr("stroke-width", 1)
+        .attr("stroke","#000000");
+
+        var coordinates = [0, 0];
+        coordinates = d3.mouse(this); // obtém a posição do mouse relativa a this
+        var x = coordinates[0] + 10;
+        var y = coordinates[1] + 20; // descontando a posição do svg
+        showTooltip(d.properties.name, x, y);
+      })
+      .on("mouseout", function(d){
+        d3.select(this)
+        .style("cursor", "default")
+        .attr("stroke-width", 0)
+        .attr("stroke","none"); //volta ao valor padrão
+        hideTooltip();
+      });
+
+      d3.selectAll("input").on("change", function change() {
+        var value = this.value;
+
+        d3.selectAll("path").style("fill", function(d) {
+          switch (value) {
+            case "1991":
+              return quantize(rateByName1991.get(d.properties.name));
+              break;
+            case "2000":
+              return quantize(rateByName2000.get(d.properties.name));
+              break;
+            case "2009":
+              return quantize(rateByName2010.get(d.properties.name));
+              break;
+          }
+        });
+    });
+
+  /*
+  svg.append("path")
+      .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+      .attr("class", "states")
+      .attr("d", path);
+  */
+      
+}
+
+function showTooltip(county_id, x, y){
+  d3.select("#tooltip")
+  .style("left", x + "px")
+  .style("top", y + "px")
+  .select("#taxa")
+  .text("rateById.get(county_id)+");
+
+  d3.select("#tooltip")
+  .style("left", x + "px")
+  .style("top", y + "px")
+  .select("#CondNametaxa")
+  .text("nameId.get(county_id)");
+
+  d3.select("#tooltip")
+  .classed("hidden", false);
+}
+
+function hideTooltip(){
+  d3.select("#tooltip")
+  .classed("hidden", true);
+}
+
+</script>
+</body>
+</html>
