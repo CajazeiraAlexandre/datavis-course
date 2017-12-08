@@ -22,7 +22,16 @@ crossorigin=""/>
             <script src="js/crossfilter.js" charset="utf-8"></script>
             <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
             <script src="js/dc.js" charset="utf-8"></script>
+  
+  <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
             
             <style type="text/css">
             #partidos-chart{
@@ -57,6 +66,7 @@ crossorigin=""/>
               position: absolute;
               margin-top: 1200px;
             }
+
               
             </style>
             
@@ -66,6 +76,28 @@ crossorigin=""/>
 
         </head>
         <body>
+
+                  <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Cidades Brasileiras</a>
+                  </div>
+                  <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="/datavis-course/Cidades/BR1.html">Visão Geral</a></li>
+                      <li><a href="/datavis-course/Cidades/cidades.html">Gestores Municipais</a></li>
+                      <li><a href="#contact">Minha cidade</a></li>
+                      <li><a href="#contact">Sobre o Projeto</a></li>
+                    </ul>
+                  </div><!--/.nav-collapse -->
+                </div>
+              </nav>
 
             <div class='container-fluid'>
                 
@@ -242,22 +274,26 @@ crossorigin=""/>
               .dimension(EscDimention)
               .group(EscCout)
               .controlsUseVisibility(false)
-              /*.on('pretransition', function(bar) {
-                  bar.selectAll("rect.bar").on("click", function (d) {
-                      bar.filter(null)
-                      .filter(d.data.key)
-                      .redrawGroup();
+             
+              .on('pretransition', function(bar) {
+                  bar.selectAll("rect.bar").on("mouseon", function (d) {
+                        alert("teste");
+                      // bar.
+                      //bar.filter(null)
+                      //.filter(d.data.key)
+                      //.redrawGroup();
                   });
-              })*/;
+              });
 
               bar5
               .width(700)
               .height(250)
-              //.x(d3.scale.ordinal())
+              //.x(d3.scale.ordinal())q
               //.xUnits(dc.units.ordinal)
               //.yAxisLabel("", 25)
               //.barPadding(0.4)
               //.brushOn(true)
+              .colors("#3182bd")
               .dimension(RegDimention)
               .group(RegCount)
               .controlsUseVisibility(false)
