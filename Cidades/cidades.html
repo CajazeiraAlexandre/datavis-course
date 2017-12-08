@@ -25,16 +25,47 @@ crossorigin=""/>
 
             
             <style type="text/css">
-  
+            #partidos-chart{
+              position: absolute;
+              margin-top: 100px;
+            }
+
+            #idade-chart{
+              position: absolute;
+              margin-top: 900px;
+              margin-left: 50px;
+            }
+
+            #esc-chart{
+              position: absolute;
+              margin-left: 750px;
+              margin-top: 600px;
+            }
+
+            #sexo-chart{
+              position: absolute;
+              margin-top: 100px;
+              margin-left: 800px;
+            }
+            #regiao-chart{
+              position: absolute;
+              margin-top: 600px;
+              margin-left: 50px;
+            }
+
+            #dc-table-graph{
+              position: absolute;
+              margin-top: 1200px;
+            }
               
             </style>
+            
+            
    
 
 
         </head>
         <body>
-
-          
 
             <div class='container-fluid'>
                 
@@ -59,7 +90,7 @@ crossorigin=""/>
                   <h4> Distribuicao das regioes </h4>
                 </div>
                
-                <div id="mapid"></div>
+                
                 <table class="table table-hover" id="dc-table-graph">
                     <thead>
                         <tr class="header">
@@ -81,10 +112,14 @@ crossorigin=""/>
             <script type="text/javascript">
 
             var bar1 = dc.barChart("#partidos-chart");
+            bar1.ordering(function(d){ return - d.value});
             var bar2 = dc.barChart("#idade-chart");
-            var bar3 = dc.barChart("#sexo-chart");
+            var pC = dc.pieChart("#sexo-chart");//.barChart("#sexo-chart");
+            //bar3.ordering(function(d){ return - d.value});
             var bar4 = dc.barChart("#esc-chart");
-            var bar5 = dc.barChart("#regiao-chart");
+            bar4.ordering(function(d){ return - d.value});
+            var bar5 = dc.rowChart("#regiao-chart");
+            bar5.ordering(function(d){ return - d.value});
             var dataTable = dc.dataTable("#dc-table-graph");
 
 
@@ -134,27 +169,30 @@ crossorigin=""/>
 
 
               bar1
-              .width(1300)
+              .width(1200)
               .height(450)
               .x(d3.scale.ordinal())
               .xUnits(dc.units.ordinal)
+              //.elasticY(true)
               .yAxisLabel("", 25)
               .barPadding(0.4)
               .brushOn(true)
               .dimension(PartDimention)
               .group(countPartidos)
               .controlsUseVisibility(false)
-              .on('pretransition', function(partido) {
+              /*on('pretransition', function(partido) {
                   partido.selectAll("rect.bar").on("click", function (d) {
                       partido.filter(null)
                       .filter(d.data.key)
                       .redrawGroup();
                   });
-              });
+              })*/;
+
+             
 
               bar2
-              .width(650)
-              .height(150)
+              .width(700)
+              .height(250)
               .margins({top: 10, right: 10, bottom: 20, left:40})
               .dimension(IdadeDimention)
               .group(IdadeGroup)
@@ -163,7 +201,16 @@ crossorigin=""/>
               .gap(56)
               .x(d3.scale.linear().domain([20, 90]))
               .elasticY(true);
-              
+            
+             pC
+                .width(300)
+                .height(300)
+                .slicesCap(17)
+                .innerRadius(10)
+                .dimension(SexDimention)
+                .group(SexCout)
+                .renderLabel(true);
+              /*
               bar3
               .width(300)
               .height(450)
@@ -175,17 +222,18 @@ crossorigin=""/>
               .dimension(SexDimention)
               .group(SexCout)
               .controlsUseVisibility(false)
-              .on('pretransition', function(bar) {
+*/
+              /*.on('pretransition', function(bar) {
                   bar.selectAll("rect.bar").on("click", function (d) {
                       bar.filter(null)
                       .filter(d.data.key)
                       .redrawGroup();
                   });
-              });
+              })*/;
 
               bar4
-              .width(1500)
-              .height(250)
+              .width(550)
+              .height(500)
               .x(d3.scale.ordinal())
               .xUnits(dc.units.ordinal)
               .yAxisLabel("", 25)
@@ -194,32 +242,32 @@ crossorigin=""/>
               .dimension(EscDimention)
               .group(EscCout)
               .controlsUseVisibility(false)
-              .on('pretransition', function(bar) {
+              /*.on('pretransition', function(bar) {
                   bar.selectAll("rect.bar").on("click", function (d) {
                       bar.filter(null)
                       .filter(d.data.key)
                       .redrawGroup();
                   });
-              });
+              })*/;
 
               bar5
-              .width(600)
-              .height(450)
-              .x(d3.scale.ordinal())
-              .xUnits(dc.units.ordinal)
-              .yAxisLabel("", 25)
-              .barPadding(0.4)
-              .brushOn(true)
+              .width(700)
+              .height(250)
+              //.x(d3.scale.ordinal())
+              //.xUnits(dc.units.ordinal)
+              //.yAxisLabel("", 25)
+              //.barPadding(0.4)
+              //.brushOn(true)
               .dimension(RegDimention)
               .group(RegCount)
               .controlsUseVisibility(false)
-              .on('pretransition', function(bar) {
+              /*.on('pretransition', function(bar) {
                   bar.selectAll("rect.bar").on("click", function (d) {
                       bar.filter(null)
                       .filter(d.data.key)
                       .redrawGroup();
                   });
-              });
+              })*/;
 
 
               dataTable.width(960)
@@ -228,7 +276,7 @@ crossorigin=""/>
                 .group(function(d){
                   return "Dados completos";
                 })
-                .size(20)
+                .size(50)
                 .columns([
                   function(d){return d.nome_cidade;},
                   function(d){return d.regiao;},
