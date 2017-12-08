@@ -2,19 +2,20 @@
 <html>
 <head>
 	<meta charset="utf-8">
-  <title>IDH 2010</title>
-    
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <title>Visão geral</title>
 
-  <!-- Bootstrap includes -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
+            <link  rel="stylesheet" href="css/starter-template.css">
+            <link rel="stylesheet" href="css/dc.css">
+            <link rel="stylesheet" href="css/styles.css">
+            <script src="https://d3js.org/topojson.v1.min.js"></script>
+            <script src="https://d3js.org/queue.v1.min.js"></script>
+            <script src="js/crossfilter.js" charset="utf-8"></script>
+            <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script src="js/dc.js" charset="utf-8"></script>
+<script src="https://d3js.org/colorbrewer.v1.min.js"></script>
 
-	<script src="https://d3js.org/d3.v3.min.js"></script>
-	<script src="https://d3js.org/queue.v1.min.js"></script>
-	<script src="https://d3js.org/topojson.v1.min.js"></script>
-	<script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+ <link rel="stylesheet" href="css/dc.css">
+
 	<style>
 
 	
@@ -45,56 +46,237 @@
     }
     #map1991{
       position: absolute;
-      margin-left: 10px;
+      margin-left: 30px;
       top: 100px;
     }
     #map2000{
       position: absolute;
-      margin-left: 350px;
+      margin-left: 370px;
       top: 100px;
     }
     #map2010{
       position: absolute;
-      margin-left: 700px;
+      margin-left: 720px;
       top: 100px;
     }
     h4{
       margin-left: 150px;
     }
     #Leg_IDH{
-      margin-top: 400px;
+      margin-top: 450px;
+    }
+    #h1991{
+      position: absolute;
+      margin-left: 30px;
+      margin-top: 200px;
+    }
+    #h2000{
+      position: absolute;
+      margin-left: 370px;
+      margin-top: 200px;
+    }
+
+    #h2010{
+      position: absolute;
+      margin-left: 720px;
+      margin-top: 200px;
     }
 
 	</style>
 </head>
 <body>
-  
+   
   <div id="container-fluid" class="container">
     <header>
 	   <h1>Visão geral das cidades Brasileiras</h1>
 
    </header>
 
-    
+    <div id= "h1991"></div>
+    <div id= "h2000"></div>
+    <div id= "h2010"></div>
 
    <div id="map1991"><h4>IDHM 1991</h4></div>
    <div id="map2000"><h4>IDHM 2000</h4></div>
    <div id="map2010"><h4>IDHM 2010</h4></div>
+
    <div id = "Leg_IDH">
+
    <p> <h3>Evolução do IDH</h3> "O IDHM brasileiro considera as mesmas três dimensões do IDH Global – longevidade, educação e renda, mas vai além: adequa a metodologia global ao contexto brasileiro e à disponibilidade de indicadores nacionais. Embora meçam os mesmos fenômenos, os indicadores levados em conta no IDHM são mais adequados para avaliar o desenvolvimento dos municípios e regiões metropolitanas brasileiras." Conheça o Atlas do Desenvolvimento Humano no Brasil <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
     </div>
-  </div>
   
+    <div id="tooltip" class="hidden">
+     <p><span id="CondNametaxa"></span></p>
+   <p>IDH: <span id="taxa"></span></p>
+  </div>
+ 
   <script src="vis1991.js"></script>
   <script src="vis2000.js"></script>
   <script src="vis2010.js"></script>
 
 <script>
 
-mapBR1991();
-mapBR2000();
-mapBR2010();
+</script>
+
+<script type="text/javascript">
+
+  var his1 = dc.barChart("#h1991");
+  var his2 = dc.barChart("#h2000");
+  var his3 = dc.barChart("#h2010");
+
+
+            d3.csv("data/AtlasIDHM1991.csv", function (data) {
+              
+              data.forEach(function(d) {
+                d.IDH = 100*d.IDHM1991;
+
+            });
+          
+              var facts = crossfilter(data);
+              var IDHDimention = facts.dimension(function(d){
+                  return d.IDH;
+              });
+              var IDHGroup = IDHDimention.group();
+
+
+              his1
+              .width(200)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:20})
+              .dimension(IDHDimention)
+              .group(IDHGroup)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([1,100]))
+              .y(d3.scale.linear().domain([1,50]));
+                
+              dc.renderAll();
+  
+            });
+
+
+            d3.csv("data/AtlasIDHM2000.csv", function (data) {
+              
+              data.forEach(function(d) {
+                d.IDH2000 = 100*d.IDHM2000;
+
+            });
+          
+              var facts = crossfilter(data);
+              var IDH2000Dimention = facts.dimension(function(d){
+                  return d.IDH2000;
+              });
+              var IDH2000Group = IDH2000Dimention.group();
+
+
+              his2
+              .width(200)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:20})
+              .dimension(IDH2000Dimention)
+              .group(IDH2000Group)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([1,100]))
+              .y(d3.scale.linear().domain([1,50]));
+                
+              dc.renderAll();
+  
+            });
+
+
+            d3.csv("data/AtlasIDHM2010.csv", function (data) {
+              
+              data.forEach(function(d) {
+                d.IDH = 100*d.IDHM2010;
+
+            });
+          
+              var facts = crossfilter(data);
+              var IDH2010Dimention = facts.dimension(function(d){
+                  return d.IDH;
+              });
+              var IDH2010Group = IDH2010Dimention.group();
+
+
+              his3
+              .width(200)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:20})
+              .dimension(IDH2010Dimention)
+              .group(IDH2010Group)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([1,100]))
+              .y(d3.scale.linear().domain([1,50]));
+
+              dc.renderAll();
+  
+            });
+
+  </script>
+
+<script>
+
+  var arr;
+
+  var width = 350,
+      height = 350;
+
+  var rateByName1991 = d3.map();
+  var rateByName2000 = d3.map();
+  var rateByName2010 = d3.map();
+  let IDHbrewerColors = colorbrewer.Blues[5];
+  //var quantize = d3.scale.linear().domain([0,0.5,0.7,1]).range(["red","yellow","green","blue"]);
+
+  let IDHquantize = d3.scale.linear()
+    .domain([0,0.5,0.6,0.7,0.8,1])
+    .range(IDHbrewerColors);
+
+  var projection = d3.geo.mercator()
+      .center([-10,-30])
+      .scale(375);
+
+  var path = d3.geo.path()
+      .projection(projection);
+
+  var svg1991 = d3.select("#map1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2000 = d3.select("#map2000").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2010 = d3.select("#map2010").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  queue()
+    .defer(d3.json, "mnmbr.json")
+    .defer(d3.csv, "data/AtlasIDHM1991.csv", function(d) { rateByName1991.set(d.name, +d.IDHM1991); })
+    .defer(d3.csv, "data/AtlasIDHM2000.csv", function(d) { rateByName2000.set(d.name, +d.IDHM2000); })
+    .defer(d3.csv, "data/AtlasIDHM2010.csv", function(d) { rateByName2010.set(d.name, +d.IDHM2010); })
+    .await(readq);
+
+    function readq(error, br){
+
+      var x1 = mapBR1991(svg1991,width,height,path,rateByName1991);
+      var x2 = mapBR2000(svg2000,width,height,path,rateByName2000);
+      var x3 = mapBR2010(svg2010,width,height,path,rateByName2010);
+
+      x1(error,br);
+      x2(error,br);
+      x3(error,br);
+    }
 
 </script>
+
+  </div>
+
+
 </body>
 </html>

@@ -1,33 +1,8 @@
-function mapBR2010(){
-  
-  var width = 350,
-      height = 350;
+function mapBR2010(svg,width,height,path,rateByName,delay,callback){   
 
-  var rateByName = d3.map();
+  var func;
 
-  var map;
-
-  var quantize = d3.scale.linear().domain([0,0.5,0.7,1]).range(["red","yellow","green","blue"]);
-
-  var projection = d3.geo.mercator()
-      .center([-10,-30])
-      .scale(375);
-
-  var path = d3.geo.path()
-      .projection(projection);
-
-  var svg = d3.select("#map2010").append("svg")
-      .attr("width", width)
-      .attr("height", height);
-
-
-  queue()
-      .defer(d3.json, "mnmbr.json")
-      .defer(d3.csv, "data/AtlasIDHM2010.csv", function(d) { rateByName.set(d.name, +d.IDHM2010); })
-      .await(ready);
-      
-
-  function ready(error, br) {
+  func = function ready(error, br) {
     if (error) throw error;
 
     svg.append("g")
@@ -36,7 +11,7 @@ function mapBR2010(){
         .data(topojson.feature(br,br.objects.geojs100mun).features)
       .enter().append("path")
         .attr("fill", function(d) {
-          return quantize(rateByName.get(d.properties.name));
+          return IDHquantize(rateByName.get(d.properties.name));
         })
         .attr("d", path)
         .on("click", function(d){
@@ -48,11 +23,11 @@ function mapBR2010(){
           .attr("stroke-width", 1)
           .attr("stroke","#000000");
 
-          var coordinates = [0, 0];
-          coordinates = d3.mouse(this); // obtém a posição do mouse relativa a this
-          var x = coordinates[0] + 10;
-          var y = coordinates[1] + 20; // descontando a posição do svg
-          showTooltip(d.properties.name, x, y);
+          //var coordinates = [0, 0];
+          //coordinates = d3.mouse(this); // obtém a posição do mouse relativa a this
+          //var x = coordinates[0] + 10;
+          //var y = coordinates[1] + 20; // descontando a posição do svg
+          showTooltip(d.properties.name);
         })
         .on("mouseout", function(d){
           d3.select(this)
@@ -67,20 +42,23 @@ function mapBR2010(){
         .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
         .attr("class", "states")
         .attr("d", path);*/
+
+        return svg;
   }
 
-  function showTooltip(county_id, x, y){
+  function showTooltip(county_id){
     d3.select("#tooltip")
-    .style("left", x + "px")
-    .style("top", y + "px")
+    //.style("left", x + "px")
+    //.style("top", y + "px")
     .select("#taxa")
-    .text("rateById.get(county_id)+");
+    .text(rateByName.get(county_id));
 
     d3.select("#tooltip")
-    .style("left", x + "px")
-    .style("top", y + "px")
+    .style("left", "1000px")
+    .style("top", "150px")
     .select("#CondNametaxa")
-    .text("nameId.get(county_id)");
+    .text(county_id);
+
 
     d3.select("#tooltip")
     .classed("hidden", false);
@@ -91,5 +69,5 @@ function mapBR2010(){
     .classed("hidden", true);
   }
 
-  return svg;
+  return func;
 }
