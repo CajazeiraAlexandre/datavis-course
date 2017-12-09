@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+   
 	<style>
 
 	
@@ -52,42 +52,78 @@
       font-size: 16px;
       line-height: 20px;
     }
-    #map1991{
+    #IDHmap1991{
       position: absolute;
       margin-left: 30px;
-      top: 100px;
+      top: 300px;
     }
-    #map2000{
+    #IDHmap2000{
       position: absolute;
       margin-left: 370px;
-      top: 100px;
+      top: 300px;
     }
-    #map2010{
+    #IDHmap2010{
       position: absolute;
       margin-left: 720px;
-      top: 100px;
+      top: 300px;
     }
     h4{
       margin-left: 150px;
     }
     #Leg_IDH{
-      margin-top: 450px;
-    }
-    #h1991{
-      position: absolute;
-      margin-left: 30px;
-      margin-top: 200px;
-    }
-    #h2000{
-      position: absolute;
-      margin-left: 370px;
-      margin-top: 200px;
+      margin-top: 470px;
     }
 
-    #h2010{
+    #Leg_GINI{
+      margin-top: 400px;
+    }
+    #IDHh1991{
       position: absolute;
-      margin-left: 720px;
-      margin-top: 200px;
+      margin-top: 240px;
+    }
+    #IDHh2000{
+      position: absolute;
+      margin-left: 350px;
+      margin-top: 240px;
+    }
+
+    #IDHh2010{
+      position: absolute;
+      margin-left: 700px;
+      margin-top: 240px;
+    }
+
+    #GINImap1991{
+      position: absolute;
+      margin-left: 30px;
+      top: 900px;
+    }
+    #GINImap2000{
+      position: absolute;
+      margin-left: 370px;
+      top: 900px;
+    }
+    #GINImap2010{
+      position: absolute;
+      margin-left: 700px;
+      top: 1500px;
+    }
+
+
+    #RENDAmap1991{
+      position: absolute;
+      margin-left: 30px;
+      top: 1400px;
+    }
+    #RENDAmap2000{
+      position: absolute;
+      margin-left: 370px;
+      top: 1400px;
+    }
+    #RENDAmap2010{
+      position: absolute;
+      margin-left: 700px;
+      top: 1400px;
     }
 
 	</style>
@@ -119,28 +155,51 @@
 	   <h1>Visão geral das cidades Brasileiras</h1>
 
    </header>
+      <p> <h3>Evolução do IDH</h3> ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+    <div id= "IDHh1991"></div>
+    <div id= "IDHh2000"></div>
+    <div id= "IDHh2010"></div>
 
-    <div id= "h1991"></div>
-    <div id= "h2000"></div>
-    <div id= "h2010"></div>
+   <div id="IDHmap1991"><h4>IDHM 1991</h4></div>
+   <div id="IDHmap2000"><h4>IDHM 2000</h4></div>
+   <div id="IDHmap2010"><h4>IDHM 2010</h4></div>
 
-   <div id="map1991"><h4>IDHM 1991</h4></div>
-   <div id="map2000"><h4>IDHM 2000</h4></div>
-   <div id="map2010"><h4>IDHM 2010</h4></div>
+  <select id="selectElementId">
+    <option id = "S" value="start" selected="selected">-------</option>
+    <option id = "MA" value="Muito Alto">Muito Alto</option>
+    <option id = "A" value="Alto">Alto</option>
+    <option id = "M" value="Medio">Medio</option>
+    <option id = "B" value="Baixo">Baixo</option>
+    <option id = "MB" value="Muito Baixo">Muito Baixo</option>
+  </select>
 
    <div id = "Leg_IDH">
 
    <p> <h3>Evolução do IDH</h3> "O IDHM brasileiro considera as mesmas três dimensões do IDH Global – longevidade, educação e renda, mas vai além: adequa a metodologia global ao contexto brasileiro e à disponibilidade de indicadores nacionais. Embora meçam os mesmos fenômenos, os indicadores levados em conta no IDHM são mais adequados para avaliar o desenvolvimento dos municípios e regiões metropolitanas brasileiras." Conheça o Atlas do Desenvolvimento Humano no Brasil <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
     </div>
   
+ <div id="GINImap1991"><h4>GINI 1991</h4></div>
+ <div id="GINImap2000"><h4>GINI 2000</h4></div>
+ <div id="GINImap2010"><h4>GINI 2010</h4></div>
+
+ <div id = "Leg_GINI">
+
+   <p> <h3>Evolução do indice GINI</h3> "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+    </div>
+  
+
+ <div id="RENDAmap1991"><h4>Renda pc 1991</h4></div>
+ <div id="RENDAmap2000"><h4>Renda pc 2000</h4></div>
+ <div id="RENDAmap2010"><h4>Renda pc 2010</h4></div>
+
+
     <div id="tooltip" class="hidden">
      <p><span id="CondNametaxa"></span></p>
    <p>IDH: <span id="taxa"></span></p>
   </div>
  
-  <script src="vis1991.js"></script>
-  <script src="vis2000.js"></script>
-  <script src="vis2010.js"></script>
+  <script src="js/visMap.js"></script>
+  <script src="js/filter.js"></script>
 
 <script>
 
@@ -148,9 +207,9 @@
 
 <script type="text/javascript">
 
-  var his1 = dc.barChart("#h1991");
-  var his2 = dc.barChart("#h2000");
-  var his3 = dc.barChart("#h2010");
+  var his1 = dc.barChart("#IDHh1991");
+  var his2 = dc.barChart("#IDHh2000");
+  var his3 = dc.barChart("#IDHh2010");
 
 
             d3.csv("data/AtlasIDHM1991.csv", function (data) {
@@ -248,7 +307,7 @@
   </script>
 
 <script>
-
+ 
   var arr;
 
   var width = 350,
@@ -271,15 +330,15 @@
   var path = d3.geo.path()
       .projection(projection);
 
-  var svg1991 = d3.select("#map1991").append("svg")
+  var svg1991 = d3.select("#IDHmap1991").append("svg")
       .attr("width", width)
       .attr("height", height);
 
-  var svg2000 = d3.select("#map2000").append("svg")
+  var svg2000 = d3.select("#IDHmap2000").append("svg")
       .attr("width", width)
       .attr("height", height);
 
-  var svg2010 = d3.select("#map2010").append("svg")
+  var svg2010 = d3.select("#IDHmap2010").append("svg")
       .attr("width", width)
       .attr("height", height);
 
@@ -292,14 +351,130 @@
 
     function readq(error, br){
 
-      var x1 = mapBR1991(svg1991,width,height,path,rateByName1991);
-      var x2 = mapBR2000(svg2000,width,height,path,rateByName2000);
-      var x3 = mapBR2010(svg2010,width,height,path,rateByName2010);
+      var x1 = mapBR(svg1991,width,height,path,rateByName1991,"500","0");
+      var x2 = mapBR(svg2000,width,height,path,rateByName2000,"500", "330");
+      var x3 = mapBR(svg2010,width,height,path,rateByName2010,"500", "600");
+
+      svg1991 = x1(error,br);
+      svg2000 = x2(error,br);
+      svg2010 = x3(error,br);
+
+
+      d3.selectAll("select").on("change", function change() {
+
+        var e = document.getElementById("selectElementId");
+        var strUser = e.options[e.selectedIndex].value;
+
+        svg1991 = changeColor(svg1991,rateByName1991,strUser);
+        svg2000 = changeColor(svg2000,rateByName2000,strUser);
+        svg2010 = changeColor(svg2010,rateByName2010,strUser);
+
+      });
+    }
+
+</script>
+
+
+<script>
+
+  var arr;
+
+  var rateByName1991GINI = d3.map();
+  var rateByName2000GINI = d3.map();
+  var rateByName2010GINI = d3.map();
+
+  var projection = d3.geo.mercator()
+      .center([-10,-30])
+      .scale(375);
+
+  var path = d3.geo.path()
+      .projection(projection);
+
+  var svg1991GINI = d3.select("#GINImap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2000GINI = d3.select("#GINImap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2010GINI = d3.select("#GINImap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  queue()
+    .defer(d3.json, "mnmbr.json")
+    .defer(d3.csv, "data/AtlasGINI.csv", 
+      function(d) { 
+
+        rateByName1991GINI.set(d.Espacialidades, +d.Gini1991);
+        rateByName2000GINI.set(d.Espacialidades, +d.Gini2000);
+        rateByName2010GINI.set(d.Espacialidades, +d.Gini2010); 
+      })
+    .await(readq);
+
+    function readq(error, br){
+
+      var x4 = mapBR(svg1991GINI,width,height,path,rateByName1991GINI, "1100", "0");
+      var x5 = mapBR(svg2000GINI,width,height,path,rateByName2000GINI, "1100", "330");
+      var x6 = mapBR(svg2010GINI,width,height,path,rateByName2010GINI, "1100","600");
+
+      x4(error,br);
+      x5(error,br);
+      x6(error,br);
+    }
+
+</script>
+
+<script>
+
+  var arr;
+
+  var rateByName1991RENDA = d3.map();
+  var rateByName2000RENDA = d3.map();
+  var rateByName2010RENDA = d3.map();
+
+  var projection = d3.geo.mercator()
+      .center([-10,-30])
+      .scale(375);
+
+  var path = d3.geo.path()
+      .projection(projection);
+
+  var svg1991RENDA = d3.select("#RENDAmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2000RENDA = d3.select("#RENDAmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2010RENDA = d3.select("#RENDAmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  queue()
+    .defer(d3.json, "mnmbr.json")
+    .defer(d3.csv, "data/AtlasRENDA.csv", 
+      function(d) { 
+        rateByName1991RENDA.set(d.Espacialidades, +d.Renda1991);
+        rateByName2000RENDA.set(d.Espacialidades, +d.Renda2000);
+        rateByName2010RENDA.set(d.Espacialidades, +d.Renda2010); 
+      })
+    .await(readq);
+
+
+    function readq(error, br){
+
+      var x1 = mapBR(svg1991RENDA,width,height,path,rateByName1991RENDA, 1600, 0);
+      var x2 = mapBR(svg2000RENDA,width,height,path,rateByName2000RENDA, 1600, 330);
+      var x3 = mapBR(svg2010RENDA,width,height,path,rateByName2010RENDA, 1600, 600);
 
       x1(error,br);
       x2(error,br);
       x3(error,br);
     }
+    
 
 </script>
 

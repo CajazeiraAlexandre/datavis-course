@@ -1,4 +1,4 @@
-function mapBR2000(svg,width,height,path,rateByName, t_top, t_lef){
+function mapBR(svg,width,height,path,rateByName, t_top, t_lef){
   
   var func;  
    

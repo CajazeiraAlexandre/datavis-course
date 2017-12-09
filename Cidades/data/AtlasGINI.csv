@@ -1,0 +1,5567 @@
+Codigo,Espacialidades,Gini1991,Gini2000,Gini2010
+-,Brasil,0.63,0.64,0.6
+-,Abadia de Goias,0.44,0.5,0.42
+-,Abadia dos Dourados,0.46,0.5,0.47
+-,Abadiania,0.52,0.54,0.43
+-,Abaete,0.52,0.58,0.54
+-,Abaetetuba,0.5,0.6,0.53
+-,Abaiara,0.44,0.6,0.48
+-,Abaira,0.52,0.53,0.46
+-,Abare,0.47,0.55,0.55
+-,Abatia,0.53,0.43,0.44
+-,Abdon Batista,0.48,0.56,0.45
+-,Abelardo Luz,0.57,0.72,0.53
+-,Abel Figueiredo,0.51,0.52,0.57
+-,Abre Campo,0.52,0.51,0.52
+-,Abreu E Lima,0.47,0.46,0.45
+-,Abreulandia,0.45,0.47,0.71
+-,Acaiaca,0.59,0.55,0.48
+-,Acailandia,0.62,0.62,0.56
+-,Acajutiba,0.55,0.56,0.57
+-,Acara,0.58,0.5,0.53
+-,Acarape,0.45,0.51,0.43
+-,Acarau,0.51,0.64,0.6
+-,Acari,0.53,0.47,0.49
+-,Acaua,0.4,0.66,0.5
+-,Acegua,0.53,0.54,0.53
+-,Acopiara,0.58,0.71,0.57
+-,Acorizal,0.52,0.57,0.5
+-,Acrelandia,0.6,0.63,0.54
+-,Acreuna,0.53,0.57,0.53
+-,Acucena,0.56,0.55,0.48
+-,Acu,0.55,0.59,0.53
+-,Adamantina,0.57,0.55,0.51
+-,Adelandia,0.57,0.53,0.43
+-,Adolfo,0.41,0.38,0.38
+-,Adrianopolis,0.56,0.57,0.53
+-,Adustina,0.44,0.5,0.54
+-,Afogados da Ingazeira,0.59,0.65,0.56
+-,Afonso Bezerra,0.49,0.57,0.53
+-,Afonso Claudio,0.64,0.54,0.5
+-,Afonso Cunha,0.39,0.52,0.59
+-,Afranio,0.48,0.57,0.53
+-,Afua,0.47,0.49,0.66
+-,Agrestina,0.51,0.59,0.48
+-,Agricolandia,0.51,0.45,0.49
+-,Agrolandia,0.54,0.46,0.36
+-,Agronomica,0.53,0.47,0.47
+-,Agua Azul do Norte,0.54,0.63,0.49
+-,Agua Boa,0.55,0.64,0.5
+-,Agua Boa,0.59,0.67,0.49
+-,Agua Branca,0.52,0.66,0.56
+-,Agua Branca,0.53,0.71,0.54
+-,Agua Branca,0.5,0.55,0.49
+-,Agua Clara,0.46,0.57,0.5
+-,Agua Comprida,0.46,0.47,0.46
+-,Agua Doce do Maranhao,0.45,0.56,0.59
+-,Agua Doce do Norte,0.43,0.57,0.49
+-,Agua Doce,0.58,0.59,0.54
+-,Agua Fria,0.48,0.54,0.53
+-,Agua Fria de Goias,0.52,0.67,0.6
+-,Aguai,0.49,0.55,0.47
+-,Agua Limpa,0.48,0.56,0.46
+-,Aguanil,0.44,0.48,0.45
+-,Agua Nova,0.53,0.55,0.44
+-,Agua Preta,0.52,0.53,0.49
+-,Agua Santa,0.56,0.48,0.68
+-,Aguas Belas,0.53,0.62,0.58
+-,Aguas da Prata,0.54,0.54,0.52
+-,Aguas de Chapeco,0.54,0.6,0.44
+-,Aguas de Lindoia,0.59,0.53,0.43
+-,Aguas de Santa Barbara,0.55,0.51,0.48
+-,Aguas de Sao Pedro,0.54,0.57,0.54
+-,Aguas Formosas,0.64,0.65,0.57
+-,Aguas Frias,0.51,0.55,0.38
+-,Aguas Lindas de Goias,0.57,0.45,0.43
+-,Aguas Mornas,0.39,0.36,0.34
+-,Aguas Vermelhas,0.61,0.6,0.51
+-,Agudo,0.61,0.53,0.52
+-,Agudos do Sul,0.49,0.52,0.48
+-,Agudos,0.47,0.53,0.41
+-,Aguia Branca,0.65,0.55,0.53
+-,Aguiarnopolis,0.45,0.62,0.48
+-,Aguiar,0.49,0.5,0.65
+-,Aimores,0.56,0.56,0.53
+-,Aiquara,0.64,0.55,0.44
+-,Aiuaba,0.62,0.65,0.53
+-,Aiuruoca,0.55,0.63,0.49
+-,Ajuricaba,0.58,0.45,0.47
+-,Alagoa Grande,0.6,0.55,0.53
+-,Alagoa,0.62,0.53,0.42
+-,Alagoa Nova,0.52,0.6,0.54
+-,Alagoinha do Piaui,0.6,0.53,0.51
+-,Alagoinha,0.47,0.53,0.52
+-,Alagoinha,0.54,0.56,0.49
+-,Alagoinhas,0.61,0.59,0.55
+-,Alambari,0.5,0.49,0.44
+-,Albertina,0.4,0.39,0.35
+-,Alcantara,0.48,0.62,0.59
+-,Alcantaras,0.47,0.54,0.46
+-,Alcantil,0.42,0.47,0.48
+-,Alcinopolis,0.61,0.46,0.54
+-,Alcobaca,0.62,0.54,0.53
+-,Aldeias Altas,0.46,0.54,0.59
+-,Alecrim,0.54,0.5,0.49
+-,Alegre,0.6,0.57,0.52
+-,Alegrete do Piaui,0.53,0.55,0.5
+-,Alegrete,0.61,0.59,0.52
+-,Alegria,0.57,0.59,0.53
+-,Alem Paraiba,0.55,0.56,0.5
+-,Alenquer,0.51,0.56,0.58
+-,Alexandria,0.6,0.56,0.53
+-,Alexania,0.51,0.54,0.46
+-,Alfenas,0.56,0.57,0.51
+-,Alfredo Chaves,0.52,0.55,0.48
+-,Alfredo Marcondes,0.55,0.53,0.36
+-,Alfredo Vasconcelos,0.52,0.52,0.41
+-,Alfredo Wagner,0.52,0.58,0.46
+-,Algodao de Jandaira,0.37,0.45,0.47
+-,Alhandra,0.48,0.52,0.45
+-,Alianca do Tocantins,0.51,0.55,0.47
+-,Alianca,0.5,0.51,0.49
+-,Almadina,0.5,0.52,0.46
+-,Almas,0.61,0.59,0.57
+-,Almeirim,0.63,0.72,0.65
+-,Almenara,0.69,0.67,0.53
+-,Almino Afonso,0.56,0.57,0.49
+-,Almirante Tamandare do Sul,0.54,0.5,0.44
+-,Almirante Tamandare,0.4,0.46,0.43
+-,Aloandia,0.42,0.55,0.44
+-,Alpercata,0.44,0.52,0.45
+-,Alpestre,0.56,0.59,0.49
+-,Alpinopolis,0.56,0.48,0.47
+-,Alta Floresta D'Oeste,0.63,0.58,0.58
+-,Alta Floresta,0.55,0.59,0.48
+-,Altair,0.42,0.49,0.42
+-,Altamira do Maranhao,0.55,0.5,0.52
+-,Altamira do Parana,0.45,0.63,0.58
+-,Altamira,0.59,0.58,0.56
+-,Altaneira,0.62,0.71,0.55
+-,Alterosa,0.49,0.48,0.44
+-,Altinho,0.52,0.56,0.51
+-,Altinopolis,0.55,0.64,0.45
+-,Alto Alegre do Maranhao,0.42,0.58,0.51
+-,Alto Alegre do Pindare,0.44,0.55,0.57
+-,Alto Alegre dos Parecis,0.64,0.51,0.54
+-,Alto Alegre,0.68,0.55,0.73
+-,Alto Alegre,0.61,0.46,0.48
+-,Alto Alegre,0.49,0.47,0.35
+-,Alto Araguaia,0.61,0.57,0.47
+-,Alto Bela Vista,0.41,0.42,0.46
+-,Alto Boa Vista,0.56,0.55,0.57
+-,Alto Caparao,0.51,0.61,0.45
+-,Alto do Rodrigues,0.48,0.53,0.47
+-,Alto Feliz,0.41,0.3,0.29
+-,Alto Garcas,0.54,0.7,0.46
+-,Alto Horizonte,0.62,0.51,0.49
+-,Alto Jequitiba,0.55,0.47,0.51
+-,Alto Longa,0.54,0.57,0.58
+-,Altonia,0.61,0.51,0.38
+-,Alto Paraguai,0.54,0.53,0.47
+-,Alto Paraiso de Goias,0.66,0.6,0.65
+-,Alto Paraiso,0.43,0.43,0.52
+-,Alto Paraiso,0.6,0.62,0.54
+-,Alto Parana,0.51,0.5,0.43
+-,Alto Parnaiba,0.6,0.65,0.78
+-,Alto Piquiri,0.51,0.67,0.44
+-,Alto Rio Doce,0.54,0.58,0.46
+-,Alto Rio Novo,0.58,0.55,0.52
+-,Alto Santo,0.48,0.55,0.48
+-,Altos,0.54,0.55,0.55
+-,Alto Taquari,0.47,0.71,0.46
+-,Aluminio,0.39,0.42,0.42
+-,Alvaraes,0.63,0.55,0.58
+-,Alvarenga,0.54,0.57,0.52
+-,Alvares Florence,0.47,0.53,0.41
+-,Alvares Machado,0.49,0.53,0.46
+-,Alvaro de Carvalho,0.45,0.4,0.38
+-,Alvinlandia,0.45,0.48,0.53
+-,Alvinopolis,0.6,0.54,0.46
+-,Alvorada de Minas,0.54,0.73,0.58
+-,Alvorada D'Oeste,0.58,0.65,0.53
+-,Alvorada do Gurgueia,0.59,0.63,0.6
+-,Alvorada do Norte,0.57,0.6,0.48
+-,Alvorada do Sul,0.52,0.52,0.48
+-,Alvorada,0.41,0.44,0.43
+-,Alvorada,0.63,0.53,0.47
+-,Amajari,0.5,0.64,0.75
+-,Amambai,0.58,0.62,0.56
+-,Amapa,0.61,0.61,0.66
+-,Amapa do Maranhao,0.48,0.53,0.57
+-,Amapora,0.4,0.53,0.39
+-,Amaraji,0.53,0.49,0.5
+-,Amaral Ferrador,0.57,0.48,0.44
+-,Amaralina,0.74,0.53,0.53
+-,Amarante do Maranhao,0.68,0.6,0.59
+-,Amarante,0.51,0.57,0.53
+-,Amargosa,0.6,0.55,0.56
+-,Amatura,0.7,0.66,0.64
+-,Amelia Rodrigues,0.53,0.56,0.49
+-,America Dourada,0.53,0.56,0.5
+-,Americana,0.47,0.49,0.47
+-,Americano do Brasil,0.62,0.67,0.4
+-,Americo Brasiliense,0.34,0.46,0.39
+-,Americo de Campos,0.52,0.48,0.43
+-,Ametista do Sul,0.57,0.57,0.58
+-,Amontada,0.5,0.71,0.56
+-,Amorinopolis,0.6,0.54,0.41
+-,Amparo de Sao Francisco,0.45,0.61,0.51
+-,Amparo do Serra,0.52,0.54,0.46
+-,Amparo,0.5,0.47,0.5
+-,Amparo,0.47,0.53,0.5
+-,Ampere,0.6,0.58,0.48
+-,Anadia,0.51,0.58,0.53
+-,Anage,0.44,0.54,0.48
+-,Anahy,0.5,0.51,0.42
+-,Anajas,0.39,0.56,0.62
+-,Anajatuba,0.59,0.51,0.6
+-,Analandia,0.49,0.51,0.53
+-,Anama,0.53,0.68,0.58
+-,Ananas,0.58,0.55,0.48
+-,Ananindeua,0.54,0.53,0.52
+-,Anapolis,0.56,0.56,0.5
+-,Anapu,0.72,0.65,0.58
+-,Anapurus,0.45,0.74,0.54
+-,Anastacio,0.52,0.56,0.47
+-,Anaurilandia,0.58,0.53,0.51
+-,Anchieta,0.51,0.54,0.46
+-,Anchieta,0.52,0.46,0.44
+-,Andarai,0.67,0.64,0.59
+-,Andira,0.48,0.52,0.42
+-,Andorinha,0.52,0.58,0.55
+-,Andradas,0.47,0.56,0.44
+-,Andradina,0.52,0.58,0.51
+-,Andre da Rocha,0.53,0.54,0.5
+-,Andrelandia,0.62,0.61,0.51
+-,Angatuba,0.51,0.55,0.45
+-,Angelandia,0.49,0.64,0.53
+-,Angelica,0.5,0.49,0.42
+-,Angelim,0.56,0.6,0.58
+-,Angelina,0.51,0.49,0.47
+-,Angical,0.51,0.51,0.54
+-,Angical do Piaui,0.67,0.51,0.6
+-,Angicos,0.54,0.58,0.51
+-,Angico,0.41,0.52,0.47
+-,Angra dos Reis,0.54,0.53,0.5
+-,Anguera,0.47,0.52,0.48
+-,Angulo,0.47,0.52,0.44
+-,Anhanguera,0.41,0.41,0.39
+-,Anhembi,0.47,0.55,0.42
+-,Anhumas,0.45,0.46,0.42
+-,Anicuns,0.47,0.57,0.46
+-,Anisio de Abreu,0.47,0.54,0.52
+-,Anita Garibaldi,0.59,0.56,0.5
+-,Anitapolis,0.58,0.56,0.44
+-,Anori,0.46,0.58,0.6
+-,Anta Gorda,0.56,0.45,0.34
+-,Antas,0.52,0.5,0.52
+-,Antonina do Norte,0.55,0.59,0.51
+-,Antonina,0.56,0.56,0.55
+-,Antonio Almeida,0.47,0.48,0.51
+-,Antonio Cardoso,0.42,0.54,0.46
+-,Antonio Carlos,0.52,0.54,0.47
+-,Antonio Carlos,0.47,0.44,0.43
+-,Antonio Dias,0.52,0.53,0.48
+-,Antonio Goncalves,0.51,0.51,0.51
+-,Antonio Joao,0.58,0.51,0.54
+-,Antonio Martins,0.71,0.57,0.51
+-,Antonio Olinto,0.54,0.53,0.49
+-,Antonio Prado de Minas,0.5,0.54,0.47
+-,Antonio Prado,0.59,0.49,0.41
+-,Aparecida de Goiania,0.45,0.46,0.47
+-,Aparecida D'Oeste,0.56,0.55,0.47
+-,Aparecida do Rio Doce,0.35,0.44,0.49
+-,Aparecida do Rio Negro,0.56,0.46,0.48
+-,Aparecida do Taboado,0.55,0.52,0.46
+-,Aparecida,0.46,0.61,0.51
+-,Aparecida,0.57,0.53,0.46
+-,Aperibe,0.54,0.55,0.43
+-,Apiaca,0.63,0.57,0.53
+-,Apiacas,0.58,0.53,0.46
+-,Apiai,0.55,0.6,0.55
+-,Apicum-Acu,0.45,0.55,0.52
+-,Apiuna,0.5,0.47,0.39
+-,Apodi,0.53,0.53,0.55
+-,Apora,0.48,0.57,0.56
+-,Apore,0.57,0.67,0.45
+-,Apuarema,0.53,0.52,0.46
+-,Apucarana,0.49,0.51,0.45
+-,Apui,0.59,0.76,0.56
+-,Apuiares,0.53,0.57,0.54
+-,Aquidaba,0.54,0.54,0.54
+-,Aquidauana,0.61,0.64,0.56
+-,Aquiraz,0.49,0.57,0.48
+-,Arabuta,0.51,0.52,0.45
+-,Aracagi,0.46,0.51,0.53
+-,Aracai,0.47,0.49,0.42
+-,Aracaju,0.62,0.63,0.62
+-,Aracariguama,0.54,0.53,0.46
+-,Aracas,0.47,0.52,0.53
+-,Aracati,0.57,0.55,0.53
+-,Aracatu,0.44,0.55,0.45
+-,Aracatuba,0.55,0.62,0.52
+-,Araci,0.5,0.58,0.57
+-,Aracitaba,0.56,0.51,0.42
+-,Aracoiaba,0.56,0.56,0.51
+-,Aracoiaba da Serra,0.5,0.53,0.52
+-,Aracoiaba,0.42,0.53,0.45
+-,Aracruz,0.58,0.59,0.5
+-,Aracuai,0.56,0.62,0.57
+-,Aracu,0.48,0.45,0.53
+-,Aragarcas,0.47,0.52,0.45
+-,Aragoiania,0.44,0.51,0.45
+-,Aragominas,0.42,0.55,0.54
+-,Araguacema,0.56,0.71,0.56
+-,Araguacu,0.54,0.56,0.49
+-,Araguaiana,0.61,0.52,0.43
+-,Araguaina,0.62,0.6,0.56
+-,Araguainha,0.64,0.36,0.4
+-,Araguana,0.42,0.67,0.52
+-,Araguana,0.42,0.72,0.52
+-,Araguapaz,0.52,0.65,0.53
+-,Araguari,0.53,0.55,0.47
+-,Araguatins,0.6,0.6,0.57
+-,Araioses,0.43,0.61,0.59
+-,Aral Moreira,0.57,0.58,0.53
+-,Aramari,0.53,0.6,0.51
+-,Arambare,0.41,0.52,0.48
+-,Arame,0.55,0.54,0.72
+-,Aramina,0.46,0.48,0.43
+-,Arandu,0.49,0.44,0.39
+-,Arantina,0.49,0.42,0.42
+-,Arapei,0.53,0.45,0.39
+-,Arapiraca,0.55,0.57,0.55
+-,Arapoema,0.5,0.62,0.51
+-,Araponga,0.57,0.5,0.44
+-,Arapongas,0.49,0.5,0.46
+-,Arapora,0.39,0.58,0.41
+-,Arapoti,0.68,0.71,0.57
+-,Arapua,0.52,0.52,0.45
+-,Arapua,0.42,0.48,0.5
+-,Araputanga,0.58,0.59,0.5
+-,Araquari,0.52,0.48,0.4
+-,Ararangua,0.49,0.51,0.45
+-,Arara,0.56,0.51,0.54
+-,Araraquara,0.48,0.52,0.5
+-,Araras,0.48,0.49,0.47
+-,Ararenda,0.43,0.64,0.53
+-,Ararica,0.44,0.42,0.35
+-,Arari,0.59,0.6,0.57
+-,Araripe,0.49,0.68,0.56
+-,Araripina,0.6,0.67,0.56
+-,Araruama,0.58,0.56,0.54
+-,Araruna,0.62,0.54,0.52
+-,Araruna,0.52,0.51,0.4
+-,Arataca,0.6,0.47,0.47
+-,Aratiba,0.52,0.51,0.54
+-,Aratuba,0.49,0.6,0.49
+-,Aratuipe,0.49,0.55,0.52
+-,Araua,0.54,0.58,0.5
+-,Araucaria,0.49,0.46,0.46
+-,Araujos,0.47,0.43,0.36
+-,Araxa,0.53,0.56,0.48
+-,Arceburgo,0.48,0.46,0.38
+-,Arco-Iris,0.77,0.4,0.4
+-,Arcos,0.51,0.51,0.43
+-,Arcoverde,0.57,0.6,0.58
+-,Areado,0.5,0.51,0.45
+-,Areal,0.5,0.53,0.48
+-,Arealva,0.49,0.49,0.45
+-,Areia Branca,0.52,0.52,0.48
+-,Areia Branca,0.44,0.51,0.48
+-,Areia de Baraunas,0.51,0.41,0.46
+-,Areial,0.6,0.53,0.49
+-,Areia,0.57,0.6,0.55
+-,Areias,0.6,0.62,0.44
+-,Areiopolis,0.32,0.45,0.36
+-,Arenapolis,0.52,0.59,0.46
+-,Arenopolis,0.5,0.49,0.5
+-,Ares,0.46,0.54,0.53
+-,Argirita,0.51,0.52,0.39
+-,Aricanduva,0.48,0.56,0.5
+-,Arinos,0.54,0.66,0.55
+-,Aripuana,0.64,0.52,0.56
+-,Ariquemes,0.57,0.59,0.53
+-,Ariranha do Ivai,0.54,0.65,0.41
+-,Ariranha,0.5,0.39,0.4
+-,Armacao dos Buzios,0.54,0.58,0.51
+-,Armazem,0.57,0.51,0.44
+-,Arneiroz,0.52,0.58,0.53
+-,Aroazes,0.52,0.54,0.52
+-,Aroeiras do Itaim,0.48,0.54,0.48
+-,Aroeiras,0.55,0.53,0.58
+-,Arraial do Cabo,0.49,0.5,0.47
+-,Arraial,0.46,0.59,0.55
+-,Arraias,0.63,0.69,0.61
+-,Arroio do Meio,0.45,0.48,0.36
+-,Arroio do Padre,0.39,0.4,0.53
+-,Arroio do Sal,0.51,0.5,0.47
+-,Arroio dos Ratos,0.5,0.5,0.46
+-,Arroio do Tigre,0.56,0.51,0.47
+-,Arroio Grande,0.56,0.59,0.5
+-,Arroio Trinta,0.49,0.46,0.45
+-,Artur Nogueira,0.5,0.49,0.46
+-,Aruana,0.46,0.5,0.51
+-,Aruja,0.57,0.57,0.56
+-,Arvoredo,0.47,0.55,0.36
+-,Arvorezinha,0.52,0.48,0.41
+-,Ascurra,0.39,0.41,0.35
+-,Aspasia,0.49,0.54,0.44
+-,Assai,0.59,0.54,0.55
+-,Assare,0.53,0.61,0.59
+-,Assis Brasil,0.48,0.6,0.61
+-,Assis Chateaubriand,0.58,0.67,0.47
+-,Assis,0.52,0.55,0.5
+-,Assuncao do Piaui,0.51,0.5,0.57
+-,Assuncao,0.48,0.57,0.54
+-,Astolfo Dutra,0.56,0.49,0.39
+-,Astorga,0.54,0.55,0.5
+-,Atalaia,0.48,0.54,0.5
+-,Atalaia do Norte,0.76,0.74,0.65
+-,Atalaia,0.46,0.48,0.41
+-,Atalanta,0.44,0.5,0.44
+-,Ataleia,0.55,0.63,0.48
+-,Atibaia,0.55,0.57,0.53
+-,Atilio Vivacqua,0.57,0.51,0.44
+-,Augustinopolis,0.58,0.67,0.52
+-,Augusto Correa,0.41,0.5,0.56
+-,Augusto de Lima,0.43,0.52,0.42
+-,Augusto Pestana,0.64,0.49,0.49
+-,Augusto Severo,0.52,0.62,0.68
+-,Aurea,0.55,0.47,0.42
+-,Aurelino Leal,0.54,0.48,0.45
+-,Auriflama,0.54,0.61,0.47
+-,Aurilandia,0.48,0.52,0.43
+-,Aurora,0.65,0.52,0.53
+-,Aurora do Para,0.48,0.56,0.56
+-,Aurora do Tocantins,0.52,0.63,0.68
+-,Aurora,0.46,0.48,0.4
+-,Autazes,0.7,0.66,0.59
+-,Avai,0.48,0.48,0.47
+-,Avanhandava,0.54,0.53,0.42
+-,Avare,0.55,0.56,0.47
+-,Aveiro,0.57,0.64,0.6
+-,Avelino Lopes,0.55,0.54,0.56
+-,Avelinopolis,0.5,0.8,0.55
+-,Axixa do Tocantins,0.49,0.59,0.5
+-,Axixa,0.43,0.56,0.54
+-,Babaculandia,0.49,0.56,0.49
+-,Bacabal,0.51,0.58,0.55
+-,Bacabeira,0.42,0.51,0.54
+-,Bacuri,0.5,0.7,0.58
+-,Bacurituba,0.36,0.57,0.55
+-,Bady Bassitt,0.5,0.45,0.36
+-,Baependi,0.66,0.54,0.49
+-,Bage,0.6,0.58,0.56
+-,Bagre,0.44,0.52,0.48
+-,Baia da Traicao,0.5,0.57,0.58
+-,Baia Formosa,0.53,0.5,0.47
+-,Baianopolis,0.54,0.7,0.57
+-,Baiao,0.51,0.64,0.53
+-,Baixa Grande,0.43,0.54,0.53
+-,Baixa Grande do Ribeiro,0.45,0.7,0.56
+-,Baixio,0.57,0.53,0.46
+-,Baixo Guandu,0.51,0.51,0.48
+-,Balbinos,0.42,0.45,0.38
+-,Baldim,0.5,0.52,0.46
+-,Baliza,0.46,0.56,0.58
+-,Balneario Arroio do Silva,0.33,0.51,0.53
+-,Balneario Barra do Sul,0.44,0.53,0.41
+-,Balneario Camboriu,0.55,0.67,0.52
+-,Balneario Gaivota,0.46,0.53,0.47
+-,Balneario Picarras,0.53,0.57,0.44
+-,Balneario Pinhal,0.5,0.61,0.5
+-,Balsamo,0.48,0.62,0.44
+-,Balsa Nova,0.52,0.47,0.44
+-,Balsas,0.57,0.71,0.58
+-,Bambui,0.51,0.48,0.49
+-,Banabuiu,0.53,0.61,0.55
+-,Bananal,0.61,0.59,0.51
+-,Bananeiras,0.59,0.59,0.59
+-,Bandeira do Sul,0.4,0.42,0.34
+-,Bandeira,0.48,0.58,0.46
+-,Bandeirante,0.47,0.66,0.4
+-,Bandeirantes do Tocantins,0.5,0.63,0.55
+-,Bandeirantes,0.6,0.5,0.51
+-,Bandeirantes,0.51,0.53,0.49
+-,Bannach,0.67,0.53,0.62
+-,Banzae,0.39,0.47,0.46
+-,Barao de Antonina,0.59,0.51,0.47
+-,Barao de Cocais,0.48,0.48,0.42
+-,Barao de Cotegipe,0.56,0.54,0.42
+-,Barao de Grajau,0.53,0.63,0.52
+-,Barao de Melgaco,0.48,0.56,0.5
+-,Barao de Monte Alto,0.49,0.5,0.45
+-,Barao do Triunfo,0.47,0.47,0.53
+-,Barao,0.41,0.44,0.4
+-,Barauna,0.39,0.56,0.51
+-,Barauna,0.52,0.56,0.42
+-,Barbacena,0.58,0.57,0.58
+-,Barbalha,0.6,0.62,0.51
+-,Barbosa Ferraz,0.6,0.58,0.48
+-,Barbosa,0.44,0.49,0.4
+-,Barcarena,0.56,0.6,0.55
+-,Barcelona,0.5,0.55,0.5
+-,Barcelos,0.43,0.64,0.74
+-,Bariri,0.48,0.5,0.42
+-,Barra,0.59,0.64,0.59
+-,Barra Bonita,0.55,0.38,0.4
+-,Barra Bonita,0.48,0.5,0.45
+-,Barracao,0.71,0.57,0.54
+-,Barracao,0.59,0.59,0.57
+-,Barra da Estiva,0.53,0.48,0.53
+-,Barra D'Alcantara,0.45,0.54,0.51
+-,Barra de Guabiraba,0.43,0.5,0.51
+-,Barra de Santana,0.54,0.53,0.5
+-,Barra de Santa Rosa,0.46,0.48,0.52
+-,Barra de Santo Antonio,0.41,0.48,0.52
+-,Barra de Sao Francisco,0.61,0.57,0.5
+-,Barra de Sao Miguel,0.54,0.51,0.55
+-,Barra de Sao Miguel,0.44,0.55,0.45
+-,Barra do Bugres,0.61,0.55,0.51
+-,Barra do Chapeu,0.6,0.59,0.54
+-,Barra do Choca,0.51,0.35,0.44
+-,Barra do Corda,0.66,0.64,0.62
+-,Barra do Garcas,0.6,0.59,0.55
+-,Barra do Guarita,0.48,0.53,0.48
+-,Barra do Jacare,0.5,0.54,0.42
+-,Barra do Mendes,0.53,0.54,0.57
+-,Barra do Ouro,0.46,0.62,0.55
+-,Barra do Pirai,0.53,0.52,0.51
+-,Barra do Quarai,0.65,0.59,0.48
+-,Barra do Ribeiro,0.54,0.54,0.48
+-,Barra do Rio Azul,0.55,0.57,0.4
+-,Barra do Rocha,0.51,0.56,0.52
+-,Barra dos Coqueiros,0.55,0.52,0.54
+-,Barra do Turvo,0.53,0.6,0.5
+-,Barra Funda,0.49,0.43,0.39
+-,Barra Longa,0.54,0.52,0.48
+-,Barra Mansa,0.52,0.54,0.48
+-,Barras,0.54,0.59,0.51
+-,Barra Velha,0.47,0.53,0.44
+-,Barreira,0.52,0.55,0.5
+-,Barreiras,0.6,0.62,0.56
+-,Barreiras do Piaui,0.51,0.5,0.53
+-,Barreirinha,0.52,0.58,0.6
+-,Barreirinhas,0.49,0.63,0.61
+-,Barreiros,0.73,0.56,0.54
+-,Barretos,0.54,0.57,0.48
+-,Barrinha,0.43,0.46,0.4
+-,Barro Alto,0.43,0.47,0.51
+-,Barro Alto,0.46,0.49,0.44
+-,Barrocas,0.52,0.56,0.46
+-,Barro,0.5,0.53,0.5
+-,Barro Duro,0.6,0.54,0.51
+-,Barrolandia,0.53,0.57,0.44
+-,Barro Preto,0.42,0.5,0.49
+-,Barroquinha,0.41,0.52,0.55
+-,Barros Cassal,0.54,0.53,0.51
+-,Barroso,0.52,0.54,0.48
+-,Barueri,0.6,0.67,0.61
+-,Bastos,0.7,0.5,0.41
+-,Bataguassu,0.58,0.52,0.47
+-,Batalha,0.55,0.67,0.49
+-,Batalha,0.55,0.56,0.54
+-,Batatais,0.52,0.52,0.5
+-,Bataypora,0.58,0.45,0.56
+-,Baturite,0.52,0.6,0.48
+-,Bauru,0.53,0.58,0.55
+-,Bayeux,0.45,0.45,0.46
+-,Bebedouro,0.49,0.56,0.51
+-,Beberibe,0.47,0.6,0.55
+-,Bela Cruz,0.49,0.54,0.55
+-,Belagua,0.43,0.69,0.63
+-,Bela Vista da Caroba,0.65,0.49,0.51
+-,Bela Vista de Goias,0.56,0.46,0.51
+-,Bela Vista de Minas,0.45,0.48,0.4
+-,Bela Vista do Maranhao,0.5,0.6,0.5
+-,Bela Vista do Paraiso,0.55,0.57,0.47
+-,Bela Vista do Piaui,0.45,0.56,0.59
+-,Bela Vista do Toldo,0.47,0.47,0.46
+-,Bela Vista,0.68,0.68,0.61
+-,Belem,0.54,0.58,0.56
+-,Belem de Maria,0.54,0.56,0.47
+-,Belem do Brejo do Cruz,0.47,0.48,0.46
+-,Belem do Piaui,0.43,0.5,0.53
+-,Belem de Sao Francisco,0.56,0.6,0.63
+-,Belem,0.6,0.64,0.61
+-,Belem,0.49,0.54,0.49
+-,Belford Roxo,0.44,0.45,0.42
+-,Belmiro Braga,0.58,0.49,0.45
+-,Belmonte,0.56,0.59,0.5
+-,Belmonte,0.49,0.51,0.45
+-,Belo Campo,0.51,0.52,0.49
+-,Belo Horizonte,0.61,0.61,0.6
+-,Belo Jardim,0.52,0.55,0.51
+-,Belo Monte,0.42,0.56,0.65
+-,Belo Oriente,0.47,0.49,0.42
+-,Belo Vale,0.47,0.5,0.46
+-,Belterra,0.52,0.64,0.58
+-,Beneditinos,0.54,0.58,0.55
+-,Benedito Leite,0.49,0.54,0.58
+-,Benedito Novo,0.43,0.37,0.36
+-,Benevides,0.54,0.56,0.48
+-,Benjamin Constant,0.73,0.61,0.56
+-,Benjamin Constant do Sul,0.62,0.53,0.48
+-,Bento de Abreu,0.55,0.38,0.38
+-,Bento Fernandes,0.51,0.61,0.47
+-,Bento Goncalves,0.49,0.47,0.44
+-,Bequimao,0.5,0.62,0.55
+-,Berilo,0.55,0.5,0.45
+-,Berizal,0.44,0.52,0.41
+-,Bernardino Batista,0.49,0.64,0.55
+-,Bernardino de Campos,0.51,0.53,0.45
+-,Bernardo do Mearim,0.36,0.46,0.47
+-,Bernardo Sayao,0.58,0.76,0.42
+-,Bertioga,0.46,0.51,0.48
+-,Bertolinia,0.61,0.62,0.53
+-,Bertopolis,0.61,0.56,0.54
+-,Beruri,0.49,0.62,0.65
+-,Betania do Piaui,0.37,0.7,0.54
+-,Betania,0.52,0.51,0.55
+-,Betim,0.53,0.5,0.47
+-,Bezerros,0.51,0.53,0.52
+-,Bias Fortes,0.47,0.45,0.41
+-,Bicas,0.58,0.57,0.53
+-,Biguacu,0.47,0.51,0.39
+-,Bilac,0.48,0.49,0.43
+-,Biquinhas,0.56,0.45,0.41
+-,Birigui,0.47,0.52,0.42
+-,Biritiba-Mirim,0.51,0.51,0.53
+-,Biritinga,0.53,0.59,0.55
+-,Bituruna,0.48,0.51,0.49
+-,Blumenau,0.47,0.5,0.46
+-,Boa Esperanca do Iguacu,0.53,0.49,0.44
+-,Boa Esperanca do Sul,0.46,0.58,0.44
+-,Boa Esperanca,0.54,0.64,0.45
+-,Boa Esperanca,0.63,0.58,0.47
+-,Boa Esperanca,0.55,0.52,0.47
+-,Boa Hora,0.53,0.45,0.51
+-,Boa Nova,0.6,0.59,0.51
+-,Boa Ventura de Sao Roque,0.43,0.68,0.51
+-,Boa Ventura,0.51,0.5,0.46
+-,Boa Viagem,0.54,0.65,0.59
+-,Boa Vista da Aparecida,0.54,0.63,0.48
+-,Boa Vista das Missoes,0.54,0.59,0.44
+-,Boa Vista do Burica,0.49,0.55,0.43
+-,Boa Vista do Cadeado,0.5,0.7,0.4
+-,Boa Vista do Gurupi,0.52,0.49,0.52
+-,Boa Vista do Incra,0.51,0.59,0.45
+-,Boa Vista do Ramos,0.49,0.69,0.59
+-,Boa Vista do Sul,0.56,0.48,0.45
+-,Boa Vista do Tupim,0.81,0.56,0.56
+-,Boa Vista,0.53,0.52,0.42
+-,Boa Vista,0.57,0.57,0.58
+-,Boca da Mata,0.4,0.56,0.51
+-,Boca do Acre,0.59,0.61,0.63
+-,Bocaina de Minas,0.54,0.55,0.42
+-,Bocaina do Sul,0.41,0.48,0.41
+-,Bocaina,0.53,0.53,0.58
+-,Bocaina,0.46,0.45,0.42
+-,Bocaiuva do Sul,0.5,0.54,0.46
+-,Bocaiuva,0.63,0.55,0.51
+-,Bodoco,0.63,0.64,0.55
+-,Bodoquena,0.51,0.58,0.5
+-,Bodo,0.4,0.59,0.52
+-,Bofete,0.5,0.61,0.46
+-,Boituva,0.49,0.51,0.49
+-,Bombinhas,0.46,0.53,0.44
+-,Bom Conselho,0.62,0.58,0.62
+-,Bom Despacho,0.53,0.59,0.49
+-,Bom Jardim da Serra,0.56,0.66,0.57
+-,Bom Jardim de Goias,0.5,0.59,0.49
+-,Bom Jardim de Minas,0.55,0.5,0.46
+-,Bom Jardim,0.61,0.61,0.58
+-,Bom Jardim,0.47,0.57,0.48
+-,Bom Jardim,0.6,0.54,0.48
+-,Bom Jesus da Lapa,0.56,0.63,0.6
+-,Bom Jesus da Penha,0.51,0.66,0.42
+-,Bom Jesus da Serra,0.45,0.52,0.52
+-,Bom Jesus das Selvas,0.48,0.57,0.62
+-,Bom Jesus de Goias,0.52,0.58,0.47
+-,Bom Jesus do Amparo,0.56,0.6,0.45
+-,Bom Jesus do Araguaia,0.55,0.55,0.48
+-,Bom Jesus do Galho,0.53,0.5,0.49
+-,Bom Jesus do Itabapoana,0.58,0.54,0.56
+-,Bom Jesus do Norte,0.54,0.49,0.48
+-,Bom Jesus do Oeste,0.43,0.44,0.39
+-,Bom Jesus dos Perdoes,0.53,0.49,0.41
+-,Bom Jesus do Sul,0.49,0.51,0.46
+-,Bom Jesus do Tocantins,0.58,0.58,0.52
+-,Bom Jesus do Tocantins,0.42,0.64,0.5
+-,Bom Jesus,0.69,0.51,0.5
+-,Bom Jesus,0.77,0.64,0.62
+-,Bom Jesus,0.47,0.55,0.54
+-,Bom Jesus,0.57,0.54,0.52
+-,Bom Jesus,0.68,0.53,0.55
+-,Bom Lugar,0.44,0.56,0.49
+-,Bom Principio do Piaui,0.49,0.48,0.57
+-,Bom Principio,0.41,0.4,0.37
+-,Bom Progresso,0.56,0.52,0.52
+-,Bom Repouso,0.46,0.68,0.46
+-,Bom Retiro do Sul,0.44,0.43,0.38
+-,Bom Retiro,0.49,0.52,0.46
+-,Bom Sucesso de Itarare,0.5,0.59,0.44
+-,Bom Sucesso do Sul,0.6,0.53,0.53
+-,Bom Sucesso,0.56,0.57,0.49
+-,Bom Sucesso,0.52,0.54,0.45
+-,Bom Sucesso,0.53,0.52,0.43
+-,Bonfim do Piaui,0.48,0.56,0.45
+-,Bonfim,0.5,0.51,0.49
+-,Bonfim,0.66,0.5,0.72
+-,Bonfinopolis de Minas,0.61,0.6,0.47
+-,Bonfinopolis,0.48,0.51,0.44
+-,Boninal,0.47,0.58,0.53
+-,Bonito,0.44,0.41,0.5
+-,Bonito de Minas,0.48,0.7,0.57
+-,Bonito de Santa Fe,0.62,0.55,0.52
+-,Bonito,0.58,0.6,0.54
+-,Bonito,0.47,0.49,0.5
+-,Bonito,0.52,0.63,0.55
+-,Bonopolis,0.56,0.54,0.41
+-,Boqueirao do Leao,0.47,0.47,0.47
+-,Boqueirao do Piaui,0.47,0.51,0.5
+-,Boqueirao,0.52,0.48,0.46
+-,Boquim,0.54,0.56,0.5
+-,Boquira,0.61,0.62,0.53
+-,Boraceia,0.43,0.48,0.38
+-,Bora,0.47,0.54,0.4
+-,Borba,0.64,0.64,0.64
+-,Borborema,0.54,0.6,0.5
+-,Borborema,0.61,0.5,0.42
+-,Borda da Mata,0.5,0.53,0.46
+-,Borebi,0.35,0.4,0.39
+-,Borrazopolis,0.52,0.47,0.43
+-,Bossoroca,0.61,0.6,0.49
+-,Botelhos,0.59,0.59,0.47
+-,Botucatu,0.51,0.54,0.54
+-,Botumirim,0.51,0.6,0.46
+-,Botupora,0.61,0.68,0.52
+-,Botuvera,0.49,0.4,0.28
+-,Bozano,0.46,0.54,0.42
+-,Braco do Norte,0.46,0.65,0.41
+-,Braco do Trombudo,0.43,0.43,0.36
+-,Braganca,0.5,0.56,0.58
+-,Braganca Paulista,0.53,0.53,0.52
+-,Braganey,0.57,0.52,0.5
+-,Braga,0.62,0.52,0.47
+-,Branquinha,0.39,0.54,0.42
+-,Brasilandia de Minas,0.5,0.63,0.44
+-,Brasilandia do Sul,0.43,0.6,0.45
+-,Brasilandia do Tocantins,0.49,0.54,0.53
+-,Brasilandia,0.53,0.6,0.52
+-,Brasileia,0.56,0.6,0.58
+-,Brasileira,0.53,0.52,0.48
+-,Brasilia de Minas,0.57,0.62,0.54
+-,Brasilia,0.62,0.63,0.63
+-,Brasil Novo,0.48,0.55,0.67
+-,Brasnorte,0.52,0.59,0.53
+-,Brasopolis,0.56,0.62,0.54
+-,Bras Pires,0.53,0.54,0.44
+-,Braunas,0.56,0.6,0.55
+-,Brauna,0.51,0.47,0.43
+-,Brazabrantes,0.52,0.43,0.4
+-,Brejao,0.49,0.47,0.49
+-,Brejetuba,0.59,0.61,0.48
+-,Brejinho de Nazare,0.56,0.64,0.55
+-,Brejinho,0.68,0.6,0.49
+-,Brejinho,0.47,0.56,0.49
+-,Brejo Alegre,0.36,0.44,0.39
+-,Brejo da Madre de Deus,0.49,0.51,0.47
+-,Brejo de Areia,0.51,0.49,0.48
+-,Brejo do Cruz,0.44,0.53,0.47
+-,Brejo do Piaui,0.46,0.43,0.52
+-,Brejo dos Santos,0.52,0.54,0.46
+-,Brejoes,0.48,0.46,0.5
+-,Brejo Grande do Araguaia,0.54,0.55,0.57
+-,Brejo Grande,0.42,0.52,0.51
+-,Brejolandia,0.44,0.57,0.56
+-,Brejo,0.54,0.71,0.64
+-,Brejo Santo,0.66,0.61,0.52
+-,Breu Branco,0.54,0.61,0.53
+-,Breves,0.53,0.58,0.58
+-,Britania,0.5,0.48,0.55
+-,Brochier,0.42,0.4,0.36
+-,Brodowski,0.45,0.42,0.44
+-,Brotas de Macaubas,0.59,0.69,0.56
+-,Brotas,0.51,0.54,0.41
+-,Brumadinho,0.58,0.57,0.57
+-,Brumado,0.71,0.57,0.52
+-,Brunopolis,0.44,0.54,0.47
+-,Brusque,0.41,0.46,0.4
+-,Bueno Brandao,0.47,0.54,0.44
+-,Buenopolis,0.56,0.64,0.49
+-,Buenos Aires,0.44,0.46,0.45
+-,Buerarema,0.6,0.52,0.53
+-,Bugre,0.43,0.59,0.44
+-,Buique,0.55,0.61,0.57
+-,Bujari,0.51,0.64,0.58
+-,Bujaru,0.53,0.52,0.52
+-,Buri,0.54,0.51,0.5
+-,Buritama,0.48,0.56,0.44
+-,Buriti Alegre,0.56,0.52,0.43
+-,Buriti Bravo,0.56,0.56,0.55
+-,Buriticupu,0.55,0.62,0.6
+-,Buriti de Goias,0.41,0.39,0.49
+-,Buriti dos Lopes,0.45,0.57,0.54
+-,Buriti dos Montes,0.49,0.56,0.57
+-,Buriti do Tocantins,0.55,0.62,0.56
+-,Buriti,0.4,0.54,0.63
+-,Buritinopolis,0.54,0.62,0.77
+-,Buritirama,0.49,0.72,0.57
+-,Buritirana,0.44,0.51,0.5
+-,Buritis,0.54,0.7,0.57
+-,Buritis,0.39,0.65,0.5
+-,Buritizal,0.42,0.45,0.46
+-,Buritizeiro,0.55,0.52,0.41
+-,Butia,0.47,0.48,0.47
+-,Caapiranga,0.51,0.53,0.58
+-,Caapora,0.44,0.51,0.47
+-,Caarapo,0.64,0.58,0.5
+-,Caatiba,0.65,0.39,0.39
+-,Cabaceiras do Paraguacu,0.49,0.57,0.54
+-,Cabaceiras,0.55,0.5,0.46
+-,Cabeceira Grande,0.49,0.52,0.47
+-,Cabeceiras do Piaui,0.45,0.58,0.53
+-,Cabeceiras,0.57,0.56,0.48
+-,Cabedelo,0.61,0.66,0.7
+-,Cabixi,0.7,0.58,0.51
+-,Cabo de Santo Agostinho,0.5,0.54,0.53
+-,Cabo Frio,0.55,0.59,0.54
+-,Cabo Verde,0.58,0.59,0.43
+-,Cabralia Paulista,0.61,0.43,0.4
+-,Cabreuva,0.53,0.46,0.42
+-,Cabrobo,0.58,0.58,0.58
+-,Cacador,0.53,0.54,0.48
+-,Cacapava do Sul,0.56,0.54,0.48
+-,Cacapava,0.52,0.52,0.5
+-,Cacaulandia,0.44,0.61,0.56
+-,Cacequi,0.58,0.51,0.52
+-,Caceres,0.55,0.61,0.53
+-,Cachoeira Alta,0.65,0.59,0.51
+-,Cachoeira,0.64,0.59,0.56
+-,Cachoeira da Prata,0.53,0.46,0.43
+-,Cachoeira de Goias,0.41,0.52,0.47
+-,Cachoeira de Minas,0.51,0.46,0.45
+-,Cachoeira de Pajeu,0.55,0.53,0.52
+-,Cachoeira do Arari,0.49,0.74,0.6
+-,Cachoeira do Piria,0.59,0.55,0.58
+-,Cachoeira dos Indios,0.58,0.51,0.5
+-,Cachoeira do Sul,0.64,0.57,0.54
+-,Cachoeira Dourada,0.48,0.57,0.47
+-,Cachoeira Dourada,0.53,0.58,0.35
+-,Cachoeira Grande,0.37,0.48,0.57
+-,Cachoeira Paulista,0.57,0.54,0.52
+-,Cachoeiras de Macacu,0.51,0.49,0.49
+-,Cachoeirinha,0.59,0.53,0.48
+-,Cachoeirinha,0.46,0.47,0.44
+-,Cachoeirinha,0.28,0.49,0.47
+-,Cachoeiro de Itapemirim,0.57,0.54,0.52
+-,Cacimba de Areia,0.45,0.51,0.49
+-,Cacimba de Dentro,0.6,0.58,0.53
+-,Cacimbas,0.49,0.62,0.53
+-,Cacimbinhas,0.55,0.69,0.6
+-,Cacique Doble,0.59,0.5,0.51
+-,Cacoal,0.66,0.55,0.57
+-,Caconde,0.53,0.59,0.5
+-,Cacu,0.62,0.58,0.53
+-,Cacule,0.62,0.68,0.48
+-,Caem,0.45,0.57,0.54
+-,Caetanopolis,0.45,0.57,0.42
+-,Caetanos,0.45,0.59,0.5
+-,Caete,0.5,0.59,0.46
+-,Caetes,0.45,0.56,0.6
+-,Caetite,0.63,0.66,0.59
+-,Cafarnaum,0.58,0.59,0.55
+-,Cafeara,0.4,0.44,0.4
+-,Cafelandia,0.66,0.52,0.41
+-,Cafelandia,0.53,0.56,0.46
+-,Cafezal do Sul,0.48,0.62,0.41
+-,Caiabu,0.4,0.41,0.37
+-,Caiana,0.53,0.49,0.42
+-,Caiaponia,0.57,0.55,0.52
+-,Caibate,0.68,0.52,0.48
+-,Caibi,0.62,0.55,0.44
+-,Caicara do Norte,0.47,0.45,0.53
+-,Caicara do Rio do Vento,0.43,0.55,0.49
+-,Caicara,0.46,0.52,0.51
+-,Caicara,0.67,0.57,0.47
+-,Caico,0.54,0.56,0.56
+-,Caieiras,0.43,0.49,0.47
+-,Cairu,0.4,0.49,0.53
+-,Caiua,0.49,0.48,0.45
+-,Cajamar,0.57,0.54,0.43
+-,Cajapio,0.42,0.49,0.57
+-,Cajari,0.39,0.45,0.63
+-,Cajati,0.53,0.53,0.47
+-,Cajazeiras do Piaui,0.47,0.61,0.49
+-,Cajazeiras,0.62,0.61,0.56
+-,Cajazeirinhas,0.52,0.57,0.5
+-,Cajobi,0.47,0.5,0.4
+-,Cajueiro,0.44,0.46,0.49
+-,Cajueiro da Praia,0.43,0.59,0.63
+-,Cajuri,0.39,0.52,0.43
+-,Cajuru,0.56,0.52,0.4
+-,Calcado,0.54,0.52,0.53
+-,Calcoene,0.71,0.61,0.67
+-,Caldas Brandao,0.45,0.47,0.47
+-,Caldas,0.61,0.54,0.49
+-,Caldas Novas,0.54,0.6,0.49
+-,Caldazinha,0.47,0.54,0.44
+-,Caldeirao Grande,0.44,0.61,0.55
+-,Caldeirao Grande do Piaui,0.55,0.66,0.53
+-,California,0.53,0.52,0.5
+-,Calmon,0.58,0.47,0.42
+-,Calumbi,0.52,0.58,0.54
+-,Camacan,0.69,0.64,0.6
+-,Camacari,0.5,0.57,0.53
+-,Camacho,0.58,0.39,0.46
+-,Camalau,0.42,0.49,0.46
+-,Camamu,0.54,0.59,0.54
+-,Camanducaia,0.52,0.52,0.5
+-,Camapua,0.57,0.56,0.49
+-,Camaqua,0.57,0.55,0.48
+-,Camaragibe,0.53,0.58,0.51
+-,Camargo,0.49,0.46,0.39
+-,Cambara do Sul,0.51,0.5,0.45
+-,Cambara,0.62,0.52,0.47
+-,Cambe,0.45,0.49,0.42
+-,Cambira,0.51,0.52,0.42
+-,Camboriu,0.46,0.46,0.4
+-,Cambuci,0.62,0.53,0.47
+-,Cambui,0.46,0.49,0.46
+-,Cambuquira,0.6,0.59,0.5
+-,Cameta,0.5,0.6,0.58
+-,Camocim,0.54,0.65,0.56
+-,Camocim de Sao Felix,0.58,0.56,0.53
+-,Campanario,0.54,0.53,0.44
+-,Campanha,0.54,0.56,0.5
+-,Campestre,0.51,0.49,0.47
+-,Campestre da Serra,0.39,0.42,0.31
+-,Campestre de Goias,0.43,0.49,0.42
+-,Campestre do Maranhao,0.49,0.6,0.48
+-,Campestre,0.55,0.5,0.52
+-,Campinacu,0.52,0.51,0.49
+-,Campina da Lagoa,0.55,0.61,0.46
+-,Campina das Missoes,0.56,0.45,0.41
+-,Campina do Monte Alegre,0.59,0.49,0.53
+-,Campina do Simao,0.54,0.52,0.5
+-,Campina Grande do Sul,0.52,0.49,0.44
+-,Campina Grande,0.61,0.62,0.58
+-,Campinapolis,0.61,0.6,0.69
+-,Campinas do Piaui,0.5,0.62,0.55
+-,Campinas do Sul,0.56,0.53,0.46
+-,Campinas,0.53,0.57,0.56
+-,Campina Verde,0.53,0.58,0.47
+-,Campinorte,0.6,0.54,0.49
+-,Campo Alegre,0.45,0.53,0.47
+-,Campo Alegre de Goias,0.75,0.7,0.46
+-,Campo Alegre de Lourdes,0.84,0.61,0.61
+-,Campo Alegre do Fidalgo,0.42,0.67,0.65
+-,Campo Alegre,0.49,0.49,0.41
+-,Campo Azul,0.66,0.58,0.48
+-,Campo Belo do Sul,0.57,0.52,0.46
+-,Campo Belo,0.56,0.51,0.47
+-,Campo Bom,0.46,0.48,0.43
+-,Campo Bonito,0.58,0.52,0.48
+-,Campo do Brito,0.58,0.55,0.54
+-,Campo do Meio,0.47,0.48,0.42
+-,Campo do Tenente,0.48,0.49,0.49
+-,Campo Ere,0.54,0.59,0.51
+-,Campo Florido,0.65,0.51,0.52
+-,Campo Formoso,0.57,0.63,0.57
+-,Campo Grande,0.54,0.68,0.58
+-,Campo Grande do Piaui,0.43,0.5,0.48
+-,Campo Grande,0.59,0.6,0.56
+-,Campo Largo do Piaui,0.43,0.51,0.54
+-,Campo Largo,0.47,0.49,0.45
+-,Campo Limpo de Goias,0.45,0.53,0.42
+-,Campo Limpo Paulista,0.46,0.5,0.43
+-,Campo Magro,0.43,0.5,0.38
+-,Campo Maior,0.6,0.56,0.53
+-,Campo Mourao,0.54,0.56,0.5
+-,Campo Novo de Rondonia,0.5,0.67,0.67
+-,Campo Novo do Parecis,0.56,0.68,0.45
+-,Campo Novo,0.57,0.56,0.48
+-,Campo Redondo,0.47,0.56,0.56
+-,Campos Altos,0.55,0.52,0.4
+-,Campos Belos,0.59,0.6,0.55
+-,Campos Borges,0.53,0.55,0.46
+-,Campos de Julio,0.48,0.87,0.62
+-,Campos do Jordao,0.52,0.54,0.59
+-,Campos dos Goytacazes,0.62,0.56,0.55
+-,Campos Gerais,0.54,0.51,0.44
+-,Campos Lindos,0.56,0.7,0.67
+-,Campos Novos Paulista,0.48,0.56,0.43
+-,Campos Novos,0.57,0.58,0.46
+-,Campos Sales,0.58,0.67,0.58
+-,Campos Verdes,0.55,0.62,0.45
+-,Campo Verde,0.64,0.63,0.51
+-,Camutanga,0.59,0.53,0.48
+-,Canaa dos Carajas,0.52,0.63,0.55
+-,Canaa,0.53,0.57,0.5
+-,Canabrava do Norte,0.54,0.52,0.52
+-,Cananeia,0.57,0.58,0.49
+-,Canapi,0.57,0.67,0.6
+-,Canapolis,0.45,0.6,0.49
+-,Canapolis,0.44,0.5,0.5
+-,Canarana,0.6,0.58,0.48
+-,Canarana,0.61,0.61,0.53
+-,Canas,0.46,0.39,0.43
+-,Cana Verde,0.45,0.47,0.43
+-,Canavieira,0.43,0.54,0.51
+-,Canavieiras,0.56,0.59,0.51
+-,Candeal,0.44,0.52,0.44
+-,Candeias,0.55,0.54,0.48
+-,Candeias do Jamari,0.71,0.52,0.47
+-,Candeias,0.46,0.55,0.48
+-,Candelaria,0.57,0.55,0.46
+-,Candiba,0.5,0.55,0.44
+-,Candido de Abreu,0.54,0.57,0.57
+-,Candido Godoi,0.54,0.53,0.45
+-,Candido Mendes,0.44,0.44,0.58
+-,Candido Mota,0.57,0.52,0.41
+-,Candido Rodrigues,0.38,0.44,0.48
+-,Candido Sales,0.48,0.54,0.5
+-,Candiota,0.51,0.56,0.51
+-,Candoi,0.49,0.63,0.54
+-,Canela,0.51,0.52,0.48
+-,Canelinha,0.47,0.43,0.44
+-,Canguaretama,0.45,0.55,0.49
+-,Cangucu,0.6,0.5,0.49
+-,Canhoba,0.52,0.52,0.52
+-,Canhotinho,0.52,0.57,0.52
+-,Caninde,0.51,0.62,0.58
+-,Caninde de Sao Francisco,0.47,0.64,0.55
+-,Canitar,0.43,0.39,0.4
+-,Canoas,0.5,0.52,0.51
+-,Canoinhas,0.55,0.6,0.49
+-,Cansancao,0.7,0.65,0.57
+-,Cantagalo,0.61,0.64,0.42
+-,Cantagalo,0.65,0.61,0.51
+-,Cantagalo,0.57,0.56,0.48
+-,Cantanhede,0.49,0.55,0.6
+-,Canta,0.56,0.57,0.66
+-,Canto do Buriti,0.64,0.57,0.52
+-,Canudos,0.46,0.53,0.53
+-,Canudos do Vale,0.44,0.42,0.49
+-,Canutama,0.51,0.73,0.61
+-,Capanema,0.58,0.6,0.53
+-,Capanema,0.62,0.5,0.45
+-,Capao Alto,0.41,0.53,0.51
+-,Capao Bonito do Sul,0.52,0.61,0.52
+-,Capao Bonito,0.55,0.59,0.5
+-,Capao da Canoa,0.49,0.55,0.51
+-,Capao do Cipo,0.61,0.73,0.51
+-,Capao do Leao,0.43,0.48,0.43
+-,Caparao,0.58,0.48,0.43
+-,Capela,0.48,0.57,0.49
+-,Capela de Santana,0.41,0.45,0.39
+-,Capela do Alto Alegre,0.42,0.55,0.49
+-,Capela do Alto,0.48,0.49,0.4
+-,Capela Nova,0.51,0.43,0.44
+-,Capela,0.58,0.55,0.53
+-,Capelinha,0.59,0.57,0.52
+-,Capetinga,0.46,0.53,0.42
+-,Capim Branco,0.49,0.42,0.4
+-,Capim Grosso,0.46,0.56,0.54
+-,Capim,0.38,0.44,0.48
+-,Capinopolis,0.52,0.58,0.59
+-,Capinzal do Norte,0.38,0.52,0.57
+-,Capinzal,0.5,0.48,0.45
+-,Capistrano,0.5,0.6,0.57
+-,Capitao Andrade,0.6,0.45,0.51
+-,Capitao de Campos,0.62,0.67,0.51
+-,Capitao Eneas,0.56,0.54,0.47
+-,Capitao Gervasio Oliveira,0.4,0.57,0.56
+-,Capitao Leonidas Marques,0.53,0.64,0.46
+-,Capitao Poco,0.52,0.65,0.62
+-,Capitao,0.41,0.36,0.38
+-,Capitolio,0.54,0.43,0.4
+-,Capivari de Baixo,0.46,0.41,0.36
+-,Capivari do Sul,0.58,0.65,0.68
+-,Capivari,0.48,0.49,0.46
+-,Capixaba,0.48,0.55,0.56
+-,Capoeiras,0.51,0.51,0.5
+-,Caputira,0.43,0.57,0.57
+-,Caraa,0.49,0.48,0.39
+-,Caracarai,0.61,0.59,0.56
+-,Caracol,0.49,0.5,0.43
+-,Caracol,0.57,0.68,0.62
+-,Caraguatatuba,0.55,0.54,0.5
+-,Caraibas,0.62,0.59,0.49
+-,Carai,0.51,0.55,0.53
+-,Carambei,0.57,0.57,0.53
+-,Caranaiba,0.45,0.49,0.43
+-,Carandai,0.57,0.54,0.48
+-,Carangola,0.57,0.63,0.48
+-,Carapebus,0.41,0.44,0.42
+-,Carapicuiba,0.42,0.45,0.46
+-,Caratinga,0.59,0.6,0.54
+-,Carauari,0.62,0.73,0.54
+-,Caraubas do Piaui,0.45,0.49,0.58
+-,Caraubas,0.48,0.49,0.45
+-,Caraubas,0.56,0.53,0.54
+-,Caravelas,0.53,0.72,0.56
+-,Carazinho,0.56,0.56,0.51
+-,Carbonita,0.59,0.54,0.46
+-,Cardeal da Silva,0.65,0.59,0.52
+-,Cardoso Moreira,0.5,0.51,0.45
+-,Cardoso,0.61,0.55,0.42
+-,Careacu,0.49,0.52,0.41
+-,Careiro,0.62,0.64,0.66
+-,Careiro da Varzea,0.47,0.58,0.57
+-,Cariacica,0.48,0.5,0.45
+-,Caridade,0.51,0.54,0.5
+-,Caridade do Piaui,0.43,0.55,0.53
+-,Carinhanha,0.49,0.57,0.51
+-,Carira,0.53,0.51,0.49
+-,Carire,0.54,0.6,0.54
+-,Caririacu,0.53,0.59,0.51
+-,Cariri do Tocantins,0.5,0.59,0.46
+-,Carius,0.65,0.62,0.52
+-,Carlinda,0.48,0.52,0.52
+-,Carlopolis,0.49,0.57,0.47
+-,Carlos Barbosa,0.42,0.41,0.51
+-,Carlos Chagas,0.64,0.62,0.53
+-,Carlos Gomes,0.47,0.39,0.43
+-,Carmesia,0.56,0.58,0.48
+-,Carmo da Cachoeira,0.5,0.53,0.45
+-,Carmo da Mata,0.55,0.53,0.4
+-,Carmo de Minas,0.66,0.55,0.47
+-,Carmo do Cajuru,0.45,0.44,0.43
+-,Carmo do Paranaiba,0.52,0.57,0.49
+-,Carmo do Rio Claro,0.45,0.71,0.52
+-,Carmo do Rio Verde,0.48,0.52,0.44
+-,Carmolandia,0.39,0.53,0.48
+-,Carmopolis de Minas,0.52,0.56,0.46
+-,Carmopolis,0.56,0.56,0.55
+-,Carmo,0.52,0.59,0.47
+-,Carnaiba,0.58,0.58,0.53
+-,Carnauba dos Dantas,0.42,0.5,0.41
+-,Carnaubais,0.51,0.74,0.52
+-,Carnaubal,0.54,0.65,0.53
+-,Carnaubeira da Penha,0.48,0.61,0.56
+-,Carneirinho,0.61,0.59,0.57
+-,Carneiros,0.53,0.52,0.54
+-,Caroebe,0.83,0.68,0.55
+-,Carolina,0.56,0.64,0.55
+-,Carpina,0.57,0.64,0.5
+-,Carrancas,0.6,0.59,0.54
+-,Carrapateira,0.72,0.5,0.47
+-,Carrasco Bonito,0.48,0.63,0.56
+-,Caruaru,0.55,0.57,0.53
+-,Carutapera,0.47,0.54,0.54
+-,Carvalhopolis,0.45,0.38,0.43
+-,Carvalhos,0.5,0.46,0.53
+-,Casa Branca,0.53,0.54,0.49
+-,Casa Grande,0.5,0.48,0.38
+-,Casa Nova,0.63,0.55,0.54
+-,Cascalho Rico,0.49,0.5,0.49
+-,Casca,0.54,0.51,0.41
+-,Cascavel,0.49,0.63,0.48
+-,Cascavel,0.57,0.58,0.51
+-,Caseara,0.59,0.6,0.61
+-,Caseiros,0.56,0.56,0.47
+-,Casimiro de Abreu,0.59,0.51,0.48
+-,Casinhas,0.5,0.6,0.45
+-,Casserengue,0.48,0.49,0.57
+-,Cassia dos Coqueiros,0.54,0.55,0.43
+-,Cassia,0.56,0.52,0.47
+-,Cassilandia,0.65,0.53,0.54
+-,Castanhal,0.57,0.56,0.54
+-,Castanheira,0.54,0.53,0.55
+-,Castanheiras,0.51,0.65,0.5
+-,Castelandia,0.5,0.61,0.58
+-,Castelo do Piaui,0.57,0.54,0.48
+-,Castelo,0.6,0.54,0.45
+-,Castilho,0.6,0.53,0.46
+-,Castro Alves,0.58,0.57,0.54
+-,Castro,0.68,0.63,0.53
+-,Cataguases,0.58,0.55,0.5
+-,Catalao,0.56,0.55,0.51
+-,Catanduva,0.51,0.53,0.46
+-,Catanduvas,0.64,0.62,0.53
+-,Catanduvas,0.57,0.58,0.47
+-,Catarina,0.46,0.59,0.51
+-,Catas Altas da Noruega,0.51,0.53,0.44
+-,Catas Altas,0.49,0.45,0.39
+-,Catende,0.57,0.55,0.54
+-,Catigua,0.35,0.42,0.43
+-,Catingueira,0.54,0.55,0.52
+-,Catolandia,0.53,0.53,0.51
+-,Catole do Rocha,0.53,0.55,0.5
+-,Catu,0.53,0.57,0.55
+-,Catuipe,0.63,0.56,0.56
+-,Catuji,0.47,0.59,0.54
+-,Catunda,0.52,0.54,0.53
+-,Caturai,0.44,0.46,0.44
+-,Caturama,0.68,0.55,0.49
+-,Caturite,0.39,0.43,0.56
+-,Catuti,0.43,0.51,0.5
+-,Caucaia,0.51,0.56,0.48
+-,Cavalcante,0.55,0.61,0.62
+-,Caxambu do Sul,0.54,0.68,0.5
+-,Caxambu,0.61,0.56,0.65
+-,Caxias do Sul,0.47,0.51,0.48
+-,Caxias,0.53,0.61,0.55
+-,Caxingo,0.47,0.5,0.52
+-,Ceara-Mirim,0.49,0.55,0.51
+-,Cedral,0.43,0.47,0.56
+-,Cedral,0.5,0.47,0.42
+-,Cedro,0.71,0.58,0.56
+-,Cedro de Sao Joao,0.51,0.47,0.53
+-,Cedro do Abaete,0.49,0.4,0.39
+-,Cedro,0.51,0.62,0.56
+-,Celso Ramos,0.63,0.4,0.39
+-,Centenario do Sul,0.55,0.49,0.41
+-,Centenario,0.69,0.48,0.46
+-,Centenario,0.33,0.62,0.63
+-,Central,0.56,0.59,0.54
+-,Central de Minas,0.53,0.54,0.59
+-,Central do Maranhao,0.38,0.54,0.54
+-,Centralina,0.46,0.72,0.39
+-,Centro do Guilherme,0.42,0.66,0.56
+-,Centro Novo do Maranhao,0.36,0.58,0.56
+-,Cerejeiras,0.6,0.69,0.5
+-,Ceres,0.6,0.58,0.53
+-,Cerqueira Cesar,0.58,0.5,0.43
+-,Cerquilho,0.51,0.51,0.42
+-,Cerrito,0.51,0.45,0.48
+-,Cerro Azul,0.54,0.62,0.48
+-,Cerro Branco,0.57,0.51,0.41
+-,Cerro Cora,0.49,0.57,0.54
+-,Cerro Grande do Sul,0.59,0.52,0.5
+-,Cerro Grande,0.54,0.47,0.49
+-,Cerro Largo,0.51,0.53,0.47
+-,Cerro Negro,0.58,0.5,0.55
+-,Cesario Lange,0.49,0.47,0.43
+-,Ceu Azul,0.55,0.56,0.47
+-,Cezarina,0.54,0.5,0.47
+-,Chacara,0.63,0.5,0.43
+-,Cha de Alegria,0.45,0.55,0.44
+-,Cha Grande,0.57,0.46,0.55
+-,Chale,0.51,0.44,0.45
+-,Chapada da Natividade,0.39,0.73,0.62
+-,Chapada de Areia,0.36,0.72,0.51
+-,Chapada do Norte,0.45,0.44,0.47
+-,Chapada dos Guimaraes,0.6,0.62,0.53
+-,Chapada Gaucha,0.45,0.71,0.51
+-,Chapadao do Ceu,0.45,0.71,0.41
+-,Chapadao do Lageado,0.44,0.44,0.43
+-,Chapadao do Sul,0.63,0.62,0.47
+-,Chapada,0.59,0.53,0.46
+-,Chapadinha,0.55,0.6,0.59
+-,Chapeco,0.56,0.57,0.48
+-,Cha Preta,0.55,0.57,0.5
+-,Charqueada,0.41,0.48,0.4
+-,Charqueadas,0.48,0.47,0.43
+-,Charrua,0.51,0.5,0.51
+-,Chaval,0.52,0.64,0.5
+-,Chavantes,0.5,0.51,0.47
+-,Chaves,0.49,0.51,0.67
+-,Chiador,0.48,0.51,0.61
+-,Chiapetta,0.57,0.52,0.49
+-,Chopinzinho,0.57,0.58,0.55
+-,Choro,0.56,0.62,0.58
+-,Chorozinho,0.42,0.53,0.5
+-,Chorrocho,0.7,0.64,0.58
+-,Chui,0.66,0.52,0.48
+-,Chupinguaia,0.53,0.55,0.47
+-,Chuvisca,0.46,0.5,0.46
+-,Cianorte,0.55,0.55,0.41
+-,Cicero Dantas,0.53,0.57,0.53
+-,Cidade Gaucha,0.52,0.53,0.42
+-,Cidade Ocidental,0.48,0.49,0.5
+-,Cidelandia,0.47,0.55,0.47
+-,Cidreira,0.52,0.58,0.49
+-,Cipo,0.56,0.57,0.55
+-,Cipotanea,0.6,0.58,0.5
+-,Ciriaco,0.52,0.58,0.45
+-,Claraval,0.46,0.44,0.42
+-,Claro dos Pocoes,0.49,0.48,0.42
+-,Claudia,0.44,0.63,0.57
+-,Claudio,0.53,0.46,0.4
+-,Clementina,0.54,0.42,0.37
+-,Clevelandia,0.53,0.54,0.58
+-,Coaraci,0.59,0.57,0.54
+-,Coari,0.54,0.57,0.64
+-,Cocal de Telha,0.46,0.45,0.51
+-,Cocal dos Alves,0.44,0.54,0.59
+-,Cocal do Sul,0.42,0.4,0.37
+-,Cocalinho,0.48,0.57,0.48
+-,Cocal,0.55,0.56,0.56
+-,Cocalzinho de Goias,0.59,0.51,0.47
+-,Cocos,0.54,0.61,0.56
+-,Codajas,0.7,0.59,0.61
+-,Codo,0.52,0.61,0.57
+-,Coelho Neto,0.5,0.57,0.54
+-,Coimbra,0.54,0.51,0.45
+-,Coite do Noia,0.51,0.57,0.52
+-,Coivaras,0.54,0.54,0.48
+-,Colares,0.52,0.65,0.56
+-,Colatina,0.54,0.55,0.51
+-,Colider,0.59,0.63,0.56
+-,Colinas do Sul,0.64,0.57,0.5
+-,Colinas do Tocantins,0.61,0.64,0.56
+-,Colinas,0.69,0.62,0.63
+-,Colina,0.54,0.55,0.46
+-,Colinas,0.42,0.38,0.47
+-,Colmeia,0.56,0.61,0.5
+-,Colniza,0.58,0.57,0.58
+-,Colombia,0.5,0.57,0.4
+-,Colombo,0.42,0.46,0.41
+-,Colonia do Gurgueia,0.53,0.46,0.49
+-,Colonia do Piaui,0.43,0.49,0.51
+-,Colonia Leopoldina,0.44,0.53,0.53
+-,Colorado do Oeste,0.62,0.57,0.49
+-,Colorado,0.51,0.53,0.43
+-,Colorado,0.62,0.46,0.51
+-,Coluna,0.61,0.63,0.5
+-,Combinado,0.57,0.68,0.52
+-,Comendador Gomes,0.47,0.63,0.45
+-,Comendador Levy Gasparian,0.52,0.48,0.44
+-,Comercinho,0.52,0.59,0.49
+-,Comodoro,0.59,0.64,0.54
+-,Conceicao da Aparecida,0.51,0.55,0.45
+-,Conceicao da Barra de Minas,0.46,0.44,0.49
+-,Conceicao da Barra,0.54,0.59,0.5
+-,Conceicao da Feira,0.57,0.5,0.56
+-,Conceicao das Alagoas,0.55,0.58,0.51
+-,Conceicao das Pedras,0.54,0.43,0.48
+-,Conceicao de Ipanema,0.65,0.52,0.54
+-,Conceicao de Macabu,0.51,0.49,0.48
+-,Conceicao do Almeida,0.54,0.5,0.56
+-,Conceicao do Araguaia,0.53,0.62,0.54
+-,Conceicao do Caninde,0.59,0.63,0.53
+-,Conceicao do Castelo,0.59,0.5,0.51
+-,Conceicao do Coite,0.54,0.55,0.48
+-,Conceicao do Jacuipe,0.6,0.55,0.48
+-,Conceicao do Lago-Acu,0.45,0.46,0.51
+-,Conceicao do Mato Dentro,0.57,0.63,0.49
+-,Conceicao do Para,0.51,0.47,0.42
+-,Conceicao do Rio Verde,0.56,0.59,0.53
+-,Conceicao dos Ouros,0.47,0.48,0.39
+-,Conceicao do Tocantins,0.5,0.59,0.55
+-,Conceicao,0.53,0.58,0.56
+-,Conchal,0.47,0.53,0.43
+-,Conchas,0.52,0.56,0.49
+-,Concordia do Para,0.58,0.57,0.5
+-,Concordia,0.57,0.54,0.46
+-,Condado,0.48,0.5,0.48
+-,Condado,0.58,0.53,0.53
+-,Conde,0.49,0.61,0.63
+-,Conde,0.43,0.56,0.52
+-,Condeuba,0.72,0.64,0.49
+-,Condor,0.52,0.56,0.49
+-,Conego Marinho,0.45,0.62,0.52
+-,Confins,0.41,0.41,0.45
+-,Confresa,0.57,0.62,0.58
+-,Congonhal,0.54,0.48,0.45
+-,Congonhas do Norte,0.69,0.67,0.48
+-,Congonhas,0.54,0.51,0.5
+-,Congonhinhas,0.52,0.5,0.5
+-,Congo,0.52,0.42,0.49
+-,Conquista D'Oeste,0.34,0.57,0.5
+-,Conquista,0.53,0.61,0.45
+-,Conselheiro Lafaiete,0.53,0.52,0.49
+-,Conselheiro Mairinck,0.53,0.7,0.47
+-,Conselheiro Pena,0.57,0.61,0.49
+-,Consolacao,0.4,0.42,0.37
+-,Constantina,0.6,0.52,0.45
+-,Contagem,0.48,0.49,0.48
+-,Contenda,0.6,0.55,0.47
+-,Contendas do Sincora,0.53,0.52,0.51
+-,Coqueiral,0.56,0.49,0.49
+-,Coqueiro Baixo,0.54,0.42,0.41
+-,Coqueiros do Sul,0.39,0.49,0.53
+-,Coqueiro Seco,0.53,0.58,0.49
+-,Coracao de Jesus,0.55,0.65,0.49
+-,Coracao de Maria,0.66,0.58,0.52
+-,Corbelia,0.56,0.52,0.48
+-,Cordeiropolis,0.44,0.48,0.44
+-,Cordeiro,0.53,0.51,0.48
+-,Cordeiros,0.42,0.49,0.45
+-,Cordilheira Alta,0.56,0.56,0.39
+-,Cordisburgo,0.51,0.56,0.46
+-,Cordislandia,0.53,0.43,0.45
+-,Coreau,0.53,0.52,0.51
+-,Coremas,0.51,0.55,0.51
+-,Corguinho,0.54,0.53,0.53
+-,Coribe,0.48,0.61,0.58
+-,Corinto,0.59,0.57,0.53
+-,Cornelio Procopio,0.51,0.54,0.48
+-,Coroaci,0.52,0.57,0.52
+-,Coroados,0.56,0.52,0.39
+-,Coroata,0.5,0.62,0.58
+-,Coromandel,0.53,0.53,0.51
+-,Coronel Barros,0.49,0.46,0.53
+-,Coronel Bicaco,0.6,0.59,0.51
+-,Coronel Domingos Soares,0.51,0.56,0.54
+-,Coronel Ezequiel,0.55,0.65,0.55
+-,Coronel Fabriciano,0.55,0.54,0.48
+-,Coronel Freitas,0.55,0.52,0.4
+-,Coronel Joao Pessoa,0.64,0.61,0.5
+-,Coronel Joao Sa,0.44,0.55,0.48
+-,Coronel Jose Dias,0.42,0.62,0.57
+-,Coronel Macedo,0.53,0.55,0.45
+-,Coronel Martins,0.53,0.58,0.44
+-,Coronel Murta,0.49,0.53,0.49
+-,Coronel Pacheco,0.47,0.49,0.42
+-,Coronel Pilar,0.47,0.44,0.36
+-,Coronel Sapucaia,0.51,0.54,0.55
+-,Coronel Vivida,0.64,0.53,0.47
+-,Coronel Xavier Chaves,0.41,0.43,0.5
+-,Corrego Danta,0.57,0.51,0.47
+-,Corrego do Bom Jesus,0.43,0.49,0.38
+-,Corrego do Ouro,0.46,0.49,0.48
+-,Corrego Fundo,0.5,0.41,0.32
+-,Corrego Novo,0.41,0.48,0.42
+-,Correia Pinto,0.42,0.52,0.49
+-,Corrente,0.65,0.63,0.6
+-,Correntes,0.6,0.62,0.52
+-,Correntina,0.59,0.6,0.58
+-,Cortes,0.48,0.5,0.47
+-,Corumba de Goias,0.57,0.6,0.51
+-,Corumbaiba,0.47,0.53,0.43
+-,Corumba,0.6,0.61,0.55
+-,Corumbatai do Sul,0.59,0.49,0.42
+-,Corumbatai,0.47,0.51,0.48
+-,Corumbiara,0.59,0.55,0.48
+-,Corupa,0.49,0.44,0.46
+-,Coruripe,0.49,0.56,0.52
+-,Cosmopolis,0.43,0.47,0.42
+-,Cosmorama,0.58,0.5,0.4
+-,Costa Marques,0.65,0.58,0.52
+-,Costa Rica,0.53,0.77,0.47
+-,Cotegipe,0.55,0.53,0.56
+-,Cotia,0.58,0.6,0.57
+-,Cotipora,0.42,0.4,0.39
+-,Cotriguacu,0.45,0.62,0.57
+-,Couto de Magalhaes de Minas,0.66,0.56,0.46
+-,Couto Magalhaes,0.56,0.5,0.55
+-,Coxilha,0.49,0.47,0.49
+-,Coxim,0.56,0.67,0.51
+-,Coxixola,0.48,0.45,0.48
+-,Craibas,0.4,0.49,0.53
+-,Crateus,0.57,0.62,0.6
+-,Crato,0.64,0.64,0.57
+-,Cravinhos,0.55,0.5,0.42
+-,Cravolandia,0.51,0.55,0.53
+-,Criciuma,0.5,0.55,0.48
+-,Crisolita,0.49,0.65,0.51
+-,Crisopolis,0.47,0.53,0.57
+-,Crissiumal,0.6,0.49,0.41
+-,Cristais,0.54,0.52,0.58
+-,Cristais Paulista,0.49,0.52,0.48
+-,Cristalandia do Piaui,0.57,0.6,0.61
+-,Cristalandia,0.64,0.54,0.57
+-,Cristal do Sul,0.51,0.52,0.45
+-,Cristalia,0.48,0.5,0.51
+-,Cristalina,0.52,0.58,0.57
+-,Cristal,0.67,0.48,0.45
+-,Cristiano Otoni,0.54,0.5,0.44
+-,Cristianopolis,0.54,0.52,0.52
+-,Cristina,0.57,0.55,0.44
+-,Cristinapolis,0.52,0.6,0.5
+-,Cristino Castro,0.59,0.68,0.59
+-,Cristopolis,0.53,0.53,0.54
+-,Crixas do Tocantins,0.43,0.42,0.48
+-,Crixas,0.58,0.54,0.55
+-,Croata,0.46,0.62,0.57
+-,Crominia,0.54,0.48,0.43
+-,Crucilandia,0.78,0.5,0.43
+-,Cruzalia,0.64,0.63,0.43
+-,Cruz Alta,0.59,0.59,0.53
+-,Cruzaltense,0.48,0.53,0.45
+-,Cruz,0.42,0.58,0.58
+-,Cruz das Almas,0.6,0.58,0.55
+-,Cruz do Espirito Santo,0.46,0.51,0.43
+-,Cruzeiro da Fortaleza,0.46,0.53,0.59
+-,Cruzeiro do Iguacu,0.55,0.52,0.51
+-,Cruzeiro do Oeste,0.56,0.57,0.43
+-,Cruzeiro do Sul,0.57,0.62,0.64
+-,Cruzeiro do Sul,0.45,0.46,0.42
+-,Cruzeiro do Sul,0.44,0.43,0.41
+-,Cruzeiro,0.53,0.55,0.53
+-,Cruzeta,0.51,0.62,0.42
+-,Cruzilia,0.58,0.54,0.49
+-,Cruz Machado,0.56,0.58,0.54
+-,Cruzmaltina,0.47,0.52,0.38
+-,Cubatao,0.43,0.47,0.45
+-,Cubati,0.49,0.51,0.48
+-,Cuiaba,0.59,0.63,0.59
+-,Cuite de Mamanguape,0.51,0.54,0.48
+-,Cuitegi,0.41,0.53,0.49
+-,Cuite,0.5,0.57,0.51
+-,Cujubim,0.52,0.61,0.52
+-,Cumari,0.52,0.57,0.58
+-,Cumaru do Norte,0.64,0.63,0.64
+-,Cumaru,0.57,0.64,0.5
+-,Cumbe,0.48,0.44,0.49
+-,Cunha Pora,0.56,0.53,0.38
+-,Cunha,0.58,0.54,0.54
+-,Cunhatai,0.38,0.51,0.46
+-,Cuparaque,0.53,0.48,0.46
+-,Cupira,0.53,0.56,0.49
+-,Curaca,0.54,0.55,0.51
+-,Curimata,0.64,0.75,0.55
+-,Curionopolis,0.59,0.59,0.54
+-,Curitibanos,0.55,0.56,0.51
+-,Curitiba,0.55,0.59,0.55
+-,Curiuva,0.53,0.51,0.45
+-,Currais Novos,0.61,0.58,0.58
+-,Currais,0.56,0.51,0.51
+-,Curral de Cima,0.83,0.5,0.52
+-,Curral de Dentro,0.53,0.54,0.52
+-,Curralinho,0.54,0.51,0.57
+-,Curralinhos,0.6,0.56,0.53
+-,Curral Novo do Piaui,0.57,0.7,0.58
+-,Curral Velho,0.55,0.53,0.59
+-,Curua,0.43,0.57,0.6
+-,Curuca,0.55,0.72,0.56
+-,Cururupu,0.45,0.58,0.58
+-,Curvelandia,0.48,0.53,0.47
+-,Curvelo,0.58,0.55,0.52
+-,Custodia,0.55,0.6,0.53
+-,Cutias,0.4,0.58,0.61
+-,Damianopolis,0.5,0.48,0.55
+-,Damiao,0.51,0.59,0.49
+-,Damolandia,0.54,0.44,0.47
+-,Darcinopolis,0.46,0.46,0.51
+-,Dario Meira,0.45,0.49,0.54
+-,Datas,0.53,0.56,0.42
+-,David Canabarro,0.56,0.48,0.44
+-,Davinopolis,0.41,0.46,0.4
+-,Davinopolis,0.44,0.46,0.45
+-,Delfim Moreira,0.62,0.56,0.45
+-,Delfinopolis,0.48,0.48,0.47
+-,Delmiro Gouveia,0.52,0.58,0.52
+-,Delta,0.34,0.43,0.38
+-,Demerval Lobao,0.53,0.55,0.48
+-,Denise,0.45,0.55,0.42
+-,Deodapolis,0.55,0.59,0.45
+-,Deputado Irapuan Pinheiro,0.6,0.59,0.5
+-,Derrubadas,0.51,0.59,0.55
+-,Descalvado,0.51,0.54,0.45
+-,Descanso,0.55,0.49,0.43
+-,Descoberto,0.46,0.5,0.41
+-,Desterro de Entre Rios,0.54,0.58,0.41
+-,Desterro do Melo,0.57,0.62,0.46
+-,Desterro,0.6,0.55,0.54
+-,Dezesseis de Novembro,0.55,0.5,0.48
+-,Diadema,0.42,0.46,0.43
+-,Diamante D'Oeste,0.51,0.54,0.5
+-,Diamante do Norte,0.52,0.55,0.44
+-,Diamante do Sul,0.56,0.66,0.45
+-,Diamante,0.45,0.58,0.55
+-,Diamantina,0.58,0.61,0.57
+-,Diamantino,0.66,0.65,0.47
+-,Dianopolis,0.54,0.59,0.57
+-,Dias D'Avila,0.55,0.53,0.5
+-,Dilermando de Aguiar,0.49,0.76,0.58
+-,Diogo de Vasconcelos,0.52,0.56,0.5
+-,Dionisio Cerqueira,0.63,0.61,0.53
+-,Dionisio,0.56,0.5,0.45
+-,Diorama,0.4,0.56,0.4
+-,Dirce Reis,0.58,0.45,0.37
+-,Dirceu Arcoverde,0.54,0.53,0.52
+-,Divina Pastora,0.47,0.42,0.4
+-,Divinesia,0.54,0.51,0.4
+-,Divino das Laranjeiras,0.55,0.65,0.44
+-,Divino de Sao Lourenco,0.45,0.39,0.51
+-,Divinolandia de Minas,0.45,0.59,0.43
+-,Divinolandia,0.53,0.5,0.48
+-,Divino,0.59,0.5,0.52
+-,Divinopolis de Goias,0.63,0.53,0.57
+-,Divinopolis do Tocantins,0.56,0.52,0.64
+-,Divinopolis,0.54,0.53,0.47
+-,Divisa Alegre,0.35,0.53,0.5
+-,Divisa Nova,0.71,0.44,0.39
+-,Divisopolis,0.46,0.5,0.45
+-,Dobrada,0.38,0.44,0.38
+-,Dois Corregos,0.5,0.51,0.46
+-,Dois Irmaos das Missoes,0.7,0.63,0.5
+-,Dois Irmaos do Buriti,0.53,0.59,0.58
+-,Dois Irmaos do Tocantins,0.53,0.57,0.56
+-,Dois Irmaos,0.4,0.39,0.38
+-,Dois Lajeados,0.68,0.49,0.34
+-,Dois Riachos,0.41,0.54,0.55
+-,Dois Vizinhos,0.53,0.53,0.47
+-,Dolcinopolis,0.36,0.48,0.36
+-,Dom Aquino,0.49,0.52,0.51
+-,Dom Basilio,0.53,0.47,0.46
+-,Dom Bosco,0.53,0.53,0.42
+-,Dom Cavati,0.62,0.57,0.44
+-,Dom Eliseu,0.55,0.65,0.52
+-,Dom Expedito Lopes,0.53,0.67,0.52
+-,Dom Feliciano,0.53,0.48,0.48
+-,Domingos Martins,0.55,0.57,0.48
+-,Domingos Mourao,0.52,0.58,0.56
+-,Dom Inocencio,0.42,0.53,0.54
+-,Dom Joaquim,0.54,0.59,0.52
+-,Dom Macedo Costa,0.55,0.48,0.55
+-,Dom Pedrito,0.59,0.61,0.54
+-,Dom Pedro de Alcantara,0.52,0.46,0.43
+-,Dom Pedro,0.61,0.58,0.48
+-,Dom Silverio,0.5,0.55,0.42
+-,Dom Vicoso,0.5,0.42,0.41
+-,Dona Emma,0.49,0.62,0.46
+-,Dona Eusebia,0.47,0.49,0.41
+-,Dona Francisca,0.56,0.51,0.46
+-,Dona Ines,0.58,0.61,0.54
+-,Dores de Campos,0.57,0.47,0.4
+-,Dores de Guanhaes,0.57,0.54,0.49
+-,Dores do Indaia,0.64,0.55,0.47
+-,Dores do Rio Preto,0.62,0.53,0.49
+-,Dores do Turvo,0.52,0.61,0.46
+-,Doresopolis,0.37,0.33,0.39
+-,Dormentes,0.44,0.57,0.47
+-,Douradina,0.61,0.65,0.61
+-,Douradina,0.54,0.53,0.43
+-,Douradoquara,0.52,0.44,0.49
+-,Dourados,0.58,0.61,0.52
+-,Dourado,0.52,0.46,0.37
+-,Doutor Camargo,0.51,0.51,0.39
+-,Doutor Mauricio Cardoso,0.54,0.44,0.47
+-,Doutor Pedrinho,0.43,0.4,0.34
+-,Doutor Ricardo,0.41,0.47,0.38
+-,Doutor Severiano,0.55,0.64,0.49
+-,Doutor Ulysses,0.49,0.54,0.49
+-,Doverlandia,0.54,0.55,0.45
+-,Dracena,0.52,0.59,0.44
+-,Duartina,0.56,0.5,0.43
+-,Duas Barras,0.5,0.51,0.44
+-,Duas Estradas,0.46,0.55,0.51
+-,Duere,0.5,0.56,0.56
+-,Dumont,0.45,0.48,0.39
+-,Duque Bacelar,0.49,0.57,0.6
+-,Duque de Caxias,0.47,0.5,0.46
+-,Durande,0.49,0.54,0.43
+-,Echapora,0.59,0.52,0.53
+-,Ecoporanga,0.62,0.61,0.49
+-,Edealina,0.53,0.57,0.5
+-,Edeia,0.61,0.59,0.53
+-,Eirunepe,0.58,0.64,0.62
+-,Eldorado dos Carajas,0.55,0.68,0.57
+-,Eldorado do Sul,0.54,0.54,0.46
+-,Eldorado,0.57,0.52,0.49
+-,Eldorado,0.63,0.6,0.49
+-,Elesbao Veloso,0.55,0.49,0.48
+-,Elias Fausto,0.55,0.5,0.42
+-,Eliseu Martins,0.53,0.55,0.57
+-,Elisiario,0.37,0.37,0.33
+-,Elisio Medrado,0.5,0.52,0.5
+-,Eloi Mendes,0.56,0.53,0.46
+-,Emas,0.53,0.62,0.46
+-,Embauba,0.38,0.48,0.36
+-,Embu-Guacu,0.47,0.53,0.5
+-,Embu,0.49,0.45,0.45
+-,Emilianopolis,0.43,0.76,0.38
+-,Encantado,0.49,0.51,0.42
+-,Encanto,0.59,0.5,0.47
+-,Encruzilhada,0.51,0.45,0.49
+-,Encruzilhada do Sul,0.6,0.58,0.52
+-,Eneas Marques,0.66,0.62,0.6
+-,Engenheiro Beltrao,0.51,0.59,0.43
+-,Engenheiro Caldas,0.56,0.53,0.49
+-,Engenheiro Coelho,0.48,0.51,0.45
+-,Engenheiro Navarro,0.55,0.44,0.43
+-,Engenheiro Paulo de Frontin,0.52,0.51,0.45
+-,Engenho Velho,0.72,0.49,0.55
+-,Entre Folhas,0.54,0.44,0.47
+-,Entre-Ijuis,0.59,0.52,0.47
+-,Entre Rios,0.53,0.59,0.6
+-,Entre Rios de Minas,0.57,0.56,0.5
+-,Entre Rios do Oeste,0.73,0.5,0.5
+-,Entre Rios do Sul,0.64,0.67,0.45
+-,Entre Rios,0.52,0.63,0.44
+-,Envira,0.53,0.63,0.64
+-,Epitaciolandia,0.58,0.57,0.6
+-,Equador,0.47,0.47,0.5
+-,Erebango,0.44,0.46,0.47
+-,Erechim,0.55,0.52,0.48
+-,Erere,0.68,0.55,0.46
+-,Erico Cardoso,0.54,0.6,0.49
+-,Ermo,0.64,0.47,0.4
+-,Ernestina,0.56,0.54,0.43
+-,Erval Grande,0.68,0.63,0.5
+-,Ervalia,0.57,0.67,0.46
+-,Erval Seco,0.6,0.57,0.52
+-,Erval Velho,0.54,0.49,0.47
+-,Escada,0.51,0.51,0.46
+-,Esmeralda,0.53,0.53,0.45
+-,Esmeraldas,0.52,0.59,0.43
+-,Espera Feliz,0.57,0.48,0.5
+-,Esperanca do Sul,0.55,0.48,0.43
+-,Esperanca Nova,0.46,0.43,0.39
+-,Esperanca,0.57,0.57,0.54
+-,Esperantina,0.59,0.58,0.51
+-,Esperantina,0.5,0.68,0.55
+-,Esperantinopolis,0.51,0.59,0.59
+-,Espigao Alto do Iguacu,0.5,0.67,0.57
+-,Espigao D'Oeste,0.63,0.63,0.52
+-,Espinosa,0.52,0.58,0.45
+-,Espirito Santo do Dourado,0.43,0.42,0.37
+-,Espirito Santo do Pinhal,0.52,0.48,0.57
+-,Espirito Santo do Turvo,0.44,0.46,0.38
+-,Espirito Santo,0.46,0.57,0.54
+-,Esplanada,0.59,0.61,0.57
+-,Espumoso,0.7,0.56,0.49
+-,Estacao,0.52,0.5,0.46
+-,Estancia,0.55,0.59,0.52
+-,Estancia Velha,0.45,0.45,0.42
+-,Esteio,0.48,0.49,0.48
+-,Estiva Gerbi,0.43,0.4,0.41
+-,Estiva,0.47,0.51,0.39
+-,Estreito,0.57,0.62,0.56
+-,Estrela Dalva,0.7,0.68,0.59
+-,Estrela de Alagoas,0.45,0.61,0.51
+-,Estrela D'Oeste,0.56,0.48,0.39
+-,Estrela do Indaia,0.62,0.51,0.46
+-,Estrela do Norte,0.45,0.51,0.48
+-,Estrela do Norte,0.42,0.53,0.43
+-,Estrela do Sul,0.52,0.46,0.44
+-,Estrela,0.46,0.46,0.42
+-,Estrela Velha,0.49,0.65,0.49
+-,Euclides da Cunha,0.49,0.58,0.55
+-,Euclides da Cunha Paulista,0.5,0.5,0.45
+-,Eugenio de Castro,0.61,0.58,0.5
+-,Eugenopolis,0.55,0.6,0.44
+-,Eunapolis,0.65,0.63,0.57
+-,Eusebio,0.59,0.59,0.65
+-,Ewbank da Camara,0.49,0.43,0.37
+-,Extrema,0.52,0.49,0.4
+-,Extremoz,0.47,0.55,0.54
+-,Exu,0.56,0.63,0.57
+-,Fagundes,0.55,0.58,0.52
+-,Fagundes Varela,0.45,0.32,0.35
+-,Faina,0.55,0.57,0.44
+-,Fama,0.64,0.58,0.45
+-,Faria Lemos,0.58,0.52,0.51
+-,Farias Brito,0.61,0.57,0.54
+-,Farol,0.53,0.61,0.49
+-,Faro,0.44,0.54,0.56
+-,Farroupilha,0.46,0.47,0.43
+-,Fartura do Piaui,0.43,0.59,0.52
+-,Fartura,0.55,0.54,0.43
+-,Fatima,0.53,0.55,0.53
+-,Fatima do Sul,0.6,0.57,0.52
+-,Fatima,0.55,0.65,0.56
+-,Faxinal dos Guedes,0.56,0.61,0.49
+-,Faxinal do Soturno,0.54,0.5,0.47
+-,Faxinal,0.64,0.6,0.48
+-,Faxinalzinho,0.58,0.59,0.43
+-,Fazenda Nova,0.51,0.51,0.45
+-,Fazenda Rio Grande,0.49,0.43,0.46
+-,Fazenda Vilanova,0.53,0.5,0.44
+-,Feijo,0.55,0.68,0.68
+-,Feira da Mata,0.68,0.59,0.54
+-,Feira de Santana,0.61,0.61,0.6
+-,Feira Grande,0.4,0.59,0.53
+-,Feira Nova do Maranhao,0.49,0.57,0.62
+-,Feira Nova,0.47,0.54,0.48
+-,Feira Nova,0.41,0.48,0.47
+-,Felicio dos Santos,0.54,0.54,0.46
+-,Felipe Guerra,0.57,0.5,0.48
+-,Felisburgo,0.61,0.55,0.51
+-,Felixlandia,0.59,0.55,0.45
+-,Feliz Deserto,0.43,0.43,0.49
+-,Feliz Natal,0.68,0.61,0.46
+-,Feliz,0.56,0.42,0.37
+-,Fenix,0.5,0.49,0.43
+-,Fernandes Pinheiro,0.59,0.61,0.54
+-,Fernandes Tourinho,0.54,0.49,0.42
+-,Fernando de Noronha,0.36,0.5,0.46
+-,Fernando Falcao,0.6,0.56,0.55
+-,Fernando Pedroza,0.48,0.58,0.55
+-,Fernandopolis,0.54,0.54,0.49
+-,Fernando Prestes,0.43,0.48,0.41
+-,Fernao,0.39,0.58,0.4
+-,Ferraz de Vasconcelos,0.46,0.46,0.43
+-,Ferreira Gomes,0.56,0.5,0.6
+-,Ferreiros,0.54,0.53,0.5
+-,Ferros,0.62,0.53,0.52
+-,Fervedouro,0.49,0.54,0.48
+-,Figueirao,0.53,0.48,0.44
+-,Figueira,0.52,0.53,0.44
+-,Figueiropolis D'Oeste,0.57,0.59,0.42
+-,Figueiropolis,0.52,0.54,0.52
+-,Filadelfia,0.47,0.54,0.57
+-,Filadelfia,0.63,0.6,0.54
+-,Firmino Alves,0.59,0.56,0.43
+-,Firminopolis,0.6,0.54,0.42
+-,Flexeiras,0.37,0.5,0.47
+-,Florai,0.5,0.48,0.43
+-,Florania,0.54,0.52,0.49
+-,Flora Rica,0.61,0.46,0.4
+-,Flor da Serra do Sul,0.53,0.53,0.46
+-,Flor do Sertao,0.51,0.57,0.48
+-,Floreal,0.48,0.5,0.37
+-,Flores da Cunha,0.47,0.46,0.44
+-,Flores de Goias,0.57,0.64,0.63
+-,Flores do Piaui,0.64,0.51,0.57
+-,Flores,0.57,0.55,0.5
+-,Floresta Azul,0.54,0.53,0.45
+-,Floresta do Araguaia,0.44,0.57,0.62
+-,Floresta do Piaui,0.43,0.49,0.51
+-,Florestal,0.56,0.48,0.48
+-,Floresta,0.56,0.62,0.52
+-,Floresta,0.53,0.46,0.36
+-,Florestopolis,0.45,0.4,0.34
+-,Floriano Peixoto,0.47,0.51,0.44
+-,Floriano,0.61,0.6,0.55
+-,Florianopolis,0.55,0.56,0.54
+-,Florida Paulista,0.49,0.51,0.41
+-,Florida,0.49,0.44,0.39
+-,Florinia,0.46,0.44,0.46
+-,Fonte Boa,0.47,0.64,0.62
+-,Fontoura Xavier,0.55,0.54,0.53
+-,Formiga,0.59,0.53,0.48
+-,Formigueiro,0.7,0.54,0.51
+-,Formosa da Serra Negra,0.48,0.8,0.63
+-,Formosa do Oeste,0.58,0.5,0.41
+-,Formosa do Rio Preto,0.74,0.8,0.6
+-,Formosa do Sul,0.55,0.66,0.42
+-,Formosa,0.65,0.61,0.56
+-,Formoso do Araguaia,0.56,0.61,0.52
+-,Formoso,0.57,0.61,0.55
+-,Formoso,0.6,0.72,0.54
+-,Forquetinha,0.54,0.35,0.38
+-,Forquilha,0.48,0.58,0.45
+-,Forquilhinha,0.45,0.52,0.46
+-,Fortaleza,0.64,0.64,0.61
+-,Fortaleza de Minas,0.53,0.45,0.42
+-,Fortaleza dos Nogueiras,0.65,0.63,0.53
+-,Fortaleza dos Valos,0.77,0.66,0.62
+-,Fortaleza do Tabocao,0.53,0.67,0.46
+-,Fortim,0.45,0.65,0.51
+-,Fortuna de Minas,0.48,0.51,0.41
+-,Fortuna,0.51,0.63,0.56
+-,Foz do Iguacu,0.57,0.57,0.53
+-,Foz do Jordao,0.41,0.58,0.54
+-,Fraiburgo,0.49,0.56,0.48
+-,Franca,0.46,0.51,0.46
+-,Francinopolis,0.46,0.62,0.56
+-,Francisco Alves,0.53,0.44,0.41
+-,Francisco Ayres,0.76,0.53,0.52
+-,Francisco Badaro,0.45,0.48,0.46
+-,Francisco Beltrao,0.58,0.57,0.47
+-,Francisco Dantas,0.44,0.52,0.5
+-,Francisco Dumont,0.52,0.53,0.45
+-,Francisco Macedo,0.4,0.55,0.5
+-,Francisco Morato,0.44,0.45,0.4
+-,Franciscopolis,0.57,0.48,0.51
+-,Francisco Sa,0.51,0.54,0.53
+-,Francisco Santos,0.5,0.48,0.51
+-,Franco da Rocha,0.44,0.46,0.44
+-,Frecheirinha,0.55,0.62,0.53
+-,Frederico Westphalen,0.6,0.54,0.47
+-,Frei Gaspar,0.54,0.53,0.43
+-,Frei Inocencio,0.62,0.56,0.46
+-,Frei Lagonegro,0.47,0.5,0.5
+-,Frei Martinho,0.51,0.51,0.57
+-,Frei Miguelinho,0.49,0.55,0.46
+-,Frei Paulo,0.59,0.62,0.48
+-,Frei Rogerio,0.49,0.52,0.51
+-,Fronteira dos Vales,0.47,0.54,0.46
+-,Fronteira,0.48,0.5,0.43
+-,Fronteiras,0.62,0.59,0.56
+-,Fruta de Leite,0.45,0.64,0.47
+-,Frutal,0.56,0.56,0.47
+-,Frutuoso Gomes,0.63,0.5,0.47
+-,Fundao,0.58,0.54,0.49
+-,Funilandia,0.64,0.58,0.46
+-,Gabriel Monteiro,0.56,0.41,0.37
+-,Gado Bravo,0.46,0.54,0.56
+-,Galia,0.58,0.54,0.42
+-,Galileia,0.61,0.53,0.49
+-,Galinhos,0.44,0.61,0.57
+-,Galvao,0.5,0.62,0.45
+-,Gameleira de Goias,0.39,0.73,0.54
+-,Gameleira,0.56,0.52,0.46
+-,Gameleiras,0.5,0.51,0.5
+-,Gandu,0.65,0.67,0.59
+-,Garanhuns,0.6,0.6,0.59
+-,Gararu,0.52,0.61,0.61
+-,Garca,0.57,0.53,0.5
+-,Garibaldi,0.51,0.48,0.51
+-,Garopaba,0.48,0.49,0.45
+-,Garrafao do Norte,0.45,0.59,0.55
+-,Garruchos,0.48,0.54,0.52
+-,Garuva,0.56,0.56,0.44
+-,Gaspar,0.41,0.46,0.37
+-,Gastao Vidigal,0.53,0.55,0.42
+-,Gaucha do Norte,0.43,0.57,0.67
+-,Gaurama,0.52,0.53,0.43
+-,Gaviao,0.55,0.49,0.4
+-,Gaviao Peixoto,0.43,0.46,0.35
+-,Geminiano,0.44,0.55,0.46
+-,General Camara,0.57,0.52,0.49
+-,General Carneiro,0.55,0.61,0.59
+-,General Carneiro,0.55,0.54,0.48
+-,General Maynard,0.44,0.51,0.54
+-,General Salgado,0.51,0.55,0.45
+-,General Sampaio,0.56,0.62,0.51
+-,Gentil,0.51,0.47,0.43
+-,Gentio do Ouro,0.7,0.59,0.52
+-,Getulina,0.54,0.55,0.45
+-,Getulio Vargas,0.54,0.52,0.45
+-,Gilbues,0.54,0.67,0.68
+-,Girau do Ponciano,0.54,0.6,0.58
+-,Girua,0.61,0.59,0.53
+-,Glaucilandia,0.43,0.49,0.43
+-,Glicerio,0.41,0.52,0.52
+-,Gloria,0.5,0.61,0.51
+-,Gloria de Dourados,0.52,0.55,0.46
+-,Gloria D'Oeste,0.4,0.68,0.48
+-,Gloria do Goita,0.51,0.52,0.52
+-,Glorinha,0.52,0.52,0.41
+-,Godofredo Viana,0.49,0.58,0.5
+-,Godoy Moreira,0.43,0.6,0.44
+-,Goiabeira,0.53,0.47,0.47
+-,Goiana,0.45,0.5,0.47
+-,Goiana,0.55,0.56,0.54
+-,Goianapolis,0.57,0.45,0.52
+-,Goiandira,0.55,0.51,0.43
+-,Goianesia do Para,0.51,0.6,0.54
+-,Goianesia,0.52,0.53,0.47
+-,Goiania,0.57,0.61,0.58
+-,Goianinha,0.52,0.61,0.55
+-,Goianira,0.44,0.47,0.39
+-,Goianorte,0.64,0.57,0.54
+-,Goias,0.57,0.52,0.52
+-,Goiatins,0.54,0.73,0.61
+-,Goiatuba,0.56,0.65,0.5
+-,Goioere,0.57,0.57,0.48
+-,Goioxim,0.61,0.63,0.49
+-,Goncalves Dias,0.67,0.46,0.59
+-,Goncalves,0.54,0.49,0.45
+-,Gongogi,0.5,0.5,0.47
+-,Gonzaga,0.42,0.54,0.5
+-,Gouveia,0.52,0.55,0.45
+-,Gouvelandia,0.62,0.51,0.44
+-,Governador Archer,0.6,0.5,0.55
+-,Governador Celso Ramos,0.42,0.44,0.43
+-,Governador Dix-Sept Rosado,0.48,0.54,0.49
+-,Governador Edison Lobao,0.53,0.53,0.46
+-,Governador Eugenio Barros,0.55,0.53,0.58
+-,Governador Jorge Teixeira,0.7,0.57,0.55
+-,Governador Lindenberg,0.51,0.47,0.45
+-,Governador Luiz Rocha,0.39,0.48,0.55
+-,Governador Mangabeira,0.54,0.54,0.54
+-,Governador Newton Bello,0.41,0.54,0.52
+-,Governador Nunes Freire,0.59,0.63,0.56
+-,Governador Valadares,0.59,0.61,0.52
+-,Graca Aranha,0.38,0.46,0.53
+-,Graca,0.41,0.55,0.55
+-,Gracho Cardoso,0.47,0.5,0.56
+-,Grajau,0.59,0.58,0.61
+-,Gramado dos Loureiros,0.44,0.52,0.5
+-,Gramado,0.51,0.49,0.48
+-,Gramado Xavier,0.42,0.74,0.54
+-,Grandes Rios,0.67,0.5,0.45
+-,Granito,0.49,0.61,0.54
+-,Granja,0.52,0.58,0.62
+-,Granjeiro,0.61,0.68,0.51
+-,Grao Mogol,0.55,0.61,0.48
+-,Grao Para,0.64,0.59,0.43
+-,Gravatai,0.44,0.48,0.44
+-,Gravatal,0.57,0.44,0.4
+-,Gravata,0.51,0.55,0.53
+-,Groairas,0.45,0.56,0.47
+-,Grossos,0.44,0.5,0.49
+-,Grupiara,0.46,0.43,0.4
+-,Guabiju,0.58,0.4,0.55
+-,Guabiruba,0.34,0.43,0.34
+-,Guacui,0.63,0.59,0.52
+-,Guadalupe,0.58,0.59,0.5
+-,Guaiba,0.48,0.51,0.47
+-,Guaicara,0.5,0.47,0.38
+-,Guaimbe,0.6,0.54,0.4
+-,Guairaca,0.51,0.5,0.45
+-,Guaira,0.58,0.59,0.57
+-,Guaira,0.48,0.52,0.53
+-,Guaiuba,0.42,0.48,0.47
+-,Guajara,0.48,0.64,0.74
+-,Guajara-Mirim,0.6,0.6,0.54
+-,Guajeru,0.57,0.49,0.46
+-,Guamare,0.54,0.49,0.51
+-,Guamiranga,0.49,0.5,0.46
+-,Guanambi,0.62,0.64,0.55
+-,Guanhaes,0.55,0.57,0.56
+-,Guape,0.52,0.52,0.39
+-,Guapiacu,0.42,0.52,0.41
+-,Guapiara,0.56,0.69,0.55
+-,Guapimirim,0.55,0.54,0.5
+-,Guapirama,0.47,0.5,0.46
+-,Guapo,0.46,0.5,0.54
+-,Guaporema,0.47,0.46,0.37
+-,Guapore,0.47,0.48,0.42
+-,Guarabira,0.57,0.52,0.53
+-,Guaracai,0.63,0.51,0.42
+-,Guaraciaba do Norte,0.56,0.57,0.51
+-,Guaraciaba,0.52,0.64,0.48
+-,Guaraciaba,0.51,0.47,0.47
+-,Guaraciama,0.43,0.58,0.4
+-,Guaraci,0.58,0.51,0.37
+-,Guaraci,0.49,0.48,0.42
+-,Guaraita,0.56,0.45,0.41
+-,Guarai,0.56,0.55,0.61
+-,Guaramiranga,0.44,0.48,0.47
+-,Guaramirim,0.39,0.44,0.38
+-,Guaranesia,0.48,0.54,0.41
+-,Guaraniacu,0.61,0.62,0.54
+-,Guarani das Missoes,0.52,0.52,0.42
+-,Guarani de Goias,0.49,0.53,0.48
+-,Guarani D'Oeste,0.42,0.51,0.4
+-,Guarani,0.6,0.53,0.49
+-,Guaranta do Norte,0.66,0.63,0.48
+-,Guaranta,0.59,0.57,0.48
+-,Guarapari,0.56,0.58,0.58
+-,Guarapuava,0.61,0.63,0.55
+-,Guaraquecaba,0.48,0.54,0.49
+-,Guarara,0.51,0.55,0.41
+-,Guararapes,0.56,0.51,0.43
+-,Guararema,0.56,0.59,0.47
+-,Guara,0.47,0.53,0.49
+-,Guaratinga,0.69,0.53,0.53
+-,Guaratingueta,0.65,0.57,0.54
+-,Guaratuba,0.57,0.6,0.56
+-,Guarda-Mor,0.58,0.52,0.53
+-,Guarei,0.62,0.5,0.44
+-,Guaribas,0.56,0.6,0.57
+-,Guariba,0.46,0.5,0.43
+-,Guarinos,0.5,0.59,0.43
+-,Guaruja do Sul,0.63,0.7,0.4
+-,Guaruja,0.48,0.51,0.5
+-,Guarulhos,0.48,0.52,0.51
+-,Guatambu,0.46,0.49,0.45
+-,Guatapara,0.57,0.49,0.53
+-,Guaxupe,0.56,0.53,0.49
+-,Guia Lopes da Laguna,0.53,0.7,0.57
+-,Guidoval,0.55,0.57,0.38
+-,Guimaraes,0.55,0.57,0.56
+-,Guimarania,0.56,0.56,0.48
+-,Guiratinga,0.5,0.61,0.48
+-,Guiricema,0.53,0.49,0.42
+-,Gurinhata,0.51,0.59,0.49
+-,Gurinhem,0.43,0.49,0.45
+-,Gurjao,0.53,0.45,0.45
+-,Gurupa,0.49,0.54,0.56
+-,Gurupi,0.62,0.57,0.54
+-,Guzolandia,0.51,0.4,0.41
+-,Harmonia,0.48,0.41,0.36
+-,Heitorai,0.52,0.55,0.5
+-,Heliodora,0.58,0.58,0.41
+-,Heliopolis,0.47,0.51,0.5
+-,Herculandia,0.66,0.5,0.44
+-,Herval D'Oeste,0.49,0.49,0.42
+-,Herval,0.55,0.57,0.68
+-,Herveiras,0.44,0.51,0.41
+-,Hidrolandia,0.49,0.61,0.51
+-,Hidrolandia,0.48,0.51,0.47
+-,Hidrolina,0.5,0.7,0.42
+-,Holambra,0.52,0.56,0.54
+-,Honorio Serpa,0.48,0.61,0.46
+-,Horizonte,0.47,0.61,0.42
+-,Horizontina,0.56,0.5,0.49
+-,Hortolandia,0.41,0.44,0.41
+-,Hugo Napoleao,0.55,0.66,0.52
+-,Hulha Negra,0.51,0.67,0.54
+-,Humaita,0.56,0.69,0.66
+-,Humaita,0.55,0.47,0.42
+-,Humberto de Campos,0.47,0.54,0.64
+-,Iacanga,0.61,0.46,0.4
+-,Iaciara,0.62,0.61,0.53
+-,Iacri,0.59,0.52,0.44
+-,Iacu,0.53,0.55,0.61
+-,Iapu,0.51,0.51,0.5
+-,Iaras,0.51,0.44,0.52
+-,Iati,0.47,0.59,0.55
+-,Ibaiti,0.62,0.54,0.62
+-,Ibarama,0.57,0.42,0.43
+-,Ibaretama,0.44,0.51,0.55
+-,Ibateguara,0.38,0.55,0.53
+-,Ibate,0.37,0.44,0.37
+-,Ibatiba,0.53,0.49,0.45
+-,Ibema,0.53,0.54,0.44
+-,Ibertioga,0.63,0.55,0.43
+-,Ibiaca,0.54,0.6,0.43
+-,Ibiai,0.53,0.51,0.48
+-,Ibia,0.5,0.66,0.55
+-,Ibiam,0.55,0.49,0.46
+-,Ibiapina,0.49,0.58,0.47
+-,Ibiara,0.51,0.49,0.53
+-,Ibiassuce,0.61,0.55,0.46
+-,Ibicarai,0.62,0.6,0.53
+-,Ibicare,0.53,0.51,0.43
+-,Ibicoara,0.47,0.56,0.48
+-,Ibicui,0.79,0.56,0.5
+-,Ibicuitinga,0.53,0.55,0.52
+-,Ibimirim,0.49,0.63,0.51
+-,Ibipeba,0.57,0.55,0.56
+-,Ibipitanga,0.52,0.55,0.57
+-,Ibipora,0.49,0.53,0.45
+-,Ibiquera,0.52,0.58,0.58
+-,Ibiracatu,0.61,0.64,0.5
+-,Ibiraci,0.49,0.5,0.42
+-,Ibiracu,0.49,0.62,0.56
+-,Ibiraiaras,0.54,0.6,0.44
+-,Ibirajuba,0.55,0.62,0.47
+-,Ibirama,0.47,0.47,0.37
+-,Ibirapitanga,0.55,0.57,0.52
+-,Ibirapua,0.48,0.53,0.51
+-,Ibirapuita,0.53,0.5,0.52
+-,Ibirarema,0.48,0.56,0.43
+-,Ibira,0.46,0.53,0.48
+-,Ibirataia,0.6,0.6,0.49
+-,Ibirite,0.44,0.42,0.42
+-,Ibiruba,0.54,0.59,0.49
+-,Ibitiara,0.54,0.49,0.55
+-,Ibitinga,0.52,0.5,0.43
+-,Ibitirama,0.56,0.58,0.47
+-,Ibitita,0.49,0.53,0.5
+-,Ibitiura de Minas,0.42,0.52,0.4
+-,Ibituruna,0.55,0.47,0.42
+-,Ibiuna,0.61,0.53,0.48
+-,Ibotirama,0.61,0.67,0.55
+-,Icapui,0.5,0.49,0.47
+-,Icarai de Minas,0.53,0.68,0.5
+-,Icaraima,0.48,0.55,0.42
+-,Icara,0.43,0.41,0.4
+-,Icatu,0.41,0.6,0.59
+-,Icem,0.5,0.52,0.45
+-,Ichu,0.54,0.49,0.47
+-,Ico,0.55,0.62,0.55
+-,Iconha,0.53,0.69,0.45
+-,Ielmo Marinho,0.46,0.61,0.51
+-,Iepe,0.46,0.56,0.44
+-,Igaci,0.47,0.62,0.57
+-,Igapora,0.56,0.63,0.5
+-,Igaracu do Tiete,0.34,0.45,0.36
+-,Igaracy,0.47,0.52,0.52
+-,Igarapava,0.5,0.5,0.67
+-,Igarape-Acu,0.56,0.53,0.56
+-,Igarape do Meio,0.43,0.54,0.5
+-,Igarape Grande,0.54,0.49,0.52
+-,Igarape,0.57,0.52,0.45
+-,Igarape-Miri,0.49,0.52,0.53
+-,Igarassu,0.52,0.53,0.48
+-,Igarata,0.49,0.52,0.41
+-,Igaratinga,0.45,0.43,0.37
+-,Igrapiuna,0.48,0.55,0.54
+-,Igreja Nova,0.5,0.59,0.65
+-,Igrejinha,0.44,0.51,0.44
+-,Iguaba Grande,0.57,0.55,0.56
+-,Iguai,0.54,0.57,0.55
+-,Iguape,0.55,0.6,0.55
+-,Iguaraci,0.58,0.59,0.54
+-,Iguaracu,0.42,0.51,0.42
+-,Iguatama,0.56,0.56,0.43
+-,Iguatemi,0.6,0.57,0.51
+-,Iguatu,0.62,0.58,0.54
+-,Iguatu,0.46,0.51,0.46
+-,Ijaci,0.41,0.49,0.41
+-,Ijui,0.57,0.56,0.57
+-,Ilhabela,0.54,0.56,0.49
+-,Ilha Comprida,0.58,0.56,0.46
+-,Ilha das Flores,0.46,0.6,0.56
+-,Ilha de Itamaraca,0.54,0.59,0.6
+-,Ilha Grande,0.4,0.48,0.51
+-,Ilha Solteira,0.44,0.48,0.48
+-,Ilheus,0.64,0.64,0.58
+-,Ilhota,0.39,0.41,0.38
+-,Ilicinea,0.47,0.52,0.39
+-,Ilopolis,0.5,0.58,0.48
+-,Imaculada,0.55,0.58,0.52
+-,Imarui,0.65,0.57,0.45
+-,Imbau,0.58,0.56,0.43
+-,Imbe de Minas,0.49,0.57,0.44
+-,Imbe,0.47,0.53,0.68
+-,Imbituba,0.55,0.47,0.45
+-,Imbituva,0.66,0.57,0.51
+-,Imbuia,0.5,0.43,0.47
+-,Imigrante,0.53,0.43,0.35
+-,Imperatriz,0.62,0.6,0.56
+-,Inaciolandia,0.49,0.52,0.45
+-,Inacio Martins,0.55,0.62,0.51
+-,Inaja,0.49,0.68,0.6
+-,Inaja,0.41,0.43,0.43
+-,Inconfidentes,0.58,0.5,0.48
+-,Indaiabira,0.41,0.53,0.48
+-,Indaial,0.41,0.46,0.39
+-,Indaiatuba,0.46,0.55,0.47
+-,Independencia,0.48,0.58,0.55
+-,Independencia,0.55,0.62,0.48
+-,Indiana,0.45,0.52,0.45
+-,Indianopolis,0.43,0.58,0.4
+-,Indianopolis,0.55,0.48,0.35
+-,Indiapora,0.54,0.56,0.47
+-,Indiara,0.53,0.54,0.45
+-,Indiaroba,0.44,0.56,0.53
+-,Indiavai,0.63,0.43,0.46
+-,Ingai,0.64,0.65,0.52
+-,Inga,0.46,0.51,0.49
+-,Ingazeira,0.57,0.58,0.53
+-,Inhacora,0.66,0.55,0.43
+-,Inhambupe,0.53,0.55,0.53
+-,Inhangapi,0.48,0.6,0.52
+-,Inhapi,0.47,0.67,0.67
+-,Inhapim,0.58,0.6,0.52
+-,Inhauma,0.47,0.45,0.44
+-,Inhuma,0.71,0.54,0.52
+-,Inhumas,0.53,0.56,0.45
+-,Inimutaba,0.47,0.43,0.42
+-,Inocencia,0.67,0.61,0.48
+-,Inubia Paulista,0.39,0.45,0.37
+-,Iomere,0.43,0.48,0.33
+-,Ipaba,0.42,0.47,0.4
+-,Ipameri,0.53,0.48,0.49
+-,Ipanema,0.57,0.53,0.53
+-,Ipanguacu,0.41,0.56,0.48
+-,Ipaporanga,0.46,0.57,0.55
+-,Ipatinga,0.55,0.55,0.52
+-,Ipaumirim,0.59,0.61,0.63
+-,Ipaussu,0.43,0.48,0.48
+-,Ipecaeta,0.5,0.48,0.53
+-,Ipero,0.45,0.48,0.4
+-,Ipe,0.64,0.39,0.45
+-,Ipeuna,0.47,0.51,0.46
+-,Ipiacu,0.45,0.62,0.43
+-,Ipiau,0.66,0.63,0.69
+-,Ipigua,0.45,0.47,0.36
+-,Ipira,0.51,0.57,0.52
+-,Ipiranga de Goias,0.53,0.53,0.42
+-,Ipiranga do Norte,0.74,0.42,0.48
+-,Ipiranga do Piaui,0.54,0.52,0.47
+-,Ipiranga do Sul,0.45,0.52,0.48
+-,Ipiranga,0.46,0.56,0.53
+-,Ipira,0.49,0.46,0.45
+-,Ipixuna,0.65,0.68,0.58
+-,Ipixuna do Para,0.46,0.59,0.57
+-,Ipojuca,0.46,0.53,0.5
+-,Ipora do Oeste,0.5,0.48,0.43
+-,Ipora,0.49,0.55,0.51
+-,Iporanga,0.63,0.56,0.53
+-,Ipora,0.59,0.54,0.45
+-,Ipuacu,0.87,0.56,0.61
+-,Ipua,0.47,0.55,0.59
+-,Ipubi,0.57,0.66,0.53
+-,Ipu,0.57,0.59,0.56
+-,Ipueira,0.41,0.5,0.4
+-,Ipueiras,0.51,0.58,0.56
+-,Ipueiras,0.44,0.56,0.43
+-,Ipuiuna,0.64,0.64,0.53
+-,Ipumirim,0.57,0.55,0.42
+-,Ipupiara,0.54,0.6,0.5
+-,Iracema,0.48,0.61,0.55
+-,Iracema do Oeste,0.52,0.48,0.4
+-,Iracemapolis,0.48,0.5,0.4
+-,Iracema,0.63,0.55,0.62
+-,Iraceminha,0.53,0.44,0.43
+-,Irai de Minas,0.62,0.52,0.48
+-,Irai,0.61,0.64,0.54
+-,Irajuba,0.52,0.52,0.52
+-,Iramaia,0.52,0.48,0.5
+-,Iranduba,0.47,0.59,0.56
+-,Irani,0.56,0.62,0.42
+-,Irapua,0.46,0.48,0.36
+-,Irapuru,0.64,0.55,0.44
+-,Iraquara,0.54,0.55,0.61
+-,Irara,0.54,0.58,0.5
+-,Irati,0.59,0.55,0.49
+-,Irati,0.59,0.69,0.45
+-,Iraucuba,0.5,0.57,0.61
+-,Irece,0.59,0.59,0.59
+-,Iretama,0.51,0.62,0.58
+-,Irineopolis,0.49,0.55,0.54
+-,Irituia,0.46,0.6,0.58
+-,Irupi,0.49,0.47,0.51
+-,Isaias Coelho,0.46,0.6,0.79
+-,Israelandia,0.41,0.47,0.43
+-,Itaara,0.45,0.6,0.61
+-,Itabaiana,0.5,0.52,0.5
+-,Itabaiana,0.51,0.51,0.52
+-,Itabaianinha,0.51,0.53,0.51
+-,Itabela,0.65,0.54,0.55
+-,Itaberaba,0.61,0.58,0.58
+-,Itaberai,0.59,0.63,0.55
+-,Itabera,0.68,0.61,0.5
+-,Itabira,0.56,0.55,0.51
+-,Itabirinha,0.56,0.61,0.47
+-,Itabirito,0.49,0.48,0.47
+-,Itabi,0.5,0.58,0.47
+-,Itaborai,0.49,0.5,0.48
+-,Itabuna,0.68,0.61,0.56
+-,Itacaja,0.53,0.61,0.58
+-,Itacambira,0.48,0.57,0.5
+-,Itacarambi,0.49,0.58,0.5
+-,Itacare,0.63,0.58,0.55
+-,Itacoatiara,0.55,0.6,0.59
+-,Itacuruba,0.61,0.56,0.46
+-,Itacurubi,0.68,0.53,0.61
+-,Itaete,0.51,0.6,0.54
+-,Itagiba,0.56,0.53,0.47
+-,Itagi,0.48,0.6,0.46
+-,Itagimirim,0.62,0.57,0.52
+-,Itaguacu da Bahia,0.38,0.56,0.54
+-,Itaguacu,0.59,0.53,0.43
+-,Itaguai,0.52,0.52,0.47
+-,Itaguaje,0.54,0.64,0.41
+-,Itaguara,0.54,0.52,0.44
+-,Itaguari,0.45,0.63,0.39
+-,Itaguaru,0.52,0.6,0.46
+-,Itaguatins,0.56,0.51,0.57
+-,Itaiba,0.58,0.61,0.51
+-,Itaicaba,0.48,0.52,0.44
+-,Itainopolis,0.46,0.67,0.5
+-,Itaiopolis,0.53,0.48,0.49
+-,Itaipava do Grajau,0.47,0.6,0.55
+-,Itaipe,0.53,0.67,0.49
+-,Itaipulandia,0.49,0.56,0.63
+-,Itai,0.54,0.52,0.45
+-,Itaitinga,0.43,0.48,0.45
+-,Itaituba,0.58,0.63,0.57
+-,Itaja,0.5,0.53,0.44
+-,Itajai,0.47,0.53,0.45
+-,Itaja,0.4,0.5,0.42
+-,Itajobi,0.49,0.47,0.38
+-,Itajuba,0.56,0.57,0.55
+-,Itaju do Colonia,0.49,0.54,0.48
+-,Itajuipe,0.6,0.55,0.49
+-,Itaju,0.43,0.41,0.37
+-,Italva,0.59,0.53,0.47
+-,Itamaraju,0.64,0.58,0.55
+-,Itamarandiba,0.55,0.67,0.52
+-,Itamarati,0.47,0.65,0.8
+-,Itamarati de Minas,0.47,0.48,0.39
+-,Itamari,0.66,0.58,0.51
+-,Itambacuri,0.67,0.65,0.51
+-,Itambaraca,0.53,0.49,0.42
+-,Itambe,0.64,0.45,0.4
+-,Itambe do Mato Dentro,0.61,0.49,0.42
+-,Itambe,0.57,0.54,0.5
+-,Itambe,0.52,0.52,0.36
+-,Itamogi,0.51,0.52,0.41
+-,Itamonte,0.54,0.55,0.47
+-,Itanagra,0.47,0.55,0.63
+-,Itanhaem,0.52,0.54,0.5
+-,Itanhandu,0.62,0.57,0.48
+-,Itanhanga,0.45,0.69,0.51
+-,Itanhem,0.56,0.58,0.54
+-,Itanhomi,0.55,0.59,0.55
+-,Itaobim,0.48,0.61,0.51
+-,Itaocara,0.59,0.62,0.49
+-,Itaoca,0.59,0.61,0.54
+-,Itapaci,0.62,0.52,0.56
+-,Itapage,0.53,0.59,0.54
+-,Itapagipe,0.55,0.5,0.45
+-,Itaparica,0.52,0.56,0.63
+-,Itape,0.53,0.47,0.47
+-,Itapebi,0.52,0.52,0.48
+-,Itapecerica da Serra,0.56,0.52,0.45
+-,Itapecerica,0.57,0.57,0.44
+-,Itapecuru Mirim,0.5,0.57,0.56
+-,Itapejara D'Oeste,0.54,0.54,0.49
+-,Itapema,0.5,0.67,0.49
+-,Itapemirim,0.52,0.49,0.44
+-,Itaperucu,0.48,0.46,0.4
+-,Itaperuna,0.64,0.54,0.47
+-,Itapetim,0.61,0.58,0.55
+-,Itapetinga,0.62,0.57,0.48
+-,Itapetininga,0.53,0.55,0.49
+-,Itapeva,0.49,0.5,0.42
+-,Itapeva,0.59,0.6,0.53
+-,Itapevi,0.44,0.48,0.45
+-,Itapicuru,0.48,0.57,0.54
+-,Itapipoca,0.56,0.63,0.56
+-,Itapiranga,0.48,0.54,0.67
+-,Itapiranga,0.56,0.63,0.45
+-,Itapirapua,0.56,0.51,0.46
+-,Itapirapua Paulista,0.41,0.66,0.53
+-,Itapira,0.47,0.52,0.45
+-,Itapiratins,0.46,0.67,0.52
+-,Itapissuma,0.48,0.55,0.54
+-,Itapitanga,0.62,0.53,0.43
+-,Itapiuna,0.53,0.66,0.5
+-,Itapoa,0.55,0.64,0.47
+-,Itapolis,0.48,0.54,0.45
+-,Itapora do Tocantins,0.41,0.54,0.44
+-,Itapora,0.59,0.58,0.54
+-,Itaporanga D'Ajuda,0.47,0.51,0.49
+-,Itaporanga,0.55,0.56,0.5
+-,Itaporanga,0.58,0.58,0.53
+-,Itapororoca,0.47,0.5,0.48
+-,Itapua do Oeste,0.66,0.65,0.47
+-,Itapuca,0.48,0.42,0.4
+-,Itapui,0.5,0.44,0.41
+-,Itapuranga,0.55,0.61,0.48
+-,Itapura,0.5,0.45,0.45
+-,Itaquaquecetuba,0.43,0.46,0.42
+-,Itaquara,0.5,0.47,0.55
+-,Itaquirai,0.58,0.53,0.5
+-,Itaqui,0.61,0.57,0.51
+-,Itaquitinga,0.48,0.56,0.45
+-,Itarana,0.68,0.52,0.47
+-,Itarantim,0.47,0.54,0.5
+-,Itarare,0.59,0.61,0.48
+-,Itarema,0.58,0.59,0.53
+-,Itariri,0.6,0.59,0.5
+-,Itaruma,0.57,0.61,0.6
+-,Ita,0.5,0.55,0.45
+-,Itatiaia,0.58,0.54,0.51
+-,Itatiaiucu,0.5,0.5,0.4
+-,Itatiba do Sul,0.55,0.51,0.49
+-,Itatiba,0.48,0.52,0.48
+-,Itatim,0.5,0.54,0.46
+-,Itatinga,0.54,0.48,0.43
+-,Itatira,0.43,0.65,0.54
+-,Itati,0.58,0.49,0.47
+-,Itatuba,0.46,0.49,0.49
+-,Itaubal,0.48,0.58,0.61
+-,Itauba,0.56,0.75,0.58
+-,Itaucu,0.49,0.47,0.46
+-,Itau de Minas,0.45,0.48,0.56
+-,Itaueira,0.53,0.63,0.55
+-,Itauna do Sul,0.46,0.51,0.37
+-,Itauna,0.51,0.55,0.48
+-,Itau,0.63,0.53,0.48
+-,Itaverava,0.5,0.5,0.47
+-,Itinga do Maranhao,0.47,0.69,0.52
+-,Itinga,0.51,0.6,0.5
+-,Itiquira,0.48,0.6,0.47
+-,Itirapina,0.48,0.54,0.48
+-,Itirapua,0.42,0.52,0.44
+-,Itirucu,0.5,0.61,0.5
+-,Itiuba,0.51,0.63,0.56
+-,Itobi,0.54,0.51,0.41
+-,Itororo,0.55,0.55,0.44
+-,Ituacu,0.59,0.61,0.52
+-,Itubera,0.57,0.58,0.51
+-,Itueta,0.5,0.51,0.51
+-,Ituiutaba,0.59,0.57,0.5
+-,Itumbiara,0.55,0.55,0.49
+-,Itumirim,0.44,0.51,0.52
+-,Itupeva,0.51,0.53,0.43
+-,Itupiranga,0.53,0.58,0.62
+-,Ituporanga,0.6,0.47,0.43
+-,Iturama,0.55,0.58,0.46
+-,Itu,0.5,0.56,0.52
+-,Itutinga,0.54,0.55,0.54
+-,Ituverava,0.54,0.58,0.52
+-,Iuiu,0.51,0.57,0.47
+-,Iuna,0.56,0.56,0.5
+-,Ivaipora,0.55,0.58,0.48
+-,Ivai,0.54,0.55,0.5
+-,Ivate,0.49,0.44,0.37
+-,Ivatuba,0.64,0.57,0.43
+-,Ivinhema,0.51,0.53,0.48
+-,Ivolandia,0.48,0.53,0.45
+-,Ivora,0.55,0.42,0.44
+-,Ivoti,0.46,0.46,0.44
+-,Jaboatao dos Guararapes,0.61,0.63,0.58
+-,Jaborandi,0.46,0.62,0.62
+-,Jaborandi,0.49,0.47,0.39
+-,Jabora,0.55,0.5,0.45
+-,Jaboticabal,0.53,0.52,0.52
+-,Jaboticaba,0.59,0.53,0.53
+-,Jaboticatubas,0.57,0.6,0.57
+-,Jaboti,0.44,0.52,0.48
+-,Jacana,0.51,0.56,0.48
+-,Jacaraci,0.45,0.57,0.47
+-,Jacarau,0.54,0.56,0.54
+-,Jacareacanga,0.64,0.64,0.69
+-,Jacare dos Homens,0.55,0.67,0.49
+-,Jacarei,0.55,0.51,0.49
+-,Jacarezinho,0.54,0.59,0.53
+-,Jaciara,0.53,0.54,0.51
+-,Jacinto Machado,0.53,0.47,0.43
+-,Jacinto,0.53,0.56,0.48
+-,Jaci,0.4,0.47,0.35
+-,Jacobina,0.63,0.65,0.55
+-,Jacobina do Piaui,0.36,0.54,0.52
+-,Jacui,0.49,0.48,0.4
+-,Jacuipe,0.4,0.56,0.46
+-,Jacuizinho,0.75,0.66,0.72
+-,Jacunda,0.56,0.63,0.59
+-,Jacupiranga,0.53,0.6,0.53
+-,Jacutinga,0.52,0.55,0.42
+-,Jacutinga,0.56,0.55,0.39
+-,Jaguapita,0.55,0.46,0.4
+-,Jaguaquara,0.53,0.6,0.5
+-,Jaguaracu,0.48,0.43,0.41
+-,Jaguarao,0.57,0.54,0.49
+-,Jaguarari,0.59,0.59,0.66
+-,Jaguare,0.71,0.56,0.56
+-,Jaguaretama,0.52,0.56,0.56
+-,Jaguariaiva,0.61,0.53,0.51
+-,Jaguaribara,0.55,0.52,0.45
+-,Jaguaribe,0.59,0.62,0.52
+-,Jaguaripe,0.58,0.54,0.55
+-,Jaguari,0.66,0.53,0.51
+-,Jaguariuna,0.58,0.54,0.49
+-,Jaguaruana,0.47,0.56,0.47
+-,Jaguaruna,0.48,0.51,0.39
+-,Jaiba,0.48,0.57,0.46
+-,Jaicos,0.6,0.63,0.52
+-,Jales,0.54,0.5,0.46
+-,Jambeiro,0.56,0.53,0.49
+-,Jampruca,0.61,0.5,0.48
+-,Janauba,0.58,0.58,0.53
+-,Jandaia do Sul,0.54,0.55,0.46
+-,Jandaia,0.55,0.54,0.44
+-,Jandaira,0.47,0.53,0.54
+-,Jandaira,0.41,0.52,0.53
+-,Jandira,0.4,0.49,0.48
+-,Janduis,0.62,0.52,0.47
+-,Jangada,0.63,0.55,0.56
+-,Janiopolis,0.58,0.51,0.5
+-,Januaria,0.63,0.65,0.56
+-,Januario Cicco,0.52,0.59,0.53
+-,Japaraiba,0.43,0.43,0.37
+-,Japaratinga,0.5,0.59,0.52
+-,Japaratuba,0.56,0.55,0.5
+-,Japeri,0.44,0.49,0.42
+-,Japira,0.5,0.59,0.47
+-,Japi,0.56,0.65,0.51
+-,Japoata,0.46,0.48,0.49
+-,Japonvar,0.42,0.56,0.46
+-,Japora,0.52,0.54,0.66
+-,Japura,0.42,0.57,0.59
+-,Japura,0.56,0.43,0.35
+-,Jaqueira,0.46,0.54,0.59
+-,Jaquirana,0.49,0.51,0.43
+-,Jaragua do Sul,0.47,0.48,0.42
+-,Jaragua,0.56,0.52,0.45
+-,Jaraguari,0.5,0.56,0.48
+-,Jaramataia,0.44,0.43,0.48
+-,Jardim Alegre,0.52,0.55,0.66
+-,Jardim,0.53,0.62,0.53
+-,Jardim de Angicos,0.52,0.47,0.53
+-,Jardim de Piranhas,0.48,0.49,0.42
+-,Jardim do Mulato,0.42,0.61,0.51
+-,Jardim do Serido,0.48,0.54,0.5
+-,Jardim,0.61,0.67,0.55
+-,Jardim Olinda,0.34,0.62,0.44
+-,Jardinopolis,0.61,0.48,0.4
+-,Jardinopolis,0.52,0.53,0.48
+-,Jarinu,0.56,0.56,0.45
+-,Jari,0.64,0.57,0.56
+-,Jaru,0.57,0.56,0.49
+-,Jatai,0.6,0.58,0.55
+-,Jataizinho,0.63,0.49,0.44
+-,Jatauba,0.47,0.57,0.49
+-,Jatei,0.52,0.47,0.6
+-,Jati,0.55,0.58,0.5
+-,Jatoba do Piaui,0.38,0.43,0.46
+-,Jatoba,0.47,0.51,0.57
+-,Jatoba,0.56,0.59,0.57
+-,Jau do Tocantins,0.49,0.55,0.64
+-,Jaupaci,0.5,0.5,0.41
+-,Jauru,0.48,0.56,0.52
+-,Jau,0.42,0.49,0.45
+-,Jeceaba,0.46,0.5,0.47
+-,Jenipapo de Minas,0.45,0.52,0.46
+-,Jenipapo dos Vieiras,0.51,0.6,0.67
+-,Jequeri,0.59,0.59,0.5
+-,Jequia da Praia,0.41,0.41,0.47
+-,Jequie,0.62,0.58,0.55
+-,Jequitai,0.58,0.58,0.47
+-,Jequitiba,0.55,0.63,0.78
+-,Jequitinhonha,0.56,0.63,0.54
+-,Jeremoabo,0.49,0.63,0.53
+-,Jerico,0.52,0.52,0.51
+-,Jeriquara,0.45,0.51,0.42
+-,Jeronimo Monteiro,0.6,0.56,0.54
+-,Jerumenha,0.59,0.53,0.49
+-,Jesuania,0.56,0.55,0.5
+-,Jesuitas,0.55,0.62,0.42
+-,Jesupolis,0.46,0.49,0.45
+-,Jijoca de Jericoacoara,0.46,0.65,0.59
+-,Ji-Parana,0.57,0.59,0.53
+-,Jiquirica,0.5,0.49,0.5
+-,Jitauna,0.48,0.6,0.51
+-,Joacaba,0.59,0.57,0.54
+-,Joaima,0.71,0.69,0.53
+-,Joanesia,0.51,0.52,0.49
+-,Joanopolis,0.48,0.51,0.43
+-,Joao Alfredo,0.49,0.55,0.49
+-,Joao Camara,0.5,0.59,0.56
+-,Joao Costa,0.43,0.5,0.49
+-,Joao Dias,0.62,0.59,0.55
+-,Joao Dourado,0.56,0.53,0.52
+-,Joao Lisboa,0.5,0.53,0.44
+-,Joao Monlevade,0.5,0.52,0.49
+-,Joao Neiva,0.56,0.5,0.53
+-,Joao Pessoa,0.62,0.62,0.62
+-,Joao Pinheiro,0.6,0.57,0.49
+-,Joao Ramalho,0.46,0.48,0.42
+-,Joaquim Felicio,0.54,0.58,0.53
+-,Joaquim Gomes,0.4,0.55,0.5
+-,Joaquim Nabuco,0.47,0.55,0.48
+-,Joaquim Pires,0.61,0.54,0.6
+-,Joaquim Tavora,0.52,0.49,0.43
+-,Joca Marques,0.33,0.52,0.57
+-,Joia,0.58,0.59,0.53
+-,Joinville,0.49,0.54,0.49
+-,Jordania,0.59,0.58,0.51
+-,Jordao,0.39,0.72,0.71
+-,Jose Boiteux,0.46,0.57,0.44
+-,Jose Bonifacio,0.48,0.56,0.45
+-,Jose da Penha,0.63,0.62,0.47
+-,Jose de Freitas,0.54,0.52,0.57
+-,Jose Goncalves de Minas,0.43,0.38,0.41
+-,Joselandia,0.48,0.58,0.57
+-,Josenopolis,0.4,0.6,0.45
+-,Jose Raydan,0.48,0.64,0.48
+-,Joviania,0.62,0.68,0.48
+-,Juara,0.55,0.61,0.49
+-,Juarez Tavora,0.49,0.46,0.48
+-,Juarina,0.43,0.62,0.52
+-,Juatuba,0.47,0.53,0.47
+-,Juazeirinho,0.5,0.5,0.51
+-,Juazeiro,0.57,0.62,0.56
+-,Juazeiro do Norte,0.59,0.6,0.54
+-,Juazeiro do Piaui,0.43,0.57,0.51
+-,Jucas,0.63,0.59,0.49
+-,Jucati,0.48,0.53,0.5
+-,Jucurucu,0.48,0.6,0.54
+-,Jucurutu,0.53,0.56,0.46
+-,Juina,0.57,0.6,0.58
+-,Juiz de Fora,0.57,0.57,0.56
+-,Julio Borges,0.54,0.59,0.53
+-,Julio de Castilhos,0.67,0.59,0.59
+-,Julio Mesquita,0.42,0.55,0.41
+-,Jumirim,0.45,0.4,0.39
+-,Junco do Maranhao,0.42,0.5,0.52
+-,Junco do Serido,0.48,0.49,0.47
+-,Jundia,0.46,0.49,0.54
+-,Jundiai do Sul,0.53,0.71,0.5
+-,Jundiai,0.49,0.53,0.53
+-,Jundia,0.43,0.52,0.44
+-,Junqueiro,0.43,0.63,0.57
+-,Junqueiropolis,0.55,0.52,0.43
+-,Jupia,0.47,0.61,0.55
+-,Jupi,0.42,0.61,0.5
+-,Juquia,0.49,0.62,0.49
+-,Juquitiba,0.51,0.51,0.49
+-,Juramento,0.48,0.45,0.43
+-,Juranda,0.57,0.59,0.44
+-,Jurema,0.49,0.6,0.51
+-,Jurema,0.47,0.53,0.54
+-,Juripiranga,0.44,0.53,0.53
+-,Jurua,0.52,0.73,0.6
+-,Juruaia,0.55,0.44,0.64
+-,Juruena,0.57,0.49,0.44
+-,Juru,0.53,0.58,0.51
+-,Juruti,0.52,0.61,0.59
+-,Juscimeira,0.61,0.6,0.43
+-,Jussara,0.6,0.57,0.52
+-,Jussara,0.55,0.57,0.66
+-,Jussara,0.52,0.42,0.46
+-,Jussari,0.49,0.47,0.51
+-,Jussiape,0.47,0.48,0.46
+-,Jutai,0.63,0.8,0.69
+-,Juti,0.5,0.61,0.51
+-,Juvenilia,0.56,0.56,0.53
+-,Kalore,0.51,0.47,0.4
+-,Labrea,0.63,0.66,0.59
+-,Lacerdopolis,0.45,0.52,0.39
+-,Ladainha,0.44,0.53,0.56
+-,Ladario,0.54,0.59,0.52
+-,Lafaiete Coutinho,0.46,0.51,0.51
+-,Lagamar,0.56,0.51,0.5
+-,Lagarto,0.52,0.55,0.5
+-,Lages,0.56,0.6,0.54
+-,Lagoa Alegre,0.41,0.51,0.53
+-,Lagoa Bonita do Sul,0.51,0.4,0.43
+-,Lagoa da Canoa,0.44,0.5,0.51
+-,Lagoa da Confusao,0.49,0.66,0.51
+-,Lagoa D'Anta,0.5,0.59,0.54
+-,Lagoa da Prata,0.49,0.52,0.45
+-,Lagoa de Dentro,0.64,0.49,0.52
+-,Lagoa de Itaenga,0.42,0.5,0.45
+-,Lagoa de Pedras,0.52,0.57,0.52
+-,Lagoa de Sao Francisco,0.54,0.54,0.53
+-,Lagoa de Velhos,0.45,0.53,0.42
+-,Lagoa do Barro do Piaui,0.42,0.62,0.59
+-,Lagoa do Carro,0.47,0.55,0.45
+-,Lagoa do Mato,0.4,0.68,0.52
+-,Lagoa do Ouro,0.58,0.61,0.51
+-,Lagoa do Piaui,0.62,0.52,0.47
+-,Lagoa dos Gatos,0.49,0.6,0.5
+-,Lagoa do Sitio,0.51,0.62,0.55
+-,Lagoa dos Patos,0.51,0.43,0.44
+-,Lagoa dos Tres Cantos,0.59,0.5,0.43
+-,Lagoa do Tocantins,0.48,0.66,0.6
+-,Lagoa Dourada,0.6,0.56,0.53
+-,Lagoa Formosa,0.53,0.48,0.49
+-,Lagoa Grande do Maranhao,0.4,0.52,0.54
+-,Lagoa Grande,0.42,0.51,0.5
+-,Lagoa Grande,0.49,0.59,0.52
+-,Lagoa Nova,0.5,0.62,0.5
+-,Lagoao,0.5,0.51,0.43
+-,Lagoa,0.45,0.53,0.45
+-,Lagoa Real,0.77,0.47,0.48
+-,Lagoa Salgada,0.46,0.56,0.54
+-,Lagoa Santa,0.44,0.44,0.52
+-,Lagoa Santa,0.6,0.54,0.58
+-,Lagoa Seca,0.62,0.53,0.54
+-,Lagoa Vermelha,0.56,0.56,0.5
+-,Lago da Pedra,0.54,0.61,0.55
+-,Lago do Junco,0.47,0.55,0.6
+-,Lago dos Rodrigues,0.4,0.49,0.47
+-,Lagoinha do Piaui,0.45,0.5,0.53
+-,Lagoinha,0.54,0.52,0.48
+-,Lago Verde,0.4,0.56,0.51
+-,Laguna Carapa,0.51,0.66,0.53
+-,Laguna,0.49,0.52,0.44
+-,Lajeado do Bugre,0.43,0.43,0.49
+-,Lajeado Grande,0.49,0.42,0.44
+-,Lajeado Novo,0.57,0.52,0.6
+-,Lajeado,0.48,0.5,0.46
+-,Lajeado,0.72,0.5,0.58
+-,Laje,0.58,0.54,0.51
+-,Lajedao,0.72,0.61,0.58
+-,Lajedinho,0.43,0.51,0.56
+-,Lajedo do Tabocal,0.46,0.54,0.46
+-,Laje do Muriae,0.61,0.49,0.46
+-,Lajedo,0.58,0.58,0.5
+-,Lajes Pintadas,0.47,0.57,0.45
+-,Lajes,0.56,0.51,0.49
+-,Lajinha,0.53,0.53,0.51
+-,Lamarao,0.51,0.51,0.5
+-,Lambari D'Oeste,0.55,0.51,0.48
+-,Lambari,0.57,0.57,0.48
+-,Lamim,0.49,0.44,0.46
+-,Landri Sales,0.52,0.58,0.54
+-,Lapao,0.54,0.61,0.52
+-,Lapa,0.54,0.61,0.49
+-,Laranja da Terra,0.57,0.54,0.47
+-,Laranjal do Jari,0.55,0.57,0.55
+-,Laranjal,0.54,0.53,0.49
+-,Laranjal Paulista,0.48,0.53,0.41
+-,Laranjal,0.54,0.6,0.49
+-,Laranjeiras do Sul,0.69,0.58,0.54
+-,Laranjeiras,0.53,0.51,0.49
+-,Lassance,0.48,0.58,0.45
+-,Lastro,0.42,0.45,0.44
+-,Laurentino,0.47,0.52,0.36
+-,Lauro de Freitas,0.68,0.67,0.63
+-,Lauro Muller,0.41,0.45,0.37
+-,Lavandeira,0.43,0.55,0.51
+-,Lavinia,0.57,0.5,0.38
+-,Lavras da Mangabeira,0.59,0.59,0.6
+-,Lavras do Sul,0.63,0.58,0.5
+-,Lavras,0.55,0.57,0.5
+-,Lavrinhas,0.68,0.51,0.55
+-,Leandro Ferreira,0.58,0.46,0.46
+-,Lebon Regis,0.47,0.56,0.45
+-,Leme do Prado,0.5,0.49,0.4
+-,Leme,0.45,0.52,0.48
+-,Lencois,0.57,0.6,0.61
+-,Lencois Paulista,0.49,0.51,0.43
+-,Leoberto Leal,0.38,0.49,0.49
+-,Leopoldina,0.57,0.55,0.5
+-,Leopoldo de Bulhoes,0.51,0.52,0.44
+-,Leopolis,0.45,0.55,0.39
+-,Liberato Salzano,0.58,0.52,0.43
+-,Liberdade,0.63,0.55,0.59
+-,Licinio de Almeida,0.56,0.66,0.45
+-,Lidianopolis,0.55,0.54,0.4
+-,Lima Campos,0.53,0.54,0.56
+-,Lima Duarte,0.57,0.54,0.59
+-,Limeira do Oeste,0.39,0.54,0.46
+-,Limeira,0.47,0.52,0.48
+-,Limoeiro de Anadia,0.43,0.57,0.64
+-,Limoeiro do Ajuru,0.44,0.49,0.58
+-,Limoeiro do Norte,0.53,0.56,0.49
+-,Limoeiro,0.54,0.54,0.51
+-,Lindoeste,0.58,0.54,0.5
+-,Lindoia do Sul,0.6,0.65,0.43
+-,Lindoia,0.5,0.47,0.4
+-,Lindolfo Collor,0.37,0.33,0.37
+-,Linha Nova,0.62,0.34,0.36
+-,Linhares,0.6,0.6,0.52
+-,Lins,0.55,0.56,0.45
+-,Livramento de Nossa Senhora,0.62,0.57,0.52
+-,Livramento,0.61,0.58,0.5
+-,Lizarda,0.53,0.58,0.74
+-,Loanda,0.6,0.5,0.47
+-,Lobato,0.59,0.52,0.38
+-,Logradouro,0.43,0.55,0.42
+-,Londrina,0.56,0.57,0.51
+-,Lontra,0.53,0.54,0.5
+-,Lontras,0.53,0.44,0.37
+-,Lorena,0.56,0.54,0.52
+-,Loreto,0.6,0.65,0.54
+-,Lourdes,0.41,0.47,0.37
+-,Louveira,0.46,0.47,0.5
+-,Lucas do Rio Verde,0.61,0.53,0.46
+-,Lucelia,0.52,0.53,0.46
+-,Lucena,0.39,0.55,0.55
+-,Lucianopolis,0.43,0.42,0.51
+-,Luciara,0.61,0.56,0.43
+-,Lucrecia,0.66,0.56,0.62
+-,Luis Antonio,0.42,0.51,0.42
+-,Luisburgo,0.43,0.6,0.52
+-,Luis Correia,0.47,0.59,0.59
+-,Luis Domingues,0.52,0.6,0.6
+-,Luis Eduardo Magalhaes,0.71,0.63,0.62
+-,Luis Gomes,0.61,0.59,0.55
+-,Luislandia,0.43,0.44,0.57
+-,Luiz Alves,0.48,0.65,0.44
+-,Luiziana,0.62,0.54,0.48
+-,Luiziania,0.5,0.46,0.35
+-,Luminarias,0.51,0.64,0.41
+-,Lunardelli,0.49,0.49,0.46
+-,Lupercio,0.53,0.44,0.4
+-,Lupionopolis,0.46,0.56,0.48
+-,Lutecia,0.54,0.48,0.42
+-,Luzerna,0.44,0.5,0.43
+-,Luziania,0.55,0.56,0.5
+-,Luzilandia,0.59,0.56,0.51
+-,Luzinopolis,0.34,0.62,0.49
+-,Luz,0.71,0.67,0.5
+-,Macae,0.57,0.56,0.56
+-,Macaiba,0.5,0.55,0.5
+-,Macajuba,0.45,0.59,0.55
+-,Macambara,0.61,0.66,0.5
+-,Macambira,0.45,0.5,0.43
+-,Macapa,0.55,0.6,0.59
+-,Macaparana,0.56,0.54,0.51
+-,Macarani,0.6,0.52,0.46
+-,Macatuba,0.44,0.45,0.55
+-,Macaubal,0.54,0.5,0.43
+-,Macaubas,0.59,0.64,0.55
+-,Macau,0.57,0.48,0.5
+-,Macedonia,0.52,0.44,0.42
+-,Maceio,0.62,0.66,0.63
+-,Machacalis,0.6,0.53,0.48
+-,Machadinho D'Oeste,0.6,0.61,0.55
+-,Machadinho,0.59,0.5,0.5
+-,Machado,0.59,0.57,0.51
+-,Machados,0.46,0.57,0.48
+-,Macieira,0.42,0.74,0.39
+-,Macuco,0.55,0.52,0.5
+-,Macurure,0.49,0.53,0.55
+-,Madalena,0.54,0.58,0.58
+-,Madeiro,0.42,0.47,0.53
+-,Madre de Deus,0.48,0.51,0.54
+-,Madre de Deus de Minas,0.59,0.53,0.51
+-,Mae D'Agua,0.6,0.51,0.5
+-,Mae do Rio,0.58,0.59,0.58
+-,Maetinga,0.45,0.51,0.46
+-,Mafra,0.49,0.49,0.49
+-,Magalhaes Barata,0.43,0.66,0.54
+-,Magalhaes de Almeida,0.49,0.64,0.59
+-,Magda,0.5,0.52,0.44
+-,Mage,0.48,0.5,0.49
+-,Maiquinique,0.49,0.49,0.46
+-,Mairi,0.55,0.52,0.5
+-,Mairinque,0.45,0.49,0.44
+-,Mairipora,0.61,0.62,0.56
+-,Mairipotaba,0.56,0.55,0.66
+-,Major Gercino,0.5,0.42,0.52
+-,Major Isidoro,0.51,0.55,0.54
+-,Major Sales,0.55,0.48,0.51
+-,Major Vieira,0.53,0.66,0.46
+-,Malacacheta,0.54,0.66,0.53
+-,Malhada,0.46,0.52,0.49
+-,Malhada de Pedras,0.49,0.6,0.48
+-,Malhada dos Bois,0.52,0.48,0.46
+-,Malhador,0.41,0.53,0.45
+-,Mallet,0.57,0.59,0.46
+-,Malta,0.47,0.56,0.58
+-,Mamanguape,0.5,0.54,0.52
+-,Mambai,0.56,0.52,0.53
+-,Mambore,0.66,0.56,0.49
+-,Mamonas,0.45,0.53,0.45
+-,Mampituba,0.46,0.48,0.46
+-,Manacapuru,0.5,0.57,0.56
+-,Manaira,0.48,0.54,0.53
+-,Manaquiri,0.69,0.63,0.57
+-,Manari,0.44,0.71,0.54
+-,Manaus,0.56,0.62,0.61
+-,Mancio Lima,0.47,0.67,0.61
+-,Mandaguacu,0.53,0.51,0.41
+-,Mandaguari,0.53,0.5,0.45
+-,Mandirituba,0.48,0.57,0.46
+-,Manduri,0.56,0.48,0.48
+-,Manfrinopolis,0.59,0.58,0.47
+-,Manga,0.74,0.58,0.68
+-,Mangaratiba,0.52,0.56,0.51
+-,Mangueirinha,0.54,0.67,0.57
+-,Manhuacu,0.57,0.59,0.5
+-,Manhumirim,0.6,0.54,0.49
+-,Manicore,0.57,0.6,0.6
+-,Manoel Emidio,0.54,0.51,0.55
+-,Manoel Ribas,0.61,0.59,0.6
+-,Manoel Urbano,0.62,0.65,0.59
+-,Manoel Viana,0.53,0.55,0.52
+-,Manoel Vitorino,0.49,0.49,0.51
+-,Mansidao,0.44,0.69,0.55
+-,Mantena,0.65,0.68,0.51
+-,Mantenopolis,0.57,0.58,0.52
+-,Maquine,0.58,0.54,0.43
+-,Maraa,0.45,0.55,0.69
+-,Maraba,0.59,0.62,0.58
+-,Maraba Paulista,0.43,0.49,0.39
+-,Maracacume,0.49,0.63,0.47
+-,Maracai,0.57,0.45,0.42
+-,Maracaja,0.45,0.66,0.5
+-,Maracaju,0.62,0.58,0.54
+-,Maracana,0.48,0.58,0.59
+-,Maracanau,0.47,0.49,0.43
+-,Maracas,0.45,0.49,0.51
+-,Maragogi,0.45,0.56,0.54
+-,Maragogipe,0.56,0.53,0.57
+-,Maraial,0.59,0.52,0.54
+-,Maraja do Sena,0.44,0.59,0.62
+-,Maranguape,0.51,0.54,0.44
+-,Maranhaozinho,0.44,0.63,0.51
+-,Marapanim,0.52,0.53,0.54
+-,Marapoama,0.35,0.41,0.4
+-,Mara Rosa,0.64,0.56,0.48
+-,Marataizes,0.58,0.61,0.52
+-,Marata,0.47,0.36,0.34
+-,Marau,0.76,0.71,0.71
+-,Marau,0.56,0.49,0.44
+-,Maravilha,0.63,0.59,0.58
+-,Maravilha,0.58,0.51,0.45
+-,Maravilhas,0.62,0.47,0.39
+-,Marcacao,0.47,0.57,0.51
+-,Marcelandia,0.5,0.57,0.55
+-,Marcelino Ramos,0.59,0.56,0.47
+-,Marcelino Vieira,0.53,0.63,0.52
+-,Marcionilio Souza,0.52,0.63,0.49
+-,Marco,0.5,0.6,0.54
+-,Marcolandia,0.47,0.6,0.49
+-,Marcos Parente,0.43,0.54,0.48
+-,Mar de Espanha,0.56,0.55,0.4
+-,Marechal Candido Rondon,0.56,0.56,0.53
+-,Marechal Deodoro,0.54,0.59,0.6
+-,Marechal Floriano,0.53,0.54,0.48
+-,Marechal Thaumaturgo,0.42,0.69,0.59
+-,Marema,0.48,0.5,0.41
+-,Maria da Fe,0.54,0.59,0.48
+-,Maria Helena,0.51,0.45,0.41
+-,Marialva,0.58,0.58,0.44
+-,Mariana,0.6,0.57,0.51
+-,Mariana Pimentel,0.49,0.55,0.46
+-,Mariano Moro,0.59,0.61,0.47
+-,Marianopolis do Tocantins,0.55,0.59,0.53
+-,Mariapolis,0.68,0.43,0.37
+-,Maribondo,0.59,0.63,0.49
+-,Marica,0.56,0.54,0.49
+-,Marilac,0.54,0.56,0.45
+-,Marilandia do Sul,0.5,0.62,0.44
+-,Marilandia,0.58,0.49,0.39
+-,Marilena,0.46,0.51,0.36
+-,Marilia,0.55,0.56,0.5
+-,Mariluz,0.55,0.54,0.46
+-,Maringa,0.51,0.55,0.49
+-,Marinopolis,0.56,0.41,0.43
+-,Mario Campos,0.54,0.47,0.46
+-,Mariopolis,0.53,0.6,0.48
+-,Maripa de Minas,0.51,0.63,0.38
+-,Maripa,0.63,0.48,0.42
+-,Mari,0.42,0.52,0.46
+-,Marituba,0.53,0.52,0.42
+-,Marizopolis,0.38,0.48,0.51
+-,Marlieria,0.58,0.54,0.4
+-,Marmeleiro,0.59,0.53,0.51
+-,Marmelopolis,0.41,0.57,0.45
+-,Marques de Souza,0.57,0.46,0.42
+-,Marquinho,0.53,0.59,0.5
+-,Martinho Campos,0.51,0.55,0.44
+-,Martinopole,0.46,0.61,0.59
+-,Martinopolis,0.59,0.54,0.45
+-,Martins,0.63,0.59,0.49
+-,Martins Soares,0.48,0.43,0.4
+-,Maruim,0.53,0.5,0.48
+-,Marumbi,0.52,0.54,0.46
+-,Mar Vermelho,0.45,0.57,0.47
+-,Marzagao,0.63,0.5,0.46
+-,Mascote,0.56,0.53,0.58
+-,Massape,0.61,0.56,0.47
+-,Massape do Piaui,0.43,0.54,0.51
+-,Massaranduba,0.5,0.6,0.46
+-,Massaranduba,0.51,0.47,0.34
+-,Mata de Sao Joao,0.53,0.54,0.56
+-,Mata Grande,0.52,0.66,0.57
+-,Matao,0.45,0.52,0.52
+-,Mataraca,0.44,0.5,0.48
+-,Mata Roma,0.49,0.64,0.57
+-,Mata,0.64,0.5,0.46
+-,Mata Verde,0.48,0.52,0.47
+-,Mateiros,0.44,0.61,0.52
+-,Matelandia,0.55,0.53,0.46
+-,Materlandia,0.63,0.58,0.47
+-,Mateus Leme,0.53,0.52,0.49
+-,Mathias Lobato,0.6,0.56,0.54
+-,Matias Barbosa,0.55,0.5,0.49
+-,Matias Cardoso,0.45,0.56,0.56
+-,Matias Olimpio,0.55,0.57,0.52
+-,Matina,0.42,0.6,0.46
+-,Matinha,0.53,0.53,0.64
+-,Matinhas,0.49,0.48,0.44
+-,Matinhos,0.51,0.55,0.48
+-,Matipo,0.56,0.55,0.48
+-,Mato Castelhano,0.5,0.47,0.56
+-,Matoes do Norte,0.4,0.54,0.57
+-,Matoes,0.52,0.5,0.56
+-,Mato Grosso,0.43,0.44,0.45
+-,Mato Leitao,0.49,0.38,0.36
+-,Mato Queimado,0.48,0.55,0.43
+-,Mato Rico,0.47,0.61,0.45
+-,Matos Costa,0.52,0.6,0.45
+-,Mato Verde,0.52,0.6,0.46
+-,Matozinhos,0.5,0.5,0.43
+-,Matrincha,0.57,0.49,0.41
+-,Matriz de Camaragibe,0.45,0.48,0.46
+-,Matupa,0.62,0.62,0.55
+-,Matureia,0.58,0.67,0.51
+-,Matutina,0.58,0.48,0.59
+-,Maua da Serra,0.65,0.59,0.47
+-,Maua,0.42,0.46,0.44
+-,Maues,0.66,0.66,0.64
+-,Maurilandia do Tocantins,0.4,0.59,0.52
+-,Maurilandia,0.51,0.44,0.42
+-,Mauriti,0.56,0.62,0.56
+-,Maxaranguape,0.48,0.48,0.52
+-,Maximiliano de Almeida,0.65,0.48,0.44
+-,Mazagao,0.52,0.62,0.65
+-,Medeiros,0.59,0.53,0.46
+-,Medeiros Neto,0.56,0.64,0.53
+-,Medianeira,0.56,0.5,0.49
+-,Medicilandia,0.72,0.66,0.61
+-,Medina,0.61,0.56,0.57
+-,Meleiro,0.54,0.64,0.41
+-,Melgaco,0.48,0.46,0.55
+-,Mendes Pimentel,0.61,0.6,0.48
+-,Mendes,0.5,0.53,0.48
+-,Mendonca,0.66,0.56,0.36
+-,Mercedes,0.46,0.48,0.41
+-,Merces,0.55,0.58,0.58
+-,Meridiano,0.53,0.42,0.4
+-,Meruoca,0.45,0.57,0.47
+-,Mesopolis,0.38,0.45,0.37
+-,Mesquita,0.46,0.6,0.46
+-,Mesquita,0.45,0.47,0.47
+-,Messias,0.57,0.52,0.49
+-,Messias Targino,0.54,0.45,0.44
+-,Miguel Alves,0.48,0.48,0.6
+-,Miguel Calmon,0.59,0.55,0.54
+-,Miguel Leao,0.68,0.43,0.52
+-,Miguelopolis,0.56,0.57,0.46
+-,Miguel Pereira,0.59,0.63,0.55
+-,Milagres,0.54,0.53,0.51
+-,Milagres,0.56,0.61,0.47
+-,Milagres do Maranhao,0.4,0.52,0.54
+-,Milha,0.47,0.54,0.54
+-,Milton Brandao,0.48,0.61,0.55
+-,Mimoso de Goias,0.47,0.59,0.58
+-,Mimoso do Sul,0.57,0.57,0.49
+-,Minacu,0.55,0.54,0.52
+-,Minador do Negrao,0.57,0.48,0.54
+-,Minas do Leao,0.45,0.44,0.62
+-,Minas Novas,0.53,0.53,0.5
+-,Minduri,0.51,0.59,0.49
+-,Mineiros do Tiete,0.42,0.48,0.39
+-,Mineiros,0.63,0.59,0.55
+-,Ministro Andreazza,0.78,0.66,0.54
+-,Mirabela,0.56,0.56,0.48
+-,Miracatu,0.6,0.6,0.5
+-,Miracema do Tocantins,0.69,0.55,0.54
+-,Miracema,0.56,0.59,0.5
+-,Mirador,0.48,0.58,0.64
+-,Mirador,0.39,0.42,0.4
+-,Miradouro,0.6,0.53,0.52
+-,Mira Estrela,0.81,0.45,0.43
+-,Miraguai,0.67,0.51,0.66
+-,Miraima,0.43,0.67,0.64
+-,Mirai,0.6,0.54,0.45
+-,Miranda do Norte,0.54,0.54,0.47
+-,Miranda,0.63,0.78,0.54
+-,Mirandiba,0.53,0.54,0.58
+-,Mirandopolis,0.55,0.52,0.45
+-,Mirangaba,0.48,0.51,0.51
+-,Miranorte,0.65,0.61,0.48
+-,Mirante,0.42,0.52,0.52
+-,Mirante da Serra,0.6,0.53,0.6
+-,Mirante do Paranapanema,0.49,0.61,0.5
+-,Miraselva,0.52,0.49,0.39
+-,Mirassolandia,0.43,0.4,0.39
+-,Mirassol D'Oeste,0.57,0.59,0.55
+-,Mirassol,0.46,0.47,0.43
+-,Miravania,0.45,0.7,0.49
+-,Mirim Doce,0.53,0.71,0.39
+-,Mirinzal,0.52,0.63,0.51
+-,Missal,0.61,0.56,0.45
+-,Missao Velha,0.53,0.63,0.57
+-,Mocajuba,0.46,0.55,0.58
+-,Mococa,0.53,0.53,0.53
+-,Modelo,0.54,0.52,0.43
+-,Moeda,0.48,0.43,0.43
+-,Moema,0.44,0.49,0.38
+-,Mogeiro,0.55,0.48,0.5
+-,Mogi das Cruzes,0.54,0.57,0.54
+-,Mogi Guacu,0.48,0.51,0.44
+-,Mogi Mirim,0.51,0.53,0.49
+-,Moipora,0.46,0.51,0.43
+-,Moita Bonita,0.45,0.53,0.44
+-,Moju,0.5,0.56,0.63
+-,Mombaca,0.67,0.69,0.54
+-,Mombuca,0.54,0.61,0.61
+-,Moncao,0.43,0.61,0.52
+-,Moncoes,0.43,0.46,0.43
+-,Mondai,0.54,0.53,0.4
+-,Mongagua,0.49,0.55,0.5
+-,Monjolos,0.62,0.68,0.48
+-,Monsenhor Gil,0.57,0.55,0.5
+-,Monsenhor Hipolito,0.48,0.58,0.53
+-,Monsenhor Paulo,0.65,0.52,0.4
+-,Monsenhor Tabosa,0.6,0.58,0.55
+-,Montadas,0.52,0.54,0.47
+-,Montalvania,0.64,0.62,0.54
+-,Montanha,0.52,0.65,0.52
+-,Montanhas,0.6,0.5,0.53
+-,Montauri,0.56,0.43,0.35
+-,Monte Alegre de Goias,0.6,0.61,0.61
+-,Monte Alegre de Minas,0.61,0.56,0.47
+-,Monte Alegre de Sergipe,0.44,0.56,0.56
+-,Monte Alegre do Piaui,0.59,0.62,0.57
+-,Monte Alegre dos Campos,0.5,0.42,0.55
+-,Monte Alegre do Sul,0.39,0.5,0.48
+-,Monte Alegre,0.51,0.6,0.59
+-,Monte Alegre,0.56,0.56,0.52
+-,Monte Alto,0.47,0.5,0.42
+-,Monte Aprazivel,0.53,0.51,0.5
+-,Monte Azul,0.55,0.56,0.51
+-,Monte Azul Paulista,0.54,0.59,0.46
+-,Monte Belo do Sul,0.38,0.39,0.33
+-,Monte Belo,0.43,0.46,0.46
+-,Monte Carlo,0.43,0.5,0.45
+-,Monte Carmelo,0.57,0.52,0.49
+-,Monte Castelo,0.54,0.56,0.44
+-,Monte Castelo,0.48,0.54,0.38
+-,Monte das Gameleiras,0.55,0.54,0.48
+-,Monte do Carmo,0.53,0.54,0.62
+-,Monte Formoso,0.46,0.65,0.59
+-,Monte Horebe,0.57,0.59,0.54
+-,Monteiro Lobato,0.6,0.6,0.48
+-,Monteiro,0.54,0.57,0.57
+-,Monteiropolis,0.45,0.82,0.49
+-,Monte Mor,0.53,0.5,0.44
+-,Monte Negro,0.58,0.54,0.47
+-,Montenegro,0.53,0.56,0.5
+-,Montes Altos,0.47,0.64,0.56
+-,Monte Santo,0.53,0.6,0.55
+-,Monte Santo de Minas,0.56,0.52,0.42
+-,Monte Santo do Tocantins,0.62,0.51,0.48
+-,Montes Claros de Goias,0.6,0.53,0.49
+-,Montes Claros,0.6,0.61,0.53
+-,Monte Siao,0.55,0.53,0.44
+-,Montezuma,0.56,0.66,0.46
+-,Montividiu do Norte,0.48,0.69,0.55
+-,Montividiu,0.52,0.78,0.49
+-,Morada Nova,0.52,0.6,0.52
+-,Morada Nova de Minas,0.55,0.52,0.45
+-,Moraujo,0.42,0.55,0.51
+-,Moreilandia,0.54,0.56,0.54
+-,Moreira Sales,0.52,0.53,0.44
+-,Moreno,0.49,0.5,0.53
+-,Mormaco,0.58,0.48,0.57
+-,Morpara,0.49,0.63,0.55
+-,Morretes,0.55,0.53,0.53
+-,Morrinhos,0.47,0.64,0.54
+-,Morrinhos do Sul,0.44,0.5,0.47
+-,Morrinhos,0.51,0.66,0.49
+-,Morro Agudo de Goias,0.53,0.46,0.42
+-,Morro Agudo,0.52,0.55,0.45
+-,Morro Cabeca no Tempo,0.45,0.49,0.58
+-,Morro da Fumaca,0.55,0.47,0.36
+-,Morro da Garca,0.48,0.57,0.46
+-,Morro do Chapeu,0.54,0.61,0.51
+-,Morro do Chapeu do Piaui,0.56,0.44,0.53
+-,Morro do Pilar,0.5,0.6,0.48
+-,Morro Grande,0.57,0.4,0.51
+-,Morro Redondo,0.51,0.55,0.51
+-,Morro Reuter,0.38,0.43,0.32
+-,Morros,0.56,0.63,0.58
+-,Mortugaba,0.52,0.58,0.48
+-,Morungaba,0.48,0.5,0.41
+-,Mossamedes,0.57,0.65,0.51
+-,Mossoro,0.57,0.57,0.52
+-,Mostardas,0.63,0.55,0.55
+-,Motuca,0.34,0.47,0.45
+-,Mozarlandia,0.51,0.79,0.42
+-,Muana,0.63,0.56,0.56
+-,Mucajai,0.68,0.57,0.71
+-,Mucambo,0.44,0.6,0.57
+-,Mucuge,0.61,0.48,0.53
+-,Mucum,0.44,0.46,0.39
+-,Mucuri,0.51,0.61,0.57
+-,Mucurici,0.63,0.57,0.48
+-,Muitos Capoes,0.54,0.57,0.5
+-,Muliterno,0.49,0.42,0.51
+-,Mulungu,0.48,0.61,0.55
+-,Mulungu do Morro,0.51,0.58,0.49
+-,Mulungu,0.47,0.51,0.49
+-,Mundo Novo,0.54,0.56,0.65
+-,Mundo Novo,0.57,0.54,0.47
+-,Mundo Novo,0.56,0.53,0.5
+-,Munhoz de Melo,0.5,0.56,0.39
+-,Munhoz,0.5,0.59,0.46
+-,Muniz Ferreira,0.45,0.52,0.51
+-,Muniz Freire,0.58,0.62,0.51
+-,Muquem de Sao Francisco,0.47,0.58,0.55
+-,Muqui,0.66,0.57,0.52
+-,Muriae,0.61,0.55,0.52
+-,Muribeca,0.43,0.56,0.49
+-,Murici,0.47,0.53,0.48
+-,Murici dos Portelas,0.44,0.66,0.6
+-,Muricilandia,0.51,0.63,0.54
+-,Muritiba,0.51,0.52,0.55
+-,Murutinga do Sul,0.53,0.47,0.43
+-,Mutuipe,0.52,0.7,0.63
+-,Mutum,0.56,0.62,0.49
+-,Mutunopolis,0.52,0.51,0.54
+-,Muzambinho,0.51,0.56,0.46
+-,Nacip Raydan,0.54,0.54,0.6
+-,Nantes,0.38,0.49,0.35
+-,Nanuque,0.6,0.65,0.5
+-,Nao-Me-Toque,0.59,0.57,0.5
+-,Naque,0.56,0.51,0.43
+-,Narandiba,0.48,0.54,0.36
+-,Natalandia,0.51,0.56,0.4
+-,Natal,0.6,0.63,0.61
+-,Natercia,0.47,0.6,0.4
+-,Natividade da Serra,0.53,0.52,0.51
+-,Natividade,0.63,0.58,0.52
+-,Natividade,0.59,0.6,0.59
+-,Natuba,0.56,0.52,0.54
+-,Navegantes,0.42,0.46,0.41
+-,Navirai,0.54,0.54,0.47
+-,Nazare,0.54,0.55,0.61
+-,Nazare da Mata,0.6,0.55,0.49
+-,Nazare do Piaui,0.56,0.57,0.56
+-,Nazareno,0.45,0.48,0.47
+-,Nazare Paulista,0.58,0.55,0.45
+-,Nazare,0.57,0.56,0.52
+-,Nazarezinho,0.52,0.56,0.52
+-,Nazaria,0.4,0.51,0.5
+-,Nazario,0.49,0.55,0.49
+-,Neopolis,0.48,0.63,0.55
+-,Nepomuceno,0.64,0.57,0.44
+-,Neropolis,0.49,0.54,0.42
+-,Neves Paulista,0.48,0.48,0.4
+-,Nhamunda,0.61,0.55,0.65
+-,Nhandeara,0.59,0.51,0.49
+-,Nicolau Vergueiro,0.54,0.48,0.52
+-,Nilo Pecanha,0.46,0.5,0.52
+-,Nilopolis,0.45,0.46,0.45
+-,Nina Rodrigues,0.59,0.56,0.62
+-,Ninheira,0.51,0.5,0.52
+-,Nioaque,0.64,0.58,0.58
+-,Nipoa,0.47,0.46,0.37
+-,Niquelandia,0.54,0.62,0.53
+-,Nisia Floresta,0.64,0.58,0.53
+-,Niteroi,0.57,0.58,0.59
+-,Nobres,0.63,0.53,0.46
+-,Nonoai,0.66,0.62,0.5
+-,Nordestina,0.48,0.5,0.54
+-,Normandia,0.81,0.81,0.7
+-,Nortelandia,0.45,0.47,0.43
+-,Nossa Senhora Aparecida,0.42,0.54,0.56
+-,Nossa Senhora da Gloria,0.53,0.64,0.52
+-,Nossa Senhora das Dores,0.53,0.58,0.51
+-,Nossa Senhora das Gracas,0.47,0.38,0.33
+-,Nossa Senhora de Lourdes,0.57,0.49,0.49
+-,Nossa Senhora de Nazare,0.48,0.48,0.5
+-,Nossa Senhora do Livramento,0.56,0.59,0.47
+-,Nossa Senhora do Socorro,0.52,0.47,0.47
+-,Nossa Senhora dos Remedios,0.45,0.54,0.48
+-,Nova Alianca do Ivai,0.46,0.49,0.34
+-,Nova Alianca,0.53,0.45,0.38
+-,Nova Alvorada do Sul,0.6,0.57,0.58
+-,Nova Alvorada,0.68,0.48,0.46
+-,Nova America da Colina,0.4,0.45,0.36
+-,Nova America,0.45,0.42,0.37
+-,Nova Andradina,0.52,0.55,0.48
+-,Nova Araca,0.46,0.6,0.45
+-,Nova Aurora,0.45,0.47,0.43
+-,Nova Aurora,0.51,0.59,0.55
+-,Nova Bandeirantes,0.62,0.66,0.62
+-,Nova Bassano,0.45,0.44,0.37
+-,Nova Belem,0.39,0.69,0.5
+-,Nova Boa Vista,0.44,0.36,0.4
+-,Nova Brasilandia D'Oeste,0.52,0.55,0.56
+-,Nova Brasilandia,0.54,0.55,0.64
+-,Nova Brescia,0.55,0.62,0.58
+-,Nova Campina,0.45,0.61,0.47
+-,Nova Canaa,0.55,0.48,0.46
+-,Nova Canaa do Norte,0.57,0.56,0.55
+-,Nova Canaa Paulista,0.38,0.45,0.34
+-,Nova Candelaria,0.45,0.49,0.41
+-,Nova Cantu,0.58,0.62,0.48
+-,Nova Castilho,0.49,0.43,0.36
+-,Nova Colinas,0.6,0.73,0.54
+-,Nova Crixas,0.52,0.59,0.48
+-,Nova Cruz,0.58,0.59,0.52
+-,Nova Era,0.54,0.54,0.47
+-,Nova Erechim,0.51,0.5,0.44
+-,Nova Esperanca do Piria,0.38,0.66,0.63
+-,Nova Esperanca do Sudoeste,0.55,0.56,0.5
+-,Nova Esperanca do Sul,0.59,0.49,0.45
+-,Nova Esperanca,0.52,0.52,0.46
+-,Nova Europa,0.5,0.46,0.39
+-,Nova Fatima,0.64,0.54,0.43
+-,Nova Fatima,0.61,0.57,0.45
+-,Nova Floresta,0.52,0.49,0.51
+-,Nova Friburgo,0.54,0.54,0.51
+-,Nova Gloria,0.46,0.55,0.47
+-,Nova Granada,0.51,0.49,0.44
+-,Nova Guarita,0.56,0.57,0.51
+-,Nova Guataporanga,0.43,0.4,0.41
+-,Nova Hartz,0.38,0.37,0.34
+-,Nova Ibia,0.49,0.48,0.56
+-,Nova Iguacu de Goias,0.7,0.56,0.39
+-,Nova Iguacu,0.49,0.51,0.48
+-,Nova Independencia,0.43,0.46,0.36
+-,Nova Iorque,0.52,0.67,0.53
+-,Nova Ipixuna,0.51,0.58,0.59
+-,Novais,0.35,0.43,0.45
+-,Nova Itaberaba,0.59,0.59,0.55
+-,Nova Itarana,0.45,0.56,0.55
+-,Nova Lacerda,0.52,0.6,0.51
+-,Nova Laranjeiras,0.53,0.65,0.56
+-,Nova Lima,0.55,0.64,0.68
+-,Nova Londrina,0.53,0.56,0.5
+-,Nova Luzitania,0.46,0.45,0.35
+-,Nova Mamore,0.51,0.66,0.52
+-,Nova Marilandia,0.62,0.47,0.43
+-,Nova Maringa,0.56,0.55,0.49
+-,Nova Modica,0.62,0.58,0.5
+-,Nova Monte Verde,0.38,0.58,0.51
+-,Nova Mutum,0.53,0.56,0.51
+-,Nova Nazare,0.62,0.5,0.55
+-,Nova Odessa,0.41,0.45,0.41
+-,Nova Olimpia,0.52,0.49,0.56
+-,Nova Olimpia,0.53,0.54,0.4
+-,Nova Olinda,0.52,0.65,0.57
+-,Nova Olinda do Maranhao,0.45,0.68,0.47
+-,Nova Olinda do Norte,0.56,0.68,0.63
+-,Nova Olinda,0.59,0.59,0.52
+-,Nova Olinda,0.55,0.62,0.52
+-,Nova Padua,0.37,0.45,0.32
+-,Nova Palma,0.6,0.52,0.53
+-,Nova Palmeira,0.48,0.48,0.45
+-,Nova Petropolis,0.51,0.47,0.44
+-,Nova Ponte,0.51,0.6,0.52
+-,Nova Porteirinha,0.35,0.62,0.41
+-,Nova Prata do Iguacu,0.61,0.52,0.46
+-,Nova Prata,0.47,0.52,0.43
+-,Nova Ramada,0.77,0.6,0.5
+-,Nova Redencao,0.51,0.54,0.5
+-,Nova Resende,0.57,0.5,0.45
+-,Nova Roma do Sul,0.49,0.42,0.44
+-,Nova Roma,0.55,0.52,0.44
+-,Nova Rosalandia,0.48,0.66,0.52
+-,Nova Russas,0.61,0.62,0.5
+-,Nova Santa Barbara,0.57,0.59,0.49
+-,Nova Santa Helena,0.62,0.5,0.64
+-,Nova Santa Rita,0.44,0.5,0.62
+-,Nova Santa Rita,0.49,0.49,0.43
+-,Nova Santa Rosa,0.5,0.49,0.41
+-,Nova Serrana,0.43,0.61,0.35
+-,Nova Soure,0.56,0.6,0.57
+-,Nova Tebas,0.49,0.59,0.5
+-,Nova Timboteua,0.54,0.48,0.52
+-,Nova Trento,0.42,0.44,0.35
+-,Nova Ubirata,0.7,0.55,0.5
+-,Nova Uniao,0.48,0.59,0.41
+-,Nova Uniao,0.54,0.56,0.47
+-,Nova Venecia,0.56,0.59,0.48
+-,Nova Veneza,0.52,0.47,0.43
+-,Nova Veneza,0.47,0.47,0.39
+-,Nova Vicosa,0.53,0.6,0.61
+-,Nova Xavantina,0.56,0.58,0.53
+-,Novo Acordo,0.64,0.77,0.55
+-,Novo Airao,0.51,0.55,0.59
+-,Novo Alegre,0.72,0.61,0.52
+-,Novo Aripuana,0.6,0.64,0.57
+-,Novo Barreiro,0.45,0.47,0.62
+-,Novo Brasil,0.61,0.52,0.43
+-,Novo Cabrais,0.52,0.52,0.42
+-,Novo Cruzeiro,0.52,0.75,0.53
+-,Novo Gama,0.47,0.5,0.46
+-,Novo Hamburgo,0.53,0.54,0.53
+-,Novo Horizonte,0.47,0.59,0.56
+-,Novo Horizonte do Norte,0.5,0.44,0.49
+-,Novo Horizonte do Oeste,0.54,0.63,0.51
+-,Novo Horizonte do Sul,0.51,0.51,0.4
+-,Novo Horizonte,0.49,0.53,0.39
+-,Novo Horizonte,0.49,0.49,0.45
+-,Novo Itacolomi,0.53,0.42,0.38
+-,Novo Jardim,0.43,0.49,0.45
+-,Novo Lino,0.66,0.54,0.55
+-,Novo Machado,0.57,0.49,0.41
+-,Novo Mundo,0.68,0.62,0.52
+-,Novo Oriente,0.55,0.58,0.6
+-,Novo Oriente de Minas,0.55,0.58,0.56
+-,Novo Oriente do Piaui,0.44,0.51,0.51
+-,Novo Planalto,0.49,0.45,0.49
+-,Novo Progresso,0.52,0.56,0.54
+-,Novo Repartimento,0.52,0.66,0.59
+-,Novorizonte,0.45,0.46,0.43
+-,Novo Santo Antonio,0.57,0.46,0.51
+-,Novo Santo Antonio,0.54,0.56,0.56
+-,Novo Sao Joaquim,0.54,0.65,0.48
+-,Novo Tiradentes,0.52,0.47,0.4
+-,Novo Triunfo,0.42,0.5,0.51
+-,Novo Xingu,0.44,0.33,0.41
+-,Nuporanga,0.52,0.5,0.45
+-,Obidos,0.51,0.54,0.59
+-,Ocara,0.45,0.58,0.53
+-,Ocaucu,0.48,0.54,0.39
+-,Oeiras do Para,0.48,0.52,0.56
+-,Oeiras,0.56,0.64,0.58
+-,Oiapoque,0.56,0.67,0.69
+-,Olaria,0.56,0.59,0.41
+-,Oleo,0.44,0.47,0.43
+-,Olho D'Agua das Cunhas,0.45,0.6,0.53
+-,Olho D'Agua das Flores,0.56,0.64,0.55
+-,Olho-D'Agua do Borges,0.53,0.45,0.48
+-,Olho D'Agua do Casado,0.63,0.6,0.54
+-,Olho D'Agua do Piaui,0.44,0.51,0.56
+-,Olho D'Agua Grande,0.52,0.66,0.59
+-,Olho D'Agua,0.51,0.63,0.55
+-,Olhos-D'Agua,0.44,0.42,0.46
+-,Olimpia,0.49,0.59,0.43
+-,Olimpio Noronha,0.63,0.4,0.41
+-,Olinda Nova do Maranhao,0.4,0.56,0.6
+-,Olinda,0.6,0.59,0.55
+-,Olindina,0.52,0.56,0.58
+-,Olivedos,0.46,0.51,0.49
+-,Oliveira de Fatima,0.62,0.73,0.55
+-,Oliveira dos Brejinhos,0.53,0.64,0.56
+-,Oliveira Fortes,0.49,0.5,0.44
+-,Oliveira,0.57,0.55,0.45
+-,Olivenca,0.42,0.67,0.56
+-,Onca de Pitangui,0.45,0.51,0.44
+-,Onda Verde,0.46,0.44,0.34
+-,Oratorios,0.57,0.37,0.39
+-,Oriente,0.45,0.48,0.44
+-,Orindiuva,0.61,0.5,0.38
+-,Oriximina,0.59,0.61,0.64
+-,Orizania,0.41,0.53,0.54
+-,Orizona,0.56,0.55,0.51
+-,Orlandia,0.5,0.49,0.5
+-,Orleans,0.48,0.47,0.45
+-,Orobo,0.49,0.61,0.52
+-,Oroco,0.46,0.55,0.51
+-,Oros,0.51,0.55,0.49
+-,Ortigueira,0.53,0.59,0.49
+-,Osasco,0.46,0.51,0.53
+-,Oscar Bressane,0.52,0.5,0.45
+-,Osorio,0.56,0.55,0.53
+-,Osvaldo Cruz,0.56,0.53,0.46
+-,Otacilio Costa,0.48,0.49,0.4
+-,Ourem,0.48,0.6,0.62
+-,Ouricangas,0.47,0.47,0.45
+-,Ouricuri,0.64,0.72,0.6
+-,Ourilandia do Norte,0.56,0.63,0.55
+-,Ourinhos,0.51,0.53,0.5
+-,Ourizona,0.61,0.51,0.44
+-,Ouro Branco,0.53,0.57,0.55
+-,Ouro Branco,0.53,0.55,0.52
+-,Ouro Branco,0.48,0.49,0.43
+-,Ouroeste,0.62,0.54,0.43
+-,Ouro Fino,0.57,0.53,0.45
+-,Ourolandia,0.56,0.56,0.52
+-,Ouro Preto do Oeste,0.59,0.6,0.48
+-,Ouro Preto,0.58,0.56,0.5
+-,Ouro,0.47,0.5,0.45
+-,Ouro Velho,0.46,0.48,0.47
+-,Ouro Verde de Goias,0.55,0.54,0.49
+-,Ouro Verde de Minas,0.55,0.51,0.51
+-,Ouro Verde do Oeste,0.6,0.49,0.41
+-,Ouro Verde,0.62,0.64,0.53
+-,Ouro Verde,0.53,0.42,0.39
+-,Ouvidor,0.66,0.51,0.44
+-,Pacaembu,0.52,0.53,0.45
+-,Pacaja,0.66,0.73,0.65
+-,Pacajus,0.53,0.53,0.47
+-,Pacaraima,0.61,0.7,0.74
+-,Pacatuba,0.41,0.47,0.44
+-,Pacatuba,0.42,0.64,0.58
+-,Paco do Lumiar,0.48,0.53,0.49
+-,Pacoti,0.52,0.54,0.5
+-,Pacuja,0.7,0.53,0.5
+-,Padre Bernardo,0.52,0.61,0.56
+-,Padre Carvalho,0.58,0.53,0.44
+-,Padre Marcos,0.58,0.54,0.52
+-,Padre Paraiso,0.5,0.6,0.54
+-,Paes Landim,0.49,0.56,0.49
+-,Paial,0.58,0.47,0.44
+-,Paicandu,0.37,0.41,0.36
+-,Paim Filho,0.6,0.55,0.47
+-,Paineiras,0.54,0.47,0.46
+-,Painel,0.49,0.51,0.49
+-,Pains,0.56,0.49,0.46
+-,Pai Pedro,0.45,0.54,0.46
+-,Paiva,0.46,0.43,0.44
+-,Pajeu do Piaui,0.47,0.49,0.6
+-,Palestina,0.52,0.54,0.59
+-,Palestina de Goias,0.42,0.51,0.38
+-,Palestina do Para,0.43,0.65,0.55
+-,Palestina,0.59,0.5,0.4
+-,Palhano,0.5,0.59,0.47
+-,Palhoca,0.43,0.47,0.4
+-,Palmacia,0.51,0.6,0.63
+-,Palma,0.6,0.57,0.49
+-,Palmares do Sul,0.67,0.52,0.53
+-,Palmares Paulista,0.39,0.42,0.34
+-,Palmares,0.54,0.59,0.49
+-,Palmas de Monte Alto,0.48,0.76,0.48
+-,Palma Sola,0.55,0.58,0.5
+-,Palmas,0.6,0.63,0.54
+-,Palmas,0.64,0.63,0.58
+-,Palmeira das Missoes,0.65,0.64,0.52
+-,Palmeira D'Oeste,0.62,0.51,0.42
+-,Palmeira do Piaui,0.49,0.41,0.6
+-,Palmeira dos Indios,0.54,0.58,0.56
+-,Palmeirais,0.59,0.6,0.59
+-,Palmeirandia,0.47,0.57,0.57
+-,Palmeirante,0.42,0.62,0.57
+-,Palmeira,0.58,0.63,0.59
+-,Palmeiras,0.65,0.58,0.58
+-,Palmeira,0.49,0.56,0.43
+-,Palmeiras de Goias,0.54,0.51,0.44
+-,Palmeiras do Tocantins,0.39,0.66,0.51
+-,Palmeirina,0.58,0.67,0.51
+-,Palmeiropolis,0.61,0.62,0.52
+-,Palmelo,0.48,0.44,0.56
+-,Palminopolis,0.55,0.5,0.52
+-,Palmital,0.63,0.61,0.52
+-,Palmital,0.53,0.65,0.44
+-,Palmitinho,0.69,0.54,0.42
+-,Palmitos,0.56,0.56,0.46
+-,Palmopolis,0.47,0.62,0.45
+-,Palotina,0.57,0.6,0.47
+-,Panama,0.48,0.52,0.42
+-,Panambi,0.51,0.52,0.44
+-,Pancas,0.56,0.64,0.5
+-,Panelas,0.54,0.58,0.56
+-,Panorama,0.52,0.61,0.51
+-,Pantano Grande,0.57,0.55,0.47
+-,Pao de Acucar,0.53,0.71,0.57
+-,Papagaios,0.58,0.63,0.49
+-,Papanduva,0.51,0.51,0.47
+-,Paqueta,0.48,0.49,0.51
+-,Paracambi,0.48,0.52,0.44
+-,Paracatu,0.58,0.59,0.51
+-,Paracuru,0.53,0.6,0.55
+-,Para de Minas,0.56,0.56,0.43
+-,Paragominas,0.54,0.61,0.6
+-,Paraguacu,0.52,0.55,0.41
+-,Paraguacu Paulista,0.51,0.58,0.45
+-,Paraiba do Sul,0.58,0.57,0.5
+-,Paraibano,0.56,0.61,0.54
+-,Paraibuna,0.58,0.54,0.51
+-,Paraipaba,0.55,0.56,0.5
+-,Parai,0.57,0.44,0.47
+-,Paraiso do Norte,0.54,0.53,0.48
+-,Paraiso do Sul,0.57,0.49,0.37
+-,Paraiso do Tocantins,0.62,0.69,0.62
+-,Paraisopolis,0.55,0.53,0.46
+-,Paraiso,0.53,0.53,0.5
+-,Paraiso,0.46,0.47,0.45
+-,Parambu,0.52,0.57,0.53
+-,Paramirim,0.49,0.73,0.51
+-,Paramoti,0.45,0.65,0.52
+-,Paranacity,0.5,0.52,0.4
+-,Paranagua,0.52,0.55,0.52
+-,Paranaiba,0.6,0.62,0.49
+-,Paranaiguara,0.54,0.66,0.43
+-,Paranaita,0.66,0.6,0.53
+-,Paranapanema,0.52,0.59,0.47
+-,Paranapoema,0.39,0.44,0.43
+-,Paranapua,0.51,0.48,0.45
+-,Parana,0.69,0.63,0.49
+-,Paranatama,0.49,0.49,0.55
+-,Paranatinga,0.58,0.61,0.5
+-,Parana,0.55,0.65,0.65
+-,Paranavai,0.56,0.56,0.48
+-,Paranhos,0.65,0.52,0.64
+-,Paraopeba,0.52,0.54,0.45
+-,Parapua,0.53,0.7,0.42
+-,Parari,0.52,0.46,0.49
+-,Paratinga,0.47,0.66,0.55
+-,Paraty,0.5,0.59,0.52
+-,Parauapebas,0.59,0.65,0.53
+-,Parauna,0.56,0.64,0.46
+-,Parau,0.55,0.57,0.46
+-,Parazinho,0.43,0.51,0.52
+-,Pardinho,0.44,0.48,0.46
+-,Pareci Novo,0.48,0.41,0.4
+-,Parecis,0.44,0.63,0.52
+-,Parelhas,0.52,0.52,0.45
+-,Pariconha,0.52,0.64,0.5
+-,Parintins,0.62,0.61,0.59
+-,Paripiranga,0.57,0.49,0.59
+-,Paripueira,0.49,0.55,0.53
+-,Pariquera-Acu,0.55,0.57,0.47
+-,Parisi,0.38,0.35,0.4
+-,Parnagua,0.5,0.56,0.56
+-,Parnaiba,0.57,0.65,0.57
+-,Parnamirim,0.56,0.56,0.59
+-,Parnamirim,0.52,0.58,0.55
+-,Parnarama,0.47,0.57,0.55
+-,Parobe,0.41,0.4,0.37
+-,Passabem,0.51,0.56,0.41
+-,Passa E Fica,0.55,0.57,0.51
+-,Passagem Franca do Piaui,0.39,0.5,0.54
+-,Passagem Franca,0.51,0.59,0.55
+-,Passagem,0.5,0.54,0.51
+-,Passagem,0.44,0.58,0.41
+-,Passa Quatro,0.58,0.56,0.49
+-,Passa Sete,0.47,0.45,0.45
+-,Passa Tempo,0.65,0.71,0.49
+-,Passa-Vinte,0.48,0.53,0.46
+-,Passira,0.4,0.54,0.5
+-,Passo de Camaragibe,0.41,0.6,0.48
+-,Passo de Torres,0.52,0.5,0.42
+-,Passo do Sobrado,0.71,0.44,0.47
+-,Passo Fundo,0.56,0.58,0.52
+-,Passos Maia,0.5,0.57,0.47
+-,Passos,0.55,0.53,0.49
+-,Pastos Bons,0.55,0.67,0.55
+-,Patis,0.61,0.54,0.47
+-,Pato Bragado,0.51,0.55,0.43
+-,Pato Branco,0.58,0.56,0.51
+-,Patos de Minas,0.58,0.54,0.5
+-,Patos do Piaui,0.51,0.6,0.5
+-,Patos,0.57,0.57,0.56
+-,Patrocinio do Muriae,0.62,0.42,0.49
+-,Patrocinio,0.57,0.59,0.49
+-,Patrocinio Paulista,0.48,0.52,0.42
+-,Patu,0.56,0.67,0.52
+-,Paty do Alferes,0.54,0.56,0.56
+-,Pau Brasil,0.53,0.55,0.56
+-,Paudalho,0.49,0.57,0.56
+-,Pau D'Arco do Piaui,0.38,0.58,0.6
+-,Pau D'Arco,0.51,0.55,0.51
+-,Pau D'Arco,0.47,0.69,0.52
+-,Pau dos Ferros,0.59,0.57,0.54
+-,Pauini,0.65,0.7,0.72
+-,Paula Candido,0.55,0.46,0.48
+-,Paula Freitas,0.51,0.58,0.58
+-,Pauliceia,0.41,0.56,0.44
+-,Paulinia,0.49,0.56,0.48
+-,Paulino Neves,0.51,0.58,0.62
+-,Paulistana,0.52,0.64,0.6
+-,Paulistania,0.42,0.49,0.43
+-,Paulista,0.55,0.56,0.49
+-,Paulista,0.54,0.52,0.49
+-,Paulistas,0.55,0.66,0.52
+-,Paulo Afonso,0.59,0.59,0.58
+-,Paulo Bento,0.46,0.46,0.39
+-,Paulo de Faria,0.55,0.59,0.51
+-,Paulo Frontin,0.63,0.54,0.51
+-,Paulo Jacinto,0.48,0.56,0.52
+-,Paulo Lopes,0.43,0.41,0.4
+-,Paulo Ramos,0.52,0.55,0.58
+-,Pavao,0.48,0.58,0.53
+-,Paverama,0.46,0.39,0.34
+-,Pavussu,0.49,0.54,0.53
+-,Peabiru,0.54,0.55,0.54
+-,Pecanha,0.64,0.61,0.53
+-,Pederneiras,0.51,0.5,0.49
+-,Pe de Serra,0.43,0.55,0.46
+-,Pedra Azul,0.56,0.6,0.53
+-,Pedra Bela,0.45,0.46,0.41
+-,Pedra Bonita,0.42,0.65,0.5
+-,Pedra Branca,0.51,0.61,0.5
+-,Pedra Branca do Amapari,0.61,0.68,0.61
+-,Pedra Branca,0.52,0.58,0.5
+-,Pedra do Anta,0.56,0.55,0.54
+-,Pedra do Indaia,0.53,0.42,0.41
+-,Pedra Dourada,0.44,0.48,0.53
+-,Pedra Grande,0.6,0.51,0.48
+-,Pedra Lavrada,0.43,0.49,0.49
+-,Pedralva,0.57,0.54,0.55
+-,Pedra Mole,0.39,0.46,0.54
+-,Pedranopolis,0.52,0.47,0.38
+-,Pedrao,0.5,0.51,0.47
+-,Pedra,0.56,0.61,0.53
+-,Pedra Preta,0.59,0.48,0.43
+-,Pedra Preta,0.58,0.64,0.56
+-,Pedras Altas,0.51,0.55,0.52
+-,Pedras de Fogo,0.54,0.49,0.53
+-,Pedras de Maria da Cruz,0.41,0.56,0.47
+-,Pedras Grandes,0.49,0.41,0.33
+-,Pedregulho,0.56,0.51,0.49
+-,Pedreiras,0.52,0.55,0.59
+-,Pedreira,0.5,0.46,0.42
+-,Pedrinhas Paulista,0.66,0.56,0.56
+-,Pedrinhas,0.39,0.61,0.52
+-,Pedrinopolis,0.44,0.58,0.48
+-,Pedro Afonso,0.57,0.59,0.5
+-,Pedro Alexandre,0.5,0.52,0.51
+-,Pedro Avelino,0.45,0.64,0.52
+-,Pedro Canario,0.58,0.52,0.46
+-,Pedro de Toledo,0.5,0.59,0.47
+-,Pedro do Rosario,0.45,0.56,0.58
+-,Pedro Gomes,0.61,0.55,0.48
+-,Pedro II,0.57,0.55,0.58
+-,Pedro Laurentino,0.45,0.51,0.55
+-,Pedro Leopoldo,0.56,0.56,0.47
+-,Pedro Osorio,0.58,0.62,0.48
+-,Pedro Regis,0.55,0.52,0.51
+-,Pedro Teixeira,0.48,0.46,0.41
+-,Pedro Velho,0.54,0.63,0.51
+-,Peixe-Boi,0.53,0.59,0.55
+-,Peixe,0.57,0.54,0.62
+-,Peixoto de Azevedo,0.62,0.64,0.67
+-,Pejucara,0.79,0.52,0.44
+-,Pelotas,0.59,0.59,0.54
+-,Penaforte,0.55,0.54,0.45
+-,Penalva,0.43,0.52,0.51
+-,Penapolis,0.53,0.55,0.47
+-,Pendencias,0.5,0.48,0.55
+-,Penedo,0.59,0.64,0.55
+-,Penha,0.49,0.44,0.42
+-,Pentecoste,0.47,0.57,0.56
+-,Pequeri,0.6,0.49,0.44
+-,Pequi,0.55,0.59,0.43
+-,Pequizeiro,0.45,0.56,0.47
+-,Perdigao,0.45,0.5,0.35
+-,Perdizes,0.61,0.56,0.55
+-,Perdoes,0.52,0.51,0.52
+-,Pereira Barreto,0.53,0.55,0.48
+-,Pereiras,0.51,0.51,0.44
+-,Pereiro,0.61,0.68,0.53
+-,Peri Mirim,0.47,0.55,0.53
+-,Periquito,0.48,0.47,0.43
+-,Peritiba,0.53,0.45,0.47
+-,Peritoro,0.45,0.63,0.6
+-,Perobal,0.43,0.46,0.41
+-,Perola D'Oeste,0.7,0.53,0.44
+-,Perolandia,0.61,0.58,0.49
+-,Perola,0.63,0.57,0.37
+-,Peruibe,0.57,0.57,0.53
+-,Pescador,0.49,0.57,0.52
+-,Pesqueira,0.56,0.58,0.56
+-,Petrolandia,0.52,0.56,0.55
+-,Petrolandia,0.54,0.53,0.47
+-,Petrolina de Goias,0.52,0.56,0.41
+-,Petrolina,0.63,0.63,0.62
+-,Petropolis,0.56,0.57,0.55
+-,Piacabucu,0.52,0.55,0.52
+-,Piacatu,0.44,0.48,0.4
+-,Pianco,0.5,0.57,0.53
+-,Piata,0.45,0.57,0.54
+-,Piau,0.54,0.42,0.42
+-,Picada Cafe,0.48,0.35,0.32
+-,Picarra,0.41,0.54,0.52
+-,Picos,0.57,0.61,0.56
+-,Picui,0.53,0.55,0.53
+-,Piedade de Caratinga,0.45,0.45,0.46
+-,Piedade de Ponte Nova,0.63,0.62,0.38
+-,Piedade do Rio Grande,0.58,0.5,0.45
+-,Piedade dos Gerais,0.45,0.47,0.48
+-,Piedade,0.48,0.59,0.47
+-,Pien,0.43,0.59,0.42
+-,Pilao Arcado,0.45,0.64,0.6
+-,Pilar,0.5,0.53,0.51
+-,Pilar de Goias,0.58,0.45,0.54
+-,Pilar do Sul,0.58,0.64,0.43
+-,Pilar,0.46,0.53,0.49
+-,Piloes,0.53,0.47,0.59
+-,Piloes,0.57,0.45,0.47
+-,Piloezinhos,0.41,0.59,0.43
+-,Pimenta Bueno,0.59,0.59,0.54
+-,Pimenta,0.53,0.5,0.45
+-,Pimenteiras do Oeste,0.52,0.44,0.49
+-,Pimenteiras,0.43,0.61,0.57
+-,Pindai,0.58,0.54,0.45
+-,Pindamonhangaba,0.56,0.56,0.52
+-,Pindare-Mirim,0.53,0.6,0.51
+-,Pindoba,0.63,0.51,0.58
+-,Pindobacu,0.54,0.61,0.5
+-,Pindorama do Tocantins,0.62,0.49,0.56
+-,Pindorama,0.45,0.46,0.39
+-,Pindoretama,0.44,0.6,0.45
+-,Pingo-D'Agua,0.49,0.43,0.44
+-,Pinhais,0.42,0.48,0.48
+-,Pinhalao,0.59,0.55,0.49
+-,Pinhal da Serra,0.49,0.56,0.52
+-,Pinhal de Sao Bento,0.55,0.67,0.37
+-,Pinhal Grande,0.6,0.55,0.51
+-,Pinhal,0.55,0.77,0.45
+-,Pinhalzinho,0.57,0.53,0.43
+-,Pinhalzinho,0.55,0.49,0.42
+-,Pinhao,0.58,0.61,0.53
+-,Pinhao,0.49,0.53,0.42
+-,Pinheiral,0.5,0.51,0.51
+-,Pinheirinho do Vale,0.65,0.5,0.57
+-,Pinheiro Machado,0.57,0.55,0.48
+-,Pinheiro,0.57,0.57,0.51
+-,Pinheiro Preto,0.57,0.43,0.45
+-,Pinheiros,0.62,0.56,0.49
+-,Pintadas,0.47,0.55,0.46
+-,Pintopolis,0.45,0.54,0.54
+-,Pio IX,0.51,0.6,0.56
+-,Pio XII,0.46,0.53,0.53
+-,Piquerobi,0.54,0.54,0.42
+-,Piquet Carneiro,0.53,0.64,0.52
+-,Piquete,0.52,0.5,0.49
+-,Piracaia,0.53,0.51,0.57
+-,Piracanjuba,0.63,0.54,0.47
+-,Piracema,0.56,0.52,0.44
+-,Piracicaba,0.5,0.53,0.52
+-,Piracuruca,0.58,0.59,0.54
+-,Pirai do Norte,0.57,0.49,0.49
+-,Pirai do Sul,0.61,0.58,0.56
+-,Pirai,0.57,0.55,0.5
+-,Pirajuba,0.49,0.52,0.54
+-,Pirajui,0.53,0.5,0.47
+-,Piraju,0.56,0.55,0.48
+-,Pirambu,0.53,0.62,0.53
+-,Piranga,0.6,0.59,0.52
+-,Pirangi,0.57,0.44,0.38
+-,Pirangucu,0.61,0.41,0.46
+-,Piranguinho,0.49,0.49,0.43
+-,Piranhas,0.65,0.71,0.6
+-,Piranhas,0.66,0.55,0.49
+-,Pirapemas,0.41,0.53,0.6
+-,Pirapetinga,0.51,0.54,0.46
+-,Pirapora do Bom Jesus,0.48,0.53,0.47
+-,Pirapora,0.61,0.59,0.55
+-,Pirapo,0.56,0.56,0.46
+-,Pirapozinho,0.53,0.54,0.52
+-,Piraquara,0.42,0.48,0.41
+-,Piraque,0.39,0.7,0.52
+-,Pirassununga,0.54,0.51,0.51
+-,Piratininga,0.66,0.52,0.48
+-,Piratini,0.58,0.56,0.51
+-,Piratuba,0.58,0.51,0.43
+-,Pirauba,0.53,0.55,0.37
+-,Pirenopolis,0.63,0.55,0.49
+-,Pires do Rio,0.55,0.59,0.45
+-,Pires Ferreira,0.46,0.57,0.51
+-,Piripa,0.46,0.48,0.49
+-,Piripiri,0.56,0.61,0.55
+-,Piritiba,0.56,0.56,0.52
+-,Pirpirituba,0.44,0.55,0.52
+-,Pitanga,0.72,0.63,0.52
+-,Pitangueiras,0.39,0.43,0.33
+-,Pitangueiras,0.43,0.49,0.41
+-,Pitangui,0.52,0.53,0.47
+-,Pitimbu,0.48,0.69,0.51
+-,Piuma,0.53,0.59,0.49
+-,Piumhi,0.54,0.57,0.47
+-,Pium,0.56,0.61,0.52
+-,Placas,0.73,0.58,0.59
+-,Placido de Castro,0.57,0.53,0.55
+-,Planaltina do Parana,0.59,0.48,0.43
+-,Planaltina,0.45,0.55,0.43
+-,Planaltino,0.47,0.49,0.56
+-,Planalto Alegre,0.57,0.53,0.42
+-,Planalto,0.47,0.53,0.45
+-,Planalto da Serra,0.47,0.58,0.44
+-,Planalto,0.51,0.53,0.47
+-,Planalto,0.58,0.58,0.44
+-,Planalto,0.44,0.65,0.37
+-,Planura,0.47,0.53,0.43
+-,Platina,0.46,0.47,0.49
+-,Poa,0.45,0.49,0.43
+-,Pocao de Pedras,0.47,0.53,0.54
+-,Pocao,0.43,0.57,0.54
+-,Pocinhos,0.52,0.51,0.46
+-,Poco Branco,0.52,0.49,0.56
+-,Poco Dantas,0.38,0.7,0.49
+-,Poco das Antas,0.53,0.39,0.38
+-,Poco das Trincheiras,0.47,0.67,0.64
+-,Poco de Jose de Moura,0.67,0.61,0.45
+-,Pocoes,0.5,0.58,0.54
+-,Poco Fundo,0.5,0.48,0.44
+-,Pocone,0.62,0.57,0.52
+-,Poco Redondo,0.51,0.64,0.59
+-,Pocos de Caldas,0.52,0.56,0.5
+-,Poco Verde,0.5,0.56,0.51
+-,Pocrane,0.49,0.59,0.46
+-,Pojuca,0.55,0.53,0.5
+-,Poloni,0.54,0.52,0.39
+-,Pombal,0.58,0.53,0.54
+-,Pombos,0.62,0.56,0.48
+-,Pomerode,0.41,0.47,0.38
+-,Pompeia,0.48,0.51,0.47
+-,Pompeu,0.56,0.63,0.52
+-,Pongai,0.51,0.54,0.45
+-,Ponta de Pedras,0.46,0.58,0.61
+-,Ponta Grossa,0.56,0.57,0.54
+-,Pontal do Araguaia,0.49,0.53,0.48
+-,Pontal do Parana,0.49,0.54,0.51
+-,Pontalina,0.58,0.7,0.54
+-,Pontalinda,0.51,0.4,0.38
+-,Pontal,0.45,0.62,0.44
+-,Pontao,0.57,0.56,0.53
+-,Ponta Pora,0.62,0.62,0.6
+-,Ponte Alta do Bom Jesus,0.56,0.63,0.63
+-,Ponte Alta do Norte,0.5,0.58,0.47
+-,Ponte Alta do Tocantins,0.65,0.71,0.55
+-,Ponte Alta,0.61,0.59,0.45
+-,Ponte Branca,0.51,0.4,0.49
+-,Ponte Nova,0.59,0.57,0.51
+-,Ponte Preta,0.49,0.36,0.39
+-,Pontes e Lacerda,0.57,0.59,0.49
+-,Ponte Serrada,0.53,0.61,0.44
+-,Pontes Gestal,0.39,0.53,0.38
+-,Ponto Belo,0.61,0.62,0.5
+-,Ponto Chique,0.4,0.61,0.45
+-,Ponto dos Volantes,0.47,0.58,0.53
+-,Ponto Novo,0.48,0.55,0.49
+-,Populina,0.52,0.47,0.41
+-,Porangaba,0.53,0.45,0.48
+-,Poranga,0.56,0.68,0.54
+-,Porangatu,0.56,0.71,0.56
+-,Porciuncula,0.59,0.54,0.56
+-,Porecatu,0.44,0.55,0.44
+-,Portalegre,0.55,0.61,0.52
+-,Portao,0.44,0.53,0.42
+-,Porteirao,0.33,0.67,0.39
+-,Porteiras,0.56,0.55,0.49
+-,Porteirinha,0.54,0.54,0.5
+-,Portelandia,0.51,0.49,0.39
+-,Portel,0.48,0.66,0.64
+-,Porto Acre,0.48,0.54,0.6
+-,Porto Alegre do Norte,0.5,0.66,0.52
+-,Porto Alegre do Piaui,0.43,0.52,0.49
+-,Porto Alegre do Tocantins,0.52,0.5,0.51
+-,Porto Alegre,0.57,0.6,0.6
+-,Porto Amazonas,0.49,0.48,0.51
+-,Porto Barreiro,0.53,0.6,0.52
+-,Porto Belo,0.49,0.52,0.42
+-,Porto Calvo,0.52,0.54,0.47
+-,Porto da Folha,0.49,0.58,0.56
+-,Porto de Moz,0.53,0.61,0.59
+-,Porto de Pedras,0.47,0.61,0.53
+-,Porto do Mangue,0.5,0.53,0.55
+-,Porto dos Gauchos,0.47,0.48,0.5
+-,Porto Esperidiao,0.59,0.63,0.59
+-,Porto Estrela,0.44,0.44,0.51
+-,Porto Feliz,0.51,0.47,0.45
+-,Porto Ferreira,0.47,0.5,0.45
+-,Porto Firme,0.5,0.47,0.46
+-,Porto Franco,0.57,0.59,0.57
+-,Porto Grande,0.54,0.65,0.56
+-,Porto Lucena,0.57,0.53,0.44
+-,Porto Maua,0.55,0.39,0.41
+-,Porto Murtinho,0.56,0.59,0.61
+-,Porto Nacional,0.58,0.6,0.54
+-,Porto,0.55,0.59,0.57
+-,Porto Real do Colegio,0.46,0.65,0.61
+-,Porto Real,0.49,0.54,0.42
+-,Porto Rico do Maranhao,0.4,0.48,0.52
+-,Porto Rico,0.56,0.48,0.48
+-,Porto Seguro,0.67,0.62,0.56
+-,Porto Uniao,0.55,0.56,0.53
+-,Porto Velho,0.58,0.61,0.56
+-,Porto Vera Cruz,0.54,0.46,0.42
+-,Porto Vitoria,0.52,0.51,0.44
+-,Porto Walter,0.45,0.51,0.61
+-,Porto Xavier,0.68,0.63,0.47
+-,Posse,0.6,0.58,0.54
+-,Pote,0.54,0.54,0.48
+-,Potengi,0.6,0.55,0.58
+-,Potim,0.76,0.44,0.37
+-,Potiragua,0.51,0.45,0.49
+-,Potirendaba,0.49,0.46,0.4
+-,Potiretama,0.53,0.61,0.5
+-,Pouso Alegre,0.53,0.56,0.49
+-,Pouso Alto,0.53,0.53,0.63
+-,Pouso Novo,0.61,0.64,0.53
+-,Pouso Redondo,0.57,0.52,0.43
+-,Poxoreo,0.54,0.61,0.49
+-,Pracinha,0.31,0.38,0.38
+-,Pracuuba,0.4,0.59,0.65
+-,Prado,0.51,0.64,0.55
+-,Prado Ferreira,0.44,0.48,0.49
+-,Pradopolis,0.41,0.45,0.45
+-,Prados,0.49,0.46,0.48
+-,Praia Grande,0.59,0.52,0.42
+-,Praia Grande,0.49,0.55,0.49
+-,Praia Norte,0.58,0.63,0.53
+-,Prainha,0.43,0.57,0.68
+-,Pranchita,0.6,0.61,0.52
+-,Prata do Piaui,0.51,0.58,0.54
+-,Prata,0.49,0.58,0.51
+-,Pratania,0.53,0.62,0.4
+-,Prata,0.6,0.54,0.44
+-,Pratapolis,0.54,0.45,0.45
+-,Pratinha,0.54,0.53,0.52
+-,Presidente Alves,0.51,0.47,0.47
+-,Presidente Bernardes,0.65,0.52,0.47
+-,Presidente Bernardes,0.58,0.53,0.46
+-,Presidente Castello Branco,0.49,0.49,0.47
+-,Presidente Castelo Branco,0.47,0.48,0.37
+-,Presidente Dutra,0.53,0.59,0.53
+-,Presidente Dutra,0.55,0.58,0.56
+-,Presidente Epitacio,0.59,0.56,0.47
+-,Presidente Figueiredo,0.6,0.61,0.52
+-,Presidente Getulio,0.42,0.45,0.41
+-,Presidente Janio Quadros,0.44,0.52,0.53
+-,Presidente Juscelino,0.45,0.6,0.61
+-,Presidente Juscelino,0.57,0.5,0.41
+-,Presidente Juscelino,0.61,0.77,0.56
+-,Presidente Kennedy,0.56,0.63,0.48
+-,Presidente Kennedy,0.55,0.5,0.51
+-,Presidente Kubitschek,0.51,0.46,0.44
+-,Presidente Lucena,0.37,0.42,0.32
+-,Presidente Medici,0.43,0.43,0.52
+-,Presidente Medici,0.52,0.58,0.53
+-,Presidente Nereu,0.41,0.4,0.5
+-,Presidente Olegario,0.47,0.51,0.45
+-,Presidente Prudente,0.57,0.59,0.54
+-,Presidente Sarney,0.48,0.48,0.51
+-,Presidente Tancredo Neves,0.38,0.52,0.55
+-,Presidente Vargas,0.45,0.57,0.61
+-,Presidente Venceslau,0.55,0.58,0.49
+-,Primavera de Rondonia,0.51,0.49,0.52
+-,Primavera do Leste,0.61,0.55,0.51
+-,Primavera,0.59,0.63,0.65
+-,Primavera,0.45,0.52,0.44
+-,Primeira Cruz,0.55,0.53,0.6
+-,Primeiro de Maio,0.52,0.53,0.45
+-,Princesa Isabel,0.55,0.55,0.47
+-,Princesa,0.49,0.52,0.42
+-,Professor Jamil,0.61,0.52,0.43
+-,Progresso,0.52,0.43,0.4
+-,Promissao,0.53,0.5,0.43
+-,Propria,0.58,0.57,0.54
+-,Protasio Alves,0.51,0.53,0.52
+-,Prudente de Morais,0.52,0.46,0.42
+-,Prudentopolis,0.61,0.57,0.47
+-,Pugmil,0.4,0.57,0.44
+-,Pureza,0.46,0.51,0.53
+-,Putinga,0.51,0.68,0.42
+-,Puxinana,0.53,0.55,0.45
+-,Quadra,0.49,0.48,0.49
+-,Quarai,0.63,0.56,0.5
+-,Quartel Geral,0.47,0.57,0.45
+-,Quarto Centenario,0.48,0.52,0.61
+-,Quata,0.49,0.53,0.41
+-,Quatigua,0.5,0.49,0.41
+-,Quatipuru,0.63,0.53,0.6
+-,Quatis,0.5,0.54,0.42
+-,Quatro Barras,0.52,0.57,0.47
+-,Quatro Irmaos,0.45,0.51,0.47
+-,Quatro Pontes,0.49,0.43,0.47
+-,Quebrangulo,0.56,0.63,0.53
+-,Quedas do Iguacu,0.57,0.64,0.58
+-,Queimada Nova,0.36,0.53,0.53
+-,Queimadas,0.52,0.57,0.51
+-,Queimadas,0.49,0.51,0.46
+-,Queimados,0.43,0.46,0.43
+-,Queiroz,0.49,0.38,0.42
+-,Queluzito,0.47,0.5,0.46
+-,Queluz,0.54,0.6,0.46
+-,Querencia do Norte,0.65,0.6,0.5
+-,Querencia,0.62,0.65,0.5
+-,Quevedos,0.51,0.63,0.55
+-,Quijingue,0.48,0.65,0.58
+-,Quilombo,0.59,0.61,0.39
+-,Quinta do Sol,0.6,0.51,0.44
+-,Quintana,0.53,0.52,0.43
+-,Quinze de Novembro,0.56,0.4,0.47
+-,Quipapa,0.45,0.61,0.48
+-,Quirinopolis,0.57,0.55,0.46
+-,Quissama,0.52,0.51,0.53
+-,Quitandinha,0.46,0.61,0.47
+-,Quiterianopolis,0.48,0.52,0.55
+-,Quixaba,0.32,0.42,0.46
+-,Quixaba,0.56,0.72,0.49
+-,Quixabeira,0.59,0.55,0.49
+-,Quixada,0.6,0.59,0.53
+-,Quixelo,0.52,0.61,0.51
+-,Quixeramobim,0.65,0.59,0.56
+-,Quixere,0.48,0.51,0.44
+-,Rafael Fernandes,0.6,0.54,0.45
+-,Rafael Godeiro,0.56,0.51,0.49
+-,Rafael Jambeiro,0.5,0.54,0.5
+-,Rafard,0.47,0.43,0.4
+-,Ramilandia,0.57,0.47,0.48
+-,Rancharia,0.52,0.53,0.47
+-,Rancho Alegre D'Oeste,0.66,0.44,0.44
+-,Rancho Alegre,0.49,0.45,0.49
+-,Rancho Queimado,0.49,0.49,0.42
+-,Raposa,0.44,0.48,0.48
+-,Raposos,0.42,0.42,0.52
+-,Raul Soares,0.58,0.6,0.51
+-,Realeza,0.62,0.55,0.43
+-,Reboucas,0.55,0.56,0.51
+-,Recife,0.67,0.67,0.68
+-,Recreio,0.75,0.56,0.47
+-,Recursolandia,0.46,0.66,0.64
+-,Redencao,0.46,0.52,0.5
+-,Redencao da Serra,0.51,0.51,0.45
+-,Redencao do Gurgueia,0.48,0.5,0.57
+-,Redencao,0.56,0.6,0.53
+-,Redentora,0.72,0.63,0.64
+-,Reduto,0.47,0.44,0.52
+-,Regeneracao,0.54,0.54,0.57
+-,Regente Feijo,0.47,0.54,0.46
+-,Reginopolis,0.46,0.49,0.41
+-,Registro,0.63,0.62,0.52
+-,Relvado,0.52,0.43,0.44
+-,Remanso,0.58,0.6,0.54
+-,Remigio,0.57,0.56,0.55
+-,Renascenca,0.64,0.54,0.58
+-,Reriutaba,0.53,0.54,0.6
+-,Resende Costa,0.53,0.52,0.48
+-,Resende,0.57,0.56,0.52
+-,Reserva do Cabacal,0.51,0.47,0.4
+-,Reserva do Iguacu,0.55,0.65,0.57
+-,Reserva,0.53,0.6,0.5
+-,Resplendor,0.53,0.57,0.52
+-,Ressaquinha,0.5,0.53,0.42
+-,Restinga Seca,0.6,0.56,0.52
+-,Restinga,0.42,0.44,0.38
+-,Retirolandia,0.46,0.61,0.46
+-,Riachao das Neves,0.51,0.57,0.53
+-,Riachao do Bacamarte,0.36,0.48,0.49
+-,Riachao do Dantas,0.45,0.48,0.48
+-,Riachao do Jacuipe,0.54,0.54,0.47
+-,Riachao do Poco,0.36,0.52,0.49
+-,Riachao,0.52,0.62,0.6
+-,Riachao,0.43,0.48,0.49
+-,Riachinho,0.54,0.61,0.48
+-,Riachinho,0.41,0.62,0.53
+-,Riacho da Cruz,0.49,0.54,0.47
+-,Riacho das Almas,0.52,0.72,0.51
+-,Riacho de Santana,0.55,0.63,0.56
+-,Riacho de Santana,0.72,0.54,0.5
+-,Riacho de Santo Antonio,0.53,0.5,0.43
+-,Riacho dos Cavalos,0.47,0.51,0.44
+-,Riacho dos Machados,0.58,0.62,0.44
+-,Riacho Frio,0.51,0.56,0.6
+-,Riachuelo,0.41,0.64,0.54
+-,Riachuelo,0.5,0.49,0.5
+-,Rialma,0.47,0.67,0.44
+-,Rianapolis,0.56,0.77,0.41
+-,Ribamar Fiquene,0.46,0.66,0.57
+-,Ribas do Rio Pardo,0.51,0.5,0.47
+-,Ribeira do Amparo,0.44,0.47,0.53
+-,Ribeira do Piaui,0.42,0.5,0.58
+-,Ribeira do Pombal,0.59,0.6,0.54
+-,Ribeirao Bonito,0.5,0.52,0.46
+-,Ribeirao Branco,0.55,0.59,0.46
+-,Ribeirao Cascalheira,0.62,0.63,0.54
+-,Ribeirao Claro,0.6,0.5,0.52
+-,Ribeirao Corrente,0.37,0.42,0.42
+-,Ribeirao das Neves,0.45,0.43,0.39
+-,Ribeirao do Largo,0.43,0.44,0.46
+-,Ribeirao do Pinhal,0.55,0.58,0.5
+-,Ribeirao dos Indios,0.58,0.42,0.38
+-,Ribeirao do Sul,0.45,0.44,0.59
+-,Ribeirao Grande,0.45,0.62,0.41
+-,Ribeirao,0.55,0.58,0.5
+-,Ribeirao Pires,0.47,0.5,0.44
+-,Ribeirao Preto,0.53,0.56,0.54
+-,Ribeirao Vermelho,0.55,0.55,0.43
+-,Ribeiraozinho,0.52,0.6,0.47
+-,Ribeira,0.65,0.59,0.47
+-,Ribeiro Goncalves,0.5,0.58,0.57
+-,Ribeiropolis,0.5,0.56,0.45
+-,Rifaina,0.43,0.48,0.45
+-,Rincao,0.44,0.45,0.44
+-,Rinopolis,0.55,0.53,0.43
+-,Rio Acima,0.43,0.45,0.47
+-,Rio Azul,0.47,0.52,0.63
+-,Rio Bananal,0.61,0.56,0.5
+-,Rio Bom,0.53,0.46,0.43
+-,Rio Bonito do Iguacu,0.46,0.59,0.5
+-,Rio Bonito,0.55,0.57,0.48
+-,Rio Branco,0.6,0.61,0.59
+-,Rio Branco do Ivai,0.46,0.6,0.49
+-,Rio Branco do Sul,0.55,0.54,0.47
+-,Rio Branco,0.65,0.55,0.5
+-,Rio Brilhante,0.64,0.57,0.53
+-,Rio Casca,0.64,0.6,0.47
+-,Rio Claro,0.58,0.5,0.5
+-,Rio Claro,0.5,0.54,0.5
+-,Rio Crespo,0.51,0.75,0.58
+-,Rio da Conceicao,0.4,0.5,0.55
+-,Rio das Antas,0.58,0.47,0.44
+-,Rio das Flores,0.7,0.55,0.46
+-,Rio das Ostras,0.55,0.57,0.53
+-,Rio das Pedras,0.51,0.49,0.45
+-,Rio de Contas,0.53,0.54,0.48
+-,Rio de Janeiro,0.6,0.61,0.62
+-,Rio do Antonio,0.58,0.64,0.49
+-,Rio do Campo,0.56,0.51,0.5
+-,Rio Doce,0.53,0.53,0.44
+-,Rio do Fogo,0.46,0.56,0.52
+-,Rio do Oeste,0.57,0.44,0.47
+-,Rio do Pires,0.49,0.57,0.48
+-,Rio do Prado,0.58,0.61,0.49
+-,Rio dos Bois,0.62,0.56,0.48
+-,Rio dos Cedros,0.46,0.46,0.37
+-,Rio dos Indios,0.55,0.57,0.49
+-,Rio do Sul,0.49,0.51,0.45
+-,Rio Espera,0.58,0.53,0.48
+-,Rio Formoso,0.48,0.54,0.44
+-,Rio Fortuna,0.53,0.45,0.56
+-,Rio Grande da Serra,0.41,0.42,0.39
+-,Rio Grande do Piaui,0.51,0.49,0.54
+-,Rio Grande,0.54,0.56,0.51
+-,Riolandia,0.52,0.6,0.4
+-,Rio Largo,0.48,0.51,0.48
+-,Rio Manso,0.48,0.46,0.43
+-,Rio Maria,0.59,0.62,0.53
+-,Rio Negrinho,0.48,0.48,0.44
+-,Rio Negro,0.47,0.51,0.54
+-,Rio Negro,0.54,0.54,0.48
+-,Rio Novo do Sul,0.57,0.55,0.48
+-,Rio Novo,0.56,0.58,0.47
+-,Rio Paranaiba,0.53,0.46,0.5
+-,Rio Pardo de Minas,0.5,0.59,0.52
+-,Rio Pardo,0.58,0.54,0.48
+-,Rio Piracicaba,0.62,0.59,0.45
+-,Rio Pomba,0.57,0.56,0.47
+-,Rio Preto da Eva,0.58,0.6,0.55
+-,Rio Preto,0.57,0.56,0.51
+-,Rio Quente,0.47,0.62,0.44
+-,Rio Real,0.6,0.58,0.53
+-,Rio Rufino,0.57,0.72,0.42
+-,Rio Sono,0.45,0.62,0.59
+-,Rio Tinto,0.47,0.54,0.5
+-,Rio Verde de Mato Grosso,0.55,0.55,0.46
+-,Rio Verde,0.56,0.6,0.54
+-,Rio Vermelho,0.49,0.56,0.56
+-,Riozinho,0.51,0.43,0.38
+-,Riqueza,0.49,0.52,0.44
+-,Ritapolis,0.47,0.46,0.44
+-,Riversul,0.57,0.53,0.5
+-,Roca Sales,0.46,0.43,0.43
+-,Rochedo de Minas,0.48,0.43,0.39
+-,Rochedo,0.55,0.57,0.48
+-,Rodeio Bonito,0.55,0.58,0.46
+-,Rodeio,0.43,0.4,0.42
+-,Rodeiro,0.46,0.49,0.46
+-,Rodelas,0.49,0.54,0.53
+-,Rodolfo Fernandes,0.47,0.56,0.46
+-,Rodrigues Alves,0.48,0.57,0.63
+-,Rolador,0.53,0.53,0.44
+-,Rolandia,0.53,0.56,0.45
+-,Rolante,0.46,0.42,0.35
+-,Rolim de Moura,0.58,0.58,0.53
+-,Romaria,0.51,0.71,0.54
+-,Romelandia,0.61,0.47,0.47
+-,Roncador,0.52,0.6,0.53
+-,Ronda Alta,0.61,0.59,0.54
+-,Rondinha,0.61,0.45,0.47
+-,Rondolandia,0.41,0.44,0.52
+-,Rondon do Para,0.54,0.58,0.54
+-,Rondonopolis,0.58,0.58,0.52
+-,Rondon,0.56,0.5,0.41
+-,Roque Gonzales,0.56,0.57,0.5
+-,Rorainopolis,0.66,0.67,0.57
+-,Rosana,0.56,0.59,0.6
+-,Rosario da Limeira,0.43,0.56,0.49
+-,Rosario do Catete,0.49,0.55,0.5
+-,Rosario do Ivai,0.59,0.6,0.47
+-,Rosario do Sul,0.59,0.54,0.51
+-,Rosario,0.48,0.6,0.51
+-,Rosario Oeste,0.54,0.57,0.49
+-,Roseira,0.53,0.5,0.43
+-,Roteiro,0.36,0.53,0.47
+-,Rubelita,0.48,0.7,0.5
+-,Rubiacea,0.64,0.49,0.37
+-,Rubiataba,0.52,0.5,0.43
+-,Rubim,0.63,0.57,0.48
+-,Rubineia,0.55,0.47,0.39
+-,Ruropolis,0.56,0.59,0.57
+-,Russas,0.57,0.52,0.46
+-,Ruy Barbosa,0.72,0.59,0.55
+-,Ruy Barbosa,0.51,0.56,0.51
+-,Sabara,0.54,0.48,0.45
+-,Sabaudia,0.45,0.47,0.41
+-,Sabinopolis,0.61,0.59,0.52
+-,Sabino,0.45,0.52,0.41
+-,Saboeiro,0.59,0.69,0.54
+-,Sacramento,0.56,0.53,0.45
+-,Sagrada Familia,0.49,0.52,0.54
+-,Sagres,0.47,0.44,0.47
+-,Saire,0.41,0.46,0.45
+-,Saldanha Marinho,0.68,0.47,0.43
+-,Sales Oliveira,0.59,0.49,0.43
+-,Salesopolis,0.51,0.55,0.42
+-,Sales,0.47,0.5,0.42
+-,Salete,0.49,0.53,0.43
+-,Salgadinho,0.48,0.56,0.46
+-,Salgadinho,0.47,0.51,0.52
+-,Salgado de Sao Felix,0.52,0.51,0.5
+-,Salgado Filho,0.57,0.57,0.46
+-,Salgado,0.49,0.56,0.51
+-,Salgueiro,0.61,0.63,0.59
+-,Salinas da Margarida,0.43,0.5,0.54
+-,Salinas,0.52,0.58,0.65
+-,Salinopolis,0.47,0.62,0.52
+-,Salitre,0.45,0.53,0.49
+-,Salmourao,0.45,0.42,0.39
+-,Saloa,0.67,0.6,0.55
+-,Saltinho,0.59,0.54,0.5
+-,Saltinho,0.57,0.47,0.39
+-,Salto da Divisa,0.74,0.63,0.5
+-,Salto de Pirapora,0.49,0.47,0.44
+-,Salto do Ceu,0.45,0.53,0.48
+-,Salto do Itarare,0.49,0.58,0.42
+-,Salto do Jacui,0.6,0.57,0.48
+-,Salto do Lontra,0.57,0.55,0.46
+-,Salto Grande,0.52,0.57,0.42
+-,Salto,0.46,0.5,0.45
+-,Salto Veloso,0.43,0.55,0.55
+-,Salvador,0.65,0.64,0.63
+-,Salvador das Missoes,0.5,0.39,0.36
+-,Salvador do Sul,0.52,0.43,0.38
+-,Salvaterra,0.53,0.55,0.57
+-,Sambaiba,0.56,0.7,0.55
+-,Sampaio,0.37,0.61,0.5
+-,Sananduva,0.52,0.6,0.44
+-,Sanclerlandia,0.56,0.52,0.53
+-,Sandolandia,0.45,0.56,0.47
+-,Sandovalina,0.46,0.51,0.43
+-,Sangao,0.45,0.57,0.4
+-,Sanharo,0.55,0.64,0.51
+-,Santa Adelia,0.42,0.46,0.43
+-,Santa Albertina,0.55,0.64,0.42
+-,Santa Amelia,0.57,0.56,0.41
+-,Santa Barbara,0.51,0.52,0.52
+-,Santa Barbara de Goias,0.49,0.47,0.39
+-,Santa Barbara D'Oeste,0.39,0.44,0.41
+-,Santa Barbara do Leste,0.46,0.44,0.44
+-,Santa Barbara do Monte Verde,0.42,0.58,0.49
+-,Santa Barbara do Para,0.49,0.5,0.52
+-,Santa Barbara do Sul,0.64,0.57,0.49
+-,Santa Barbara do Tugurio,0.5,0.58,0.43
+-,Santa Barbara,0.53,0.56,0.47
+-,Santa Branca,0.62,0.5,0.47
+-,Santa Brigida,0.47,0.61,0.55
+-,Santa Carmem,0.44,0.66,0.48
+-,Santa Cecilia do Pavao,0.53,0.49,0.47
+-,Santa Cecilia do Sul,0.57,0.5,0.48
+-,Santa Cecilia,0.37,0.51,0.48
+-,Santa Cecilia,0.53,0.54,0.52
+-,Santa Clara D'Oeste,0.46,0.46,0.45
+-,Santa Clara do Sul,0.49,0.37,0.36
+-,Santa Cruz Cabralia,0.63,0.63,0.58
+-,Santa Cruz da Baixa Verde,0.47,0.53,0.51
+-,Santa Cruz da Conceicao,0.63,0.52,0.67
+-,Santa Cruz da Esperanca,0.47,0.55,0.53
+-,Santa Cruz das Palmeiras,0.43,0.51,0.51
+-,Santa Cruz da Vitoria,0.49,0.44,0.54
+-,Santa Cruz de Goias,0.53,0.55,0.49
+-,Santa Cruz de Minas,0.39,0.45,0.39
+-,Santa Cruz de Monte Castelo,0.59,0.52,0.38
+-,Santa Cruz de Salinas,0.44,0.74,0.49
+-,Santa Cruz do Arari,0.56,0.61,0.49
+-,Santa Cruz do Capibaribe,0.54,0.52,0.45
+-,Santa Cruz do Escalvado,0.49,0.51,0.46
+-,Santa Cruz do Piaui,0.53,0.55,0.49
+-,Santa Cruz do Rio Pardo,0.53,0.54,0.46
+-,Santa Cruz dos Milagres,0.47,0.53,0.44
+-,Santa Cruz do Sul,0.54,0.53,0.49
+-,Santa Cruz do Xingu,0.48,0.58,0.55
+-,Santa Cruz,0.54,0.51,0.46
+-,Santa Cruz,0.49,0.72,0.57
+-,Santa Cruz,0.52,0.6,0.52
+-,Santa Efigenia de Minas,0.49,0.62,0.47
+-,Santa Ernestina,0.4,0.47,0.42
+-,Santa Fe de Goias,0.45,0.44,0.48
+-,Santa Fe de Minas,0.46,0.56,0.53
+-,Santa Fe do Araguaia,0.45,0.57,0.54
+-,Santa Fe do Sul,0.49,0.57,0.49
+-,Santa Fe,0.55,0.5,0.41
+-,Santa Filomena do Maranhao,0.43,0.53,0.58
+-,Santa Filomena,0.51,0.62,0.55
+-,Santa Filomena,0.57,0.57,0.59
+-,Santa Gertrudes,0.42,0.4,0.38
+-,Santa Helena de Goias,0.53,0.51,0.53
+-,Santa Helena de Minas,0.47,0.53,0.48
+-,Santa Helena,0.43,0.63,0.5
+-,Santa Helena,0.92,0.52,0.5
+-,Santa Helena,0.57,0.58,0.52
+-,Santa Helena,0.59,0.5,0.38
+-,Santa Ines,0.5,0.51,0.48
+-,Santa Ines,0.55,0.58,0.53
+-,Santa Ines,0.59,0.57,0.55
+-,Santa Ines,0.45,0.49,0.38
+-,Santa Isabel do Ivai,0.52,0.53,0.41
+-,Santa Isabel do Para,0.57,0.55,0.51
+-,Santa Isabel do Rio Negro,0.49,0.67,0.72
+-,Santa Isabel,0.46,0.43,0.4
+-,Santa Isabel,0.47,0.51,0.45
+-,Santa Izabel do Oeste,0.56,0.57,0.45
+-,Santa Juliana,0.59,0.52,0.43
+-,Santa Leopoldina,0.5,0.55,0.55
+-,Santa Lucia,0.55,0.57,0.44
+-,Santa Lucia,0.51,0.45,0.39
+-,Santaluz,0.56,0.62,0.49
+-,Santa Luzia,0.5,0.43,0.46
+-,Santa Luzia D'Oeste,0.57,0.48,0.49
+-,Santa Luzia do Itanhy,0.49,0.48,0.53
+-,Santa Luzia do Norte,0.44,0.53,0.48
+-,Santa Luzia do Para,0.44,0.59,0.56
+-,Santa Luzia do Parua,0.54,0.52,0.52
+-,Santa Luzia,0.5,0.56,0.58
+-,Santa Luzia,0.46,0.46,0.43
+-,Santa Luzia,0.52,0.52,0.51
+-,Santa Luz,0.49,0.47,0.51
+-,Santa Margarida do Sul,0.68,0.47,0.54
+-,Santa Margarida,0.58,0.67,0.61
+-,Santa Maria da Boa Vista,0.51,0.58,0.55
+-,Santa Maria das Barreiras,0.64,0.61,0.56
+-,Santa Maria da Serra,0.4,0.46,0.45
+-,Santa Maria da Vitoria,0.6,0.64,0.54
+-,Santa Maria de Itabira,0.62,0.57,0.45
+-,Santa Maria de Jetiba,0.58,0.62,0.49
+-,Santa Maria do Cambuca,0.46,0.64,0.46
+-,Santa Maria do Herval,0.39,0.34,0.3
+-,Santa Maria do Oeste,0.45,0.52,0.48
+-,Santa Maria do Para,0.65,0.55,0.52
+-,Santa Maria do Salto,0.46,0.52,0.44
+-,Santa Maria do Suacui,0.73,0.61,0.54
+-,Santa Maria do Tocantins,0.39,0.5,0.53
+-,Santa Maria Madalena,0.54,0.53,0.48
+-,Santa Mariana,0.58,0.51,0.43
+-,Santa Maria,0.48,0.5,0.45
+-,Santa Maria,0.54,0.56,0.55
+-,Santa Mercedes,0.58,0.5,0.4
+-,Santa Monica,0.38,0.47,0.48
+-,Santana,0.58,0.63,0.55
+-,Santana,0.58,0.62,0.54
+-,Santana da Boa Vista,0.49,0.63,0.52
+-,Santana da Ponte Pensa,0.39,0.48,0.42
+-,Santana da Vargem,0.59,0.55,0.4
+-,Santana de Cataguases,0.49,0.49,0.41
+-,Santana de Mangueira,0.58,0.52,0.54
+-,Santana de Parnaiba,0.71,0.71,0.67
+-,Santana de Pirapama,0.6,0.54,0.42
+-,Santana do Acarau,0.43,0.67,0.66
+-,Santana do Araguaia,0.64,0.6,0.46
+-,Santana do Cariri,0.54,0.64,0.56
+-,Santana do Deserto,0.47,0.45,0.44
+-,Santana do Garambeu,0.57,0.58,0.54
+-,Santana do Ipanema,0.57,0.68,0.61
+-,Santana do Itarare,0.61,0.57,0.5
+-,Santana do Jacare,0.48,0.49,0.42
+-,Sant'Ana do Livramento,0.6,0.6,0.54
+-,Santana do Manhuacu,0.55,0.46,0.5
+-,Santana do Maranhao,0.41,0.54,0.57
+-,Santana do Matos,0.48,0.56,0.55
+-,Santana do Mundau,0.46,0.57,0.49
+-,Santana do Paraiso,0.51,0.5,0.42
+-,Santana do Piaui,0.48,0.43,0.47
+-,Santana do Riacho,0.54,0.55,0.5
+-,Santana do Sao Francisco,0.48,0.51,0.48
+-,Santana do Serido,0.44,0.41,0.41
+-,Santana dos Garrotes,0.5,0.53,0.48
+-,Santana dos Montes,0.47,0.47,0.4
+-,Santanopolis,0.43,0.54,0.52
+-,Santa Quiteria,0.59,0.64,0.56
+-,Santa Quiteria do Maranhao,0.49,0.59,0.51
+-,Santarem Novo,0.59,0.61,0.56
+-,Santarem,0.56,0.61,0.58
+-,Santarem,0.52,0.47,0.44
+-,Santa Rita de Caldas,0.43,0.53,0.43
+-,Santa Rita de Cassia,0.51,0.67,0.6
+-,Santa Rita de Ibitipoca,0.47,0.6,0.51
+-,Santa Rita de Jacutinga,0.53,0.48,0.47
+-,Santa Rita de Minas,0.5,0.53,0.44
+-,Santa Rita do Araguaia,0.63,0.57,0.48
+-,Santa Rita D'Oeste,0.54,0.49,0.39
+-,Santa Rita do Itueto,0.56,0.53,0.44
+-,Santa Rita do Novo Destino,0.49,0.43,0.44
+-,Santa Rita do Pardo,0.59,0.48,0.44
+-,Santa Rita do Passa Quatro,0.48,0.56,0.48
+-,Santa Rita do Sapucai,0.61,0.59,0.48
+-,Santa Rita do Tocantins,0.41,0.46,0.53
+-,Santa Rita do Trivelato,0.49,0.85,0.5
+-,Santa Rita,0.52,0.64,0.53
+-,Santa Rita,0.47,0.48,0.46
+-,Santa Rosa da Serra,0.42,0.4,0.46
+-,Santa Rosa de Goias,0.59,0.54,0.43
+-,Santa Rosa de Lima,0.46,0.48,0.32
+-,Santa Rosa de Lima,0.48,0.49,0.45
+-,Santa Rosa de Viterbo,0.48,0.53,0.5
+-,Santa Rosa do Piaui,0.42,0.63,0.52
+-,Santa Rosa do Purus,0.39,0.57,0.78
+-,Santa Rosa do Sul,0.52,0.45,0.39
+-,Santa Rosa do Tocantins,0.49,0.65,0.54
+-,Santa Rosa,0.57,0.55,0.47
+-,Santa Salete,0.39,0.45,0.35
+-,Santa Teresa,0.62,0.55,0.48
+-,Santa Teresinha,0.51,0.46,0.53
+-,Santa Teresinha,0.47,0.48,0.59
+-,Santa Tereza de Goias,0.56,0.62,0.46
+-,Santa Tereza do Oeste,0.51,0.44,0.44
+-,Santa Tereza do Tocantins,0.58,0.58,0.47
+-,Santa Tereza,0.42,0.4,0.37
+-,Santa Terezinha de Goias,0.55,0.58,0.5
+-,Santa Terezinha de Itaipu,0.54,0.54,0.44
+-,Santa Terezinha do Progresso,0.5,0.53,0.56
+-,Santa Terezinha do Tocantins,0.48,0.54,0.54
+-,Santa Terezinha,0.56,0.61,0.57
+-,Santa Terezinha,0.5,0.55,0.51
+-,Santa Terezinha,0.43,0.64,0.48
+-,Santa Vitoria do Palmar,0.61,0.8,0.54
+-,Santa Vitoria,0.57,0.56,0.46
+-,Santiago do Sul,0.5,0.57,0.46
+-,Santiago,0.53,0.55,0.51
+-,Santo Afonso,0.49,0.58,0.43
+-,Santo Amaro,0.56,0.53,0.56
+-,Santo Amaro da Imperatriz,0.45,0.45,0.38
+-,Santo Amaro das Brotas,0.5,0.55,0.57
+-,Santo Amaro do Maranhao,0.56,0.57,0.62
+-,Santo Anastacio,0.58,0.54,0.52
+-,Santo Andre,0.6,0.61,0.47
+-,Santo Andre,0.48,0.52,0.53
+-,Santo Angelo,0.58,0.58,0.54
+-,Santo Antonio da Alegria,0.57,0.52,0.42
+-,Santo Antonio da Barra,0.48,0.51,0.42
+-,Santo Antonio da Patrulha,0.56,0.47,0.44
+-,Santo Antonio da Platina,0.55,0.54,0.54
+-,Santo Antonio das Missoes,0.63,0.6,0.45
+-,Santo Antonio de Goias,0.39,0.49,0.43
+-,Santo Antonio de Jesus,0.6,0.56,0.54
+-,Santo Antonio de Lisboa,0.53,0.54,0.47
+-,Santo Antonio de Padua,0.6,0.55,0.51
+-,Santo Antonio de Posse,0.56,0.54,0.44
+-,Santo Antonio do Amparo,0.57,0.52,0.43
+-,Santo Antonio do Aracangua,0.42,0.41,0.41
+-,Santo Antonio do Aventureiro,0.45,0.44,0.42
+-,Santo Antonio do Caiua,0.54,0.43,0.35
+-,Santo Antonio do Descoberto,0.44,0.48,0.45
+-,Santo Antonio do Grama,0.59,0.51,0.41
+-,Santo Antonio do Ica,0.67,0.65,0.67
+-,Santo Antonio do Itambe,0.49,0.49,0.48
+-,Santo Antonio do Jacinto,0.56,0.58,0.53
+-,Santo Antonio do Jardim,0.53,0.46,0.41
+-,Santo Antonio do Leste,0.3,0.61,0.47
+-,Santo Antonio do Leverger,0.49,0.62,0.49
+-,Santo Antonio do Monte,0.54,0.49,0.49
+-,Santo Antonio do Palma,0.61,0.57,0.49
+-,Santo Antonio do Paraiso,0.48,0.5,0.48
+-,Santo Antonio do Pinhal,0.57,0.58,0.47
+-,Santo Antonio do Planalto,0.69,0.49,0.44
+-,Santo Antonio do Retiro,0.48,0.59,0.58
+-,Santo Antonio do Rio Abaixo,0.43,0.55,0.53
+-,Santo Antonio dos Lopes,0.51,0.54,0.57
+-,Santo Antonio dos Milagres,0.31,0.53,0.49
+-,Santo Antonio do Sudoeste,0.57,0.55,0.52
+-,Santo Antonio do Taua,0.54,0.5,0.52
+-,Santo Antonio,0.59,0.63,0.57
+-,Santo Augusto,0.66,0.59,0.57
+-,Santo Cristo,0.51,0.49,0.44
+-,Santo Estevao,0.51,0.54,0.56
+-,Santo Expedito do Sul,0.52,0.5,0.43
+-,Santo Expedito,0.51,0.51,0.41
+-,Santo Hipolito,0.58,0.61,0.54
+-,Santo Inacio do Piaui,0.51,0.57,0.52
+-,Santo Inacio,0.5,0.51,0.53
+-,Santopolis do Aguapei,0.54,0.44,0.35
+-,Santos Dumont,0.55,0.53,0.5
+-,Santos,0.52,0.53,0.55
+-,Sao Benedito,0.55,0.63,0.51
+-,Sao Benedito do Rio Preto,0.42,0.66,0.62
+-,Sao Benedito do Sul,0.46,0.55,0.52
+-,Sao Bentinho,0.43,0.43,0.46
+-,Sao Bento Abade,0.47,0.48,0.42
+-,Sao Bento do Norte,0.48,0.62,0.54
+-,Sao Bento do Sapucai,0.58,0.53,0.55
+-,Sao Bento do Sul,0.46,0.49,0.49
+-,Sao Bento do Tocantins,0.44,0.56,0.56
+-,Sao Bento do Trairi,0.62,0.57,0.49
+-,Sao Bento do Una,0.58,0.75,0.6
+-,Sao Bento,0.48,0.54,0.55
+-,Sao Bento,0.39,0.48,0.47
+-,Sao Bernardino,0.44,0.6,0.45
+-,Sao Bernardo do Campo,0.5,0.54,0.54
+-,Sao Bernardo,0.51,0.62,0.59
+-,Sao Bonifacio,0.51,0.44,0.47
+-,Sao Borja,0.64,0.59,0.55
+-,Sao Bras,0.53,0.6,0.61
+-,Sao Bras do Suacui,0.52,0.57,0.43
+-,Sao Braz do Piaui,0.45,0.46,0.53
+-,Sao Caetano de Odivelas,0.41,0.46,0.48
+-,Sao Caetano do Sul,0.48,0.5,0.54
+-,Sao Caitano,0.48,0.56,0.5
+-,Sao Carlos do Ivai,0.72,0.43,0.4
+-,Sao Carlos,0.57,0.64,0.46
+-,Sao Carlos,0.5,0.52,0.49
+-,Sao Cristovao do Sul,0.47,0.46,0.44
+-,Sao Cristovao,0.53,0.52,0.47
+-,Sao Desiderio,0.59,0.55,0.57
+-,Sao Domingos,0.45,0.41,0.47
+-,Sao Domingos das Dores,0.68,0.54,0.47
+-,Sao Domingos do Araguaia,0.54,0.57,0.59
+-,Sao Domingos do Azeitao,0.53,0.5,0.69
+-,Sao Domingos do Capim,0.54,0.55,0.6
+-,Sao Domingos do Cariri,0.4,0.46,0.47
+-,Sao Domingos do Maranhao,0.52,0.55,0.6
+-,Sao Domingos do Norte,0.64,0.53,0.49
+-,Sao Domingos do Prata,0.59,0.61,0.49
+-,Sao Domingos do Sul,0.44,0.38,0.44
+-,Sao Domingos,0.52,0.61,0.6
+-,Sao Domingos,0.46,0.56,0.46
+-,Sao Domingos,0.6,0.63,0.58
+-,Sao Domingos,0.42,0.42,0.41
+-,Sao Felipe,0.48,0.54,0.5
+-,Sao Felipe D'Oeste,0.48,0.53,0.47
+-,Sao Felix,0.57,0.58,0.48
+-,Sao Felix de Balsas,0.51,0.52,0.57
+-,Sao Felix de Minas,0.56,0.58,0.47
+-,Sao Felix do Araguaia,0.62,0.63,0.61
+-,Sao Felix do Coribe,0.49,0.56,0.5
+-,Sao Felix do Piaui,0.51,0.54,0.52
+-,Sao Felix do Tocantins,0.27,0.79,0.64
+-,Sao Felix do Xingu,0.55,0.71,0.62
+-,Sao Fernando,0.48,0.4,0.44
+-,Sao Fidelis,0.64,0.54,0.47
+-,Sao Francisco de Assis do Piaui,0.48,0.54,0.6
+-,Sao Francisco de Assis,0.56,0.57,0.54
+-,Sao Francisco de Goias,0.47,0.54,0.47
+-,Sao Francisco de Itabapoana,0.46,0.61,0.49
+-,Sao Francisco de Paula,0.42,0.48,0.39
+-,Sao Francisco de Paula,0.55,0.56,0.46
+-,Sao Francisco de Sales,0.56,0.56,0.5
+-,Sao Francisco do Brejao,0.54,0.57,0.51
+-,Sao Francisco do Conde,0.64,0.57,0.5
+-,Sao Francisco do Gloria,0.51,0.48,0.47
+-,Sao Francisco do Guapore,0.71,0.53,0.56
+-,Sao Francisco do Maranhao,0.41,0.59,0.57
+-,Sao Francisco do Oeste,0.47,0.53,0.41
+-,Sao Francisco do Para,0.55,0.63,0.48
+-,Sao Francisco do Piaui,0.51,0.57,0.54
+-,Sao Francisco do Sul,0.49,0.58,0.45
+-,Sao Francisco,0.53,0.61,0.55
+-,Sao Francisco,0.53,0.47,0.45
+-,Sao Francisco,0.49,0.47,0.48
+-,Sao Francisco,0.49,0.47,0.45
+-,Sao Gabriel,0.45,0.73,0.51
+-,Sao Gabriel da Cachoeira,0.63,0.77,0.8
+-,Sao Gabriel da Palha,0.55,0.55,0.6
+-,Sao Gabriel do Oeste,0.67,0.68,0.54
+-,Sao Gabriel,0.66,0.6,0.54
+-,Sao Geraldo da Piedade,0.46,0.56,0.55
+-,Sao Geraldo do Araguaia,0.51,0.62,0.53
+-,Sao Geraldo do Baixio,0.48,0.52,0.48
+-,Sao Geraldo,0.56,0.54,0.41
+-,Sao Goncalo do Abaete,0.52,0.54,0.47
+-,Sao Goncalo do Amarante,0.49,0.54,0.51
+-,Sao Goncalo do Amarante,0.44,0.49,0.44
+-,Sao Goncalo do Gurgueia,0.43,0.46,0.67
+-,Sao Goncalo do Para,0.45,0.46,0.4
+-,Sao Goncalo do Piaui,0.39,0.5,0.55
+-,Sao Goncalo do Rio Abaixo,0.57,0.53,0.49
+-,Sao Goncalo do Rio Preto,0.47,0.59,0.44
+-,Sao Goncalo do Sapucai,0.59,0.56,0.52
+-,Sao Goncalo dos Campos,0.62,0.57,0.55
+-,Sao Goncalo,0.47,0.47,0.43
+-,Sao Gotardo,0.57,0.72,0.51
+-,Sao Jeronimo da Serra,0.54,0.58,0.53
+-,Sao Jeronimo,0.55,0.61,0.55
+-,Sao Joao Batista do Gloria,0.56,0.51,0.45
+-,Sao Joao Batista,0.46,0.8,0.63
+-,Sao Joao Batista,0.45,0.43,0.33
+-,Sao Joao da Baliza,0.64,0.55,0.53
+-,Sao Joao da Barra,0.51,0.5,0.48
+-,Sao Joao da Boa Vista,0.51,0.53,0.51
+-,Sao Joao da Canabrava,0.45,0.66,0.52
+-,Sao Joao da Fronteira,0.44,0.73,0.54
+-,Sao Joao da Lagoa,0.48,0.61,0.48
+-,Sao Joao D'Alianca,0.52,0.74,0.53
+-,Sao Joao da Mata,0.5,0.46,0.41
+-,Sao Joao da Parauna,0.4,0.63,0.49
+-,Sao Joao da Ponta,0.38,0.67,0.51
+-,Sao Joao da Ponte,0.46,0.55,0.48
+-,Sao Joao das Duas Pontes,0.47,0.58,0.36
+-,Sao Joao da Serra,0.49,0.54,0.57
+-,Sao Joao das Missoes,0.47,0.68,0.51
+-,Sao Joao da Urtiga,0.61,0.49,0.4
+-,Sao Joao da Varjota,0.42,0.62,0.57
+-,Sao Joao de Iracema,0.47,0.66,0.37
+-,Sao Joao Del Rei,0.58,0.54,0.52
+-,Sao Joao de Meriti,0.44,0.45,0.43
+-,Sao Joao de Pirabas,0.52,0.62,0.58
+-,Sao Joao do Araguaia,0.55,0.61,0.55
+-,Sao Joao do Arraial,0.45,0.57,0.55
+-,Sao Joao do Caiua,0.53,0.49,0.44
+-,Sao Joao do Cariri,0.59,0.46,0.53
+-,Sao Joao do Caru,0.51,0.55,0.53
+-,Sao Joao do Itaperiu,0.41,0.53,0.34
+-,Sao Joao do Ivai,0.61,0.48,0.43
+-,Sao Joao do Jaguaribe,0.48,0.56,0.5
+-,Sao Joao do Manhuacu,0.53,0.65,0.57
+-,Sao Joao do Manteninha,0.52,0.5,0.42
+-,Sao Joao do Oeste,0.59,0.46,0.4
+-,Sao Joao do Oriente,0.54,0.5,0.44
+-,Sao Joao do Pacui,0.52,0.49,0.64
+-,Sao Joao do Paraiso,0.51,0.62,0.53
+-,Sao Joao do Paraiso,0.48,0.51,0.44
+-,Sao Joao do Pau D'Alho,0.5,0.43,0.33
+-,Sao Joao do Piaui,0.58,0.61,0.57
+-,Sao Joao do Polesine,0.51,0.56,0.53
+-,Sao Joao do Rio do Peixe,0.56,0.6,0.53
+-,Sao Joao do Sabugi,0.49,0.5,0.47
+-,Sao Joao do Soter,0.42,0.52,0.52
+-,Sao Joao dos Patos,0.51,0.6,0.56
+-,Sao Joao do Sul,0.5,0.48,0.42
+-,Sao Joao do Tigre,0.4,0.63,0.51
+-,Sao Joao do Triunfo,0.57,0.57,0.49
+-,Sao Joao Evangelista,0.62,0.59,0.52
+-,Sao Joao Nepomuceno,0.55,0.5,0.42
+-,Sao Joao,0.49,0.57,0.56
+-,Sao Joao,0.54,0.6,0.43
+-,Sao Joaquim da Barra,0.51,0.53,0.42
+-,Sao Joaquim de Bicas,0.6,0.53,0.44
+-,Sao Joaquim do Monte,0.55,0.53,0.53
+-,Sao Joaquim,0.54,0.56,0.48
+-,Sao Jorge D'Oeste,0.56,0.55,0.47
+-,Sao Jorge do Ivai,0.58,0.53,0.43
+-,Sao Jorge do Patrocinio,0.56,0.53,0.4
+-,Sao Jorge,0.56,0.42,0.39
+-,Sao Jose da Barra,0.45,0.54,0.5
+-,Sao Jose da Bela Vista,0.55,0.47,0.46
+-,Sao Jose da Boa Vista,0.64,0.58,0.43
+-,Sao Jose da Coroa Grande,0.56,0.62,0.58
+-,Sao Jose da Lagoa Tapada,0.66,0.52,0.49
+-,Sao Jose da Laje,0.47,0.6,0.48
+-,Sao Jose da Lapa,0.44,0.46,0.42
+-,Sao Jose da Safira,0.61,0.49,0.47
+-,Sao Jose das Missoes,0.64,0.6,0.43
+-,Sao Jose das Palmeiras,0.55,0.5,0.45
+-,Sao Jose da Tapera,0.53,0.72,0.58
+-,Sao Jose da Varginha,0.43,0.47,0.47
+-,Sao Jose da Vitoria,0.46,0.46,0.45
+-,Sao Jose de Caiana,0.51,0.56,0.44
+-,Sao Jose de Espinharas,0.44,0.48,0.45
+-,Sao Jose de Mipibu,0.51,0.54,0.55
+-,Sao Jose de Piranhas,0.55,0.56,0.5
+-,Sao Jose de Princesa,0.46,0.55,0.45
+-,Sao Jose de Ribamar,0.53,0.59,0.51
+-,Sao Jose de Uba,0.64,0.59,0.47
+-,Sao Jose do Alegre,0.59,0.54,0.47
+-,Sao Jose do Barreiro,0.59,0.66,0.55
+-,Sao Jose do Belmonte,0.56,0.58,0.54
+-,Sao Jose do Bonfim,0.45,0.44,0.48
+-,Sao Jose do Brejo do Cruz,0.51,0.4,0.46
+-,Sao Jose do Calcado,0.57,0.55,0.51
+-,Sao Jose do Campestre,0.56,0.55,0.5
+-,Sao Jose do Cedro,0.55,0.55,0.48
+-,Sao Jose do Cerrito,0.58,0.59,0.46
+-,Sao Jose do Divino,0.6,0.59,0.56
+-,Sao Jose do Divino,0.36,0.47,0.49
+-,Sao Jose do Egito,0.67,0.58,0.53
+-,Sao Jose do Goiabal,0.56,0.47,0.52
+-,Sao Jose do Herval,0.63,0.59,0.58
+-,Sao Jose do Hortencio,0.36,0.31,0.28
+-,Sao Jose do Inhacora,0.43,0.43,0.36
+-,Sao Jose do Jacuipe,0.46,0.51,0.46
+-,Sao Jose do Jacuri,0.51,0.5,0.49
+-,Sao Jose do Mantimento,0.48,0.59,0.48
+-,Sao Jose do Norte,0.52,0.5,0.43
+-,Sao Jose do Ouro,0.59,0.55,0.55
+-,Sao Jose do Peixe,0.53,0.63,0.57
+-,Sao Jose do Piaui,0.54,0.56,0.43
+-,Sao Jose do Povo,0.52,0.44,0.43
+-,Sao Jose do Rio Claro,0.57,0.58,0.48
+-,Sao Jose do Rio Pardo,0.54,0.52,0.49
+-,Sao Jose do Rio Preto,0.5,0.55,0.5
+-,Sao Jose do Sabugi,0.41,0.45,0.43
+-,Sao Jose dos Ausentes,0.6,0.55,0.48
+-,Sao Jose dos Basilios,0.4,0.49,0.55
+-,Sao Jose dos Campos,0.53,0.56,0.55
+-,Sao Jose dos Cordeiros,0.48,0.49,0.49
+-,Sao Jose do Serido,0.55,0.57,0.43
+-,Sao Jose dos Pinhais,0.49,0.51,0.45
+-,Sao Jose dos Quatro Marcos,0.55,0.48,0.54
+-,Sao Jose dos Ramos,0.45,0.57,0.51
+-,Sao Jose do Sul,0.42,0.39,0.39
+-,Sao Jose do Vale do Rio Preto,0.53,0.52,0.47
+-,Sao Jose do Xingu,0.62,0.56,0.62
+-,Sao Jose,0.48,0.48,0.44
+-,Sao Juliao,0.53,0.66,0.51
+-,Sao Leopoldo,0.55,0.54,0.53
+-,Sao Lourenco da Mata,0.51,0.54,0.5
+-,Sao Lourenco da Serra,0.5,0.56,0.47
+-,Sao Lourenco do Oeste,0.52,0.54,0.46
+-,Sao Lourenco do Piaui,0.44,0.49,0.47
+-,Sao Lourenco do Sul,0.56,0.52,0.46
+-,Sao Lourenco,0.61,0.63,0.51
+-,Sao Ludgero,0.5,0.54,0.44
+-,Sao Luis de Montes Belos,0.48,0.56,0.48
+-,Sao Luis do Curu,0.52,0.62,0.51
+-,Sao Luis do Paraitinga,0.5,0.53,0.48
+-,Sao Luis do Piaui,0.34,0.53,0.5
+-,Sao Luis do Quitunde,0.47,0.5,0.5
+-,Sao Luis Gonzaga do Maranhao,0.42,0.55,0.55
+-,Sao Luis,0.61,0.65,0.61
+-,Sao Luiz do Norte,0.64,0.5,0.39
+-,Sao Luiz Gonzaga,0.61,0.55,0.5
+-,Sao Luiz,0.64,0.62,0.55
+-,Sao Mamede,0.47,0.55,0.52
+-,Sao Manoel do Parana,0.46,0.46,0.44
+-,Sao Manuel,0.5,0.51,0.45
+-,Sao Marcos,0.5,0.48,0.41
+-,Sao Martinho da Serra,0.47,0.67,0.49
+-,Sao Martinho,0.54,0.53,0.47
+-,Sao Martinho,0.43,0.7,0.38
+-,Sao Mateus do Maranhao,0.44,0.59,0.68
+-,Sao Mateus do Sul,0.61,0.63,0.49
+-,Sao Mateus,0.6,0.61,0.57
+-,Sao Miguel Arcanjo,0.59,0.55,0.57
+-,Sao Miguel da Baixa Grande,0.48,0.47,0.54
+-,Sao Miguel da Boa Vista,0.58,0.54,0.5
+-,Sao Miguel das Matas,0.5,0.49,0.51
+-,Sao Miguel das Missoes,0.62,0.71,0.54
+-,Sao Miguel de Taipu,0.43,0.46,0.49
+-,Sao Miguel do Aleixo,0.49,0.56,0.49
+-,Sao Miguel do Anta,0.63,0.55,0.44
+-,Sao Miguel do Araguaia,0.6,0.6,0.45
+-,Sao Miguel do Fidalgo,0.53,0.62,0.55
+-,Sao Miguel do Gostoso,0.51,0.54,0.51
+-,Sao Miguel do Guama,0.5,0.59,0.53
+-,Sao Miguel do Guapore,0.62,0.53,0.62
+-,Sao Miguel do Iguacu,0.55,0.65,0.54
+-,Sao Miguel do Oeste,0.52,0.51,0.5
+-,Sao Miguel do Passa Quatro,0.46,0.49,0.44
+-,Sao Miguel dos Campos,0.57,0.58,0.51
+-,Sao Miguel dos Milagres,0.44,0.58,0.48
+-,Sao Miguel do Tapuio,0.55,0.54,0.57
+-,Sao Miguel do Tocantins,0.5,0.58,0.56
+-,Sao Miguel,0.56,0.6,0.53
+-,Sao Nicolau,0.66,0.56,0.5
+-,Sao Patricio,0.56,0.54,0.45
+-,Sao Paulo das Missoes,0.53,0.47,0.42
+-,Sao Paulo de Olivenca,0.67,0.69,0.64
+-,Sao Paulo do Potengi,0.51,0.56,0.48
+-,Sao Paulo,0.56,0.61,0.62
+-,Sao Pedro da Agua Branca,0.6,0.54,0.53
+-,Sao Pedro da Aldeia,0.53,0.52,0.5
+-,Sao Pedro da Cipa,0.46,0.48,0.38
+-,Sao Pedro da Serra,0.56,0.45,0.42
+-,Sao Pedro das Missoes,0.45,0.46,0.48
+-,Sao Pedro da Uniao,0.48,0.49,0.45
+-,Sao Pedro de Alcantara,0.44,0.37,0.41
+-,Sao Pedro do Butia,0.53,0.44,0.46
+-,Sao Pedro do Iguacu,0.49,0.51,0.46
+-,Sao Pedro do Ivai,0.5,0.57,0.4
+-,Sao Pedro do Parana,0.5,0.47,0.4
+-,Sao Pedro do Piaui,0.54,0.57,0.56
+-,Sao Pedro dos Crentes,0.48,0.57,0.51
+-,Sao Pedro dos Ferros,0.54,0.53,0.43
+-,Sao Pedro do Suacui,0.41,0.54,0.48
+-,Sao Pedro do Sul,0.55,0.58,0.48
+-,Sao Pedro do Turvo,0.45,0.48,0.39
+-,Sao Pedro,0.55,0.54,0.52
+-,Sao Pedro,0.5,0.52,0.46
+-,Sao Rafael,0.55,0.54,0.52
+-,Sao Raimundo das Mangabeiras,0.62,0.73,0.55
+-,Sao Raimundo do Doca Bezerra,0.48,0.52,0.54
+-,Sao Raimundo Nonato,0.58,0.54,0.55
+-,Sao Roberto,0.43,0.55,0.54
+-,Sao Romao,0.54,0.62,0.53
+-,Sao Roque de Minas,0.44,0.53,0.45
+-,Sao Roque do Canaa,0.48,0.47,0.43
+-,Sao Roque,0.54,0.6,0.5
+-,Sao Salvador do Tocantins,0.55,0.56,0.61
+-,Sao Sebastiao,0.44,0.63,0.54
+-,Sao Sebastiao da Amoreira,0.53,0.5,0.44
+-,Sao Sebastiao da Bela Vista,0.56,0.43,0.43
+-,Sao Sebastiao da Boa Vista,0.4,0.49,0.54
+-,Sao Sebastiao da Grama,0.58,0.52,0.41
+-,Sao Sebastiao da Vargem Alegre,0.34,0.58,0.42
+-,Sao Sebastiao de Lagoa de Roca,0.59,0.64,0.48
+-,Sao Sebastiao do Alto,0.55,0.49,0.42
+-,Sao Sebastiao do Anta,0.58,0.45,0.44
+-,Sao Sebastiao do Cai,0.53,0.55,0.44
+-,Sao Sebastiao do Maranhao,0.51,0.59,0.54
+-,Sao Sebastiao do Oeste,0.44,0.48,0.39
+-,Sao Sebastiao do Paraiso,0.54,0.53,0.47
+-,Sao Sebastiao do Passe,0.56,0.54,0.53
+-,Sao Sebastiao do Rio Preto,0.6,0.43,0.5
+-,Sao Sebastiao do Rio Verde,0.57,0.68,0.42
+-,Sao Sebastiao do Tocantins,0.5,0.58,0.55
+-,Sao Sebastiao do Uatuma,0.61,0.54,0.58
+-,Sao Sebastiao do Umbuzeiro,0.41,0.44,0.46
+-,Sao Sebastiao,0.51,0.55,0.49
+-,Sao Sepe,0.59,0.55,0.51
+-,Sao Simao,0.47,0.57,0.55
+-,Sao Simao,0.56,0.53,0.45
+-,Sao Thome das Letras,0.56,0.54,0.4
+-,Sao Tiago,0.55,0.5,0.44
+-,Sao Tomas de Aquino,0.47,0.46,0.43
+-,Sao Tome,0.54,0.53,0.38
+-,Sao Tome,0.5,0.59,0.49
+-,Sao Valentim do Sul,0.46,0.48,0.45
+-,Sao Valentim,0.71,0.55,0.53
+-,Sao Valerio do Sul,0.55,0.6,0.57
+-,Sao Valerio,0.5,0.61,0.56
+-,Sao Vendelino,0.5,0.38,0.29
+-,Sao Vicente de Minas,0.64,0.59,0.53
+-,Sao Vicente do Sul,0.68,0.66,0.52
+-,Sao Vicente Ferrer,0.49,0.58,0.62
+-,Sao Vicente Ferrer,0.58,0.56,0.56
+-,Sao Vicente,0.5,0.55,0.52
+-,Sao Vicente,0.49,0.5,0.47
+-,Sapeacu,0.52,0.55,0.58
+-,Sape,0.49,0.51,0.5
+-,Sapezal,0.41,0.47,0.47
+-,Sapiranga,0.43,0.47,0.41
+-,Sapopema,0.53,0.48,0.58
+-,Sapucaia do Sul,0.45,0.45,0.44
+-,Sapucaia,0.56,0.47,0.52
+-,Sapucaia,0.54,0.55,0.5
+-,Sapucai-Mirim,0.46,0.51,0.44
+-,Saquarema,0.61,0.54,0.52
+-,Sarandi,0.4,0.41,0.35
+-,Sarandi,0.53,0.55,0.52
+-,Sarapui,0.51,0.62,0.52
+-,Sardoa,0.59,0.58,0.5
+-,Sarutaia,0.6,0.48,0.44
+-,Sarzedo,0.58,0.44,0.46
+-,Satiro Dias,0.43,0.59,0.54
+-,Satuba,0.49,0.54,0.52
+-,Satubinha,0.37,0.58,0.58
+-,Saubara,0.54,0.45,0.49
+-,Saudade do Iguacu,0.47,0.71,0.47
+-,Saudades,0.47,0.5,0.33
+-,Saude,0.47,0.57,0.55
+-,Schroeder,0.36,0.57,0.34
+-,Seabra,0.54,0.62,0.57
+-,Seara,0.52,0.5,0.51
+-,Sebastianopolis do Sul,0.64,0.4,0.42
+-,Sebastiao Barros,0.49,0.41,0.59
+-,Sebastiao Laranjeiras,0.69,0.53,0.46
+-,Sebastiao Leal,0.59,0.45,0.58
+-,Seberi,0.59,0.57,0.52
+-,Sede Nova,0.61,0.51,0.56
+-,Segredo,0.52,0.51,0.48
+-,Selbach,0.45,0.69,0.47
+-,Selviria,0.59,0.53,0.44
+-,Sem-Peixe,0.51,0.53,0.44
+-,Senador Alexandre Costa,0.5,0.52,0.51
+-,Senador Amaral,0.42,0.61,0.45
+-,Senador Canedo,0.41,0.44,0.43
+-,Senador Cortes,0.49,0.44,0.58
+-,Senador Eloi de Souza,0.44,0.55,0.5
+-,Senador Firmino,0.61,0.49,0.43
+-,Senador Georgino Avelino,0.53,0.48,0.43
+-,Senador Guiomard,0.56,0.56,0.55
+-,Senador Jose Bento,0.49,0.52,0.4
+-,Senador Jose Porfirio,0.66,0.59,0.54
+-,Senador La Rocque,0.47,0.51,0.53
+-,Senador Modestino Goncalves,0.5,0.67,0.43
+-,Senador Pompeu,0.65,0.6,0.51
+-,Senador Rui Palmeira,0.47,0.68,0.55
+-,Senador Sa,0.38,0.59,0.52
+-,Senador Salgado Filho,0.56,0.5,0.42
+-,Sena Madureira,0.61,0.62,0.54
+-,Senges,0.58,0.72,0.51
+-,Senhora de Oliveira,0.52,0.51,0.45
+-,Senhora do Porto,0.51,0.56,0.47
+-,Senhora dos Remedios,0.47,0.56,0.43
+-,Senhor do Bonfim,0.63,0.65,0.57
+-,Sentinela do Sul,0.53,0.5,0.47
+-,Sento Se,0.63,0.57,0.53
+-,Serafina Correa,0.46,0.47,0.36
+-,Sericita,0.62,0.65,0.45
+-,Serido,0.46,0.54,0.47
+-,Seringueiras,0.69,0.56,0.63
+-,Serio,0.47,0.43,0.37
+-,Seritinga,0.5,0.44,0.42
+-,Seropedica,0.51,0.54,0.47
+-,Serra Alta,0.49,0.43,0.41
+-,Serra Azul de Minas,0.59,0.58,0.54
+-,Serra Azul,0.4,0.49,0.45
+-,Serra Branca,0.61,0.53,0.48
+-,Serra da Raiz,0.49,0.44,0.5
+-,Serra da Saudade,0.35,0.57,0.38
+-,Serra de Sao Bento,0.55,0.59,0.53
+-,Serra do Mel,0.46,0.45,0.5
+-,Serra do Navio,0.55,0.66,0.6
+-,Serra do Ramalho,0.56,0.63,0.53
+-,Serra dos Aimores,0.59,0.54,0.56
+-,Serra do Salitre,0.52,0.54,0.53
+-,Serra Dourada,0.46,0.6,0.51
+-,Serra,0.5,0.52,0.47
+-,Serra Grande,0.52,0.57,0.47
+-,Serrana,0.44,0.43,0.37
+-,Serra Negra do Norte,0.55,0.5,0.42
+-,Serra Negra,0.54,0.55,0.48
+-,Serrania,0.52,0.46,0.44
+-,Serrano do Maranhao,0.5,0.48,0.59
+-,Serranopolis de Minas,0.39,0.43,0.54
+-,Serranopolis do Iguacu,0.57,0.64,0.5
+-,Serranopolis,0.51,0.6,0.48
+-,Serranos,0.46,0.48,0.5
+-,Serra Nova Dourada,0.64,0.74,0.44
+-,Serra Preta,0.46,0.53,0.48
+-,Serra Redonda,0.49,0.48,0.48
+-,Serraria,0.57,0.57,0.5
+-,Serra Talhada,0.62,0.58,0.56
+-,Serrinha,0.59,0.59,0.55
+-,Serrinha dos Pintos,0.53,0.64,0.5
+-,Serrinha,0.47,0.67,0.52
+-,Serrita,0.59,0.53,0.56
+-,Serrolandia,0.52,0.6,0.5
+-,Serro,0.63,0.67,0.65
+-,Sertaneja,0.63,0.57,0.53
+-,Sertania,0.51,0.61,0.6
+-,Sertanopolis,0.56,0.62,0.43
+-,Sertao,0.51,0.52,0.46
+-,Sertao Santana,0.46,0.56,0.6
+-,Sertaozinho,0.36,0.47,0.46
+-,Sertaozinho,0.5,0.52,0.46
+-,Sete Barras,0.56,0.57,0.5
+-,Sete de Setembro,0.5,0.5,0.47
+-,Sete Lagoas,0.56,0.57,0.53
+-,Sete Quedas,0.54,0.63,0.54
+-,Setubinha,0.51,0.54,0.55
+-,Severiano de Almeida,0.46,0.47,0.43
+-,Severiano Melo,0.39,0.53,0.52
+-,Severinia,0.59,0.5,0.41
+-,Sideropolis,0.46,0.46,0.4
+-,Sidrolandia,0.59,0.64,0.57
+-,Sigefredo Pacheco,0.5,0.47,0.51
+-,Silva Jardim,0.54,0.55,0.49
+-,Silvania,0.62,0.56,0.51
+-,Silvanopolis,0.61,0.56,0.56
+-,Silveira Martins,0.56,0.53,0.5
+-,Silveirania,0.54,0.48,0.4
+-,Silveiras,0.6,0.6,0.48
+-,Silves,0.47,0.59,0.56
+-,Silvianopolis,0.53,0.51,0.47
+-,Simao Dias,0.48,0.52,0.49
+-,Simao Pereira,0.44,0.5,0.5
+-,Simoes Filho,0.52,0.57,0.5
+-,Simoes,0.64,0.57,0.51
+-,Simolandia,0.45,0.64,0.47
+-,Simonesia,0.51,0.56,0.5
+-,Simplicio Mendes,0.7,0.61,0.57
+-,Sinimbu,0.49,0.51,0.48
+-,Sinop,0.56,0.55,0.49
+-,Siqueira Campos,0.57,0.51,0.49
+-,Sirinhaem,0.55,0.54,0.44
+-,Siriri,0.49,0.55,0.47
+-,Sitio D'Abadia,0.59,0.6,0.56
+-,Sitio do Mato,0.4,0.57,0.59
+-,Sitio do Quinto,0.51,0.6,0.55
+-,Sitio Novo do Tocantins,0.47,0.63,0.56
+-,Sitio Novo,0.6,0.58,0.59
+-,Sitio Novo,0.52,0.59,0.46
+-,Sobradinho,0.68,0.57,0.49
+-,Sobradinho,0.6,0.57,0.5
+-,Sobrado,0.43,0.52,0.49
+-,Sobral,0.59,0.62,0.56
+-,Sobralia,0.57,0.49,0.47
+-,Socorro do Piaui,0.54,0.56,0.57
+-,Socorro,0.49,0.49,0.44
+-,Solanea,0.63,0.61,0.56
+-,Soledade de Minas,0.55,0.44,0.46
+-,Soledade,0.53,0.58,0.51
+-,Soledade,0.61,0.57,0.52
+-,Solidao,0.53,0.64,0.56
+-,Solonopole,0.57,0.5,0.51
+-,Sombrio,0.45,0.54,0.4
+-,Sonora,0.5,0.64,0.5
+-,Sooretama,0.43,0.54,0.5
+-,Sorocaba,0.51,0.55,0.52
+-,Sorriso,0.55,0.62,0.54
+-,Sossego,0.4,0.46,0.5
+-,Soure,0.64,0.6,0.52
+-,Sousa,0.56,0.57,0.54
+-,Souto Soares,0.53,0.58,0.54
+-,Sucupira do Norte,0.5,0.58,0.59
+-,Sucupira do Riachao,0.38,0.54,0.51
+-,Sucupira,0.5,0.58,0.5
+-,Sud Mennucci,0.53,0.53,0.54
+-,Sul Brasil,0.53,0.55,0.45
+-,Sulina,0.49,0.6,0.47
+-,Sumare,0.43,0.45,0.45
+-,Sume,0.49,0.53,0.5
+-,Sumidouro,0.57,0.54,0.47
+-,Surubim,0.52,0.58,0.52
+-,Sussuapara,0.51,0.48,0.46
+-,Suzanapolis,0.6,0.48,0.41
+-,Suzano,0.5,0.55,0.47
+-,Tabai,0.47,0.44,0.41
+-,Tabapora,0.44,0.75,0.44
+-,Tabapua,0.54,0.49,0.4
+-,Tabatinga,0.56,0.63,0.65
+-,Tabatinga,0.48,0.54,0.4
+-,Tabira,0.63,0.58,0.51
+-,Taboao da Serra,0.45,0.51,0.47
+-,Tabocas do Brejo Velho,0.47,0.59,0.54
+-,Taboleiro Grande,0.56,0.38,0.48
+-,Tabuleiro do Norte,0.54,0.56,0.53
+-,Tabuleiro,0.51,0.54,0.45
+-,Tacaimbo,0.49,0.51,0.5
+-,Tacaratu,0.58,0.59,0.49
+-,Taciba,0.43,0.54,0.38
+-,Tacima,0.62,0.58,0.49
+-,Tacuru,0.54,0.5,0.6
+-,Taguai,0.52,0.5,0.37
+-,Taguatinga,0.6,0.65,0.64
+-,Taiacu,0.41,0.51,0.41
+-,Tailandia,0.62,0.61,0.52
+-,Taiobeiras,0.58,0.59,0.51
+-,Taio,0.53,0.53,0.43
+-,Taipas do Tocantins,0.45,0.51,0.55
+-,Taipu,0.48,0.61,0.45
+-,Taiuva,0.5,0.54,0.42
+-,Talisma,0.63,0.69,0.48
+-,Tamandare,0.52,0.6,0.55
+-,Tamarana,0.73,0.56,0.47
+-,Tambau,0.45,0.48,0.45
+-,Tamboara,0.49,0.45,0.34
+-,Tamboril,0.48,0.58,0.52
+-,Tamboril do Piaui,0.64,0.43,0.54
+-,Tanabi,0.5,0.52,0.42
+-,Tangara da Serra,0.58,0.59,0.55
+-,Tangara,0.58,0.52,0.52
+-,Tangara,0.61,0.55,0.46
+-,Tangua,0.44,0.45,0.42
+-,Tanhacu,0.6,0.57,0.5
+-,Tanque D'Arca,0.45,0.63,0.5
+-,Tanque do Piaui,0.45,0.55,0.48
+-,Tanque Novo,0.71,0.54,0.6
+-,Tanquinho,0.52,0.59,0.48
+-,Taparuba,0.43,0.52,0.39
+-,Tapaua,0.42,0.61,0.6
+-,Tapejara,0.5,0.49,0.39
+-,Tapejara,0.55,0.51,0.44
+-,Tapera,0.56,0.56,0.45
+-,Taperoa,0.57,0.59,0.53
+-,Taperoa,0.52,0.53,0.48
+-,Tapes,0.6,0.6,0.51
+-,Tapirai,0.44,0.42,0.45
+-,Tapirai,0.49,0.57,0.44
+-,Tapira,0.5,0.46,0.54
+-,Tapiramuta,0.46,0.51,0.61
+-,Tapira,0.54,0.5,0.42
+-,Tapiratiba,0.39,0.5,0.4
+-,Tapurah,0.51,0.66,0.49
+-,Taquaracu de Minas,0.65,0.51,0.45
+-,Taquaral de Goias,0.46,0.66,0.43
+-,Taquaral,0.7,0.45,0.51
+-,Taquarana,0.47,0.6,0.51
+-,Taquara,0.52,0.53,0.5
+-,Taquari,0.5,0.48,0.5
+-,Taquaritinga do Norte,0.53,0.52,0.42
+-,Taquaritinga,0.51,0.54,0.46
+-,Taquarituba,0.58,0.58,0.48
+-,Taquarivai,0.41,0.62,0.43
+-,Taquarucu do Sul,0.64,0.56,0.53
+-,Taquarussu,0.59,0.51,0.42
+-,Tarabai,0.45,0.45,0.4
+-,Tarauaca,0.57,0.67,0.65
+-,Tarrafas,0.52,0.64,0.54
+-,Tartarugalzinho,0.65,0.61,0.65
+-,Taruma,0.36,0.48,0.54
+-,Tarumirim,0.6,0.61,0.47
+-,Tasso Fragoso,0.55,0.54,0.58
+-,Tatui,0.47,0.52,0.47
+-,Taua,0.61,0.61,0.57
+-,Taubate,0.54,0.57,0.51
+-,Tavares,0.59,0.49,0.52
+-,Tavares,0.61,0.59,0.42
+-,Tefe,0.53,0.57,0.62
+-,Teixeira de Freitas,0.61,0.62,0.53
+-,Teixeira,0.5,0.61,0.55
+-,Teixeiras,0.54,0.59,0.55
+-,Teixeira Soares,0.61,0.56,0.51
+-,Teixeiropolis,0.5,0.53,0.43
+-,Tejucuoca,0.49,0.7,0.52
+-,Tejupa,0.47,0.57,0.48
+-,Telemaco Borba,0.52,0.57,0.49
+-,Telha,0.42,0.56,0.48
+-,Tenente Ananias,0.56,0.57,0.46
+-,Tenente Laurentino Cruz,0.53,0.51,0.47
+-,Tenente Portela,0.59,0.59,0.55
+-,Tenorio,0.47,0.43,0.43
+-,Teodoro Sampaio,0.58,0.48,0.54
+-,Teodoro Sampaio,0.59,0.66,0.47
+-,Teofilandia,0.72,0.66,0.55
+-,Teofilo Otoni,0.62,0.6,0.57
+-,Teolandia,0.51,0.56,0.48
+-,Teotonio Vilela,0.42,0.62,0.51
+-,Terenos,0.51,0.58,0.5
+-,Teresina de Goias,0.5,0.58,0.52
+-,Teresina,0.63,0.64,0.61
+-,Teresopolis,0.6,0.57,0.56
+-,Terezinha,0.46,0.63,0.53
+-,Terezopolis de Goias,0.37,0.5,0.43
+-,Terra Alta,0.49,0.61,0.54
+-,Terra Boa,0.49,0.46,0.4
+-,Terra de Areia,0.5,0.58,0.43
+-,Terra Nova,0.5,0.5,0.45
+-,Terra Nova do Norte,0.57,0.56,0.51
+-,Terra Nova,0.53,0.51,0.49
+-,Terra Rica,0.62,0.54,0.39
+-,Terra Roxa,0.52,0.51,0.42
+-,Terra Roxa,0.47,0.44,0.45
+-,Terra Santa,0.49,0.54,0.58
+-,Tesouro,0.51,0.6,0.5
+-,Teutonia,0.47,0.42,0.35
+-,Theobroma,0.61,0.58,0.57
+-,Tiangua,0.58,0.58,0.61
+-,Tibagi,0.54,0.56,0.55
+-,Tibau do Sul,0.5,0.56,0.6
+-,Tibau,0.4,0.5,0.55
+-,Tiete,0.47,0.53,0.48
+-,Tigrinhos,0.52,0.43,0.41
+-,Tijucas do Sul,0.56,0.53,0.47
+-,Tijucas,0.57,0.62,0.41
+-,Timbauba dos Batistas,0.42,0.61,0.36
+-,Timbauba,0.57,0.6,0.5
+-,Timbe do Sul,0.42,0.52,0.47
+-,Timbiras,0.46,0.61,0.62
+-,Timbo Grande,0.68,0.52,0.47
+-,Timbo,0.41,0.46,0.47
+-,Timburi,0.51,0.47,0.46
+-,Timon,0.49,0.52,0.5
+-,Timoteo,0.52,0.52,0.48
+-,Tio Hugo,0.54,0.47,0.4
+-,Tiradentes do Sul,0.51,0.52,0.48
+-,Tiradentes,0.54,0.56,0.57
+-,Tiros,0.55,0.48,0.52
+-,Tobias Barreto,0.51,0.56,0.55
+-,Tocantinia,0.64,0.64,0.62
+-,Tocantinopolis,0.6,0.6,0.52
+-,Tocantins,0.61,0.54,0.42
+-,Tocos do Moji,0.43,0.48,0.41
+-,Toledo,0.52,0.56,0.4
+-,Toledo,0.57,0.54,0.46
+-,Tomar do Geru,0.42,0.53,0.47
+-,Tomazina,0.62,0.59,0.45
+-,Tombos,0.57,0.5,0.52
+-,Tome-Acu,0.54,0.6,0.54
+-,Tonantins,0.47,0.54,0.54
+-,Toritama,0.41,0.45,0.43
+-,Torixoreu,0.56,0.55,0.53
+-,Toropi,0.59,0.46,0.44
+-,Torre de Pedra,0.53,0.41,0.39
+-,Torres,0.59,0.52,0.47
+-,Torrinha,0.47,0.47,0.45
+-,Touros,0.57,0.59,0.52
+-,Trabiju,0.43,0.47,0.4
+-,Tracuateua,0.51,0.55,0.59
+-,Tracunhaem,0.48,0.45,0.46
+-,Traipu,0.54,0.75,0.64
+-,Trairao,0.56,0.51,0.55
+-,Trairi,0.51,0.57,0.55
+-,Trajano de Moraes,0.53,0.62,0.51
+-,Tramandai,0.52,0.58,0.5
+-,Travesseiro,0.44,0.35,0.35
+-,Tremedal,0.53,0.63,0.48
+-,Tremembe,0.53,0.55,0.53
+-,Tres Arroios,0.52,0.44,0.62
+-,Tres Barras do Parana,0.64,0.6,0.5
+-,Tres Barras,0.53,0.6,0.47
+-,Tres Cachoeiras,0.62,0.48,0.4
+-,Tres Coracoes,0.57,0.56,0.56
+-,Tres Coroas,0.45,0.46,0.4
+-,Tres de Maio,0.54,0.52,0.5
+-,Tres Forquilhas,0.56,0.46,0.41
+-,Tres Fronteiras,0.46,0.5,0.41
+-,Tres Lagoas,0.53,0.56,0.51
+-,Tres Marias,0.52,0.52,0.52
+-,Tres Palmeiras,0.72,0.62,0.61
+-,Tres Passos,0.56,0.52,0.45
+-,Tres Pontas,0.55,0.56,0.51
+-,Tres Ranchos,0.46,0.51,0.47
+-,Tres Rios,0.56,0.54,0.52
+-,Treviso,0.38,0.32,0.34
+-,Treze de Maio,0.45,0.49,0.36
+-,Treze Tilias,0.56,0.55,0.62
+-,Trindade do Sul,0.59,0.55,0.49
+-,Trindade,0.48,0.48,0.42
+-,Trindade,0.51,0.77,0.57
+-,Triunfo,0.63,0.53,0.49
+-,Triunfo,0.6,0.59,0.56
+-,Triunfo Potiguar,0.41,0.66,0.48
+-,Triunfo,0.55,0.55,0.44
+-,Trizidela do Vale,0.49,0.44,0.46
+-,Trombas,0.49,0.46,0.52
+-,Trombudo Central,0.56,0.49,0.44
+-,Tubarao,0.51,0.51,0.47
+-,Tucano,0.51,0.55,0.65
+-,Tucuma,0.57,0.67,0.53
+-,Tucunduva,0.61,0.48,0.48
+-,Tucurui,0.57,0.57,0.57
+-,Tufilandia,0.52,0.61,0.48
+-,Tuiuti,0.41,0.46,0.39
+-,Tumiritinga,0.85,0.51,0.45
+-,Tunapolis,0.54,0.49,0.41
+-,Tunas do Parana,0.51,0.58,0.52
+-,Tunas,0.58,0.46,0.47
+-,Tuneiras do Oeste,0.5,0.44,0.38
+-,Tuntum,0.52,0.57,0.57
+-,Tupaciguara,0.65,0.58,0.49
+-,Tupanatinga,0.53,0.59,0.61
+-,Tupanci do Sul,0.46,0.51,0.5
+-,Tupancireta,0.66,0.62,0.57
+-,Tupandi,0.41,0.4,0.31
+-,Tuparendi,0.59,0.53,0.46
+-,Tuparetama,0.62,0.58,0.47
+-,Tupa,0.57,0.56,0.54
+-,Tupassi,0.54,0.62,0.47
+-,Tupi Paulista,0.53,0.54,0.49
+-,Tupirama,0.72,0.54,0.48
+-,Tupiratins,0.56,0.6,0.57
+-,Turiacu,0.52,0.57,0.59
+-,Turilandia,0.49,0.6,0.52
+-,Turiuba,0.44,0.46,0.35
+-,Turmalina,0.51,0.55,0.5
+-,Turmalina,0.48,0.44,0.39
+-,Turucu,0.7,0.45,0.48
+-,Tururu,0.44,0.61,0.54
+-,Turvania,0.55,0.49,0.47
+-,Turvelandia,0.51,0.59,0.45
+-,Turvolandia,0.47,0.47,0.49
+-,Turvo,0.61,0.55,0.52
+-,Turvo,0.6,0.5,0.4
+-,Tutoia,0.51,0.6,0.56
+-,Uarini,0.5,0.51,0.61
+-,Uaua,0.54,0.56,0.56
+-,Ubai,0.58,0.63,0.49
+-,Ubaira,0.51,0.51,0.59
+-,Ubaitaba,0.65,0.57,0.56
+-,Ubajara,0.51,0.56,0.54
+-,Uba,0.55,0.54,0.5
+-,Ubaporanga,0.49,0.57,0.41
+-,Ubarana,0.42,0.42,0.35
+-,Ubata,0.68,0.61,0.53
+-,Ubatuba,0.54,0.57,0.58
+-,Uberaba,0.54,0.56,0.5
+-,Uberlandia,0.53,0.56,0.5
+-,Ubirajara,0.43,0.47,0.42
+-,Ubirata,0.63,0.54,0.46
+-,Ubiretama,0.46,0.45,0.36
+-,Uchoa,0.49,0.47,0.4
+-,Uibai,0.46,0.53,0.53
+-,Uiramuta,0.86,0.79,0.78
+-,Uirapuru,0.52,0.54,0.44
+-,Uirauna,0.6,0.63,0.54
+-,Ulianopolis,0.63,0.75,0.7
+-,Umari,0.57,0.69,0.55
+-,Umarizal,0.61,0.56,0.51
+-,Umbauba,0.57,0.5,0.46
+-,Umburanas,0.44,0.55,0.5
+-,Umburatiba,0.41,0.52,0.49
+-,Umbuzeiro,0.51,0.62,0.54
+-,Umirim,0.5,0.59,0.53
+-,Umuarama,0.53,0.54,0.48
+-,Una,0.52,0.54,0.52
+-,Unai,0.59,0.7,0.54
+-,Uniao da Serra,0.41,0.49,0.37
+-,Uniao da Vitoria,0.51,0.56,0.48
+-,Uniao de Minas,0.6,0.54,0.48
+-,Uniao do Oeste,0.52,0.57,0.37
+-,Uniao dos Palmares,0.54,0.56,0.53
+-,Uniao do Sul,0.67,0.47,0.45
+-,Uniao Paulista,0.39,0.42,0.35
+-,Uniao,0.59,0.54,0.52
+-,Uniflor,0.49,0.48,0.37
+-,Unistalda,0.5,0.59,0.47
+-,Upanema,0.56,0.58,0.54
+-,Urai,0.62,0.54,0.48
+-,Urandi,0.86,0.56,0.51
+-,Urania,0.51,0.51,0.46
+-,Urbano Santos,0.5,0.68,0.6
+-,Uruacu,0.57,0.57,0.57
+-,Uruana de Minas,0.54,0.47,0.51
+-,Uruana,0.59,0.55,0.46
+-,Uruara,0.54,0.59,0.57
+-,Urubici,0.63,0.58,0.52
+-,Uruburetama,0.48,0.48,0.54
+-,Urucania,0.55,0.52,0.41
+-,Urucara,0.62,0.75,0.6
+-,Urucuca,0.52,0.5,0.48
+-,Urucuia,0.46,0.62,0.47
+-,Urucui,0.57,0.54,0.53
+-,Urucurituba,0.49,0.63,0.58
+-,Uruguaiana,0.58,0.59,0.57
+-,Uruoca,0.44,0.6,0.53
+-,Urupa,0.59,0.58,0.51
+-,Urupema,0.48,0.63,0.42
+-,Urupes,0.52,0.53,0.43
+-,Uru,0.41,0.47,0.39
+-,Urussanga,0.49,0.47,0.4
+-,Urutai,0.48,0.55,0.49
+-,Utinga,0.5,0.54,0.62
+-,Vacaria,0.54,0.56,0.51
+-,Vale de Sao Domingos,0.46,0.46,0.43
+-,Vale do Anari,0.75,0.59,0.57
+-,Vale do Paraiso,0.5,0.61,0.59
+-,Vale do Sol,0.46,0.45,0.45
+-,Valenca,0.58,0.6,0.54
+-,Valenca do Piaui,0.56,0.64,0.53
+-,Valenca,0.56,0.55,0.52
+-,Valente,0.53,0.55,0.49
+-,Valentim Gentil,0.47,0.47,0.36
+-,Vale Real,0.36,0.36,0.29
+-,Vale Verde,0.82,0.56,0.45
+-,Valinhos,0.49,0.54,0.54
+-,Valparaiso de Goias,0.5,0.53,0.5
+-,Valparaiso,0.51,0.54,0.45
+-,Vanini,0.41,0.4,0.35
+-,Vargeao,0.63,0.62,0.45
+-,Vargem Alegre,0.51,0.49,0.49
+-,Vargem Alta,0.52,0.52,0.45
+-,Vargem Bonita,0.46,0.45,0.38
+-,Vargem Bonita,0.48,0.49,0.43
+-,Vargem Grande do Rio Pardo,0.51,0.57,0.45
+-,Vargem Grande do Sul,0.46,0.47,0.42
+-,Vargem Grande,0.5,0.51,0.59
+-,Vargem Grande Paulista,0.51,0.51,0.5
+-,Vargem,0.44,0.55,0.5
+-,Vargem,0.55,0.48,0.38
+-,Varginha,0.6,0.56,0.51
+-,Varjao de Minas,0.38,0.45,0.39
+-,Varjao,0.51,0.45,0.46
+-,Varjota,0.56,0.56,0.52
+-,Varre-Sai,0.58,0.57,0.44
+-,Varzea Alegre,0.59,0.6,0.54
+-,Varzea Branca,0.41,0.56,0.57
+-,Varzea da Palma,0.54,0.57,0.46
+-,Varzea da Roca,0.5,0.57,0.49
+-,Varzea do Poco,0.49,0.52,0.5
+-,Varzea Grande,0.49,0.54,0.46
+-,Varzea Grande,0.47,0.57,0.51
+-,Varzea Nova,0.43,0.52,0.5
+-,Varzea Paulista,0.38,0.42,0.39
+-,Varzea,0.48,0.41,0.4
+-,Varzea,0.49,0.5,0.48
+-,Varzedo,0.53,0.49,0.52
+-,Varzelandia,0.5,0.62,0.51
+-,Vassouras,0.62,0.58,0.52
+-,Vazante,0.53,0.57,0.44
+-,Venancio Aires,0.53,0.48,0.45
+-,Venda Nova do Imigrante,0.62,0.59,0.52
+-,Venha-Ver,0.43,0.64,0.5
+-,Ventania,0.48,0.56,0.42
+-,Venturosa,0.53,0.56,0.52
+-,Vera Cruz,0.58,0.61,0.57
+-,Vera Cruz do Oeste,0.61,0.61,0.54
+-,Vera Cruz,0.49,0.57,0.42
+-,Vera Cruz,0.54,0.5,0.47
+-,Vera Cruz,0.51,0.51,0.45
+-,Vera Mendes,0.36,0.49,0.58
+-,Vera,0.6,0.45,0.42
+-,Veranopolis,0.47,0.53,0.47
+-,Verdejante,0.52,0.56,0.54
+-,Verdelandia,0.43,0.51,0.45
+-,Vereda,0.63,0.55,0.47
+-,Veredinha,0.51,0.48,0.43
+-,Vere,0.57,0.51,0.47
+-,Verissimo,0.54,0.56,0.45
+-,Vermelho Novo,0.56,0.52,0.52
+-,Vertente do Lerio,0.51,0.58,0.45
+-,Vertentes,0.51,0.52,0.46
+-,Vespasiano Correa,0.41,0.41,0.35
+-,Vespasiano,0.51,0.5,0.42
+-,Viadutos,0.53,0.49,0.42
+-,Viamao,0.46,0.48,0.47
+-,Viana,0.44,0.46,0.42
+-,Viana,0.49,0.58,0.57
+-,Vianopolis,0.56,0.67,0.46
+-,Vicencia,0.57,0.54,0.48
+-,Vicente Dutra,0.57,0.51,0.5
+-,Vicentina,0.42,0.6,0.46
+-,Vicentinopolis,0.62,0.57,0.46
+-,Vicosa,0.56,0.63,0.59
+-,Vicosa do Ceara,0.53,0.62,0.6
+-,Vicosa,0.6,0.61,0.56
+-,Vicosa,0.69,0.43,0.47
+-,Victor Graeff,0.57,0.45,0.46
+-,Vidal Ramos,0.44,0.47,0.41
+-,Videira,0.52,0.52,0.47
+-,Vieiras,0.47,0.52,0.42
+-,Vieiropolis,0.44,0.56,0.45
+-,Vigia,0.51,0.6,0.5
+-,Vila Bela da Santissima Trindade,0.64,0.7,0.59
+-,Vila Boa,0.5,0.52,0.48
+-,Vila Flores,0.5,0.34,0.32
+-,Vila Flor,0.39,0.72,0.46
+-,Vila Langaro,0.5,0.48,0.47
+-,Vila Maria,0.5,0.45,0.4
+-,Vila Nova do Piaui,0.38,0.53,0.6
+-,Vila Nova dos Martirios,0.55,0.53,0.45
+-,Vila Nova do Sul,0.46,0.6,0.44
+-,Vila Pavao,0.65,0.45,0.48
+-,Vila Propicio,0.4,0.52,0.47
+-,Vila Rica,0.72,0.57,0.56
+-,Vila Valerio,0.56,0.57,0.51
+-,Vila Velha,0.52,0.57,0.56
+-,Vilhena,0.59,0.57,0.5
+-,Vinhedo,0.47,0.55,0.53
+-,Viradouro,0.47,0.49,0.4
+-,Virgem da Lapa,0.5,0.6,0.49
+-,Virginia,0.52,0.52,0.47
+-,Virginopolis,0.6,0.57,0.49
+-,Virgolandia,0.62,0.57,0.51
+-,Virmond,0.45,0.53,0.53
+-,Visconde do Rio Branco,0.6,0.55,0.49
+-,Viseu,0.46,0.59,0.62
+-,Vista Alegre do Alto,0.44,0.55,0.35
+-,Vista Alegre do Prata,0.59,0.43,0.44
+-,Vista Alegre,0.57,0.48,0.57
+-,Vista Gaucha,0.55,0.49,0.6
+-,Vista Serrana,0.52,0.42,0.47
+-,Vitoria Brasil,0.51,0.45,0.35
+-,Vitoria da Conquista,0.6,0.62,0.55
+-,Vitoria das Missoes,0.63,0.49,0.48
+-,Vitoria de Santo Antao,0.56,0.54,0.54
+-,Vitoria do Jari,0.53,0.62,0.58
+-,Vitoria do Mearim,0.49,0.57,0.56
+-,Vitoria do Xingu,0.53,0.66,0.6
+-,Vitoria,0.58,0.6,0.6
+-,Vitorino Freire,0.61,0.57,0.57
+-,Vitorino,0.57,0.53,0.48
+-,Vitor Meireles,0.6,0.56,0.52
+-,Volta Grande,0.58,0.56,0.51
+-,Volta Redonda,0.51,0.52,0.5
+-,Votorantim,0.43,0.47,0.4
+-,Votuporanga,0.53,0.57,0.49
+-,Wagner,0.52,0.61,0.52
+-,Wall Ferraz,0.44,0.45,0.51
+-,Wanderlandia,0.47,0.46,0.51
+-,Wanderley,0.59,0.64,0.59
+-,Wenceslau Braz,0.54,0.62,0.44
+-,Wenceslau Braz,0.54,0.6,0.52
+-,Wenceslau Guimaraes,0.48,0.51,0.45
+-,Westfalia,0.43,0.54,0.33
+-,Witmarsum,0.46,0.58,0.43
+-,Xambioa,0.52,0.6,0.6
+-,Xambre,0.51,0.53,0.48
+-,Xangri-La,0.5,0.48,0.43
+-,Xanxere,0.55,0.54,0.48
+-,Xapuri,0.55,0.56,0.58
+-,Xavantina,0.68,0.46,0.47
+-,Xaxim,0.5,0.58,0.43
+-,Xexeu,0.47,0.5,0.49
+-,Xinguara,0.64,0.6,0.55
+-,Xique-Xique,0.54,0.59,0.56
+-,Zabele,0.51,0.41,0.43
+-,Zacarias,0.37,0.4,0.39
+-,Ze Doca,0.49,0.55,0.52
+-,Zortea,0.36,0.42,0.42

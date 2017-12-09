@@ -148,8 +148,8 @@ crossorigin=""/>
             var bar2 = dc.barChart("#idade-chart");
             var pC = dc.pieChart("#sexo-chart");//.barChart("#sexo-chart");
             //bar3.ordering(function(d){ return - d.value});
-            var bar4 = dc.barChart("#esc-chart");
-            bar4.ordering(function(d){ return - d.value});
+            var bar4 = dc.rowChart("#esc-chart");
+            //bar4.ordering(function(d){ return - d.value});
             var bar5 = dc.rowChart("#regiao-chart");
             bar5.ordering(function(d){ return - d.value});
             var dataTable = dc.dataTable("#dc-table-graph");
@@ -261,29 +261,23 @@ crossorigin=""/>
                       .filter(d.data.key)
                       .redrawGroup();
                   });
-              })*/;
-
+              })*/
+              
+              
               bar4
               .width(550)
               .height(500)
-              .x(d3.scale.ordinal())
-              .xUnits(dc.units.ordinal)
-              .yAxisLabel("", 25)
-              .barPadding(0.4)
-              .brushOn(true)
+              //.x(d3.scale.ordinal())
+              //.xUnits(dc.units.ordinal)
+              //.yAxisLabel("", 25)
+              //.barPadding(0.4)
+              //.brushOn(true)
               .dimension(EscDimention)
               .group(EscCout)
-              .controlsUseVisibility(false)
+              .colors("#3182bd")
+              .controlsUseVisibility(false);
+            
              
-              .on('pretransition', function(bar) {
-                  bar.selectAll("rect.bar").on("mouseon", function (d) {
-                        alert("teste");
-                      // bar.
-                      //bar.filter(null)
-                      //.filter(d.data.key)
-                      //.redrawGroup();
-                  });
-              });
 
               bar5
               .width(700)

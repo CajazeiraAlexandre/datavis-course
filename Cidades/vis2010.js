@@ -1,7 +1,7 @@
-function mapBR2010(svg,width,height,path,rateByName,delay,callback){   
-
-  var func;
-
+function mapBR2010(svg,width,height,path,rateByName, t_top, t_lef){
+  
+  var func;  
+   
   func = function ready(error, br) {
     if (error) throw error;
 
@@ -23,11 +23,7 @@ function mapBR2010(svg,width,height,path,rateByName,delay,callback){
           .attr("stroke-width", 1)
           .attr("stroke","#000000");
 
-          //var coordinates = [0, 0];
-          //coordinates = d3.mouse(this); // obtém a posição do mouse relativa a this
-          //var x = coordinates[0] + 10;
-          //var y = coordinates[1] + 20; // descontando a posição do svg
-          showTooltip(d.properties.name);
+          showTooltip(d.properties.name, t_lef, t_top);
         })
         .on("mouseout", function(d){
           d3.select(this)
@@ -37,28 +33,18 @@ function mapBR2010(svg,width,height,path,rateByName,delay,callback){
           hideTooltip();
         });
 
-  /*
-    svg.append("path")
-        .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-        .attr("class", "states")
-        .attr("d", path);*/
-
         return svg;
   }
 
-  function showTooltip(county_id){
+  function showTooltip(county_id, x, y){
     d3.select("#tooltip")
-    //.style("left", x + "px")
-    //.style("top", y + "px")
     .select("#taxa")
     .text(rateByName.get(county_id));
-
     d3.select("#tooltip")
-    .style("left", "1000px")
-    .style("top", "150px")
+    .style("left", x+"px")
+    .style("top", y+"px")
     .select("#CondNametaxa")
     .text(county_id);
-
 
     d3.select("#tooltip")
     .classed("hidden", false);
@@ -70,4 +56,5 @@ function mapBR2010(svg,width,height,path,rateByName,delay,callback){
   }
 
   return func;
+
 }
