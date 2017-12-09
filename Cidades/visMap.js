@@ -1,5 +1,8 @@
-function mapBR(svg,width,height,path,rateByName, t_top, t_lef){
+
+function mapBR(svg,width,height,path,rateByName, t_top, t_lef, quantize){
   
+  
+
   var func;  
    
   func = function ready(error, br) {
@@ -11,7 +14,16 @@ function mapBR(svg,width,height,path,rateByName, t_top, t_lef){
         .data(topojson.feature(br,br.objects.geojs100mun).features)
       .enter().append("path")
         .attr("fill", function(d) {
-          return IDHquantize(rateByName.get(d.properties.name));
+          
+          if(quantize == 1)
+            return IDHquantize(rateByName.get(d.properties.name));
+          
+          if(quantize == 2)
+            return GINIquantize(rateByName.get(d.properties.name));
+          
+          if(quantize == 3)
+            return Rendaquantize(rateByName.get(d.properties.name));
+
         })
         .attr("d", path)
         .on("click", function(d){
@@ -40,6 +52,7 @@ function mapBR(svg,width,height,path,rateByName, t_top, t_lef){
     d3.select("#tooltip")
     .select("#taxa")
     .text(rateByName.get(county_id));
+
     d3.select("#tooltip")
     .style("left", x+"px")
     .style("top", y+"px")

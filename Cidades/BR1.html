@@ -75,7 +75,7 @@
     }
 
     #Leg_GINI{
-      margin-top: 400px;
+      margin-top: 450px;
     }
     #IDHh1991{
       position: absolute;
@@ -88,6 +88,39 @@
     }
 
     #IDHh2010{
+      position: absolute;
+      margin-left: 700px;
+      margin-top: 240px;
+    }
+    #GINIh1991{
+      position: absolute;
+      margin-top: 240px;
+    }
+
+     #GINIh2000{
+      position: absolute;
+      margin-left: 350px;
+      margin-top: 240px;
+    }
+
+    #GINIh2010{
+      position: absolute;
+      margin-left: 700px;
+      margin-top: 240px;
+    }
+
+     #Rendah1991{
+      position: absolute;
+      margin-top: 240px;
+    }
+
+     #Rendah2000{
+      position: absolute;
+      margin-left: 350px;
+      margin-top: 240px;
+    }
+
+    #Rendah2010{
       position: absolute;
       margin-left: 700px;
       margin-top: 240px;
@@ -155,14 +188,15 @@
 	   <h1>Visão geral das cidades Brasileiras</h1>
 
    </header>
-      <p> <h3>Evolução do IDH</h3> ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
-    <div id= "IDHh1991"></div>
-    <div id= "IDHh2000"></div>
-    <div id= "IDHh2010"></div>
+      <p> <h3>Esta visualização...</h3> ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+    
 
    <div id="IDHmap1991"><h4>IDHM 1991</h4></div>
    <div id="IDHmap2000"><h4>IDHM 2000</h4></div>
    <div id="IDHmap2010"><h4>IDHM 2010</h4></div>
+   <div id= "IDHh1991"></div>
+    <div id= "IDHh2000"></div>
+    <div id= "IDHh2010"></div>
 
   <select id="selectElementId">
     <option id = "S" value="start" selected="selected">-------</option>
@@ -178,9 +212,13 @@
    <p> <h3>Evolução do IDH</h3> "O IDHM brasileiro considera as mesmas três dimensões do IDH Global – longevidade, educação e renda, mas vai além: adequa a metodologia global ao contexto brasileiro e à disponibilidade de indicadores nacionais. Embora meçam os mesmos fenômenos, os indicadores levados em conta no IDHM são mais adequados para avaliar o desenvolvimento dos municípios e regiões metropolitanas brasileiras." Conheça o Atlas do Desenvolvimento Humano no Brasil <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
     </div>
   
+
  <div id="GINImap1991"><h4>GINI 1991</h4></div>
  <div id="GINImap2000"><h4>GINI 2000</h4></div>
  <div id="GINImap2010"><h4>GINI 2010</h4></div>
+ <div id= "GINIh1991"></div>
+<div id= "GINIh2000"></div>
+<div id= "GINIh2010"></div>
 
  <div id = "Leg_GINI">
 
@@ -191,17 +229,57 @@
  <div id="RENDAmap1991"><h4>Renda pc 1991</h4></div>
  <div id="RENDAmap2000"><h4>Renda pc 2000</h4></div>
  <div id="RENDAmap2010"><h4>Renda pc 2010</h4></div>
-
+ <div id= "Rendah1991"></div>
+  <div id= "Rendah2000"></div>
+  <div id= "Rendah2010"></div>
 
     <div id="tooltip" class="hidden">
      <p><span id="CondNametaxa"></span></p>
-   <p>IDH: <span id="taxa"></span></p>
+   <p><span id="taxa"></span></p>
   </div>
  
   <script src="js/visMap.js"></script>
   <script src="js/filter.js"></script>
 
 <script>
+
+
+  var width = 350,
+      height = 350;
+
+
+
+  let IDHbrewerColors = colorbrewer.Blues[5];
+  let IDHquantize = d3.scale.linear()
+    .domain([0,0.5,0.6,0.7,0.8,1])
+    .range(IDHbrewerColors);
+
+ let GINIbrewerColors = colorbrewer.Blues[4];
+ let GINIquantize = d3.scale.linear()
+    .domain([0,0.25,0.5,0.75,1])
+    .range(GINIbrewerColors);
+
+  let RendabrewerColors = colorbrewer.Blues[4];
+  let Rendaquantize = d3.scale.linear()
+    .domain([0,250,500,750,1500])
+    .range(RendabrewerColors);
+
+
+  
+
+  var rateByName1991 = d3.map();
+  var rateByName2000 = d3.map();
+  var rateByName2010 = d3.map();
+
+
+  var rateByName1991GINI = d3.map();
+  var rateByName2000GINI = d3.map();
+  var rateByName2010GINI = d3.map();
+
+  var rateByName1991RENDA = d3.map();
+  var rateByName2000RENDA = d3.map();
+  var rateByName2010RENDA = d3.map();
+
 
 </script>
 
@@ -291,7 +369,7 @@
               his3
               .width(200)
               .height(200)
-              .margins({top: 10, right: 10, bottom: 30, left:20})
+              .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(IDH2010Dimention)
               .group(IDH2010Group)
               .transitionDuration(500)
@@ -306,22 +384,180 @@
 
   </script>
 
+  <script type="text/javascript">
+
+  var his1GINI = dc.barChart("#GINIh1991");
+  var his2GINI = dc.barChart("#GINIh2000");
+  var his3GINI = dc.barChart("#GINIh2010");
+
+
+            d3.csv("data/AtlasGINI.csv", function (data) {
+              
+              data.forEach(function(d) {
+                d.H1991 = 100*d.Gini1991;
+                d.H2000 = 100*d.Gini2000;
+                d.H2010 = 100*d.Gini2010;
+
+            });
+          
+              var facts = crossfilter(data);
+              var DIM_1991 = facts.dimension(function(d){
+                  return d.H1991;
+              });
+              var Group_1991 = DIM_1991.group();
+
+              var DIM_2000 = facts.dimension(function(d){
+                return d.H2000;
+              });
+
+              var Group_2000 = DIM_2000.group();
+
+              var DIM_2010 = facts.dimension(function(d){
+                return d.H2010;
+              });
+
+              var Group_2010 = DIM_2010.group();
+
+
+              his1GINI
+              .width(200)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:30})
+              .dimension(DIM_1991)
+              .group(Group_1991)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([1,100]))
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,400]));
+              ;  
+
+               his2GINI
+              .width(200)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:30})
+              .dimension(DIM_2000)
+              .group(Group_2000)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([1,100]))
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,400]));
+              ;  
+
+               his3GINI
+              .width(200)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:30})
+              .dimension(DIM_2010)
+              .group(Group_2010)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([1,100]))
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,400]));
+              ;  
+
+
+              dc.renderAll();
+  
+            });
+
+  </script>
+
+   <script type="text/javascript">
+
+  var his1Renda = dc.barChart("#Rendah1991");
+  var his2Renda = dc.barChart("#Rendah2000");
+  var his3Renda = dc.barChart("#Rendah2010");
+
+
+            d3.csv("data/AtlasRENDA.csv", function (data) {
+              
+              data.forEach(function(d) {
+                d.H1991 = d.Renda1991;
+                d.H2000 = d.Renda2000;
+                d.H2010 = d.Renda2010;
+
+            });
+          
+              var facts = crossfilter(data);
+              var DIM_1991 = facts.dimension(function(d){
+                  return d.H1991;
+              });
+              var Group_1991 = DIM_1991.group();
+
+              var DIM_2000 = facts.dimension(function(d){
+                return d.H2000;
+              });
+
+              var Group_2000 = DIM_2000.group();
+
+              var DIM_2010 = facts.dimension(function(d){
+                return d.H2010;
+              });
+
+              var Group_2010 = DIM_2010.group();
+
+
+              his1Renda
+              .width(200)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:30})
+              .dimension(DIM_1991)
+              .group(Group_1991)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([1,1000]))
+              .elasticY(true)
+              //.y(d3.scale.linear().domain([1,100]));
+              ;  
+
+               his2Renda
+              .width(200)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:30})
+              .dimension(DIM_2000)
+              .group(Group_2000)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([1,1000]))
+              .elasticY(true)
+              //.y(d3.scale.linear().domain([1,100]));
+              ;  
+
+               his3Renda
+              .width(200)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 50, left:30})
+              .dimension(DIM_2010)
+              .group(Group_2010)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([1,1000]))
+              .elasticY(true)
+              //.y(d3.scale.linear().domain([1,100]));
+              ;  
+
+
+              dc.renderAll();
+  
+            });
+
+  </script>
+
+
+
 <script>
+
+
  
-  var arr;
-
-  var width = 350,
-      height = 350;
-
-  var rateByName1991 = d3.map();
-  var rateByName2000 = d3.map();
-  var rateByName2010 = d3.map();
-  let IDHbrewerColors = colorbrewer.Blues[5];
-  //var quantize = d3.scale.linear().domain([0,0.5,0.7,1]).range(["red","yellow","green","blue"]);
-
-  let IDHquantize = d3.scale.linear()
-    .domain([0,0.5,0.6,0.7,0.8,1])
-    .range(IDHbrewerColors);
 
   var projection = d3.geo.mercator()
       .center([-10,-30])
@@ -351,9 +587,9 @@
 
     function readq(error, br){
 
-      var x1 = mapBR(svg1991,width,height,path,rateByName1991,"500","0");
-      var x2 = mapBR(svg2000,width,height,path,rateByName2000,"500", "330");
-      var x3 = mapBR(svg2010,width,height,path,rateByName2010,"500", "600");
+      var x1 = mapBR(svg1991,width,height,path,rateByName1991,500,0, 1);
+      var x2 = mapBR(svg2000,width,height,path,rateByName2000,500,330, 1);
+      var x3 = mapBR(svg2010,width,height,path,rateByName2010,500,600, 1);
 
       svg1991 = x1(error,br);
       svg2000 = x2(error,br);
@@ -377,11 +613,6 @@
 
 <script>
 
-  var arr;
-
-  var rateByName1991GINI = d3.map();
-  var rateByName2000GINI = d3.map();
-  var rateByName2010GINI = d3.map();
 
   var projection = d3.geo.mercator()
       .center([-10,-30])
@@ -415,9 +646,9 @@
 
     function readq(error, br){
 
-      var x4 = mapBR(svg1991GINI,width,height,path,rateByName1991GINI, "1100", "0");
-      var x5 = mapBR(svg2000GINI,width,height,path,rateByName2000GINI, "1100", "330");
-      var x6 = mapBR(svg2010GINI,width,height,path,rateByName2010GINI, "1100","600");
+      var x4 = mapBR(svg1991GINI,width,height,path,rateByName1991GINI, 1100, 0, 2);
+      var x5 = mapBR(svg2000GINI,width,height,path,rateByName2000GINI, 1100, 330, 2);
+      var x6 = mapBR(svg2010GINI,width,height,path,rateByName2010GINI, 1100,600, 2);
 
       x4(error,br);
       x5(error,br);
@@ -428,12 +659,7 @@
 
 <script>
 
-  var arr;
-
-  var rateByName1991RENDA = d3.map();
-  var rateByName2000RENDA = d3.map();
-  var rateByName2010RENDA = d3.map();
-
+ 
   var projection = d3.geo.mercator()
       .center([-10,-30])
       .scale(375);
@@ -466,9 +692,9 @@
 
     function readq(error, br){
 
-      var x1 = mapBR(svg1991RENDA,width,height,path,rateByName1991RENDA, 1600, 0);
-      var x2 = mapBR(svg2000RENDA,width,height,path,rateByName2000RENDA, 1600, 330);
-      var x3 = mapBR(svg2010RENDA,width,height,path,rateByName2010RENDA, 1600, 600);
+      var x1 = mapBR(svg1991RENDA,width,height,path,rateByName1991RENDA, 1600, 0,3);
+      var x2 = mapBR(svg2000RENDA,width,height,path,rateByName2000RENDA, 1600, 330,3);
+      var x3 = mapBR(svg2010RENDA,width,height,path,rateByName2010RENDA, 1600, 600,3);
 
       x1(error,br);
       x2(error,br);
