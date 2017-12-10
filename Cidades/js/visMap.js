@@ -1,4 +1,4 @@
-function mapBR(svg,width,height,path,rateByName, t_top, t_lef){
+function mapBR(svg,width,height,path,rateByName, t_top, t_lef, cores){
   
   var func;  
    
@@ -11,7 +11,13 @@ function mapBR(svg,width,height,path,rateByName, t_top, t_lef){
         .data(topojson.feature(br,br.objects.geojs100mun).features)
       .enter().append("path")
         .attr("fill", function(d) {
-          return IDHquantize(rateByName.get(d.properties.name));
+          if(cores == 1)
+            return IDHquantize(rateByName.get(d.properties.name));
+          if(cores == 2)
+            return GINIquantize(rateByName.get(d.properties.name));
+          if(cores == 3)
+            return Rendaquantize(rateByName.get(d.properties.name));
+
         })
         .attr("d", path)
         .on("click", function(d){
