@@ -1,0 +1,279 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Visão geral</title>
+
+            <link  rel="stylesheet" href="css/starter-template.css">
+            <link rel="stylesheet" href="css/dc.css">
+            <link rel="stylesheet" href="css/styles.css">
+            
+            <script src="js/crossfilter.js" charset="utf-8"></script>
+            <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script src="js/dc.js" charset="utf-8"></script>
+           
+             <link rel="stylesheet" href="css/dc.css">
+              <!-- Bootstrap -->
+                <!-- Latest compiled and minified CSS -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+                <!-- Optional theme -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+            
+            <style type="text/css">
+        
+            .topnav {
+                background-color: #333;
+                overflow: hidden;
+            }
+
+            /* Style the links inside the navigation bar */
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+            /* Change the color of links on hover */
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            /* Add a color to the active/current link */
+            .topnav a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            h1{
+                margin-left: 50px;
+            }
+        
+            #selectElementId{
+                margin-left: 50px;
+            }
+
+            #Intro
+                {
+                margin-left: 50px;
+            }
+
+
+
+            </style>
+        </head>
+        <body>
+
+             <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/datavis-course/Cidades/index.html">Cidades Brasileiras</a>
+                  </div>
+                  <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                      <li><a href="/datavis-course/Cidades/BR1.html">Visão Geral</a></li>
+                      <li><a href="/datavis-course/Cidades/cidades.html">Gestores Municipais</a></li>
+                      <li class="active"><a href="/datavis-course/Cidades/minhacidade.html">Minha cidade</a></li>
+                    </ul>
+                  </div><!--/.nav-collapse -->
+                </div>
+              </nav>
+        <div id = Intro>
+          <p> <h3>Esta visualização..</h3> Dentro do escopo do projeto Cidades Brasileiras, esta página apresenta uma visão geral de indicadores da qualidade de vida dos municípios brasileiros, demonstrando a distribuição geográfica de diversas mudanças no Brasil. Uma análise de indicadores como IDH, GINI, Renda per Capta e dados da criminalidade do Brasil, ao longo dos anos, demonstra o comportamento geral das mudanças na qualidade de vida dos brasileiros, entretanto a distribuição geográfica dessas mudanças não é uniforme, como podemos constatar nestas visualizações. <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+          <p>   Dentro do escopo do projeto Cidades Brasileiras, esta página apresenta uma visão geral de indicadores da qualidade de vida dos municípios brasileiros, demonstrando a distribuição geográfica de diversas mudanças no Brasil. Uma análise de indicadores como IDH, GINI, Renda per Capta e dados da criminalidade do Brasil, ao longo dos anos, demonstra o comportamento geral das mudanças na qualidade de vida dos brasileiros, entretanto a distribuição geográfica dessas mudanças não é uniforme, como podemos constatar nestas visualizações. <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+      </div>
+
+        <h1>MENU CIDADES </h1>
+        <select id="selectElementId" onchange="changeFunc()";>
+        <option>Selecione uma Cidade</option>
+        </select>
+        <div id="myDiv"></div>
+        <!---aqui eu crio as divs para colocar os gráficos-->
+            
+            <script type="text/javascript" charset="utf-8">
+            function changeFunc(){
+            				var identificador = 0;
+                			var select =  document.getElementById('selectElementId');
+                			var selectValue = selectElementId.options[selectElementId.selectedIndex].value;
+                			//alert(selectValue);
+                			//console.log("Id da cidade selecionada");
+                			//console.log(selectValue);
+                			var identificador = selectElementId.selectedIndex
+                			var id = identificador-1;
+                			//console.log(id)
+
+
+                			//variaveis 
+                			let sum = Listplan.reduce((previous, current) => current += previous);
+							let avgPlan = (sum / Listplan.length).toFixed(2);
+
+							let sum1 = Listorca.reduce((previous, current) => current += previous);
+							let avgOrg = (sum1 / Listorca.length).toFixed(2);
+							
+
+							let sum2 = Listsaude.reduce((previous, current) => current += previous);
+							let avgSaude = (sum2 / Listsaude.length).toFixed(2);
+							
+
+							let sum3 = Listamb.reduce((previous, current) => current += previous);
+							let avgAmb = (sum3 / Listamb.length).toFixed(2);
+							
+
+							let sum4 = Listgen.reduce((previous, current) => current += previous);
+							let avgGen = (sum4 / Listgen.length).toFixed(2);
+
+                			//plot barChart
+                			var nomeCidade = Listnomes[id]
+
+                			var xValue = ['Agenda/Planejamento', 'Legislacao Administrativa ', 'Saude','Meio Ambiente','Politica de Genero'];
+
+							var yValue = [Listplan[id], Listorca[id], Listsaude[id],Listamb[id],Listgen[id]];
+							
+
+							var yValue2 = [avgPlan, avgOrg, avgSaude,avgAmb,avgGen];
+
+							var trace1 = {
+							  x: xValue,
+							  y: yValue,
+							  name: nomeCidade,
+							  type: 'bar',
+							  text: yValue,
+							  textposition: 'auto',
+							  hoverinfo: 'none',
+							  opacity: 0.5,
+							  marker: {
+							    color: 'rgb(158,202,225)',
+							    line: {
+							      color: 'rbg(8,48,107)',
+							      width: 1.5
+							    }
+							  }
+							};
+
+							var trace2 = {
+							  x: xValue,
+							  y: yValue2,
+							  name: 'Brasil',
+							  type: 'bar',
+							  text: yValue2,
+							  textposition: 'auto',
+							  hoverinfo: 'none',
+							  marker: {
+							    color: 'rgba(58,200,225,.5)',
+							    line: {
+							      color: 'rbg(8,48,107)',
+							      width: 1.5
+							    }
+							  }
+							};
+
+							var data = [trace1,trace2];
+							var layout = {
+							  title: 'Analise da cidade '+ nomeCidade
+							};
+
+							Plotly.newPlot('myDiv', data, layout);
+
+
+
+                			};
+                			d3.csv("data/dataMunInds.csv")
+                					.row(function(d){return{codigo: +d.cod,nome: d.nome,Planejamento:+d.plan,  Organizacao: +d.legis,Saude: +d.saude,Ambiente: +d.meioamb,Genero: +d.polgen,Populacao:+d.pop,IDRAA: +d.ida};})
+                					.get(function(error,rows){console.log(rows[0].Genero);});
+
+
+
+                					//GO HORSE PROGRAMING 
+            var Listnomes = []
+            var Listplan = []
+           	var Listorca = []
+           	var Listsaude = []
+           	var Listamb = []
+           	var Listgen=[]
+           	var Listpop =[]
+           	var ListIDRAA = []
+
+            var Listvalores = []
+            var select = document.getElementById("selectCidade");
+                <!-- Carregando o arquivo .csv -->
+                d3.csv("data/dataMunInds.csv",function(data){
+                    //console.log("dados:",data);
+
+                        data.forEach(function(d){
+                        
+                        id = d.cod; 
+                        Nome = d.nome;
+                        Listnomes.push(Nome);
+                        Planejamento = +d.plan; 
+                        Organizacao = +d.legis;
+                        Saude = +d.saude;
+                        MeioAmb = +d.meioamb; 
+                        PolGen = +d.polgen; 
+                        Populacao = +d.pop; 
+                        IDARA = +d.ida;
+                   		Listplan.push(Planejamento);
+                   		Listorca.push(Organizacao);
+                   		Listsaude.push(Saude);
+                   		Listamb.push(MeioAmb);
+                   		Listgen.push(PolGen);
+           				Listpop.push(Populacao);
+           				ListIDRAA.push(IDARA);
+
+                   		}) 
+
+                        //var k =11;
+                		//console.log(Listnomes[k]);
+                		//calcular as médias
+
+						
+
+
+
+
+                		var tam  = Listnomes.length
+		                var select =  document.getElementById('selectElementId');
+		                var option = select.options[select.selectedIndex].id;
+		                for(var i = 0; i<=tam ;i++){
+		                	//console.log(Listnomes[i]);
+		                	var opt = document.createElement('option');
+		                	opt.value= Listnomes[i] ;
+		                	opt.innerHTML= Listnomes[i];
+		                	select.appendChild(opt);
+		                };
+		                console.log(Saude);       
+
+
+            });
+
+            d3.csv("data/dataMunInds.csv")
+                .row(function(d){return{codigo: +d.cod,nome: d.nome};})
+                .get(function(error,rows){console.log(rows[0].nome);});
+                    
+            </script>
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+             <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        </body>
+
+
+
+        </html>
