@@ -132,7 +132,7 @@
     }
 
     #Leg_Renda{
-      margin-top: 450px;
+      margin-top: 500px;
     }
 
     #Leg_POP{
@@ -294,6 +294,8 @@
     </div>
   
 
+<br />
+
  <div id= "Rendah1991"></div>
   <div id= "Rendah2000"></div>
   <div id= "Rendah2010"></div>
@@ -326,19 +328,22 @@
 <div id= "POPh2010"></div>
 
 
- <div id="POPmap1991"><h4>Renda pc 1991</h4></div>
- <div id="POPmap2000"><h4>Renda pc 2000</h4></div>
- <div id="POPmap2010"><h4>Renda pc 2010</h4></div>
+ <div id="POPmap1991"><h4>População 1991</h4></div>
+ <div id="POPmap2000"><h4>População 2000</h4></div>
+ <div id="POPmap2010"><h4>População 2010</h4></div>
 
 <div id = "Leg_POP">
 
  <select id="POPselectElementId">
     <option id = "S" value="start" selected="selected">-------</option>
-    <option id = "I1" value="Muito Alto">0..250</option>
-    <option id = "I2" value="Alto">250 .. 500</option>
-    <option id = "I3" value="Medio">500..750</option>
-    <option id = "I4" value="Baixo">750..1000</option>
-    <option id = "I4" value="Baixo"> >1000</option>
+    <option id = "I1" value="0-5">0..5k</option>
+    <option id = "I2" value="5-10">5 .. 10 mil</option>
+    <option id = "I3" value="10-20">10..20 mil</option>
+    <option id = "I4" value="20-50">20..50 mil</option>
+    <option id = "I4" value="50-100"> 50 .. 100 mil</option>
+    <option id = "I5" value="100-500"> 100 .. 500 mil</option>
+    <option id = "I6" value="500-1"> 500 mil .. 1 M</option>
+    <option id = "I7" value=">1"> >1 M</option>
   </select>
 
    <p> <h3>Distribuição demográfica</h3> Segundo o <a href="http://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28&Itemid=23">IPEA</a>, "O Índice de Gini, criado pelo matemático italiano Conrado Gini, é um instrumento para medir o grau de concentração de renda em determinado grupo.Ele aponta a diferença entre os rendimentos dos mais pobres e dos mais ricos. Numericamente, varia de zero a um (alguns apresentam de zero a cem). O valor zero representa a situação de igualdade, ou seja, todos têm a mesma renda. O valor um (ou cem) está no extremo oposto, isto é, uma só pessoa detém toda a riqueza. Na prática, o Índice de Gini costuma comparar os 20% mais pobres com os 20% mais ricos" Saiba mais <a href="https://pt.wikipedia.org/wiki/Coeficiente_de_Gini">aqui</a>.</p> 
@@ -351,20 +356,21 @@
 
     <div id="tooltip" class="hidden">
      <p><span id="CondNametaxa"></span></p>
-   <p><span id="taxa"></span></p>
-  </div>
+      <p><span id="taxa"></span></p>
+      </div>
  
+
   <script src="js/visMap.js"></script>
   <script src="js/filterIDH.js"></script>
   <script src="js/filterGINI.js"></script>
   <script src="js/filterRENDA.js"></script>
+  <script src="js/filterPOP.js"></script>
 
 <script>
 
 
   var width = 350,
       height = 350;
-
 
 
   let IDHbrewerColors = colorbrewer.Blues[5];
@@ -383,7 +389,7 @@
     .range(RendabrewerColors);
 
 
-  let POPbrewerColors = colorbrewer.Blues[7];
+  let POPbrewerColors = colorbrewer.Blues[8];
   let POPquantize = d3.scale.linear()
     .domain([0,5000,10000,20000,50000, 100000, 500000, 1000000])
     .range(RendabrewerColors);
@@ -408,7 +414,6 @@
   var rateByName2000POP = d3.map();
   var rateByName2010POP = d3.map();
 
-  var rend = true;
 
 </script>
 
@@ -980,16 +985,16 @@
       svg2000POP = x2(error,br);
       svg2010POP = x3(error,br);
 
-      //d3.select("#POPselectElementId").on("change", function change() {
+      d3.select("#POPselectElementId").on("change", function change() {
 
-        //var e = document.getElementById("RendaselectElementId");
-        //var strUser = e.options[e.selectedIndex].value;
+        var e = document.getElementById("POPselectElementId");
+        var strUser = e.options[e.selectedIndex].value;
 
-       // svg1991POP = changeColorRENDA(svg1991POP,rateByName1991POP,strUser);
-       // svg2000POP = changeColorRENDA(svg2000POP,rateByName2000POP,strUser);
-       // svg2010POP = changeColorRENDA(svg2010POP,rateByName2010POP,strUser);
+        svg1991POP = changeColorPOP(svg1991POP,rateByName1991POP,strUser);
+        svg2000POP = changeColorPOP(svg2000POP,rateByName2000POP,strUser);
+        svg2010POP = changeColorPOP(svg2010POP,rateByName2010POP,strUser);
 
-      //});
+      });
 
     }
 

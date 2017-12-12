@@ -40,6 +40,7 @@ crossorigin=""/>
               margin-top: 100px;
             }
 
+
             #idade-chart{
               position: absolute;
               margin-top: 900px;
@@ -67,14 +68,12 @@ crossorigin=""/>
               position: absolute;
               margin-top: 1200px;
             }
-
+            .dc-chart g.row text {
+            fill: black;  
+            }
               
             </style>
             
-            
-   
-
-
         </head>
         <body>
 
@@ -267,15 +266,15 @@ crossorigin=""/>
               bar4
               .width(550)
               .height(500)
+              .dimension(EscDimention)
+              .group(EscCout)
               //.x(d3.scale.ordinal())
               //.xUnits(dc.units.ordinal)
               //.yAxisLabel("", 25)
               //.barPadding(0.4)
               //.brushOn(true)
-              .dimension(EscDimention)
-              .group(EscCout)
               .colors("#3182bd")
-              .controlsUseVisibility(false);
+              .controlsUseVisibility(true);
             
              
 
