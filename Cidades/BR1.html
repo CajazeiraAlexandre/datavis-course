@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
   <title>Visão geral</title>
 
             <link  rel="stylesheet" href="css/starter-template.css">
@@ -24,7 +24,7 @@
 
     <!-- Custom styles for this template -->
    
-	<style>
+  <style>
 
     #tooltip {
       position: absolute;
@@ -54,42 +54,105 @@
     #IDHmap1991{
       position: absolute;
       margin-left: 30px;
-      top: 300px;
+      top: 500px;
     }
     #IDHmap2000{
       position: absolute;
       margin-left: 370px;
-      top: 300px;
+      top: 500px;
     }
     #IDHmap2010{
       position: absolute;
       margin-left: 720px;
-      top: 300px;
+      top: 500px;
     }
     h4{
       margin-left: 150px;
     }
+
+    #GINImap1991{
+      position: absolute;
+      margin-left: 30px;
+      top: 1100px;
+    }
+    #GINImap2000{
+      position: absolute;
+      margin-left: 370px;
+      top: 1100px;
+    }
+    #GINImap2010{
+      position: absolute;
+      margin-left: 700px;
+      top: 1100px;
+    }
+
+
+    #RENDAmap1991{
+      position: absolute;
+      margin-left: 30px;
+      top: 1850px;
+    }
+    #RENDAmap2000{
+      position: absolute;
+      margin-left: 370px;
+
+      top: 1850px;
+    }
+    #RENDAmap2010{
+      position: absolute;
+      margin-left: 700px;
+      top: 1850px;
+    }
+
+    #POPAmap1991{
+      position: absolute;
+      margin-left: 30px;
+      top: 2500px;
+    }
+    #POPmap2000{
+      position: absolute;
+      margin-left: 370px;
+
+      top: 2500px;
+    }
+    #POPmap2010{
+      position: absolute;
+      margin-left: 700px;
+      top: 2500px;
+    }
+
+
+
     #Leg_IDH{
-      margin-top: 470px;
+      margin-top: 450px;
     }
 
     #Leg_GINI{
       margin-top: 450px;
     }
+
+    #Leg_Renda{
+      margin-top: 450px;
+    }
+
+    #Leg_POP{
+      margin-top: 150px;
+    }
+
     #IDHh1991{
       position: absolute;
-      margin-top: 240px;
+      margin-top: 260px;
     }
     #IDHh2000{
       position: absolute;
       margin-left: 350px;
-      margin-top: 240px;
+      margin-top: 260px;
     }
 
     #IDHh2010{
       position: absolute;
       margin-left: 700px;
-      margin-top: 240px;
+      margin-top: 260px;
     }
     #GINIh1991{
       position: absolute;
@@ -110,56 +173,41 @@
 
      #Rendah1991{
       position: absolute;
-      margin-top: 240px;
+      margin-top: 250px;
     }
 
      #Rendah2000{
       position: absolute;
       margin-left: 350px;
-      margin-top: 240px;
+      margin-top: 250px;
     }
 
     #Rendah2010{
       position: absolute;
       margin-left: 700px;
-      margin-top: 240px;
+      margin-top: 250px;
     }
 
-    #GINImap1991{
+      #POPh1991{
       position: absolute;
-      margin-left: 30px;
-      top: 900px;
+      margin-top: 250px;
     }
-    #GINImap2000{
+
+     #POPh2000{
       position: absolute;
-      margin-left: 370px;
-      top: 900px;
+      margin-left: 350px;
+      margin-top: 250px;
     }
-    #GINImap2010{
+
+    #POPh2010{
       position: absolute;
       margin-left: 700px;
-      top: 900px;
+      margin-top: 250px;
     }
 
 
-    #RENDAmap1991{
-      position: absolute;
-      margin-left: 30px;
-      top: 1400px;
-    }
-    #RENDAmap2000{
-      position: absolute;
-      margin-left: 370px;
-      top: 1400px;
-    }
-    #RENDAmap2010{
-      position: absolute;
-      margin-left: 700px;
-      top: 1400px;
-    }
-
-	
-	</style>
+  
+  </style>
 </head>
 <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -171,7 +219,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Cidades Brasileiras</a>
+                    <a class="navbar-brand" href="/datavis-course/Cidades/index.html">Cidades Brasileiras</a>
                   </div>
                   <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -185,20 +233,26 @@
               </nav>
   <div id="container-fluid" class="container">
     <header>
-	   <h1>Visão geral das cidades Brasileiras</h1>
+     <h1>Visão geral das cidades Brasileiras</h1>
 
    </header>
-      <p> <h3>Esta visualização...</h3> ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+   <br />
+      <p>   Dentro do escopo do projeto Cidades Brasileiras, esta página apresenta uma visão geral de indicadores da qualidade de vida dos municípios brasileiros, demonstrando a distribuição geográfica de diversas mudanças no Brasil. Uma análise de indicadores como IDH, GINI, Renda per Capta e dados da criminalidade do Brasil, ao longo dos anos, demonstra o comportamento geral das mudanças na qualidade de vida dos brasileiros, entretanto a distribuição geográfica dessas mudanças não é uniforme, como podemos constatar nestas visualizações. <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+      <p>   Dentro do escopo do projeto Cidades Brasileiras, esta página apresenta uma visão geral de indicadores da qualidade de vida dos municípios brasileiros, demonstrando a distribuição geográfica de diversas mudanças no Brasil. Uma análise de indicadores como IDH, GINI, Renda per Capta e dados da criminalidade do Brasil, ao longo dos anos, demonstra o comportamento geral das mudanças na qualidade de vida dos brasileiros, entretanto a distribuição geográfica dessas mudanças não é uniforme, como podemos constatar nestas visualizações. <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+      <p>   Dentro do escopo do projeto Cidades Brasileiras, esta página apresenta uma visão geral de indicadores da qualidade de vida dos municípios brasileiros, demonstrando a distribuição geográfica de diversas mudanças no Brasil. Uma análise de indicadores como IDH, GINI, Renda per Capta e dados da criminalidade do Brasil, ao longo dos anos, demonstra o comportamento geral das mudanças na qualidade de vida dos brasileiros, entretanto a distribuição geográfica dessas mudanças não é uniforme, como podemos constatar nestas visualizações. <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
     
-
-   <div id="IDHmap1991"><h4>IDHM 1991</h4></div>
-   <div id="IDHmap2000"><h4>IDHM 2000</h4></div>
-   <div id="IDHmap2010"><h4>IDHM 2010</h4></div>
    <div id= "IDHh1991"></div>
     <div id= "IDHh2000"></div>
     <div id= "IDHh2010"></div>
 
-  <select id="selectElementId">
+   <div id="IDHmap1991"><h4>IDHM 1991</h4></div>
+   <div id="IDHmap2000"><h4>IDHM 2000</h4></div>
+   <div id="IDHmap2010"><h4>IDHM 2010</h4></div>
+   <br />
+ 
+
+   <div id = "Leg_IDH">
+     <select id="selectElementId">
     <option id = "S" value="start" selected="selected">-------</option>
     <option id = "MA" value="Muito Alto">Muito Alto</option>
     <option id = "A" value="Alto">Alto</option>
@@ -207,31 +261,94 @@
     <option id = "MB" value="Muito Baixo">Muito Baixo</option>
   </select>
 
-   <div id = "Leg_IDH">
-
    <p> <h3>Evolução do IDH</h3> "O IDHM brasileiro considera as mesmas três dimensões do IDH Global – longevidade, educação e renda, mas vai além: adequa a metodologia global ao contexto brasileiro e à disponibilidade de indicadores nacionais. Embora meçam os mesmos fenômenos, os indicadores levados em conta no IDHM são mais adequados para avaliar o desenvolvimento dos municípios e regiões metropolitanas brasileiras." Conheça o Atlas do Desenvolvimento Humano no Brasil <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+   <p> "O IDHM brasileiro considera as mesmas três dimensões do IDH Global – longevidade, educação e renda, mas vai além: adequa a metodologia global ao contexto brasileiro e à disponibilidade de indicadores nacionais. Embora meçam os mesmos fenômenos, os indicadores levados em conta no IDHM são mais adequados para avaliar o desenvolvimento dos municípios e regiões metropolitanas brasileiras." Conheça o Atlas do Desenvolvimento Humano no Brasil <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+
     </div>
   
+
+
+<div id= "GINIh1991"></div>
+  <div id= "GINIh2000"></div>
+  <div id= "GINIh2010"></div>
 
  <div id="GINImap1991"><h4>GINI 1991</h4></div>
  <div id="GINImap2000"><h4>GINI 2000</h4></div>
  <div id="GINImap2010"><h4>GINI 2010</h4></div>
- <div id= "GINIh1991"></div>
-<div id= "GINIh2000"></div>
-<div id= "GINIh2010"></div>
-
+ <br />
+ 
  <div id = "Leg_GINI">
 
-   <p> <h3>Evolução do indice GINI</h3> "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
+  
+  <select id="GINIselectElementId">
+    <option id = "S" value="start" selected="selected">-------</option>
+    <option id = "I1" value="Muito Alto">0 .. 0.25</option>
+    <option id = "I2" value="Alto">0.25 .. 0.50</option>
+    <option id = "I3" value="Medio">0.50 .. 0.75</option>
+    <option id = "I4" value="Baixo">0.75 .. 1</option>
+  </select>
+
+
+
+   <p> <h3>Evolução do indice GINI</h3> Segundo o <a href="http://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28&Itemid=23">IPEA</a>, "O Índice de Gini, criado pelo matemático italiano Conrado Gini, é um instrumento para medir o grau de concentração de renda em determinado grupo.Ele aponta a diferença entre os rendimentos dos mais pobres e dos mais ricos. Numericamente, varia de zero a um (alguns apresentam de zero a cem). O valor zero representa a situação de igualdade, ou seja, todos têm a mesma renda. O valor um (ou cem) está no extremo oposto, isto é, uma só pessoa detém toda a riqueza. Na prática, o Índice de Gini costuma comparar os 20% mais pobres com os 20% mais ricos" Saiba mais <a href="https://pt.wikipedia.org/wiki/Coeficiente_de_Gini">aqui</a>.</p> 
+   <p> Segundo o <a href="http://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28&Itemid=23">IPEA</a>, "O Índice de Gini, criado pelo matemático italiano Conrado Gini, é um instrumento para medir o grau de concentração de renda em determinado grupo.Ele aponta a diferença entre os rendimentos dos mais pobres e dos mais ricos. Numericamente, varia de zero a um (alguns apresentam de zero a cem). O valor zero representa a situação de igualdade, ou seja, todos têm a mesma renda. O valor um (ou cem) está no extremo oposto, isto é, uma só pessoa detém toda a riqueza. Na prática, o Índice de Gini costuma comparar os 20% mais pobres com os 20% mais ricos" Saiba mais <a href="https://pt.wikipedia.org/wiki/Coeficiente_de_Gini">aqui</a>.</p> 
     </div>
   
+
+ <div id= "Rendah1991"></div>
+  <div id= "Rendah2000"></div>
+  <div id= "Rendah2010"></div>
 
  <div id="RENDAmap1991"><h4>Renda pc 1991</h4></div>
  <div id="RENDAmap2000"><h4>Renda pc 2000</h4></div>
  <div id="RENDAmap2010"><h4>Renda pc 2010</h4></div>
- <div id= "Rendah1991"></div>
-  <div id= "Rendah2000"></div>
-  <div id= "Rendah2010"></div>
+
+<div id = "Leg_Renda">
+
+ <select id="RendaselectElementId">
+    <option id = "S" value="start" selected="selected">-------</option>
+    <option id = "I1" value="Muito Baixa">0..250</option>
+    <option id = "I2" value="Baixa">250 .. 500</option>
+    <option id = "I3" value="Media">500..750</option>
+    <option id = "I4" value="Alta">750..1000</option>
+    <option id = "I4" value="Muito Alta"> >1000</option>
+  </select>
+
+   <p> <h3>Evolução da Renda Per Capta</h3> Segundo o <a href="http://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28&Itemid=23">IPEA</a>, "O Índice de Gini, criado pelo matemático italiano Conrado Gini, é um instrumento para medir o grau de concentração de renda em determinado grupo.Ele aponta a diferença entre os rendimentos dos mais pobres e dos mais ricos. Numericamente, varia de zero a um (alguns apresentam de zero a cem). O valor zero representa a situação de igualdade, ou seja, todos têm a mesma renda. O valor um (ou cem) está no extremo oposto, isto é, uma só pessoa detém toda a riqueza. Na prática, o Índice de Gini costuma comparar os 20% mais pobres com os 20% mais ricos" Saiba mais <a href="https://pt.wikipedia.org/wiki/Coeficiente_de_Gini">aqui</a>.</p> 
+   <p> Segundo o <a href="http://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28&Itemid=23">IPEA</a>, "O Índice de Gini, criado pelo matemático italiano Conrado Gini, é um instrumento para medir o grau de concentração de renda em determinado grupo.Ele aponta a diferença entre os rendimentos dos mais pobres e dos mais ricos. Numericamente, varia de zero a um (alguns apresentam de zero a cem). O valor zero representa a situação de igualdade, ou seja, todos têm a mesma renda. O valor um (ou cem) está no extremo oposto, isto é, uma só pessoa detém toda a riqueza. Na prática, o Índice de Gini costuma comparar os 20% mais pobres com os 20% mais ricos" Saiba mais <a href="https://pt.wikipedia.org/wiki/Coeficiente_de_Gini">aqui</a>.</p> 
+    
+    </div>
+
+
+<br />
+
+<div id= "POPh1991"></div>
+<div id= "POPh2000"></div>
+<div id= "POPh2010"></div>
+
+
+ <div id="POPmap1991"><h4>Renda pc 1991</h4></div>
+ <div id="POPmap2000"><h4>Renda pc 2000</h4></div>
+ <div id="POPmap2010"><h4>Renda pc 2010</h4></div>
+
+<div id = "Leg_POP">
+
+ <select id="POPselectElementId">
+    <option id = "S" value="start" selected="selected">-------</option>
+    <option id = "I1" value="Muito Alto">0..250</option>
+    <option id = "I2" value="Alto">250 .. 500</option>
+    <option id = "I3" value="Medio">500..750</option>
+    <option id = "I4" value="Baixo">750..1000</option>
+    <option id = "I4" value="Baixo"> >1000</option>
+  </select>
+
+   <p> <h3>Distribuição demográfica</h3> Segundo o <a href="http://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28&Itemid=23">IPEA</a>, "O Índice de Gini, criado pelo matemático italiano Conrado Gini, é um instrumento para medir o grau de concentração de renda em determinado grupo.Ele aponta a diferença entre os rendimentos dos mais pobres e dos mais ricos. Numericamente, varia de zero a um (alguns apresentam de zero a cem). O valor zero representa a situação de igualdade, ou seja, todos têm a mesma renda. O valor um (ou cem) está no extremo oposto, isto é, uma só pessoa detém toda a riqueza. Na prática, o Índice de Gini costuma comparar os 20% mais pobres com os 20% mais ricos" Saiba mais <a href="https://pt.wikipedia.org/wiki/Coeficiente_de_Gini">aqui</a>.</p> 
+   <p> Segundo o <a href="http://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28&Itemid=23">IPEA</a>, "O Índice de Gini, criado pelo matemático italiano Conrado Gini, é um instrumento para medir o grau de concentração de renda em determinado grupo.Ele aponta a diferença entre os rendimentos dos mais pobres e dos mais ricos. Numericamente, varia de zero a um (alguns apresentam de zero a cem). O valor zero representa a situação de igualdade, ou seja, todos têm a mesma renda. O valor um (ou cem) está no extremo oposto, isto é, uma só pessoa detém toda a riqueza. Na prática, o Índice de Gini costuma comparar os 20% mais pobres com os 20% mais ricos" Saiba mais <a href="https://pt.wikipedia.org/wiki/Coeficiente_de_Gini">aqui</a>.</p> 
+
+    </div>
+
+
+
 
     <div id="tooltip" class="hidden">
      <p><span id="CondNametaxa"></span></p>
@@ -239,7 +356,9 @@
   </div>
  
   <script src="js/visMap.js"></script>
-  <script src="js/filter.js"></script>
+  <script src="js/filterIDH.js"></script>
+  <script src="js/filterGINI.js"></script>
+  <script src="js/filterRENDA.js"></script>
 
 <script>
 
@@ -265,6 +384,12 @@
     .range(RendabrewerColors);
 
 
+  let POPbrewerColors = colorbrewer.Blues[7];
+  let POPquantize = d3.scale.linear()
+    .domain([0,5000,10000,20000,50000, 100000, 500000, 1000000])
+    .range(RendabrewerColors);
+
+
   
 
   var rateByName1991 = d3.map();
@@ -280,6 +405,11 @@
   var rateByName2000RENDA = d3.map();
   var rateByName2010RENDA = d3.map();
 
+  var rateByName1991POP = d3.map();
+  var rateByName2000POP = d3.map();
+  var rateByName2010POP = d3.map();
+
+  var rend = true;
 
 </script>
 
@@ -297,8 +427,8 @@
 
             });
           
-              var facts = crossfilter(data);
-              var IDHDimention = facts.dimension(function(d){
+              var facts_IDH = crossfilter(data);
+              var IDHDimention = facts_IDH.dimension(function(d){
                   return d.IDH;
               });
               var IDHGroup = IDHDimention.group();
@@ -316,7 +446,6 @@
               .x(d3.scale.linear().domain([1,100]))
               .y(d3.scale.linear().domain([1,50]));
                 
-              dc.renderAll();
   
             });
 
@@ -328,8 +457,8 @@
 
             });
           
-              var facts = crossfilter(data);
-              var IDH2000Dimention = facts.dimension(function(d){
+              var facts_IDH = crossfilter(data);
+              var IDH2000Dimention = facts_IDH.dimension(function(d){
                   return d.IDH2000;
               });
               var IDH2000Group = IDH2000Dimention.group();
@@ -347,7 +476,6 @@
               .x(d3.scale.linear().domain([1,100]))
               .y(d3.scale.linear().domain([1,50]));
                 
-              dc.renderAll();
   
             });
 
@@ -359,8 +487,8 @@
 
             });
           
-              var facts = crossfilter(data);
-              var IDH2010Dimention = facts.dimension(function(d){
+              var facts_IDH = crossfilter(data);
+              var IDH2010Dimention = facts_IDH.dimension(function(d){
                   return d.IDH;
               });
               var IDH2010Group = IDH2010Dimention.group();
@@ -378,7 +506,6 @@
               .x(d3.scale.linear().domain([1,100]))
               .y(d3.scale.linear().domain([1,50]));
 
-              dc.renderAll();
   
             });
 
@@ -400,19 +527,19 @@
 
             });
           
-              var facts = crossfilter(data);
-              var DIM_1991 = facts.dimension(function(d){
+              var facts_GINI = crossfilter(data);
+              var DIM_1991 = facts_GINI.dimension(function(d){
                   return d.H1991;
               });
               var Group_1991 = DIM_1991.group();
 
-              var DIM_2000 = facts.dimension(function(d){
+              var DIM_2000 = facts_GINI.dimension(function(d){
                 return d.H2000;
               });
 
               var Group_2000 = DIM_2000.group();
 
-              var DIM_2010 = facts.dimension(function(d){
+              var DIM_2010 = facts_GINI.dimension(function(d){
                 return d.H2010;
               });
 
@@ -462,7 +589,6 @@
               ;  
 
 
-              dc.renderAll();
   
             });
 
@@ -478,25 +604,25 @@
             d3.csv("data/AtlasRENDA.csv", function (data) {
               
               data.forEach(function(d) {
-                d.H1991 = (+d.Renda1991);
-                d.H2000 = (+d.Renda2000);
-                d.H2010 = (+d.Renda2010);
+                d.H1991 = Math.floor(+d.Renda1991);//(+d.Renda1991);
+                d.H2000 = Math.floor(+d.Renda2000);
+                d.H2010 = Math.floor(+d.Renda2010);
 
             });
           
-              var facts = crossfilter(data);
-              var DIM_1991 = facts.dimension(function(d){
+              var facts_Renda = crossfilter(data);
+              var DIM_1991 = facts_Renda.dimension(function(d){
                   return d.H1991;
               });
               var Group_1991 = DIM_1991.group();
 
-              var DIM_2000 = facts.dimension(function(d){
+              var DIM_2000 = facts_Renda.dimension(function(d){
                 return d.H2000;
               });
 
               var Group_2000 = DIM_2000.group();
 
-              var DIM_2010 = facts.dimension(function(d){
+              var DIM_2010 = facts_Renda.dimension(function(d){
                 return d.H2010;
               });
 
@@ -513,8 +639,8 @@
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([0,1500]))
-              .elasticY(true)
-              //.y(d3.scale.linear().domain([1,100]));
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,40]));
               ;  
 
                his2Renda
@@ -527,28 +653,112 @@
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([0,1500]))
-              .elasticY(true)
-              //.y(d3.scale.linear().domain([1,100]));
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,40]));
               ;  
 
                his3Renda
               .width(300)
               .height(200)
-              .margins({top: 10, right: 10, bottom: 50, left:30})
+              .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_2010)
               .group(Group_2010)
               .transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([0,1500]))
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,40]));
+              ;  
+
+            });
+
+
+
+  </script>
+
+    <script type="text/javascript">
+
+  var his1POP = dc.barChart("#POPh1991");
+  var his2POP = dc.barChart("#POPh2000");
+  var his3POP = dc.barChart("#POPh2010");
+
+
+            d3.csv("data/AtlasPOP.csv", function (data) {
+              
+              data.forEach(function(d) {
+                d.H1991 = Math.floor(+d.Pop1991);
+                d.H2000 = Math.floor(+d.Pop2000);
+                d.H2010 = Math.floor(+d.Pop2010);
+
+            });
+          
+              var facts_POP = crossfilter(data);
+              var DIM_1991 = facts_POP.dimension(function(d){
+                  return d.H1991;
+              });
+              var Group_1991 = DIM_1991.group();
+
+              var DIM_2000 = facts_POP.dimension(function(d){
+                return d.H2000;
+              });
+
+              var Group_2000 = DIM_2000.group();
+
+              var DIM_2010 = facts_POP.dimension(function(d){
+                return d.H2010;
+              });
+
+              var Group_2010 = DIM_2010.group();
+
+
+              his1POP
+              .width(300)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:30})
+              .dimension(DIM_1991)
+              .group(Group_1991)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([0,1500000]))
               .elasticY(true)
-              //.y(d3.scale.linear().domain([1,100]));
+              //.y(d3.scale.linear().domain([1,40]));
+              ;  
+
+               his2POP
+              .width(300)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:30})
+              .dimension(DIM_2000)
+              .group(Group_2000)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([0,1500000]))
+              .elasticY(true)
+              //.y(d3.scale.linear().domain([1,40]));
+              ;  
+
+               his3POP
+              .width(300)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:30})
+              .dimension(DIM_2010)
+              .group(Group_2010)
+              .transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([0,1500000]))
+              .elasticY(true)
+              //.y(d3.scale.linear().domain([1,40]));
               ;  
 
 
               dc.renderAll();
-  
             });
+
+
 
   </script>
 
@@ -587,23 +797,23 @@
 
     function readq(error, br){
 
-      var x1 = mapBR(svg1991,width,height,path,rateByName1991,500,0, 1);
-      var x2 = mapBR(svg2000,width,height,path,rateByName2000,500,330, 1);
-      var x3 = mapBR(svg2010,width,height,path,rateByName2010,500,600, 1);
+      var x1 = mapBR(svg1991,width,height,path,rateByName1991,670,0, 1);
+      var x2 = mapBR(svg2000,width,height,path,rateByName2000,670,330, 1);
+      var x3 = mapBR(svg2010,width,height,path,rateByName2010,670,600, 1);
 
       svg1991 = x1(error,br);
       svg2000 = x2(error,br);
       svg2010 = x3(error,br);
 
 
-      d3.selectAll("select").on("change", function change() {
+      d3.select("#selectElementId").on("change", function change() {
 
         var e = document.getElementById("selectElementId");
         var strUser = e.options[e.selectedIndex].value;
 
-        svg1991 = changeColor(svg1991,rateByName1991,strUser);
-        svg2000 = changeColor(svg2000,rateByName2000,strUser);
-        svg2010 = changeColor(svg2010,rateByName2010,strUser);
+        svg1991 = changeColorIDH(svg1991,rateByName1991,strUser);
+        svg2000 = changeColorIDH(svg2000,rateByName2000,strUser);
+        svg2010 = changeColorIDH(svg2010,rateByName2010,strUser);
 
       });
     }
@@ -646,16 +856,29 @@
 
     function readq(error, br){
 
-      var x4 = mapBR(svg1991GINI,width,height,path,rateByName1991GINI, 1100, 0, 2);
-      var x5 = mapBR(svg2000GINI,width,height,path,rateByName2000GINI, 1100, 330, 2);
-      var x6 = mapBR(svg2010GINI,width,height,path,rateByName2010GINI, 1100,600, 2);
+      var x4 = mapBR(svg1991GINI,width,height,path,rateByName1991GINI, 1300, 0, 2);
+      var x5 = mapBR(svg2000GINI,width,height,path,rateByName2000GINI, 1300, 330, 2);
+      var x6 = mapBR(svg2010GINI,width,height,path,rateByName2010GINI, 1300,600, 2);
 
-      x4(error,br);
-      x5(error,br);
-      x6(error,br);
+      svg1991GINI = x4(error,br);
+      svg2000GINI = x5(error,br);
+      svg2010GINI = x6(error,br);
+
+      d3.select("#GINIselectElementId").on("change", function change() {
+
+        var e = document.getElementById("GINIselectElementId");
+        var strUser = e.options[e.selectedIndex].value;
+
+        svg1991GINI = changeColorGINI(svg1991GINI,rateByName1991GINI,strUser);
+        svg2000GINI = changeColorGINI(svg2000GINI,rateByName2000GINI,strUser);
+        svg2010GINI = changeColorGINI(svg2010GINI,rateByName2010GINI,strUser);
+
+      });
     }
 
 </script>
+
+
 
 <script>
 
@@ -692,17 +915,87 @@
 
     function readq(error, br){
 
-      var x1 = mapBR(svg1991RENDA,width,height,path,rateByName1991RENDA, 1600, 0,3);
-      var x2 = mapBR(svg2000RENDA,width,height,path,rateByName2000RENDA, 1600, 330,3);
-      var x3 = mapBR(svg2010RENDA,width,height,path,rateByName2010RENDA, 1600, 600,3);
+      var x1 = mapBR(svg1991RENDA,width,height,path,rateByName1991RENDA, 2050, 0,3);
+      var x2 = mapBR(svg2000RENDA,width,height,path,rateByName2000RENDA, 2050, 330,3);
+      var x3 = mapBR(svg2010RENDA,width,height,path,rateByName2010RENDA, 2050, 600,3);
 
-      x1(error,br);
-      x2(error,br);
-      x3(error,br);
+      svg1991RENDA = x1(error,br);
+      svg2000RENDA = x2(error,br);
+      svg2010RENDA = x3(error,br);
+
+      d3.select("#RendaselectElementId").on("change", function change() {
+
+        var e = document.getElementById("RendaselectElementId");
+        var strUser = e.options[e.selectedIndex].value;
+
+        svg1991RENDA = changeColorRENDA(svg1991RENDA,rateByName1991RENDA,strUser);
+        svg2000RENDA = changeColorRENDA(svg2000RENDA,rateByName2000RENDA,strUser);
+        svg2010RENDA = changeColorRENDA(svg2010RENDA,rateByName2010RENDA,strUser);
+
+      });
+
     }
     
 
 </script>
+
+<script>
+  
+   var projection = d3.geo.mercator()
+      .center([-10,-30])
+      .scale(375);
+
+  var path = d3.geo.path()
+      .projection(projection);
+
+  var svg1991POP = d3.select("#POPmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2000POP = d3.select("#POPmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2010POP = d3.select("#POPmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  queue()
+    .defer(d3.json, "mnmbr.json")
+    .defer(d3.csv, "data/AtlasPOP.csv", 
+      function(d) { 
+        rateByName1991POP.set(d.Espacialidades, +d.Pop1991);
+        rateByName2000POP.set(d.Espacialidades, +d.Pop2000);
+        rateByName2010POP.set(d.Espacialidades, +d.Pop2010); 
+      })
+    .await(readq);
+
+
+    function readq(error, br){
+
+      var x1 = mapBR(svg1991POP,width,height,path,rateByName1991POP, 2750, 0,4);
+      var x2 = mapBR(svg2000POP,width,height,path,rateByName2000POP, 2750, 330,4);
+      var x3 = mapBR(svg2010POP,width,height,path,rateByName2010POP, 2750, 600,4);
+
+      svg1991POP = x1(error,br);
+      svg2000POP = x2(error,br);
+      svg2010POP = x3(error,br);
+
+      //d3.select("#POPselectElementId").on("change", function change() {
+
+        //var e = document.getElementById("RendaselectElementId");
+        //var strUser = e.options[e.selectedIndex].value;
+
+       // svg1991POP = changeColorRENDA(svg1991POP,rateByName1991POP,strUser);
+       // svg2000POP = changeColorRENDA(svg2000POP,rateByName2000POP,strUser);
+       // svg2010POP = changeColorRENDA(svg2010POP,rateByName2010POP,strUser);
+
+      //});
+
+    }
+
+</script>
+
 
   </div>
 
