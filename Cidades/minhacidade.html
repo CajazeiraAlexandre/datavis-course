@@ -106,17 +106,15 @@
     <div id="myDiv"></div>
         <div id="ScPlot"></div>
 
-        <div id="Descricao"></div>
-        <!---aqui eu crio as divs para colocar os gráficos-->
-            
+         
             <script type="text/javascript" charset="utf-8">
             function changeFunc(){
                     var identificador = 0;
                       var select =  document.getElementById('selectElementId');
                       var selectValue = selectElementId.options[selectElementId.selectedIndex].value;
-                      //alert(selectValue);
-                      //console.log("Id da cidade selecionada");
-                     // console.log(selectValue);
+                      alert(selectValue);
+                      console.log("Id da cidade selecionada");
+                      console.log(selectValue);
                       var identificador = selectElementId.selectedIndex
                       var id = identificador-1;
                       console.log(id)
@@ -141,6 +139,17 @@
               let sum4 = Listgen.reduce((previous, current) => current += previous);
               let avgGen = (sum4 / Listgen.length).toFixed(2);
 
+
+
+              let sum5 = Listpop.reduce((previous, current) => current += previous);
+              let avgPop = (sum5 / Listpop.length).toFixed(2);
+
+
+
+              let sum6 = ListIDRAA.reduce((previous, current) => current += previous);
+              let avgIRAA = (sum6 / ListIDRAA.length).toFixed(2);
+  
+
                       //plot barChart
 
                       //Variaveis de Controle
@@ -162,6 +171,12 @@
                       var Vetpopul = []
                       Vetpopul.push(popul)
                       console.log(Vetpopul)
+
+                      var VetMediaPop = []
+                      VetMediaPop.push(avgPop)
+
+                      var VetMediaIDRAA=[]
+                      VetMediaIDRAA.push(avgIRAA)
 
                       var xValue = ['Agenda/Planejamento', 'Legislacao Administrativa ', 'Saude','Meio Ambiente','Politica de Genero'];
 
@@ -244,7 +259,22 @@
               marker: { size: 25}
             };
 
-            var data2 = [ trace11, trace22 ];
+            var trace33 = {
+              x: VetMediaIDRAA,
+              y: VetMediaPop,
+              mode: 'markers+text',
+              color:'rgba(200,23,23)',
+              type: 'scatter',
+              name: 'Brasil',
+              text: 'Brasil',
+              textfont : {
+                family:'Times New Roman'
+              },
+              textposition: 'bottom center',
+              marker: { size: 20}
+            };
+
+            var data2 = [ trace11, trace22,trace33 ];
 
             var layout2 = {
               xaxis: {
@@ -253,6 +283,7 @@
               yaxis: {
                 range: [-10000, 12000000]
               },
+              showlegend: true,
               legend: {
                 y: 0.5,
                 yref: 'paper',
@@ -262,7 +293,7 @@
                   color: 'grey',
                 }
               },
-              title: 'Analise Indice IRAA X Populacao do Municipio '+ nomeCidade
+              title: 'Analise Populacao X  Indice IRAA Populacao do Municipio '+ nomeCidade
             };
 
             Plotly.newPlot('ScPlot', data2, layout2);
@@ -284,12 +315,6 @@
             var Listgen=[]
             var Listpop =[]
             var ListIDRAA = []
-            
-            var ListSexo = []
-            var ListIdade = []
-            var ListEsc = []
-            var ListPartidos = []
-            var ListRegiao = []
 
             var Listvalores = []
             var select = document.getElementById("selectCidade");
@@ -309,29 +334,24 @@
                         PolGen = +d.polgen; 
                         Populacao = +d.pop; 
                         IDARA = +d.ida;
-                        G_Sexo = +d.sexo;
-                        G_Idade = +d.idade;
-                        G_Esc = d.escolaridade;
-                        G_Part = d.partido;
-                        G_regiao = d.regiao;
-
-                      ListSexo.push(G_Sexo);
-                      ListIdade.push(G_Idade);
-                      ListEsc.push(G_Esc);
-                      ListPartidos.push(G_Part);
-                      ListRegiao.push(G_regiao);
-
                       Listplan.push(Planejamento);
                       Listorca.push(Organizacao);
                       Listsaude.push(Saude);
                       Listamb.push(MeioAmb);
                       Listgen.push(PolGen);
-                      Listpop.push(Populacao);
-                      ListIDRAA.push(IDARA);
+                  Listpop.push(Populacao);
+                  ListIDRAA.push(IDARA);
 
                       }) 
 
-                      
+                        //var k =11;
+                    //console.log(Listnomes[k]);
+                    //calcular as médias
+
+            
+
+
+
 
                     var tam  = Listnomes.length
                     var select =  document.getElementById('selectElementId');
@@ -353,6 +373,7 @@
                 .get(function(error,rows){console.log(rows[0].nome);});
                     
             </script>
+            
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
