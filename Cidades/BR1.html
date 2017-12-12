@@ -104,21 +104,21 @@
       top: 1850px;
     }
 
-    #POPAmap1991{
+    #POPmap1991{
       position: absolute;
       margin-left: 30px;
-      top: 2500px;
+      top: 2600px;
     }
     #POPmap2000{
       position: absolute;
       margin-left: 370px;
 
-      top: 2500px;
+      top: 2600px;
     }
     #POPmap2010{
       position: absolute;
       margin-left: 700px;
-      top: 2500px;
+      top: 2600px;
     }
 
 
@@ -136,7 +136,7 @@
     }
 
     #Leg_POP{
-      margin-top: 150px;
+      margin-top: 450px;
     }
 
     #IDHh1991{
@@ -205,7 +205,7 @@
       margin-top: 250px;
     }
 
-
+  
   
   </style>
 </head>
@@ -240,13 +240,16 @@
       <p>Historicamente algumas regiões brasileiras evoluem de maneira desproporcional, seja em fatores econômicos, tecnológicos ou sociais. Partindo desta premissa, essa visualização apresenta nitidamente a má distribuição geográfica da evolução ao longo das últimas décadas de indicadores relacionados à qualidade de vida, distribuição de renda e poder aquisitivo nos municípios brasileiros. </p> 
       <p>Para isso, apresentamos mapas referentes aos anos de 1991, 2000 e 2010 para cada indicador, organizados lado a lado, com escalar comum. Construímos também histogramas que demonstram a distribuição geral destes indicadores. Selecionamos IDHM, GINI, Renda per capita e População dos municípios. Demonstrando a qualidade de vida, concentração de renda, renda média e distribuição demográfica. </p> 
     
-   <div id= "IDHh1991"></div>
-    <div id= "IDHh2000"></div>
-    <div id= "IDHh2010"></div>
+  
 
    <div id="IDHmap1991"><h4>IDHM 1991</h4></div>
    <div id="IDHmap2000"><h4>IDHM 2000</h4></div>
    <div id="IDHmap2010"><h4>IDHM 2010</h4></div>
+
+    <div id= "IDHh1991"></div>
+    <div id= "IDHh2000"></div>
+    <div id= "IDHh2010"></div>
+
    <br />
  
 
@@ -267,13 +270,17 @@
   
 
 
-<div id= "GINIh1991"></div>
-  <div id= "GINIh2000"></div>
-  <div id= "GINIh2010"></div>
+
 
  <div id="GINImap1991"><h4>GINI 1991</h4></div>
  <div id="GINImap2000"><h4>GINI 2000</h4></div>
  <div id="GINImap2010"><h4>GINI 2010</h4></div>
+
+ <div id= "GINIh1991"></div>
+  <div id= "GINIh2000"></div>
+  <div id= "GINIh2010"></div>
+
+
  <br />
  
  <div id = "Leg_GINI">
@@ -296,13 +303,15 @@
 
 <br />
 
- <div id= "Rendah1991"></div>
-  <div id= "Rendah2000"></div>
-  <div id= "Rendah2010"></div>
+  
 
  <div id="RENDAmap1991"><h4>Renda pc 1991</h4></div>
  <div id="RENDAmap2000"><h4>Renda pc 2000</h4></div>
  <div id="RENDAmap2010"><h4>Renda pc 2010</h4></div>
+
+ <div id= "Rendah1991"></div>
+  <div id= "Rendah2000"></div>
+  <div id= "Rendah2010"></div>
 
 <div id = "Leg_Renda">
 
@@ -324,14 +333,13 @@
 
 <br />
 
-<div id= "POPh1991"></div>
-<div id= "POPh2000"></div>
-<div id= "POPh2010"></div>
+ <div id="POPmap1991"><h4>Renda pc 1991</h4></div>
+ <div id="POPmap2000"><h4>Renda pc 2000</h4></div>
+ <div id="POPmap2010"><h4>Renda pc 2010</h4></div>
 
-
- <div id="POPmap1991"><h4>População 1991</h4></div>
- <div id="POPmap2000"><h4>População 2000</h4></div>
- <div id="POPmap2010"><h4>População 2010</h4></div>
+ <div id= "POPh1991"></div>
+  <div id= "POPh2000"></div>
+  <div id= "POPh2010"></div>
 
 <div id = "Leg_POP">
 
@@ -347,12 +355,8 @@
     <option id = "I7" value=">1"> >1 M</option>
   </select>
 
-   <p> <h3>Distribuição demográfica</h3> Segundo o <a href="http://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28&Itemid=23">IPEA</a>, "O Índice de Gini, criado pelo matemático italiano Conrado Gini, é um instrumento para medir o grau de concentração de renda em determinado grupo.Ele aponta a diferença entre os rendimentos dos mais pobres e dos mais ricos. Numericamente, varia de zero a um (alguns apresentam de zero a cem). O valor zero representa a situação de igualdade, ou seja, todos têm a mesma renda. O valor um (ou cem) está no extremo oposto, isto é, uma só pessoa detém toda a riqueza. Na prática, o Índice de Gini costuma comparar os 20% mais pobres com os 20% mais ricos" Saiba mais <a href="https://pt.wikipedia.org/wiki/Coeficiente_de_Gini">aqui</a>.</p> 
-   <p> Segundo o <a href="http://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28&Itemid=23">IPEA</a>, "O Índice de Gini, criado pelo matemático italiano Conrado Gini, é um instrumento para medir o grau de concentração de renda em determinado grupo.Ele aponta a diferença entre os rendimentos dos mais pobres e dos mais ricos. Numericamente, varia de zero a um (alguns apresentam de zero a cem). O valor zero representa a situação de igualdade, ou seja, todos têm a mesma renda. O valor um (ou cem) está no extremo oposto, isto é, uma só pessoa detém toda a riqueza. Na prática, o Índice de Gini costuma comparar os 20% mais pobres com os 20% mais ricos" Saiba mais <a href="https://pt.wikipedia.org/wiki/Coeficiente_de_Gini">aqui</a>.</p> 
-
+   <p> <h3>Distribuição demográfica</h3> Esta visualização apresenta a distribuição populacional dos municípios brasileiros, agrupados segundo as métricas do IBGE. É possível observar, através destes mapas, as cidades com grandes concentrações populacionais e relacioná-las aos índices apresentados anteriormente. </p>
     </div>
-
-
 
 
     <div id="tooltip" class="hidden">
@@ -417,9 +421,13 @@
 </script>
 
 <script type="text/javascript">
+
+
   var his1 = dc.barChart("#IDHh1991");
   var his2 = dc.barChart("#IDHh2000");
   var his3 = dc.barChart("#IDHh2010");
+
+
             d3.csv("data/AtlasIDHM1991.csv", function (data) {
               
               data.forEach(function(d) {
@@ -437,7 +445,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:20})
               .dimension(IDHDimention)
               .group(IDHGroup)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([1,100]))
@@ -462,7 +470,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:20})
               .dimension(IDH2000Dimention)
               .group(IDH2000Group)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([1,100]))
@@ -487,7 +495,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(IDH2010Dimention)
               .group(IDH2010Group)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([1,100]))
@@ -527,7 +535,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_1991)
               .group(Group_1991)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([1,100]))
@@ -540,7 +548,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_2000)
               .group(Group_2000)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([1,100]))
@@ -553,7 +561,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_2010)
               .group(Group_2010)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([1,100]))
@@ -595,7 +603,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_1991)
               .group(Group_1991)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([0,1500]))
@@ -608,7 +616,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_2000)
               .group(Group_2000)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([0,1500]))
@@ -621,7 +629,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_2010)
               .group(Group_2010)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([0,1500]))
@@ -662,7 +670,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_1991)
               .group(Group_1991)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([0,1500000]))
@@ -675,7 +683,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_2000)
               .group(Group_2000)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([0,1500000]))
@@ -688,7 +696,7 @@
               .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_2010)
               .group(Group_2010)
-              .transitionDuration(500)
+              //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
               .x(d3.scale.linear().domain([0,1500000]))
@@ -909,9 +917,9 @@
 
     function readq(error, br){
 
-      var x1 = mapBR(svg1991POP,width,height,path,rateByName1991POP, 2750, 0,4);
-      var x2 = mapBR(svg2000POP,width,height,path,rateByName2000POP, 2750, 330,4);
-      var x3 = mapBR(svg2010POP,width,height,path,rateByName2010POP, 2750, 600,4);
+      var x1 = mapBR(svg1991POP,width,height,path,rateByName1991POP, 2800, 0,4);
+      var x2 = mapBR(svg2000POP,width,height,path,rateByName2000POP, 2800, 330,4);
+      var x3 = mapBR(svg2010POP,width,height,path,rateByName2010POP, 2800, 600,4);
 
       svg1991POP = x1(error,br);
       svg2000POP = x2(error,br);

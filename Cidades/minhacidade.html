@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Visão geral</title>
+  <title>Minha Cidade</title>
 
             <link  rel="stylesheet" href="css/starter-template.css">
             <link rel="stylesheet" href="css/dc.css">
@@ -103,111 +103,185 @@
         <select id="selectElementId" onchange="changeFunc()";>
         <option>Selecione uma Cidade</option>
         </select>
-        <div id="myDiv"></div>
+    <div id="myDiv"></div>
+        <div id="ScPlot"></div>
         <!---aqui eu crio as divs para colocar os gráficos-->
             
             <script type="text/javascript" charset="utf-8">
             function changeFunc(){
-            				var identificador = 0;
-                			var select =  document.getElementById('selectElementId');
-                			var selectValue = selectElementId.options[selectElementId.selectedIndex].value;
-                			//alert(selectValue);
-                			//console.log("Id da cidade selecionada");
-                			//console.log(selectValue);
-                			var identificador = selectElementId.selectedIndex
-                			var id = identificador-1;
-                			//console.log(id)
+                    var identificador = 0;
+                      var select =  document.getElementById('selectElementId');
+                      var selectValue = selectElementId.options[selectElementId.selectedIndex].value;
+                      //alert(selectValue);
+                      //console.log("Id da cidade selecionada");
+                     // console.log(selectValue);
+                      var identificador = selectElementId.selectedIndex
+                      var id = identificador-1;
+                      console.log(id)
 
 
-                			//variaveis 
-                			let sum = Listplan.reduce((previous, current) => current += previous);
-							let avgPlan = (sum / Listplan.length).toFixed(2);
+                      //variaveis 
+                      let sum = Listplan.reduce((previous, current) => current += previous);
+              let avgPlan = (sum / Listplan.length).toFixed(2);
 
-							let sum1 = Listorca.reduce((previous, current) => current += previous);
-							let avgOrg = (sum1 / Listorca.length).toFixed(2);
-							
+              let sum1 = Listorca.reduce((previous, current) => current += previous);
+              let avgOrg = (sum1 / Listorca.length).toFixed(2);
+              
 
-							let sum2 = Listsaude.reduce((previous, current) => current += previous);
-							let avgSaude = (sum2 / Listsaude.length).toFixed(2);
-							
+              let sum2 = Listsaude.reduce((previous, current) => current += previous);
+              let avgSaude = (sum2 / Listsaude.length).toFixed(2);
+              
 
-							let sum3 = Listamb.reduce((previous, current) => current += previous);
-							let avgAmb = (sum3 / Listamb.length).toFixed(2);
-							
+              let sum3 = Listamb.reduce((previous, current) => current += previous);
+              let avgAmb = (sum3 / Listamb.length).toFixed(2);
+              
 
-							let sum4 = Listgen.reduce((previous, current) => current += previous);
-							let avgGen = (sum4 / Listgen.length).toFixed(2);
+              let sum4 = Listgen.reduce((previous, current) => current += previous);
+              let avgGen = (sum4 / Listgen.length).toFixed(2);
 
-                			//plot barChart
-                			var nomeCidade = Listnomes[id]
+                      //plot barChart
 
-                			var xValue = ['Agenda/Planejamento', 'Legislacao Administrativa ', 'Saude','Meio Ambiente','Politica de Genero'];
-
-							var yValue = [Listplan[id], Listorca[id], Listsaude[id],Listamb[id],Listgen[id]];
-							
-
-							var yValue2 = [avgPlan, avgOrg, avgSaude,avgAmb,avgGen];
-
-							var trace1 = {
-							  x: xValue,
-							  y: yValue,
-							  name: nomeCidade,
-							  type: 'bar',
-							  text: yValue,
-							  textposition: 'auto',
-							  hoverinfo: 'none',
-							  opacity: 0.5,
-							  marker: {
-							    color: 'rgb(158,202,225)',
-							    line: {
-							      color: 'rbg(8,48,107)',
-							      width: 1.5
-							    }
-							  }
-							};
-
-							var trace2 = {
-							  x: xValue,
-							  y: yValue2,
-							  name: 'Brasil',
-							  type: 'bar',
-							  text: yValue2,
-							  textposition: 'auto',
-							  hoverinfo: 'none',
-							  marker: {
-							    color: 'rgba(58,200,225,.5)',
-							    line: {
-							      color: 'rbg(8,48,107)',
-							      width: 1.5
-							    }
-							  }
-							};
-
-							var data = [trace1,trace2];
-							var layout = {
-							  title: 'Analise da cidade '+ nomeCidade
-							};
-
-							Plotly.newPlot('myDiv', data, layout);
+                      //Variaveis de Controle
+                      var nomeCidade = Listnomes[id]
+                      var Vetnome = []
+                      Vetnome.push(nomeCidade)
+                      console.log(Vetnome)
+                      console.log(nomeCidade)
 
 
+                      var indice = ListIDRAA[id]
+                      console.log(indice)
+                      var Vetindice = []
+                      Vetindice.push(indice)
+                      console.log(Vetindice)
 
-                			};
-                			d3.csv("data/dataMunInds.csv")
-                					.row(function(d){return{codigo: +d.cod,nome: d.nome,Planejamento:+d.plan,  Organizacao: +d.legis,Saude: +d.saude,Ambiente: +d.meioamb,Genero: +d.polgen,Populacao:+d.pop,IDRAA: +d.ida};})
-                					.get(function(error,rows){console.log(rows[0].Genero);});
+                      var popul = Listpop[id]
+                      console.log(popul)
+                      var Vetpopul = []
+                      Vetpopul.push(popul)
+                      console.log(Vetpopul)
+
+                      var xValue = ['Agenda/Planejamento', 'Legislacao Administrativa ', 'Saude','Meio Ambiente','Politica de Genero'];
+
+              var yValue = [Listplan[id], Listorca[id], Listsaude[id],Listamb[id],Listgen[id]];
+              
+
+              var yValue2 = [avgPlan, avgOrg, avgSaude,avgAmb,avgGen];
+
+              var trace1 = {
+                x: xValue,
+                y: yValue,
+                name: nomeCidade,
+                type: 'bar',
+                text: yValue,
+                textposition: 'auto',
+                hoverinfo: 'none',
+                opacity: 0.5,
+                marker: {
+                  color: 'rgb(158,202,225)',
+                  line: {
+                    color: 'rbg(8,48,107)',
+                    width: 1.5
+                  }
+                }
+              };
+
+              var trace2 = {
+                x: xValue,
+                y: yValue2,
+                name: 'Brasil',
+                type: 'bar',
+                text: yValue2,
+                textposition: 'auto',
+                hoverinfo: 'none',
+                marker: {
+                  color: 'rgba(58,200,225,.5)',
+                  line: {
+                    color: 'rbg(8,48,107)',
+                    width: 1.5
+                  }
+                }
+              };
+
+              var data = [trace1,trace2];
+              var layout = {
+                title: 'Analise do Municipio '+ nomeCidade
+              };
+
+              Plotly.newPlot('myDiv', data, layout);
+
+            //scatterplot2
+
+              var trace11 = {
+              x: ListIDRAA,
+              y: Listpop,
+              mode: 'markers',
+              type: 'scatter',
+              color:'rgba(140,23,23)',
+              name: 'Municipios Brasileiros',
+              text: Listnomes,
+              textposition: 'top center',
+              textfont: {
+                family:  'Raleway, sans-serif'
+              },
+              marker: { size: 9 }
+            };
+
+            var trace22 = {
+              x: Vetindice,
+              y: Vetpopul,
+              mode: 'markers+text',
+              color:'rgba(70,23,23)',
+              type: 'scatter',
+              name: Vetnome[0],
+              text: Vetnome,
+              textfont : {
+                family:'Times New Roman'
+              },
+              textposition: 'bottom center',
+              marker: { size: 25}
+            };
+
+            var data2 = [ trace11, trace22 ];
+
+            var layout2 = {
+              xaxis: {
+                range: [ -50, 50 ]
+              },
+              yaxis: {
+                range: [-10000, 12000000]
+              },
+              legend: {
+                y: 0.5,
+                yref: 'paper',
+                font: {
+                  family: 'Arial, sans-serif',
+                  size: 20,
+                  color: 'grey',
+                }
+              },
+              title: 'Analise Indice IRAA X Populacao do Municipio '+ nomeCidade
+            };
+
+            Plotly.newPlot('ScPlot', data2, layout2);
+
+
+                      };
+                      d3.csv("data/dataMunInds.csv")
+                          .row(function(d){return{codigo: +d.cod,nome: d.nome,Planejamento:+d.plan,  Organizacao: +d.legis,Saude: +d.saude,Ambiente: +d.meioamb,Genero: +d.polgen,Populacao:+d.pop,IDRAA: +d.ida};})
+                          .get(function(error,rows){console.log(rows[0].Genero);});                                             
 
 
 
-                					//GO HORSE PROGRAMING 
+                          //GO HORSE PROGRAMING 
             var Listnomes = []
             var Listplan = []
-           	var Listorca = []
-           	var Listsaude = []
-           	var Listamb = []
-           	var Listgen=[]
-           	var Listpop =[]
-           	var ListIDRAA = []
+            var Listorca = []
+            var Listsaude = []
+            var Listamb = []
+            var Listgen=[]
+            var Listpop =[]
+            var ListIDRAA = []
 
             var Listvalores = []
             var select = document.getElementById("selectCidade");
@@ -227,36 +301,29 @@
                         PolGen = +d.polgen; 
                         Populacao = +d.pop; 
                         IDARA = +d.ida;
-                   		Listplan.push(Planejamento);
-                   		Listorca.push(Organizacao);
-                   		Listsaude.push(Saude);
-                   		Listamb.push(MeioAmb);
-                   		Listgen.push(PolGen);
-           				Listpop.push(Populacao);
-           				ListIDRAA.push(IDARA);
+                      Listplan.push(Planejamento);
+                      Listorca.push(Organizacao);
+                      Listsaude.push(Saude);
+                      Listamb.push(MeioAmb);
+                      Listgen.push(PolGen);
+                  Listpop.push(Populacao);
+                  ListIDRAA.push(IDARA);
 
-                   		}) 
+                      }) 
 
-                        //var k =11;
-                		//console.log(Listnomes[k]);
-                		//calcular as médias
+                      
 
-						
-
-
-
-
-                		var tam  = Listnomes.length
-		                var select =  document.getElementById('selectElementId');
-		                var option = select.options[select.selectedIndex].id;
-		                for(var i = 0; i<=tam ;i++){
-		                	//console.log(Listnomes[i]);
-		                	var opt = document.createElement('option');
-		                	opt.value= Listnomes[i] ;
-		                	opt.innerHTML= Listnomes[i];
-		                	select.appendChild(opt);
-		                };
-		                console.log(Saude);       
+                    var tam  = Listnomes.length
+                    var select =  document.getElementById('selectElementId');
+                    var option = select.options[select.selectedIndex].id;
+                    for(var i = 0; i<=tam ;i++){
+                      //console.log(Listnomes[i]);
+                      var opt = document.createElement('option');
+                      opt.value= Listnomes[i] ;
+                      opt.innerHTML= Listnomes[i];
+                      select.appendChild(opt);
+                    };
+                    console.log(Saude);       
 
 
             });
@@ -266,6 +333,11 @@
                 .get(function(error,rows){console.log(rows[0].nome);});
                     
             </script>
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+             <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
