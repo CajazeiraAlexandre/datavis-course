@@ -104,6 +104,24 @@
       top: 1850px;
     }
 
+    #POPmap1991{
+      position: absolute;
+      margin-left: 30px;
+      top: 2600px;
+    }
+    #POPmap2000{
+      position: absolute;
+      margin-left: 370px;
+
+      top: 2600px;
+    }
+    #POPmap2010{
+      position: absolute;
+      margin-left: 700px;
+      top: 2600px;
+    }
+
+
 
     #Leg_IDH{
       margin-top: 450px;
@@ -117,6 +135,9 @@
       margin-top: 500px;
     }
 
+    #Leg_POP{
+      margin-top: 450px;
+    }
 
     #IDHh1991{
       position: absolute;
@@ -166,47 +187,26 @@
       margin-left: 700px;
       margin-top: 250px;
     }
-     #EDUmap1991{
-      position: absolute;
-      margin-left: 30px;
-      top: 2600px;
-    }
-    #EDUmap2000{
-      position: absolute;
-      margin-left: 370px;
 
-      top: 2600px;
-    }
-    #EDUmap2010{
-      position: absolute;
-      margin-left: 700px;
-      top: 2600px;
-    }
-
-
-    #Leg_EDU{
-      margin-top: 450px;
-    }
-
-   #EDUh1991{
+      #POPh1991{
       position: absolute;
       margin-top: 250px;
     }
 
-     #EDUh2000{
+     #POPh2000{
       position: absolute;
       margin-left: 350px;
       margin-top: 250px;
     }
 
-    #EDUh2010{
+    #POPh2010{
       position: absolute;
       margin-left: 700px;
       margin-top: 250px;
     }
 
-
-
+  
+  
   </style>
 </head>
 <body>
@@ -249,7 +249,8 @@
     <div id= "IDHh1991"></div>
     <div id= "IDHh2000"></div>
     <div id= "IDHh2010"></div>
-    <div id= "legendIDH"></div>
+    <div id= "legendIDH"></div>>
+
    <br />
  
 
@@ -277,9 +278,11 @@
  <div id="GINImap2010"><h4>GINI 2010</h4></div>
 
  <div id= "GINIh1991"></div>
-  <div id= "GINIh2000"></div>
-  <div id= "GINIh2010"></div>
+ <div id= "GINIh2000"></div>
+ <div id= "GINIh2010"></div>
  <div id= "legendGINI"></div>>
+
+
 
  <br />
  
@@ -301,7 +304,6 @@
     </div>
   
 
-
 <br />
 
   
@@ -311,9 +313,10 @@
  <div id="RENDAmap2010"><h4>Renda pc 2010</h4></div>
 
  <div id= "Rendah1991"></div>
-  <div id= "Rendah2000"></div>
-  <div id= "Rendah2010"></div>
-<div id= "legendRENDA"></div>>
+ <div id= "Rendah2000"></div>
+ <div id= "Rendah2010"></div>
+ <div id= "legendRENDA"></div>>
+
 
 <div id = "Leg_Renda">
 
@@ -335,32 +338,30 @@
 
 <br />
 
-  
+ <div id="POPmap1991"><h4>Renda pc 1991</h4></div>
+ <div id="POPmap2000"><h4>Renda pc 2000</h4></div>
+ <div id="POPmap2010"><h4>Renda pc 2010</h4></div>
 
- <div id="EDUmap1991"><h4>Expectativa Estudo 1991</h4></div>
- <div id="EDUmap2000"><h4>Expectativa Estudo 2000</h4></div>
- <div id="EDUmap2010"><h4>Expectativa Estudo 2010</h4></div>
+ <div id= "POPh1991"></div>
+  <div id= "POPh2000"></div>
+  <div id= "POPh2010"></div>
 
- <div id= "EDUh1991"></div>
-  <div id= "EDUh2000"></div>
-  <div id= "EDUh2010"></div>
-<div id= "legendEDU"></div>>
+<div id = "Leg_POP">
 
-<div id = "Leg_EDU">
-
- <select id="EDUselectElementId">
+ <select id="POPselectElementId">
     <option id = "S" value="start" selected="selected">-------</option>
-    <option id = "I1" value="0-2">0..2.5</option>
-    <option id = "I2" value="2-5">2.5..5</option>
-    <option id = "I3" value="5-7">5..7.5</option>
-    <option id = "I4" value="7-10">7.5..10</option>
-    <option id = "I4" value=">10"> >10</option>
+    <option id = "I1" value="0-5">0..5k</option>
+    <option id = "I2" value="5-10">5 .. 10 mil</option>
+    <option id = "I3" value="10-20">10..20 mil</option>
+    <option id = "I4" value="20-50">20..50 mil</option>
+    <option id = "I4" value="50-100"> 50 .. 100 mil</option>
+    <option id = "I5" value="100-500"> 100 .. 500 mil</option>
+    <option id = "I6" value="500-1"> 500 mil .. 1 M</option>
+    <option id = "I7" value=">1"> >1 M</option>
   </select>
 
-   <p> <h3>Evolução da Expectativa de tempo de escolaridade</h3> A renda per capita ou rendimento per capita é um indicador que ajuda a medir o grau de desenvolvimento econômico de um país ou região. A renda per capita é obtida mediante a divisão da Renda Nacional (isto é, Produto Nacional Bruto menos os gastos de depreciação do capital e os impostos diretos) pelo número de habitantes do país. Por vezes o Produto Interno Bruto (PIB) é usado.</p> 
-    
+   <p> <h3>Distribuição demográfica</h3> Esta visualização apresenta a distribuição populacional dos municípios brasileiros, agrupados segundo as métricas do IBGE. É possível observar, através destes mapas, as cidades com grandes concentrações populacionais e relacioná-las aos índices apresentados anteriormente. </p>
     </div>
-
 
 
     <div id="tooltip" class="hidden">
@@ -373,9 +374,8 @@
   <script src="js/filterIDH.js"></script>
   <script src="js/filterGINI.js"></script>
   <script src="js/filterRENDA.js"></script>
-  <script src="js/filterEDU.js"></script>
+  <script src="js/filterPOP.js"></script>
   <script src="js/legend.js"></script>
-
 
 <script>
 
@@ -399,12 +399,11 @@
     .domain([0,250,500,750,1500, 2000])
     .range(RendabrewerColors);
 
-  let EDUbrewerColors = colorbrewer.Blues[4];
-  let EDUquantize = d3.scale.linear()
-    .domain([0,2.5,5,7.5,10])
-    .range(EDUbrewerColors);
 
-
+  let POPbrewerColors = colorbrewer.Blues[7];
+  let POPquantize = d3.scale.linear()
+    .domain([0,5000,10000,20000,50000, 100000, 500000, 1000000])
+    .range(RendabrewerColors);
 
 
   var rateByName1991 = d3.map();
@@ -420,11 +419,9 @@
   var rateByName2000RENDA = d3.map();
   var rateByName2010RENDA = d3.map();
 
-  var rateByName1991EDU = d3.map();
-  var rateByName2000EDU = d3.map();
-  var rateByName2010EDU = d3.map();
-
-
+  var rateByName1991POP = d3.map();
+  var rateByName2000POP = d3.map();
+  var rateByName2010POP = d3.map();
 
 
 </script>
@@ -644,78 +641,78 @@
               .x(d3.scale.linear().domain([0,1500]))
               //.elasticY(true)
               .y(d3.scale.linear().domain([1,40]));
-              
-
+              ;  
             });
   </script>
 
-  <script type="text/javascript">
-  var his1EDU = dc.barChart("#EDUh1991");
-  var his2EDU = dc.barChart("#EDUh2000");
-  var his3EDU = dc.barChart("#EDUh2010");
-            d3.csv("data/AtlasEDU.csv", function (data) {
+    <script type="text/javascript">
+  var his1POP = dc.barChart("#POPh1991");
+  var his2POP = dc.barChart("#POPh2000");
+  var his3POP = dc.barChart("#POPh2010");
+            d3.csv("data/AtlasPOP.csv", function (data) {
               
               data.forEach(function(d) {
-                d.H1991 = Math.floor(+d.ExpectativaDeAnosDeEstudo1991);//(+d.Renda1991);
-                d.H2000 = Math.floor(+d.ExpectativaDeAnosDeEstudo2000);
-                d.H2010 = Math.floor(+d.ExpectativaDeAnosDeEstudo2010);
+                d.H1991 = Math.floor(+d.Pop1991);
+                d.H2000 = Math.floor(+d.Pop2000);
+                d.H2010 = Math.floor(+d.Pop2010);
             });
           
-              var facts_EDU = crossfilter(data);
-              var DIM_1991 = facts_EDU.dimension(function(d){
+              var facts_POP = crossfilter(data);
+              var DIM_1991 = facts_POP.dimension(function(d){
                   return d.H1991;
               });
               var Group_1991 = DIM_1991.group();
-              var DIM_2000 = facts_EDU.dimension(function(d){
+              var DIM_2000 = facts_POP.dimension(function(d){
                 return d.H2000;
               });
               var Group_2000 = DIM_2000.group();
-              var DIM_2010 = facts_EDU.dimension(function(d){
+              var DIM_2010 = facts_POP.dimension(function(d){
                 return d.H2010;
               });
               var Group_2010 = DIM_2010.group();
-              his1EDU
+              his1POP
               .width(300)
               .height(200)
-              .margins({top: 10, right: 10, bottom: 30, left:40})
+              .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_1991)
               .group(Group_1991)
               //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
-              .x(d3.scale.linear().domain([0,20]))
-              //.elasticY(true)
-              .y(d3.scale.linear().domain([1,2000]));
-
-               his2EDU
+              .x(d3.scale.linear().domain([0,1500000]))
+              .elasticY(true)
+              //.y(d3.scale.linear().domain([1,40]));
+              ;  
+               his2POP
               .width(300)
               .height(200)
-              .margins({top: 10, right: 10, bottom: 30, left:40})
+              .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_2000)
               .group(Group_2000)
               //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
-              .x(d3.scale.linear().domain([0,20]))
-              //.elasticY(true)
-              .y(d3.scale.linear().domain([1,2000]));
-
-               his3EDU
+              .x(d3.scale.linear().domain([0,1500000]))
+              .elasticY(true)
+              //.y(d3.scale.linear().domain([1,40]));
+              ;  
+               his3POP
               .width(300)
               .height(200)
-              .margins({top: 10, right: 10, bottom: 30, left:40})
+              .margins({top: 10, right: 10, bottom: 30, left:30})
               .dimension(DIM_2010)
               .group(Group_2010)
               //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
-              .x(d3.scale.linear().domain([0,20]))
-              //.elasticY(true)
-              .y(d3.scale.linear().domain([1,2000]));
-              
-              dc.renderAll();  
+              .x(d3.scale.linear().domain([0,1500000]))
+              .elasticY(true)
+              //.y(d3.scale.linear().domain([1,40]));
+              ;  
+              dc.renderAll();
             });
   </script>
+
 
 
 <script>
@@ -774,7 +771,7 @@
     var legend_labels = ["IDH < 0.5", "0.5 < IDH <= 0.6", "0.6 < IDH <= 0.7", "0.7 < IDH <= 0.8", "IDH > 0.8"];     
     var text_color_domain = [0.5, 0.6, 0.7, 0.8, 1.0];
 
-    var svgLegendIDH = d3.select("body").append("svg")
+    var svgLegendIDH = d3.select("#legendIDH").append("svg")
       .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
@@ -842,7 +839,7 @@
     var legend_labels = ["GINI < 0.25", "0.25 < GINI <= 0.5", "0.5 < GINI <= 0.75", "0.75 < GINI <= 1.0"];     
     var text_color_domain = [0.25, 0.5, 0.75, 1.0]; 
 
-    var svgLegendGINI = d3.select("body").append("svg")
+    var svgLegendGINI = d3.select("#legendGINI").append("svg")
       .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
@@ -909,10 +906,10 @@
 
     }
 
-    var legend_labels = ["R < 250", "0.25 < R <= 500", "500 < R <= 0.75", "750 < R <= 1000", "R > 1000"];     
+    var legend_labels = ["R < 250", "0.25 < R <= 500", "500 < GINI <= 0.75", "750 < GINI <= 1000", "R > 1000"];     
     var text_color_domain = [250, 500, 750, 1500, 2000];
 
-    var svgLegendRENDA = d3.select("body").append("svg")
+    var svgLegendRENDA = d3.select("#legendRENDA").append("svg")
       .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
@@ -922,75 +919,65 @@
 
 </script>
 
-
 <script>
-
- 
-  var projection = d3.geo.mercator()
+  
+   var projection = d3.geo.mercator()
       .center([-10,-30])
       .scale(375);
 
   var path = d3.geo.path()
       .projection(projection);
 
-  var svg1991EDU = d3.select("#EDUmap1991").append("svg")
+  var svg1991POP = d3.select("#POPmap1991").append("svg")
       .attr("width", width)
       .attr("height", height);
 
-  var svg2000EDU = d3.select("#EDUmap1991").append("svg")
+  var svg2000POP = d3.select("#POPmap1991").append("svg")
       .attr("width", width)
       .attr("height", height);
 
-  var svg2010EDU = d3.select("#EDUmap1991").append("svg")
+  var svg2010POP = d3.select("#POPmap1991").append("svg")
       .attr("width", width)
       .attr("height", height);
 
   queue()
     .defer(d3.json, "mnmbr.json")
-    .defer(d3.csv, "data/AtlasEDU.csv", 
+    .defer(d3.csv, "data/AtlasPOP.csv", 
       function(d) { 
-        rateByName1991EDU.set(d.Espacialidades, +d.ExpectativaDeAnosDeEstudo1991);
-        rateByName2000EDU.set(d.Espacialidades, +d.ExpectativaDeAnosDeEstudo2000);
-        rateByName2010EDU.set(d.Espacialidades, +d.ExpectativaDeAnosDeEstudo2010); 
+        rateByName1991POP.set(d.Espacialidades, +d.Pop1991);
+        rateByName2000POP.set(d.Espacialidades, +d.Pop2000);
+        rateByName2010POP.set(d.Espacialidades, +d.Pop2010); 
       })
     .await(readq);
 
 
     function readq(error, br){
 
-      var x1 = mapBR(svg1991EDU,width,height,path,rateByName1991EDU, 2750, 0,4);
-      var x2 = mapBR(svg2000EDU,width,height,path,rateByName2000EDU, 2750, 330,4);
-      var x3 = mapBR(svg2010EDU,width,height,path,rateByName2010EDU, 2750, 600,4);
+      var x1 = mapBR(svg1991POP,width,height,path,rateByName1991POP, 2800, 0,4);
+      var x2 = mapBR(svg2000POP,width,height,path,rateByName2000POP, 2800, 330,4);
+      var x3 = mapBR(svg2010POP,width,height,path,rateByName2010POP, 2800, 600,4);
 
-      svg1991EDU = x1(error,br);
-      svg2000EDU = x2(error,br);
-      svg2010EDU = x3(error,br);
+      svg1991POP = x1(error,br);
+      svg2000POP = x2(error,br);
+      svg2010POP = x3(error,br);
 
-      d3.select("#EDUselectElementId").on("change", function change() {
+      d3.select("#POPselectElementId").on("change", function change() {
 
-        var e = document.getElementById("EDUselectElementId");
+        var e = document.getElementById("POPselectElementId");
         var strUser = e.options[e.selectedIndex].value;
 
-        svg1991EDU = changeColorRENDA(svg1991EDU,rateByName1991EDU,strUser);
-        svg2000EDU = changeColorRENDA(svg2000EDU,rateByName2000EDU,strUser);
-        svg2010EDU = changeColorRENDA(svg2010EDU,rateByName2010EDU,strUser);
+        svg1991POP = changeColorPOP(svg1991POP,rateByName1991POP,strUser);
+        svg2000POP = changeColorPOP(svg2000POP,rateByName2000POP,strUser);
+        svg2010POP = changeColorPOP(svg2010POP,rateByName2010POP,strUser);
 
       });
 
     }
 
-    var legend_labels = ["Exp < 2.5a", "2.5 < Exp <= 5", "5 < Exp <= 7.5", "7.5 < Exp <= 10", "Exp > 10"];     
-    var text_color_domain = [0, 0.25, 5, 7.5, 10];
 
-    var svgLegendEDU = d3.select("body").append("svg")
-      .attr("width", width)
-      .attr("height", height)
-      .style("margin", "10px auto");
-
-    addLegend(svgLegendEDU,legend_labels,text_color_domain,EDUquantize);
-    
 
 </script>
+
 
   </div>
 

@@ -18,7 +18,7 @@ function mapBR(svg,width,height,path,rateByName, t_top, t_lef, cores){
           if(cores == 3)
             return Rendaquantize(rateByName.get(d.properties.name));
           if(cores == 4)
-            return POPquantize(rateByName.get(d.properties.name));
+            return EDUquantize(rateByName.get(d.properties.name));
 
         })
         .attr("d", path)
