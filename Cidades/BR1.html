@@ -205,6 +205,44 @@
       margin-top: 250px;
     }
 
+    #ESPmap1991{
+      position: absolute;
+      margin-left: 30px;
+      top: 3300px;
+    }
+    #ESPmap2000{
+      position: absolute;
+      margin-left: 370px;
+
+      top: 3300px;
+    }
+    #ESPmap2010{
+      position: absolute;
+      margin-left: 700px;
+      top: 3300px;
+    }
+
+
+    #Leg_ESP{
+      margin-top: 450px;
+    }
+
+   #ESPh1991{
+      position: absolute;
+      margin-top: 250px;
+    }
+
+     #ESPh2000{
+      position: absolute;
+      margin-left: 350px;
+      margin-top: 250px;
+    }
+
+    #ESPh2010{
+      position: absolute;
+      margin-left: 700px;
+      margin-top: 250px;
+    }
 
 
   </style>
@@ -362,6 +400,34 @@
     </div>
 
 
+    <br />
+
+  
+
+ <div id="ESPmap1991"><h4>Expectativa de Vida 1991</h4></div>
+ <div id="ESPmap2000"><h4>Expectativa de Vida 2000</h4></div>
+ <div id="ESPmap2010"><h4>Expectativa de Vida 2010</h4></div>
+
+ <div id= "ESPh1991"></div>
+  <div id= "ESPh2000"></div>
+  <div id= "ESPh2010"></div>
+<div id= "legendESP"></div>>
+
+<div id = "Leg_ESP">
+
+ <select id="ESPselectElementId">
+    <option id = "S" value="start" selected="selected">-------</option>
+    <option id = "I1" value="40-60">40..60</option>
+    <option id = "I2" value="60-70">60..70</option>
+    <option id = "I3" value="70-80">70..80</option>
+    <option id = "I4" value=">80"> >80</option>
+  </select>
+
+   <p> <h3>Evolução da Expectativa de Vida de escolaridade</h3> A renda per capita ou rendimento per capita é um indicador que ajuda a medir o grau de desenvolvimento econômico de um país ou região. A renda per capita é obtida mediante a divisão da Renda Nacional (isto é, Produto Nacional Bruto menos os gastos de depreciação do capital e os impostos diretos) pelo número de habitantes do país. Por vezes o Produto Interno Bruto (PIB) é usado.</p> 
+    
+    </div>
+
+
 
     <div id="tooltip" class="hidden">
      <p><span id="CondNametaxa"></span></p>
@@ -374,6 +440,7 @@
   <script src="js/filterGINI.js"></script>
   <script src="js/filterRENDA.js"></script>
   <script src="js/filterEDU.js"></script>
+  <script src="js/filterESP.js"></script>
   <script src="js/legend.js"></script>
 
 
@@ -405,6 +472,10 @@
     .range(EDUbrewerColors);
 
 
+let ESPbrewerColors = colorbrewer.Blues[4];
+  let ESPquantize = d3.scale.linear()
+    .domain([40,60,70,80,100])
+    .range(ESPbrewerColors);
 
 
   var rateByName1991 = d3.map();
@@ -423,6 +494,10 @@
   var rateByName1991EDU = d3.map();
   var rateByName2000EDU = d3.map();
   var rateByName2010EDU = d3.map();
+
+  var rateByName1991ESP = d3.map();
+  var rateByName2000ESP = d3.map();
+  var rateByName2010ESP = d3.map();
 
 
 
@@ -712,8 +787,78 @@
               .x(d3.scale.linear().domain([0,20]))
               //.elasticY(true)
               .y(d3.scale.linear().domain([1,2000]));
+                
+            });
+  </script>
+
+   <script type="text/javascript">
+
+  var his1ESP = dc.barChart("#ESPh1991");
+  var his2ESP = dc.barChart("#ESPh2000");
+  var his3ESP = dc.barChart("#ESPh2010");
+            d3.csv("data/AtlaseExpMort.csv", function (data) {
+              
+              data.forEach(function(d) {
+                d.H1991 = Math.floor(+d.ESPVIDA1991);//(+d.Renda1991);
+                d.H2000 = Math.floor(+d.ESPVIDA2000);
+                d.H2010 = Math.floor(+d.ESPVIDA2010);
+            });
+          
+              var facts_ESP = crossfilter(data);
+              var DIM_1991 = facts_ESP.dimension(function(d){
+                  return d.H1991;
+              });
+              var Group_1991 = DIM_1991.group();
+              var DIM_2000 = facts_ESP.dimension(function(d){
+                return d.H2000;
+              });
+              var Group_2000 = DIM_2000.group();
+              var DIM_2010 = facts_ESP.dimension(function(d){
+                return d.H2010;
+              });
+              var Group_2010 = DIM_2010.group();
+
+              his1ESP
+              .width(300)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:40})
+              .dimension(DIM_1991)
+              .group(Group_1991)
+              //.transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([20,100]))
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,2000]));
+
+               his2ESP
+              .width(300)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:40})
+              .dimension(DIM_2000)
+              .group(Group_2000)
+              //.transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([20,100]))
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,1000]));
+
+               his3ESP
+              .width(300)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:40})
+              .dimension(DIM_2010)
+              .group(Group_2010)
+              //.transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([20,100]))
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,1000]));
               
               dc.renderAll();  
+
             });
   </script>
 
@@ -971,9 +1116,9 @@
         var e = document.getElementById("EDUselectElementId");
         var strUser = e.options[e.selectedIndex].value;
 
-        svg1991EDU = changeColorRENDA(svg1991EDU,rateByName1991EDU,strUser);
-        svg2000EDU = changeColorRENDA(svg2000EDU,rateByName2000EDU,strUser);
-        svg2010EDU = changeColorRENDA(svg2010EDU,rateByName2010EDU,strUser);
+        svg1991EDU = changeColorEDU(svg1991EDU,rateByName1991EDU,strUser);
+        svg2000EDU = changeColorEDU(svg2000EDU,rateByName2000EDU,strUser);
+        svg2010EDU = changeColorEDU(svg2010EDU,rateByName2010EDU,strUser);
 
       });
 
@@ -992,6 +1137,74 @@
 
 </script>
 
+
+<script>
+
+ 
+  var projection = d3.geo.mercator()
+      .center([-10,-30])
+      .scale(375);
+
+  var path = d3.geo.path()
+      .projection(projection);
+
+  var svg1991ESP = d3.select("#ESPmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2000ESP = d3.select("#ESPmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2010ESP = d3.select("#ESPmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  queue()
+    .defer(d3.json, "mnmbr.json")
+    .defer(d3.csv, "data/AtlaseExpMort.csv", 
+      function(d) { 
+        rateByName1991ESP.set(d.Espacialidades, +d.ESPVIDA1991);
+        rateByName2000ESP.set(d.Espacialidades, +d.ESPVIDA2000);
+        rateByName2010ESP.set(d.Espacialidades, +d.ESPVIDA2010); 
+      })
+    .await(readq);
+
+
+    function readq(error, br){
+
+      var x1 = mapBR(svg1991ESP,width,height,path,rateByName1991ESP, 3750, 0,5);
+      var x2 = mapBR(svg2000ESP,width,height,path,rateByName2000ESP, 3750, 330,5);
+      var x3 = mapBR(svg2010ESP,width,height,path,rateByName2010ESP, 3750, 600,5);
+
+      svg1991ESP = x1(error,br);
+      svg2000ESP = x2(error,br);
+      svg2010ESP = x3(error,br);
+
+      d3.select("#ESPselectElementId").on("change", function change() {
+
+        var e = document.getElementById("ESPselectElementId");
+        var strUser = e.options[e.selectedIndex].value;
+       svg1991ESP = changeColorESP(svg1991ESP,rateByName1991ESP,strUser);
+        svg2000ESP = changeColorESP(svg2000ESP,rateByName2000ESP,strUser);
+       svg2010ESP = changeColorESP(svg2010ESP,rateByName2010ESP,strUser);
+
+     // });
+
+    }
+
+    var legend_labels = ["Exp < 60a", "60 < Exp <= 70", "70 < Exp <= 80", "Exp > 80"];     
+    var text_color_domain = [40,60,70,80,100];
+
+    var svgLegendEDU = d3.select("body").append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .style("margin", "10px auto");
+
+    addLegend(svgLegendEDU,legend_labels,text_color_domain,EDUquantize);
+    
+
+</script>
   </div>
 
 
