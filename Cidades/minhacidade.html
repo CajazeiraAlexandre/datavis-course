@@ -105,6 +105,8 @@
         </select>
     <div id="myDiv"></div>
         <div id="ScPlot"></div>
+
+        <div id="Descricao"></div>
         <!---aqui eu crio as divs para colocar os gráficos-->
             
             <script type="text/javascript" charset="utf-8">
@@ -282,6 +284,12 @@
             var Listgen=[]
             var Listpop =[]
             var ListIDRAA = []
+            
+            var ListSexo = []
+            var ListIdade = []
+            var ListEsc = []
+            var ListPartidos = []
+            var ListRegiao = []
 
             var Listvalores = []
             var select = document.getElementById("selectCidade");
@@ -301,13 +309,25 @@
                         PolGen = +d.polgen; 
                         Populacao = +d.pop; 
                         IDARA = +d.ida;
+                        G_Sexo = +d.sexo;
+                        G_Idade = +d.idade;
+                        G_Esc = d.escolaridade;
+                        G_Part = d.partido;
+                        G_regiao = d.regiao;
+
+                      ListSexo.push(G_Sexo);
+                      ListIdade.push(G_Idade);
+                      ListEsc.push(G_Esc);
+                      ListPartidos.push(G_Part);
+                      ListRegiao.push(G_regiao);
+
                       Listplan.push(Planejamento);
                       Listorca.push(Organizacao);
                       Listsaude.push(Saude);
                       Listamb.push(MeioAmb);
                       Listgen.push(PolGen);
-                  Listpop.push(Populacao);
-                  ListIDRAA.push(IDARA);
+                      Listpop.push(Populacao);
+                      ListIDRAA.push(IDARA);
 
                       }) 
 
