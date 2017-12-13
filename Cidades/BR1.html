@@ -208,18 +208,18 @@
     #ESPmap1991{
       position: absolute;
       margin-left: 30px;
-      top: 3300px;
+      top: 3250px;
     }
     #ESPmap2000{
       position: absolute;
       margin-left: 370px;
 
-      top: 3300px;
+      top: 3250px;
     }
     #ESPmap2010{
       position: absolute;
       margin-left: 700px;
-      top: 3300px;
+      top: 3250px;
     }
 
 
@@ -242,6 +242,52 @@
       position: absolute;
       margin-left: 700px;
       margin-top: 250px;
+    }
+
+    #MORTmap1991{
+      position: absolute;
+      margin-left: 30px;
+      top: 3800px;
+    }
+    #MORTmap2000{
+      position: absolute;
+      margin-left: 370px;
+
+      top: 3800px;
+    }
+    #MORTmap2010{
+      position: absolute;
+      margin-left: 700px;
+      top: 3800px;
+    }
+
+
+    #Leg_MORT{
+      margin-top: 450px;
+    }
+
+   #MORTh1991{
+      position: absolute;
+      margin-top: 250px;
+    }
+
+     #MORTh2000{
+      position: absolute;
+      margin-left: 350px;
+      margin-top: 250px;
+    }
+
+    #MORTh2010{
+      position: absolute;
+      margin-left: 700px;
+      margin-top: 250px;
+    }
+
+
+    #legendIDH{
+      position: absolute;
+      margin-left: 50px;
+      margin-top: 400px;
     }
 
 
@@ -273,6 +319,10 @@
      <h1>Visão geral das cidades Brasileiras</h1>
 
    </header>
+
+   <div id= "legendIDH"></div>
+
+
    <br />
       <p>   Dentro do escopo do projeto Cidades Brasileiras, esta página apresenta uma visão geral de indicadores da qualidade de vida dos municípios brasileiros, demonstrando a distribuição geográfica de diversas mudanças no Brasil. Uma análise de indicadores como IDH, GINI, Renda per Capita e dados da criminalidade do Brasil, ao longo dos anos, demonstra o comportamento geral das mudanças na qualidade de vida dos brasileiros, entretanto a distribuição geográfica dessas mudanças não é uniforme, como podemos constatar nestas visualizações. <a href="http://www.atlasbrasil.org.br">aqui</a>.</p> 
       <p>Historicamente algumas regiões brasileiras evoluem de maneira desproporcional, seja em fatores econômicos, tecnológicos ou sociais. Partindo desta premissa, essa visualização apresenta nitidamente a má distribuição geográfica da evolução ao longo das últimas décadas de indicadores relacionados à qualidade de vida, distribuição de renda e poder aquisitivo nos municípios brasileiros. </p> 
@@ -287,7 +337,6 @@
     <div id= "IDHh1991"></div>
     <div id= "IDHh2000"></div>
     <div id= "IDHh2010"></div>
-    <div id= "legendIDH"></div>
    <br />
  
 
@@ -317,7 +366,7 @@
  <div id= "GINIh1991"></div>
   <div id= "GINIh2000"></div>
   <div id= "GINIh2010"></div>
- <div id= "legendGINI"></div>>
+ <div id= "legendGINI"></div>
 
  <br />
  
@@ -351,7 +400,7 @@
  <div id= "Rendah1991"></div>
   <div id= "Rendah2000"></div>
   <div id= "Rendah2010"></div>
-<div id= "legendRENDA"></div>>
+<div id= "legendRENDA"></div>
 
 <div id = "Leg_Renda">
 
@@ -382,7 +431,7 @@
  <div id= "EDUh1991"></div>
   <div id= "EDUh2000"></div>
   <div id= "EDUh2010"></div>
-<div id= "legendEDU"></div>>
+<div id= "legendEDU"></div>
 
 <div id = "Leg_EDU">
 
@@ -395,7 +444,7 @@
     <option id = "I4" value=">10"> >10</option>
   </select>
 
-   <p> <h3>Evolução da Expectativa de tempo de escolaridade</h3> A renda per capita ou rendimento per capita é um indicador que ajuda a medir o grau de desenvolvimento econômico de um país ou região. A renda per capita é obtida mediante a divisão da Renda Nacional (isto é, Produto Nacional Bruto menos os gastos de depreciação do capital e os impostos diretos) pelo número de habitantes do país. Por vezes o Produto Interno Bruto (PIB) é usado.</p> 
+   <p> <h3>Evolução da Expectativa de tempo de escolaridade</h3> "Pesquisas internacionais têm reforçado a hipótese de que a educação, além de contribuir para a carreira profissional e a formação das pessoas, pode trazer outro benefício a longo prazo. Segundo estudos publicados recentemente, o tempo de escolaridade é um fator importante para uma vida melhor e mais longa" Vale destacar que diversas pesquisas passaram a correlacionar a estimativa em anos de estudos coma expectativa de vida das pessoas. Leia mais <a href="https://www.terra.com.br/noticias/educacao/pesquisas-relacionam-niveis-de-escolaridade-e-expectativa-de-vida,930b42ba7d2da310VgnCLD200000bbcceb0aRCRD.html">aqui</a></p> 
     
     </div>
 
@@ -411,7 +460,7 @@
  <div id= "ESPh1991"></div>
   <div id= "ESPh2000"></div>
   <div id= "ESPh2010"></div>
-<div id= "legendESP"></div>>
+<div id= "legendESP"></div>
 
 <div id = "Leg_ESP">
 
@@ -423,7 +472,37 @@
     <option id = "I4" value=">80"> >80</option>
   </select>
 
-   <p> <h3>Evolução da Expectativa de Vida de escolaridade</h3> A renda per capita ou rendimento per capita é um indicador que ajuda a medir o grau de desenvolvimento econômico de um país ou região. A renda per capita é obtida mediante a divisão da Renda Nacional (isto é, Produto Nacional Bruto menos os gastos de depreciação do capital e os impostos diretos) pelo número de habitantes do país. Por vezes o Produto Interno Bruto (PIB) é usado.</p> 
+   <p> <h3>Evolução da Expectativa de Vida </h3> "Vários fatores exercem influência direta na expectativa de vida da população de um país: serviços de saneamento ambiental, alimentação, índice de violência, poluição, serviços de saúde, educação, entre outros. Portanto, o aumento da expectativa de vida está diretamente associado à melhoria das condições de vida da população." Leia mais <a href="http://mundoeducacao.bol.uol.com.br/geografia/expectativa-vida.htm">aqui</a> </p> 
+    
+    </div>
+
+
+     <br />
+
+  
+
+ <div id="MORTmap1991"><h4>Mortalidade Infantil 1991</h4></div>
+ <div id="MORTmap2000"><h4>Mortalidade Infantil 2000</h4></div>
+ <div id="MORTmap2010"><h4>Mortalidade Infantil 2010</h4></div>
+
+ <div id= "MORTh1991"></div>
+  <div id= "MORTh2000"></div>
+  <div id= "MORTh2010"></div>
+<div id= "legendMORT"></div>
+
+<div id = "Leg_MORT">
+
+ <select id="MORTselectElementId">
+    <option id = "S" value="start" selected="selected">-------</option>
+    <option id = "I1" value="0-20">0..20</option>
+    <option id = "I2" value="20-40">20..40</option>
+    <option id = "I3" value="40-60">40..60</option>
+    <option id = "I3" value="60-80">60..80</option>
+    <option id = "I3" value="80-100">80..100</option>
+    <option id = "I4" value=">100"> >100</option>
+  </select>
+
+   <p> <h3>Mortalidade Infantil das Cidades Brasileiras </h3> "Mortalidade infantil consiste na morte de crianças no primeiro ano de vida e é a base para calcular a taxa de mortalidade infantil, que consiste na mortalidade infantil observada durante um ano, referida ao número de nascidos vivos do mesmo período" Leia mais <a href="https://pt.wikipedia.org/wiki/Mortalidade_infantil">aqui</a> </p> 
     
     </div>
 
@@ -441,9 +520,11 @@
   <script src="js/filterRENDA.js"></script>
   <script src="js/filterEDU.js"></script>
   <script src="js/filterESP.js"></script>
+  <script src="js/filterMORT.js"></script>
   <script src="js/legend.js"></script>
 
 
+    
 <script>
 
 
@@ -471,11 +552,15 @@
     .domain([0,2.5,5,7.5,10])
     .range(EDUbrewerColors);
 
-
 let ESPbrewerColors = colorbrewer.Blues[4];
   let ESPquantize = d3.scale.linear()
     .domain([40,60,70,80,100])
     .range(ESPbrewerColors);
+
+    let MORTbrewerColors = colorbrewer.Blues[5];
+  let MORTquantize = d3.scale.linear()
+    .domain([0,20,40,60,80,100])
+    .range(MORTbrewerColors);
 
 
   var rateByName1991 = d3.map();
@@ -498,6 +583,10 @@ let ESPbrewerColors = colorbrewer.Blues[4];
   var rateByName1991ESP = d3.map();
   var rateByName2000ESP = d3.map();
   var rateByName2010ESP = d3.map();
+
+  var rateByName1991MORT = d3.map();
+  var rateByName2000MORT = d3.map();
+  var rateByName2010MORT = d3.map();
 
 
 
@@ -819,7 +908,7 @@ let ESPbrewerColors = colorbrewer.Blues[4];
               var Group_2010 = DIM_2010.group();
 
               his1ESP
-              .width(300)
+              .width(250)
               .height(200)
               .margins({top: 10, right: 10, bottom: 30, left:40})
               .dimension(DIM_1991)
@@ -827,12 +916,12 @@ let ESPbrewerColors = colorbrewer.Blues[4];
               //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
-              .x(d3.scale.linear().domain([20,100]))
+              .x(d3.scale.linear().domain([50,90]))
               //.elasticY(true)
-              .y(d3.scale.linear().domain([1,2000]));
+              .y(d3.scale.linear().domain([1,1000]));
 
                his2ESP
-              .width(300)
+              .width(250)
               .height(200)
               .margins({top: 10, right: 10, bottom: 30, left:40})
               .dimension(DIM_2000)
@@ -840,12 +929,12 @@ let ESPbrewerColors = colorbrewer.Blues[4];
               //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
-              .x(d3.scale.linear().domain([20,100]))
+              .x(d3.scale.linear().domain([50,90]))
               //.elasticY(true)
               .y(d3.scale.linear().domain([1,1000]));
 
                his3ESP
-              .width(300)
+              .width(250)
               .height(200)
               .margins({top: 10, right: 10, bottom: 30, left:40})
               .dimension(DIM_2010)
@@ -853,15 +942,83 @@ let ESPbrewerColors = colorbrewer.Blues[4];
               //.transitionDuration(500)
               .centerBar(true)
               .gap(56)
-              .x(d3.scale.linear().domain([20,100]))
+              .x(d3.scale.linear().domain([50,90]))
               //.elasticY(true)
               .y(d3.scale.linear().domain([1,1000]));
+              
+
+            });
+  </script>
+ <script type="text/javascript">
+
+  var his1MORT = dc.barChart("#MORTh1991");
+  var his2MORT = dc.barChart("#MORTh2000");
+  var his3MORT = dc.barChart("#MORTh2010");
+            d3.csv("data/AtlaseExpMort.csv", function (data) {
+              
+              data.forEach(function(d) {
+                d.H1991 = Math.floor(+d.MORT1991);//(+d.Renda1991);
+                d.H2000 = Math.floor(+d.MORT2000);
+                d.H2010 = Math.floor(+d.MORT2010);
+            });
+          
+              var facts_MORT = crossfilter(data);
+              var DIM_1991 = facts_MORT.dimension(function(d){
+                  return d.H1991;
+              });
+              var Group_1991 = DIM_1991.group();
+              var DIM_2000 = facts_MORT.dimension(function(d){
+                return d.H2000;
+              });
+              var Group_2000 = DIM_2000.group();
+              var DIM_2010 = facts_MORT.dimension(function(d){
+                return d.H2010;
+              });
+              var Group_2010 = DIM_2010.group();
+
+              his1MORT
+              .width(250)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:40})
+              .dimension(DIM_1991)
+              .group(Group_1991)
+              //.transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([0,150]))
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,500]));
+
+               his2MORT
+              .width(250)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:40})
+              .dimension(DIM_2000)
+              .group(Group_2000)
+              //.transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([0,150]))
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,500]));
+
+               his3MORT
+              .width(250)
+              .height(200)
+              .margins({top: 10, right: 10, bottom: 30, left:40})
+              .dimension(DIM_2010)
+              .group(Group_2010)
+              //.transitionDuration(500)
+              .centerBar(true)
+              .gap(56)
+              .x(d3.scale.linear().domain([0,150]))
+              //.elasticY(true)
+              .y(d3.scale.linear().domain([1,500]));
               
               dc.renderAll();  
 
             });
   </script>
-
 
 <script>
 
@@ -1103,9 +1260,9 @@ let ESPbrewerColors = colorbrewer.Blues[4];
 
     function readq(error, br){
 
-      var x1 = mapBR(svg1991EDU,width,height,path,rateByName1991EDU, 2750, 0,4);
-      var x2 = mapBR(svg2000EDU,width,height,path,rateByName2000EDU, 2750, 330,4);
-      var x3 = mapBR(svg2010EDU,width,height,path,rateByName2010EDU, 2750, 600,4);
+      var x1 = mapBR(svg1991EDU,width,height,path,rateByName1991EDU, 2770, 0,4);
+      var x2 = mapBR(svg2000EDU,width,height,path,rateByName2000EDU, 2770, 330,4);
+      var x3 = mapBR(svg2010EDU,width,height,path,rateByName2010EDU, 2770, 600,4);
 
       svg1991EDU = x1(error,br);
       svg2000EDU = x2(error,br);
@@ -1173,9 +1330,9 @@ let ESPbrewerColors = colorbrewer.Blues[4];
 
     function readq(error, br){
 
-      var x1 = mapBR(svg1991ESP,width,height,path,rateByName1991ESP, 3750, 0,5);
-      var x2 = mapBR(svg2000ESP,width,height,path,rateByName2000ESP, 3750, 330,5);
-      var x3 = mapBR(svg2010ESP,width,height,path,rateByName2010ESP, 3750, 600,5);
+      var x1 = mapBR(svg1991ESP,width,height,path,rateByName1991ESP, 3450, 0,5);
+      var x2 = mapBR(svg2000ESP,width,height,path,rateByName2000ESP, 3450, 330,5);
+      var x3 = mapBR(svg2010ESP,width,height,path,rateByName2010ESP, 3450, 600,5);
 
       svg1991ESP = x1(error,br);
       svg2000ESP = x2(error,br);
@@ -1185,26 +1342,96 @@ let ESPbrewerColors = colorbrewer.Blues[4];
 
         var e = document.getElementById("ESPselectElementId");
         var strUser = e.options[e.selectedIndex].value;
-       svg1991ESP = changeColorESP(svg1991ESP,rateByName1991ESP,strUser);
+        svg1991ESP = changeColorESP(svg1991ESP,rateByName1991ESP,strUser);
         svg2000ESP = changeColorESP(svg2000ESP,rateByName2000ESP,strUser);
-       svg2010ESP = changeColorESP(svg2010ESP,rateByName2010ESP,strUser);
+        svg2010ESP = changeColorESP(svg2010ESP,rateByName2010ESP,strUser);
 
-     // });
+      });
 
     }
 
     var legend_labels = ["Exp < 60a", "60 < Exp <= 70", "70 < Exp <= 80", "Exp > 80"];     
     var text_color_domain = [40,60,70,80,100];
 
-    var svgLegendEDU = d3.select("body").append("svg")
+    var svgLegendESP = d3.select("body").append("svg")
       .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
 
-    addLegend(svgLegendEDU,legend_labels,text_color_domain,EDUquantize);
+    addLegend(svgLegendESP,legend_labels,text_color_domain,ESPquantize);
     
 
 </script>
+
+
+<script>
+
+ 
+  var projection = d3.geo.mercator()
+      .center([-10,-30])
+      .scale(375);
+
+  var path = d3.geo.path()
+      .projection(projection);
+
+  var svg1991MORT = d3.select("#MORTmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2000MORT = d3.select("#MORTmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  var svg2010MORT = d3.select("#MORTmap1991").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  queue()
+    .defer(d3.json, "mnmbr.json")
+    .defer(d3.csv, "data/AtlaseExpMort.csv", 
+      function(d) { 
+        rateByName1991MORT.set(d.Espacialidades, +d.MORT1991);
+        rateByName2000MORT.set(d.Espacialidades, +d.MORT2000);
+        rateByName2010MORT.set(d.Espacialidades, +d.MORT2010); 
+      })
+    .await(readq);
+
+
+    function readq(error, br){
+
+      var x1 = mapBR(svg1991MORT,width,height,path,rateByName1991MORT, 4000, 0,6);
+      var x2 = mapBR(svg2000MORT,width,height,path,rateByName2000MORT, 4000, 330,6);
+      var x3 = mapBR(svg2010MORT,width,height,path,rateByName2010MORT, 4000, 600,6);
+
+      svg1991MORT = x1(error,br);
+      svg2000MORT = x2(error,br);
+      svg2010MORT = x3(error,br);
+
+      d3.select("#MORTselectElementId").on("change", function change() {
+
+        var e = document.getElementById("MORTselectElementId");
+        var strUser = e.options[e.selectedIndex].value;
+        svg1991MORT = changeColorMORT(svg1991MORT,rateByName1991MORT,strUser);
+        svg2000MORT = changeColorMORT(svg2000MORT,rateByName2000MORT,strUser);
+        svg2010MORT = changeColorMORT(svg2010MORT,rateByName2010MORT,strUser);
+
+      });
+
+    }
+
+    var legend_labels = ["Tx < 20", "20 < Tx <= 40", "40 < Tx <= 60", "60 < Tx <= 80", "80 < Tx <= 100", "Tx > 100"];     
+    var text_color_domain = [20,40,60,80,100];
+
+    var svgLegendMORT = d3.select("body").append("svg")
+     .attr("width", width)
+      .attr("height", height)
+      .style("margin", "10px auto");
+
+    addLegend(svgLegendMORT,legend_labels,text_color_domain, MORTquantize);
+  
+
+</script>
+
   </div>
 
 

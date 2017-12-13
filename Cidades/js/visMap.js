@@ -21,6 +21,8 @@ function mapBR(svg,width,height,path,rateByName, t_top, t_lef, cores){
             return EDUquantize(rateByName.get(d.properties.name));
           if(cores == 5)
             return ESPquantize(rateByName.get(d.properties.name));
+          if(cores == 6)
+            return MORTquantize(rateByName.get(d.properties.name));
 
         })
         .attr("d", path)

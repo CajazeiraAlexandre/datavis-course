@@ -4,7 +4,8 @@ function changeColorESP(svg,map,value){
   svg.selectAll("path").style("fill", function(d) {
 
     switch (value) {
-      case "40..60":
+
+      case "40-60":
         if(map.get(d.properties.name) < 60){
           return d3.rgb("#00cc00");
         }
