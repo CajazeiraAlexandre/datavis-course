@@ -320,7 +320,7 @@
 
    </header>
 
-   <div id= "legendIDH"></div>
+   
 
 
    <br />
@@ -337,6 +337,10 @@
     <div id= "IDHh1991"></div>
     <div id= "IDHh2000"></div>
     <div id= "IDHh2010"></div>
+
+    <div id= "legendIDH">teste</div>
+
+
    <br />
  
 
@@ -366,6 +370,7 @@
  <div id= "GINIh1991"></div>
   <div id= "GINIh2000"></div>
   <div id= "GINIh2010"></div>
+
  <div id= "legendGINI"></div>
 
  <br />
@@ -400,6 +405,7 @@
  <div id= "Rendah1991"></div>
   <div id= "Rendah2000"></div>
   <div id= "Rendah2010"></div>
+  
 <div id= "legendRENDA"></div>
 
 <div id = "Leg_Renda">
@@ -1076,7 +1082,7 @@ let ESPbrewerColors = colorbrewer.Blues[4];
     var legend_labels = ["IDH < 0.5", "0.5 < IDH <= 0.6", "0.6 < IDH <= 0.7", "0.7 < IDH <= 0.8", "IDH > 0.8"];     
     var text_color_domain = [0.5, 0.6, 0.7, 0.8, 1.0];
 
-    var svgLegendIDH = d3.select("body").append("svg")
+    var svgLegendIDH = d3.select("legendIDH").append("svg")
       .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
@@ -1144,7 +1150,7 @@ let ESPbrewerColors = colorbrewer.Blues[4];
     var legend_labels = ["GINI < 0.25", "0.25 < GINI <= 0.5", "0.5 < GINI <= 0.75", "0.75 < GINI <= 1.0"];     
     var text_color_domain = [0.25, 0.5, 0.75, 1.0]; 
 
-    var svgLegendGINI = d3.select("body").append("svg")
+    var svgLegendGINI = d3.select("legendGINI").append("svg")
       .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
@@ -1214,7 +1220,7 @@ let ESPbrewerColors = colorbrewer.Blues[4];
     var legend_labels = ["R < 250", "0.25 < R <= 500", "500 < R <= 0.75", "750 < R <= 1000", "R > 1000"];     
     var text_color_domain = [250, 500, 750, 1500, 2000];
 
-    var svgLegendRENDA = d3.select("body").append("svg")
+    var svgLegendRENDA = d3.select("legendRENDA").append("svg")
       .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
@@ -1284,7 +1290,7 @@ let ESPbrewerColors = colorbrewer.Blues[4];
     var legend_labels = ["Exp < 2.5a", "2.5 < Exp <= 5", "5 < Exp <= 7.5", "7.5 < Exp <= 10", "Exp > 10"];     
     var text_color_domain = [0, 0.25, 5, 7.5, 10];
 
-    var svgLegendEDU = d3.select("body").append("svg")
+    var svgLegendEDU = d3.select("legendEDU").append("svg")
       .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
@@ -1353,7 +1359,7 @@ let ESPbrewerColors = colorbrewer.Blues[4];
     var legend_labels = ["Exp < 60a", "60 < Exp <= 70", "70 < Exp <= 80", "Exp > 80"];     
     var text_color_domain = [40,60,70,80,100];
 
-    var svgLegendESP = d3.select("body").append("svg")
+    var svgLegendESP = d3.select("legendESP").append("svg")
       .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
@@ -1422,7 +1428,7 @@ let ESPbrewerColors = colorbrewer.Blues[4];
     var legend_labels = ["Tx < 20", "20 < Tx <= 40", "40 < Tx <= 60", "60 < Tx <= 80", "80 < Tx <= 100", "Tx > 100"];     
     var text_color_domain = [20,40,60,80,100];
 
-    var svgLegendMORT = d3.select("body").append("svg")
+    var svgLegendMORT = d3.select("legendMORT").append("svg")
      .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
