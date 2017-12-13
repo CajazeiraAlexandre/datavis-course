@@ -1,0 +1,560 @@
+ <!DOCTYPE html>
+    <html>
+        <head>
+            <title> Análise de dados.</title>
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+            integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+             crossorigin=""/>
+                <!-- Make sure you put this AFTER Leaflet's CSS -->
+            <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+            integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+             crossorigin=""></script>
+
+
+
+
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+            <!-- Custom styles for this template -->
+            <link  rel="stylesheet" href="css/starter-template.css">
+            <link rel="stylesheet" href="css/dc.css">
+            <link rel="stylesheet" href="css/styles.css">
+            <script src="js/crossfilter.js" charset="utf-8"></script>
+            <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script src="js/dc.js" charset="utf-8"></script>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+            
+            <style type="text/css">
+        
+              
+            </style>
+        </head>
+        <body>
+        <h1>MENU CIDADES </h1>
+        <select id="selectElementId" onchange="changeFunc()";>
+        <option>Selecione uma Cidade</option>
+        </select>
+        <div id="myDiv"></div> 
+        <div id="ScPlot"></div>
+        <div id="tabela"></div>
+        <div id="LineChart"></div>
+       
+        <!---aqui eu crio as divs para colocar os gráficos-->
+
+            <script type="text/javascript" charset="utf-8">
+
+            function changeFunc(){
+            				var identificador = 0;
+                			var select =  document.getElementById('selectElementId');
+                			var selectValue = selectElementId.options[selectElementId.selectedIndex].value;
+                			alert(selectValue);
+                			console.log("Id da cidade selecionada");
+                			console.log(selectValue);
+                			var identificador = selectElementId.selectedIndex
+                			var id = identificador-1;
+                			console.log(id)
+
+
+                			//variaveis 
+                			let sum = Listplan.reduce((previous, current) => current += previous);
+							let avgPlan = (sum / Listplan.length).toFixed(2);
+
+							let sum1 = Listorca.reduce((previous, current) => current += previous);
+							let avgOrg = (sum1 / Listorca.length).toFixed(2);
+							
+
+							let sum2 = Listsaude.reduce((previous, current) => current += previous);
+							let avgSaude = (sum2 / Listsaude.length).toFixed(2);
+							
+
+							let sum3 = Listamb.reduce((previous, current) => current += previous);
+							let avgAmb = (sum3 / Listamb.length).toFixed(2);
+							
+
+							let sum4 = Listgen.reduce((previous, current) => current += previous);
+							let avgGen = (sum4 / Listgen.length).toFixed(2);
+
+
+
+							let sum5 = Listpop.reduce((previous, current) => current += previous);
+							let avgPop = (sum5 / Listpop.length).toFixed(2);
+
+
+
+							let sum6 = ListIDRAA.reduce((previous, current) => current += previous);
+							let avgIRAA = (sum6 / ListIDRAA.length).toFixed(2);
+	
+
+                			//plot barChart
+
+                			//Variaveis de Controle
+                			var nomeCidade = Listnomes[id]
+                			var Vetnome = []
+                			Vetnome.push(nomeCidade)
+                			console.log(Vetnome)
+                			console.log(nomeCidade)
+
+
+                			var indice = ListIDRAA[id]
+                			console.log(indice)
+                			var Vetindice = []
+                			Vetindice.push(indice)
+                			console.log(Vetindice)
+
+                			var popul = Listpop[id]
+                			console.log(popul)
+                			var Vetpopul = []
+                			Vetpopul.push(popul)
+                			console.log(Vetpopul)
+
+                			var VetMediaPop = []
+                			VetMediaPop.push(avgPop)
+
+                			var VetMediaIDRAA=[]
+                			VetMediaIDRAA.push(avgIRAA)
+
+                			var valoresLinhas = []
+							valoresLinhas.push(Listsexo[id])
+							valoresLinhas.push(ListIdade[id])
+							valoresLinhas.push(ListEsc[id])
+							valoresLinhas.push(ListPart[id])
+							valoresLinhas.push(ListReg[id])
+
+							var vEx = []
+							var vMort = []
+							var vIdh = []
+							var vGini = []
+							var vRend = []
+
+
+							
+
+							vEx.push(Lex91[id])
+							vEx.push(Lex00[id])
+							vEx.push(Lex10[id])
+							vMort.push(Lmor91[id]) 
+							vMort.push(Lmor00[id])
+							vMort.push(Lmor10[id])
+							vIdh.push(Lidh91[id])
+							vIdh.push(Lidh00[id])
+							vIdh.push(Lidh10[id])
+							vGini.push(Lgini91[id])
+							vGini.push(Lgini00[id])
+							vGini.push(Lgini10[id])
+							vRend.push(Lrend91[id])
+							vRend.push(Lrend00[id])
+					        vRend.push(Lrend10[id]) 
+
+      
+
+
+                			var xValue = ['Agenda/Planejamento', 'Legislacao Administrativa ', 'Saude','Meio Ambiente','Politica de Genero'];
+
+							var yValue = [Listplan[id], Listorca[id], Listsaude[id],Listamb[id],Listgen[id]];
+							
+
+							var yValue2 = [avgPlan, avgOrg, avgSaude,avgAmb,avgGen];
+
+							var trace1 = {
+							  x: xValue,
+							  y: yValue,
+							  name: nomeCidade,
+							  type: 'bar',
+							  text: yValue,
+							  textposition: 'auto',
+							  hoverinfo: 'none',
+							  opacity: 0.5,
+							  marker: {
+							    color: 'rgb(158,202,225)',
+							    line: {
+							      color: 'rbg(8,48,107)',
+							      width: 1.5
+							    }
+							  }
+							};
+
+							var trace2 = {
+							  x: xValue,
+							  y: yValue2,
+							  name: 'Brasil',
+							  type: 'bar',
+							  text: yValue2,
+							  textposition: 'auto',
+							  hoverinfo: 'none',
+							  marker: {
+							    color: 'rgba(58,200,225,.5)',
+							    line: {
+							      color: 'rbg(8,48,107)',
+							      width: 1.5
+							    }
+							  }
+							};
+
+							var data = [trace1,trace2];
+							var layout = {
+							  title: 'Analise do Municipio '+ nomeCidade
+							};
+
+							Plotly.newPlot('myDiv', data, layout);
+
+						//scatterplot2
+
+						
+
+						  var trace11 = {
+						  x: ListIDRAA,
+						  y: Listpop,
+						  mode: 'markers',
+						  type: 'scatter',
+						  color:'rgba(140,23,23)',
+						  name: 'Municipios Brasileiros',
+						  text: Listnomes,
+						  textposition: 'top center',
+						  textfont: {
+						    family:  'Raleway, sans-serif'
+						  },
+						  marker: { size: 9 }
+						};
+
+						var trace22 = {
+						  x: Vetindice,
+						  y: Vetpopul,
+						  mode: 'markers+text',
+						  color:'rgba(70,23,23)',
+						  type: 'scatter',
+						  name: Vetnome[0],
+						  text: Vetnome,
+						  textfont : {
+						    family:'Times New Roman'
+						  },
+						  textposition: 'bottom center',
+						  marker: { size: 25}
+						};
+
+						var trace33 = {
+						  x: VetMediaIDRAA,
+						  y: VetMediaPop,
+						  mode: 'markers+text',
+						  color:'rgba(200,23,23)',
+						  type: 'scatter',
+						  name: 'Brasil',
+						  text: 'Brasil',
+						  textfont : {
+						    family:'Times New Roman'
+						  },
+						  textposition: 'bottom center',
+						  marker: { size: 20}
+						};
+
+						var data2 = [ trace11, trace22,trace33 ];
+
+						var layout2 = {
+						  xaxis: {
+						    range: [ -50, 50 ]
+						  },
+						  yaxis: {
+						    range: [-10000, 12000000]
+						  },
+						  showlegend: true,
+						  legend: {
+						    y: 0.5,
+						    yref: 'paper',
+						    font: {
+						      family: 'Arial, sans-serif',
+						      size: 20,
+						      color: 'grey',
+						    }
+						  },
+						  title: 'Analise Populacao X  Indice IRAA Populacao do Municipio '+ nomeCidade
+						};
+
+						Plotly.newPlot('ScPlot', data2, layout2);
+
+
+						//linha da tabela
+						console.log("valor dentro da tabela sexo")
+						console.log(Listsexo)
+						var sexoValor = Listsexo[id]
+						var idadeValor =  ListIdade[id]
+						var escolValor =  ListEsc[id]
+						var partidoValor = ListPart[id]
+						var regiaoValor = ListReg[id]
+						var valoresTabela = [[sexoValor], 
+						[idadeValor],[escolValor],[partidoValor],[regiaoValor]];
+						
+
+						console.log("Valores que estão dentro da tabela Vex")
+						console.log(vEx)
+
+
+						var dataTable = [{
+						  type: 'table',
+						  header: {
+						    values: [["Sexo"], ["Idade"],
+										 ["Escolaridade"], ["Partido"], ["Regiao"]],
+						    align: "center",
+						    line: {width: 1, color: 'black'},
+						    fill: {color: "grey"},
+						    font: {family: "Arial", size: 12, color: "white"}
+						  },
+						  cells: {
+						    values: valoresTabela,
+						    align: "center",
+						    line: {color: "black", width: 1},
+						    font: {family: "Arial", size: 11, color: ["black"]}
+						  }
+						}]
+
+						Plotly.plot('tabela', dataTable);
+
+						
+
+						//LineChart
+												var trace1 = {
+						  x: [1991,2000,2010],
+						  y: vEx,
+						  mode: 'lines',
+						  name: 'Esperança de Vida',
+						  line: {
+						    dash: 'solid',
+						    width: 4
+						  }
+						};
+
+						var trace2 = {
+						  x: [1991,2000,2010],
+						  y: vMort,
+						  mode: 'lines',
+						  name: 'Mortalidade Infantil',
+						  line: {
+						    dash: 'dashdot',
+						    width: 4
+						  }
+						};
+
+						var trace3 = {
+						  x: [1991,2000,2010],
+						  y: vIdh,
+						  mode: 'lines',
+						  name: 'IDH',
+						  line: {
+						    dash: 'solid',
+						    width: 4
+						  }
+						};
+
+						var trace4 = {
+						  x: [1991,2000,2010],
+						  y: vGini,
+						  mode: 'lines',
+						  name: 'GINI',
+						  line: {
+						    dash: 'dot',
+						    width: 4
+						  }
+						};
+
+						var trace5 = {
+						  x: [1991,2000,2010],
+						  y: vRend,
+						  mode: 'lines',
+						  name: 'Renda Per Capita',
+						  line: {
+						    dash: 'dashdot',
+						    width: 4
+						  }
+						};
+
+
+						var data = [trace1, trace2, trace3, trace4,trace5];
+
+						var layout = {
+						  title: 'Análise de Índices das Gestões anteriores',
+						  xaxis: {
+						    range: [1990,2011],
+						    autorange: false
+						  },
+						  yaxis: {
+						    range: [0.75, 1000.5],
+						    autorange: false
+						  },
+						  legend: {
+						    y: 0.5,
+						    traceorder: 'reversed',
+						    font: {
+						      size: 16
+						    }
+						  }
+						};
+
+						Plotly.newPlot('LineChart', data, layout);
+
+
+
+
+
+
+                			};
+                			d3.csv("data/dataMunInds.csv")
+                					.row(function(d){return{codigo: +d.cod,nome: d.nome,Planejamento:+d.plan,  Organizacao: +d.legis,Saude: +d.saude,Ambiente: +d.meioamb,Genero: +d.polgen,Populacao:+d.pop,IDRAA: +d.ida};})
+                					.get(function(error,rows){console.log(rows[0].Genero);});                                             
+
+
+
+                					//GO HORSE PROGRAMING 
+            var Listnomes = []
+            var Listplan = []
+           	var Listorca = []
+           	var Listsaude = []
+           	var Listamb = []
+           	var Listgen=[]
+           	var Listpop =[]
+           	var ListIDRAA = []
+
+           	var Listsexo = []
+           	var ListIdade = []
+           	var ListEsc = []
+           	var ListPart = []
+           	var ListReg = []
+
+           	var Lex91 = []
+           	var Lex00 = []
+           	var Lex10 = []
+           	var Lmor91 = []
+           	var Lmor00 = []
+           	var Lmor10 = []
+           	var Lidh91 =[]			
+           	var Lidh00 =[]			
+           	var Lidh10 =[]			
+           	var Lgini91 =[]
+			var Lgini00 =[]
+			var Lgini10 =[]
+			var Lrend91 =[]
+			var Lrend00 =[]
+			var Lrend10 =[]
+
+
+            var select = document.getElementById("selectCidade");
+                <!-- Carregando o arquivo .csv -->
+                d3.csv("data/baseMunIndsv3.csv",function(data){
+                    //console.log("dados:",data);
+
+                        data.forEach(function(d){
+                        
+                        id = d.cod; 
+                        Nome = d.nome;
+                        Listnomes.push(Nome);
+                        Planejamento = +d.plan; 
+                        Organizacao = +d.legis;
+                        Saude = +d.saude;
+                        MeioAmb = +d.meioamb; 
+                        PolGen = +d.polgen; 
+                        Populacao = +d.pop; 
+                        IDARA = +d.ida;
+                        Sexo = d.sexo;
+                        Idade = d.idade;
+                        Escolaridade = d.escolaridade;
+                        Partido = d.partido
+                        Regiao = d.regiao
+                        exp91 = +d.ESPVIDA1991;
+                        tx91 = +d.MORT1991;
+                        exp00 = +d.ESPVIDA2000;
+                        tx00 = +d.MORT12000;
+                        exp10 = +d.ESPVIDA2010;
+                        rx10 = +d.MORT12010;
+                  		idh91 =  +d.IDH1991,
+                  		idh00 = +d.IDH2000,
+                  		idh10= +d.IDH2010,
+                  		gini91 = +d.GINI1991,
+                  		gini00 = +d.GINI2000,
+                  		gini10 = +d.GINI2010,
+                  		ren91 = +d.Renda1991,
+                  		ren00 = +d.Renda2000,
+                  		red10 = +d.Renda2010
+
+
+
+
+
+                   		Listplan.push(Planejamento);
+                   		Listorca.push(Organizacao);
+                   		Listsaude.push(Saude);
+                   		Listamb.push(MeioAmb);
+                   		Listgen.push(PolGen);
+           				Listpop.push(Populacao);
+           				ListIDRAA.push(IDARA);
+           				Listsexo.push(Sexo);
+           				ListIdade.push(Idade);
+           				ListEsc.push(Escolaridade);
+           				ListPart.push(Partido);
+           				ListReg.push(Regiao);
+           				Lex91.push(exp91); 
+						Lex00.push(exp00);
+						Lex10.push(exp10); 
+						Lmor91.push(tx91);
+						Lmor00.push(tx00);
+						Lmor10.push(rx10);
+						Lidh91.push(idh91);
+						Lidh00.push(idh00);
+						Lidh10.push(idh10);
+						Lgini91.push(gini91);
+						Lgini00.push(gini00);
+						Lgini10.push(gini10);
+						Lrend91.push(ren91);
+						Lrend00.push(ren00);
+						Lrend10.push(red10);
+ 
+ 
+
+ 
+
+ 
+
+
+                   		}) 
+
+                        //var k =11;
+                		//console.log(Listnomes[k]);
+                		//calcular as médias
+
+						
+
+
+
+
+                		var tam  = Listnomes.length
+		                var select =  document.getElementById('selectElementId');
+		                var option = select.options[select.selectedIndex].id;
+		                for(var i = 0; i<=tam ;i++){
+		                	//console.log(Listnomes[i]);
+		                	var opt = document.createElement('option');
+		                	opt.value= Listnomes[i] ;
+		                	opt.innerHTML= Listnomes[i];
+		                	select.appendChild(opt);
+		                };
+		                console.log(Saude);       
+
+
+            });
+
+            d3.csv("data/dataMunInds.csv")
+                .row(function(d){return{codigo: +d.cod,nome: d.nome};})
+                .get(function(error,rows){console.log(rows[0].nome);});
+                    
+            </script>
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+             <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        </body>
+
+
+
+        </html>
