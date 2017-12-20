@@ -217,7 +217,7 @@
       
 
 
-                      var xValue = ['Agenda/Planejamento', 'Legislacao Administrativa ', 'Saude','Meio Ambiente','Politica de Genero'];
+                      var xValue = ['Agenda/Planejamento', 'Legislação Administrativa ', 'Saúde','Meio Ambiente','Política de Gênero'];
 
               var yValue = [Listplan[id], Listorca[id], Listsaude[id],Listamb[id],Listgen[id]];
               
@@ -261,7 +261,7 @@
 
               var data = [trace1,trace2];
               var layout = {
-                title: 'Analise do Municipio '+ nomeCidade
+                title: 'Análise do Município '+ nomeCidade
               };
 
               Plotly.newPlot('myDiv', data, layout);
@@ -276,7 +276,7 @@
               mode: 'markers',
               type: 'scatter',
               color:'rgba(140,23,23)',
-              name: 'Municipios Brasileiros',
+              name: 'Municípios Brasileiros',
               text: Listnomes,
               textposition: 'top center',
               textfont: {
@@ -334,7 +334,7 @@
                   color: 'grey',
                 }
               },
-              title: 'Analise Populacao X  Indice IRAA Populacao do Municipio '+ nomeCidade
+              title: 'Análise População X  Índice IRAA População do Município '+ nomeCidade
             };
 
             Plotly.newPlot('ScPlot', data2, layout2);
@@ -374,7 +374,12 @@
               }
             }]
 
-            Plotly.plot('tabela', dataTable);
+            var layout3 = {
+            	title: "Dados do Prefeito"
+            }
+
+
+            Plotly.plot('tabela', dataTable,layout3);
 
             
 
@@ -383,7 +388,7 @@
               x: [1991,2000,2010],
               y: vEx,
               mode: 'lines',
-              name: 'Esperança de Vida',
+              name: 'Esperança de Vida x 10',
               line: {
                 dash: 'solid',
                 width: 4
@@ -394,7 +399,7 @@
               x: [1991,2000,2010],
               y: vMort,
               mode: 'lines',
-              name: 'Mortalidade Infantil',
+              name: 'Mortalidade Infantil x 10',
               line: {
                 dash: 'dashdot',
                 width: 4
@@ -405,7 +410,7 @@
               x: [1991,2000,2010],
               y: vIdh,
               mode: 'lines',
-              name: 'IDH',
+              name: 'IDH x 1000',
               line: {
                 dash: 'solid',
                 width: 4
@@ -416,7 +421,7 @@
               x: [1991,2000,2010],
               y: vGini,
               mode: 'lines',
-              name: 'GINI',
+              name: 'GINI x 1000',
               line: {
                 dash: 'dot',
                 width: 4
@@ -505,13 +510,13 @@
 
             var select = document.getElementById("selectCidade");
                 <!-- Carregando o arquivo .csv -->
-                d3.csv("data/baseMunIndsv3.csv",function(data){
+                d3.csv("data/baseMunIndsv6.csv",function(data){
                     //console.log("dados:",data);
 
                         data.forEach(function(d){
                         
                         id = d.cod; 
-                        Nome = d.nome;
+                        Nome = d.nomeUF;
                         Listnomes.push(Nome);
                         Planejamento = +d.plan; 
                         Organizacao = +d.legis;
@@ -525,18 +530,18 @@
                         Escolaridade = d.escolaridade;
                         Partido = d.partido
                         Regiao = d.regiao
-                        exp91 = +d.ESPVIDA1991;
-                        tx91 = +d.MORT1991;
-                        exp00 = +d.ESPVIDA2000;
-                        tx00 = +d.MORT12000;
-                        exp10 = +d.ESPVIDA2010;
-                        rx10 = +d.MORT12010;
+                        exp91 = (+d.ESPVIDA1991)*10;
+                        tx91 = (+d.MORT1991)*10;
+                        exp00 =(+d.ESPVIDA2000)*10;
+                        tx00 = (+d.MORT12000)*10;
+                        exp10 =(+d.ESPVIDA2010)*10;
+                        rx10 = (+d.MORT12010)*10;
                       idh91 =  +d.IDH1991,
-                      idh00 = +d.IDH2000,
+                      idh00 = (+d.IDH2000),
                       idh10= +d.IDH2010,
-                      gini91 = +d.GINI1991,
-                      gini00 = +d.GINI2000,
-                      gini10 = +d.GINI2010,
+                      gini91 = (+d.GINI1991)*1000,
+                      gini00 = (+d.GINI2000)*1000,
+                      gini10 = (+d.GINI2010)*1000,
                       ren91 = +d.Renda1991,
                       ren00 = +d.Renda2000,
                       red10 = +d.Renda2010
